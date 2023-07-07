@@ -16,9 +16,6 @@ jsons = []
 for line in clean_lines:
     jsons.append(json.loads(line))
     
-for stim in jsons:
-    out.write("!ARTICLE\n")
-    out.write(stim["Target"].strip("?") + " ?\n")
-
-#print("!ARTICLE\n", jsons[0]["Target"])
-
+out.write('"item_number","list_number","sentence_id"\n')
+for i in range(len(jsons)):
+    out.write(str(jsons[i]["item"]) + "," + str(jsons[i]["list"]) + "," + str(i) + "\n")

@@ -9,7 +9,7 @@ exposure2 <- filter(exp2min, phase != 'test')
 all_exposure <- rbind(exposure1, exposure2)
 all_exposure <- all_exposure %>% arrange(sentence_id)
 write.csv(all_exposure, "data/exposure_acceptability.csv", row.names=FALSE)
-surprisals <- read.csv("data/surprisals.csv")
+surprisals <- read.csv("data/gen_surprisals.csv")
 ratings <- data.frame(matrix(ncol = 9, nrow = 0))
 for (id in min(all_exposure$sentence_id):max(all_exposure$sentence_id)){
   if (id %in% all_exposure$sentence_id) {
@@ -26,5 +26,5 @@ for (id in min(all_exposure$sentence_id):max(all_exposure$sentence_id)){
   }
 }
 colnames(ratings) <- c('sentence_id', 'condition', 'all_exposures', 'first_three_exposures', 'mean_surprisal', 'weight_first', 'weight_last', 'weight_sum', 'normalized')
-write.csv(ratings, "data/ratings.csv", row.names=FALSE)
+write.csv(ratings, "data/genRatings.csv", row.names=FALSE)
 

@@ -1,8 +1,10 @@
 library(dplyr)
 library(ggplot2)
 library(ggthemes)
-ratings <- read.csv("data/ratings.csv")
-surprisals <- read.csv("data/surprisals.csv")
+ratings <- read.csv("data/genRatings.csv")
+ratings2 <- read.csv("data/adaptRatings.csv")
+ratings <- rbind(ratings, ratings2)
+#surprisals <- read.csv("data/gen_surprisals.csv")
 
 #plot mean surprisal vs mean of all ratings, just first 3
 ratings %>%

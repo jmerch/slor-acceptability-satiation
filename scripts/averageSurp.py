@@ -4,9 +4,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, GPTNeoXTokenizerFa
 
 def main():
     source = sys.argv[1]
-
+    name = sys.argv[2]
     f = open(source)
-    out = open("../data/surprisals.csv", "w")
+    out = open("../data/"+name+"_"+"surprisals.csv", "w")
 
     sentence_id = 2
     curr_total = 0
@@ -39,6 +39,7 @@ def main():
         surprisals.append(surprisal)
         words.append(word)
         if (word == '?'):
+            #print(words)
             for i in range(num_words):
                 #gauss_weight = math.exp(-(i - (num_words / 2))**2)
                 inc_weight = math.exp(-i)
