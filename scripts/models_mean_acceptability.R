@@ -1,13 +1,88 @@
 library(dplyr)
 library(ggplot2)
 library(ggthemes)
+library(Rmisc)
 ratings <- read.csv("data/genRatings.csv")
 ratings2 <- read.csv("data/adaptRatings.csv")
 ratings <- rbind(ratings, ratings2)
 #surprisals <- read.csv("data/gen_surprisals.csv")
 
 #plot mean surprisal vs mean of all ratings, just first 3
-ratings %>%
+group_means <- ratings %>%
+  group_by(condition) %>%
+  summarise(all_exposures = mean(all_exposures), mean_surprisal=mean(mean_surprisal))
+print(group_means)
+
+print(ratings$condition)
+
+CIs_acc_mean = double(0)
+CIs_acc_upper = double(0)
+CIs_acc_lower = double(0)
+print(CIs_acc_mean)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'all_exposures'], ci=0.95)
+  CIs_acc_mean = append(CIs_acc_mean, CIs['mean'])
+  CIs_acc_upper = append(CIs_acc_upper, CIs['upper'])
+  CIs_acc_lower = append(CIs_acc_lower, CIs['lower'])
+}
+print(CIs_acc_upper)
+
+CIs_acc = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_acc_mean,
+  upper = CIs_acc_upper,
+  lower = CIs_acc_lower
+)
+print(CIs_acc)
+
+CIs_surp_mean = double(0)
+CIs_surp_upper = double(0)
+CIs_surp_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'mean_surprisal'], ci=0.95)
+  CIs_surp_mean = append(CIs_surp_mean, CIs['mean'])
+  CIs_surp_upper = append(CIs_surp_upper, CIs['upper'])
+  CIs_surp_lower = append(CIs_surp_lower, CIs['lower'])
+}
+print(CIs_surp_upper)
+
+CIs_surp = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_surp_mean,
+  upper = CIs_surp_upper,
+  lower = CIs_surp_lower
+)
+print(CIs_surp)
+
+# CIs_acc = c(
+#   'WH' = CI(ratings[ratings$condition=='WH', 'all_exposures'], ci=0.95),
+#   'SUBJ' = CI(ratings[ratings$condition=='SUBJ', 'all_exposures'], ci=0.95),
+#   'POLAR' = CI(ratings[ratings$condition=='POLAR', 'all_exposures'], ci=0.95),
+#   'FILL' = CI(ratings[ratings$condition=='FILL', 'all_exposures'], ci=0.95),
+#   'UNGRAM' = CI(ratings[ratings$condition=='UNGRAM', 'all_exposures'], ci=0.95),
+#   'CNPC' = CI(ratings[ratings$condition=='CNPC', 'all_exposures'], ci=0.95)
+# )
+# print(CIs_acc)
+# CIs_surp = c(
+#   'WH' = CI(ratings[ratings$condition=='WH', 'mean_surprisal'], ci=0.95),
+#   'SUBJ' = CI(ratings[ratings$condition=='SUBJ', 'mean_surprisal'], ci=0.95),
+#   'POLAR' = CI(ratings[ratings$condition=='POLAR', 'mean_surprisal'], ci=0.95),
+#   'FILL' = CI(ratings[ratings$condition=='FILL', 'mean_surprisal'], ci=0.95),
+#   'UNGRAM' = CI(ratings[ratings$condition=='UNGRAM', 'mean_surprisal'], ci=0.95),
+#   'CNPC' = CI(ratings[ratings$condition=='CNPC', 'mean_surprisal'], ci=0.95)
+# )
+# 
+# CI_polar = CI(ratings[ratings$condition=='POLAR', 'all_exposures'], ci=0.95)
+# print(CI_polar)
+# CI_polar_surp = CI(ratings[ratings$condition=='POLAR', 'mean_surprisal'], ci=0.95)
+# print(CI_polar_surp)
+# 
+# CI_wh_acc = CI(ratings[ratings$condition=='WH', 'all_exposures'], ci=0.95)
+# print(CI_wh_acc)
+# CI_wh_surp = CI(ratings[ratings$condition=='WH', 'mean_surprisal'], ci=0.95)
+# print(CI_wh_surp)
+
+plot = ratings %>%
   ggplot((aes(x = mean_surprisal, y= all_exposures))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
@@ -16,6 +91,24 @@ ratings %>%
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
+
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition==cond, 'mean'], ymin=CIs_acc[CIs_acc$condition==cond, 'lower'], ymax=CIs_acc[CIs_acc$condition==cond, 'upper']))
+}
+
+
+# ratings %>%
+#   ggplot((aes(x = mean_surprisal, y= all_exposures))) +
+#   geom_point(aes(color = condition)) +
+#   geom_point(data=group_means, shape=4) +
+#   geom_errorbar(aes(x = CIs_surp['mean'], ymin=CI_polar['lower'], ymax=CI_polar['upper']), width=.2) +
+#   geom_errorbar(aes(x = CI_wh_surp['mean'], ymin=CI_wh_acc['lower'], ymax=CI_wh_acc['upper']), width=.2) +
+#   geom_smooth(method = "lm", se=FALSE) +
+#   labs(title = "Mean Acceptability and Surprisal", 
+#        x = "Mean Surprisal", 
+#        y = "Mean Acceptability") +
+#   theme_fivethirtyeight() +
+#   theme(axis.title = element_text())
 
 ratings %>%
   ggplot((aes(x = mean_surprisal, y= first_three_exposures))) +
