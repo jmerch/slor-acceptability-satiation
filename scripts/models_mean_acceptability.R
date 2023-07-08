@@ -7,20 +7,85 @@ ratings2 <- read.csv("data/adaptRatings.csv")
 ratings <- rbind(ratings, ratings2)
 #surprisals <- read.csv("data/gen_surprisals.csv")
 
-#plot mean surprisal vs mean of all ratings, just first 3
-group_means <- ratings %>%
-  group_by(condition) %>%
-  summarise(all_exposures = mean(all_exposures), mean_surprisal=mean(mean_surprisal))
-print(group_means)
-
-print(ratings$condition)
-
+# Mean surprisal vs acceptability with all exposures
+# for acceptability error bars: create lists of the mean, upper, and lower of confidence intervals for each condition
 CIs_acc_mean = double(0)
 CIs_acc_upper = double(0)
 CIs_acc_lower = double(0)
 print(CIs_acc_mean)
 for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
   CIs = CI(ratings[ratings$condition==cond, 'all_exposures'], ci=0.95)
+  CIs_acc_mean = append(CIs_acc_mean, CIs['mean'])
+  CIs_acc_upper = append(CIs_acc_upper, CIs['upper'])
+  CIs_acc_lower = append(CIs_acc_lower, CIs['lower'])
+}
+print(CIs_acc_upper)
+
+# put confidence interval numbers into a data frame for convenient access
+CIs_acc = data.frame( 
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_acc_mean,
+  upper = CIs_acc_upper,
+  lower = CIs_acc_lower
+)
+print(CIs_acc)
+
+# repeat for surprisal error bars
+CIs_surp_mean = double(0)
+CIs_surp_upper = double(0)
+CIs_surp_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'mean_surprisal'], ci=0.95)
+  CIs_surp_mean = append(CIs_surp_mean, CIs['mean'])
+  CIs_surp_upper = append(CIs_surp_upper, CIs['upper'])
+  CIs_surp_lower = append(CIs_surp_lower, CIs['lower'])
+}
+print(CIs_surp_upper)
+
+CIs_surp = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_surp_mean,
+  upper = CIs_surp_upper,
+  lower = CIs_surp_lower
+)
+print(CIs_surp)
+
+plot = ratings %>%
+  ggplot((aes(x = mean_surprisal, y= all_exposures))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Mean Acceptability and Surprisal", 
+       x = "Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+HEIGHT = 0.01
+WIDTH = 0.1
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='all_v_mean.png', path='plots/')
+
+# Mean surprisal vs acceptability with first 3 exposures
+CIs_acc_mean = double(0)
+CIs_acc_upper = double(0)
+CIs_acc_lower = double(0)
+print(CIs_acc_mean)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'first_three_exposures'], ci=0.95)
   CIs_acc_mean = append(CIs_acc_mean, CIs['mean'])
   CIs_acc_upper = append(CIs_acc_upper, CIs['upper'])
   CIs_acc_lower = append(CIs_acc_lower, CIs['lower'])
@@ -54,63 +119,7 @@ CIs_surp = data.frame(
 )
 print(CIs_surp)
 
-# CIs_acc = c(
-#   'WH' = CI(ratings[ratings$condition=='WH', 'all_exposures'], ci=0.95),
-#   'SUBJ' = CI(ratings[ratings$condition=='SUBJ', 'all_exposures'], ci=0.95),
-#   'POLAR' = CI(ratings[ratings$condition=='POLAR', 'all_exposures'], ci=0.95),
-#   'FILL' = CI(ratings[ratings$condition=='FILL', 'all_exposures'], ci=0.95),
-#   'UNGRAM' = CI(ratings[ratings$condition=='UNGRAM', 'all_exposures'], ci=0.95),
-#   'CNPC' = CI(ratings[ratings$condition=='CNPC', 'all_exposures'], ci=0.95)
-# )
-# print(CIs_acc)
-# CIs_surp = c(
-#   'WH' = CI(ratings[ratings$condition=='WH', 'mean_surprisal'], ci=0.95),
-#   'SUBJ' = CI(ratings[ratings$condition=='SUBJ', 'mean_surprisal'], ci=0.95),
-#   'POLAR' = CI(ratings[ratings$condition=='POLAR', 'mean_surprisal'], ci=0.95),
-#   'FILL' = CI(ratings[ratings$condition=='FILL', 'mean_surprisal'], ci=0.95),
-#   'UNGRAM' = CI(ratings[ratings$condition=='UNGRAM', 'mean_surprisal'], ci=0.95),
-#   'CNPC' = CI(ratings[ratings$condition=='CNPC', 'mean_surprisal'], ci=0.95)
-# )
-# 
-# CI_polar = CI(ratings[ratings$condition=='POLAR', 'all_exposures'], ci=0.95)
-# print(CI_polar)
-# CI_polar_surp = CI(ratings[ratings$condition=='POLAR', 'mean_surprisal'], ci=0.95)
-# print(CI_polar_surp)
-# 
-# CI_wh_acc = CI(ratings[ratings$condition=='WH', 'all_exposures'], ci=0.95)
-# print(CI_wh_acc)
-# CI_wh_surp = CI(ratings[ratings$condition=='WH', 'mean_surprisal'], ci=0.95)
-# print(CI_wh_surp)
-
 plot = ratings %>%
-  ggplot((aes(x = mean_surprisal, y= all_exposures))) +
-  geom_point(aes(color = condition)) +
-  geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Mean Acceptability and Surprisal", 
-       x = "Mean Surprisal", 
-       y = "Mean Acceptability") +
-  theme_fivethirtyeight() +
-  theme(axis.title = element_text())
-
-for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
-  plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition==cond, 'mean'], ymin=CIs_acc[CIs_acc$condition==cond, 'lower'], ymax=CIs_acc[CIs_acc$condition==cond, 'upper']))
-}
-
-
-# ratings %>%
-#   ggplot((aes(x = mean_surprisal, y= all_exposures))) +
-#   geom_point(aes(color = condition)) +
-#   geom_point(data=group_means, shape=4) +
-#   geom_errorbar(aes(x = CIs_surp['mean'], ymin=CI_polar['lower'], ymax=CI_polar['upper']), width=.2) +
-#   geom_errorbar(aes(x = CI_wh_surp['mean'], ymin=CI_wh_acc['lower'], ymax=CI_wh_acc['upper']), width=.2) +
-#   geom_smooth(method = "lm", se=FALSE) +
-#   labs(title = "Mean Acceptability and Surprisal", 
-#        x = "Mean Surprisal", 
-#        y = "Mean Acceptability") +
-#   theme_fivethirtyeight() +
-#   theme(axis.title = element_text())
-
-ratings %>%
   ggplot((aes(x = mean_surprisal, y= first_three_exposures))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
@@ -120,7 +129,25 @@ ratings %>%
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-#plot each weight of surprisal vs the two kinds of ratings
+HEIGHT = 0.01
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=.1, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=.1, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=.1, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=.1, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=.1, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=.1, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='f3_v_mean.png', path='plots/')
+
+# Plot each weight of surprisal vs the two kinds of ratings (not used)
 
 ratings %>%
   ggplot((aes(x = weight_first, y= all_exposures))) +
@@ -183,8 +210,44 @@ ratings %>%
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
+# Normalized surprisal vs. acceptability with all exposures
+CIs_acc_mean = double(0)
+CIs_acc_upper = double(0)
+CIs_acc_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'all_exposures'], ci=0.95)
+  CIs_acc_mean = append(CIs_acc_mean, CIs['mean'])
+  CIs_acc_upper = append(CIs_acc_upper, CIs['upper'])
+  CIs_acc_lower = append(CIs_acc_lower, CIs['lower'])
+}
 
-ratings %>%
+CIs_acc = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_acc_mean,
+  upper = CIs_acc_upper,
+  lower = CIs_acc_lower
+)
+
+CIs_surp_mean = double(0)
+CIs_surp_upper = double(0)
+CIs_surp_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'normalized'], ci=0.95)
+  CIs_surp_mean = append(CIs_surp_mean, CIs['mean'])
+  CIs_surp_upper = append(CIs_surp_upper, CIs['upper'])
+  CIs_surp_lower = append(CIs_surp_lower, CIs['lower'])
+}
+print(CIs_surp_upper)
+
+CIs_surp = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_surp_mean,
+  upper = CIs_surp_upper,
+  lower = CIs_surp_lower
+)
+print(CIs_surp)
+
+plot = ratings %>%
   ggplot((aes(x = normalized, y= all_exposures))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
@@ -194,7 +257,63 @@ ratings %>%
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-ratings %>%
+HEIGHT = 0.01
+WIDTH = 0.01
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='all_v_normalized.png', path='plots/')
+
+# Normalized surprisal vs. acceptability with first 3 exposures
+CIs_acc_mean = double(0)
+CIs_acc_upper = double(0)
+CIs_acc_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'first_three_exposures'], ci=0.95)
+  CIs_acc_mean = append(CIs_acc_mean, CIs['mean'])
+  CIs_acc_upper = append(CIs_acc_upper, CIs['upper'])
+  CIs_acc_lower = append(CIs_acc_lower, CIs['lower'])
+}
+
+CIs_acc = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_acc_mean,
+  upper = CIs_acc_upper,
+  lower = CIs_acc_lower
+)
+
+CIs_surp_mean = double(0)
+CIs_surp_upper = double(0)
+CIs_surp_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC')){
+  CIs = CI(ratings[ratings$condition==cond, 'normalized'], ci=0.95)
+  CIs_surp_mean = append(CIs_surp_mean, CIs['mean'])
+  CIs_surp_upper = append(CIs_surp_upper, CIs['upper'])
+  CIs_surp_lower = append(CIs_surp_lower, CIs['lower'])
+}
+print(CIs_surp_upper)
+
+CIs_surp = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC'),
+  mean = CIs_surp_mean,
+  upper = CIs_surp_upper,
+  lower = CIs_surp_lower
+)
+print(CIs_surp)
+
+plot = ratings %>%
   ggplot((aes(x = normalized, y= first_three_exposures))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
@@ -203,6 +322,25 @@ ratings %>%
        y = "Mean Acceptability (within first three exposures)") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
+
+HEIGHT = 0.01
+WIDTH = 0.01
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='f3_v_normalized.png', path='plots/')
 
 
 # mean, normalized, weight first, last, sum
