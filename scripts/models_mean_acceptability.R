@@ -54,7 +54,7 @@ plot = ratings %>%
   ggplot((aes(x = mean_surprisal, y= all_exposures))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Mean Acceptability and Surprisal", 
+  labs(title = "Acceptability and Surprisal", 
        x = "Mean Surprisal", 
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
@@ -84,7 +84,7 @@ plot = ratings %>%
   ggplot((aes(x = mean_surprisal, y= all_exposures, group = condition))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Mean Acceptability and Surprisal", 
+  labs(title = "Acceptability and Surprisal", 
        x = "Mean Surprisal", 
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
@@ -114,8 +114,8 @@ plot = CIs_surp %>%
   ggplot((aes(x = mean, y= CIs_acc$mean))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Mean Acceptability and Surprisal", 
-       x = "Mean Surprisal", 
+  labs(title = "Acceptability and Surprisal", 
+       x = "Mean Surprisal",
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
@@ -184,7 +184,7 @@ plot = ratings %>%
   ggplot((aes(x = mean_surprisal, y= first_three_exposures))) +
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Mean Acceptability and Surprisal", 
+  labs(title = "Acceptability and Surprisal", 
        x = "Mean Surprisal", 
        y = "Mean Acceptability (within first three exposures)") +
   theme_fivethirtyeight() +
@@ -343,7 +343,7 @@ plot = ratings %>%
   geom_point(aes(color = condition)) +
   geom_smooth(method = "lm", se=FALSE) +
   labs(title = "Acceptability and Surprisal", 
-       x = "Normalized Mean Surprisal", 
+       x = "Normalized Mean Surprisal",
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
