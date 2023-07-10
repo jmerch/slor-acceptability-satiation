@@ -79,6 +79,67 @@ plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], 
 plot
 ggsave(filename='all_v_mean.png', path='plots/')
 
+#individual smoothing
+plot = ratings %>%
+  ggplot((aes(x = mean_surprisal, y= all_exposures, group = condition))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Mean Acceptability and Surprisal", 
+       x = "Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+HEIGHT = 0.01
+WIDTH = 0.1
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='all_v_mean_individual_smooth.png', path='plots/')
+
+#means and error bars only
+plot = CIs_surp %>%
+  ggplot((aes(x = mean, y= CIs_acc$mean))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Mean Acceptability and Surprisal", 
+       x = "Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+HEIGHT = 0.01
+WIDTH = 0.1
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='all_v_mean_error_only.png', path='plots/')
+
+
 # Mean surprisal vs acceptability with first 3 exposures
 CIs_acc_mean = double(0)
 CIs_acc_upper = double(0)
@@ -275,6 +336,68 @@ plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], 
   geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
 plot
 ggsave(filename='all_v_normalized.png', path='plots/')
+
+# plot with smoothing for each group rather than all data
+plot = ratings %>%
+  ggplot((aes(x = normalized, y= all_exposures, group = condition))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Acceptability and Surprisal", 
+       x = "Normalized Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+HEIGHT = 0.01
+WIDTH = 0.01
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='all_v_normalized_individual_smooth.png', path='plots/')
+
+# means and error bars only
+
+plot = CIs_surp %>%
+  ggplot((aes(x = mean, y= CIs_acc$mean))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Acceptability and Surprisal", 
+       x = "Normalized Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+HEIGHT = 0.01
+WIDTH = 0.01
+
+plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], ymin=CIs_acc[CIs_acc$condition=='WH', 'lower'], ymax=CIs_acc[CIs_acc$condition=='WH', 'upper']), width=WIDTH, size=0.3) +
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='SUBJ', 'mean'], ymin=CIs_acc[CIs_acc$condition=='SUBJ', 'lower'], ymax=CIs_acc[CIs_acc$condition=='SUBJ', 'upper']), width=WIDTH, size=0.3)+ 
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='POLAR', 'mean'], ymin=CIs_acc[CIs_acc$condition=='POLAR', 'lower'], ymax=CIs_acc[CIs_acc$condition=='POLAR', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='FILL', 'mean'], ymin=CIs_acc[CIs_acc$condition=='FILL', 'lower'], ymax=CIs_acc[CIs_acc$condition=='FILL', 'upper']), width=WIDTH, size=.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='UNGRAM', 'mean'], ymin=CIs_acc[CIs_acc$condition=='UNGRAM', 'lower'], ymax=CIs_acc[CIs_acc$condition=='UNGRAM', 'upper']), width=WIDTH, size=0.3)+
+  geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='CNPC', 'mean'], ymin=CIs_acc[CIs_acc$condition=='CNPC', 'lower'], ymax=CIs_acc[CIs_acc$condition=='CNPC', 'upper']), width=WIDTH, size=0.3)+
+  
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='POLAR', 'mean'], xmin=CIs_surp[CIs_surp$condition=='POLAR', 'lower'], xmax=CIs_surp[CIs_surp$condition=='POLAR', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='FILL', 'mean'], xmin=CIs_surp[CIs_surp$condition=='FILL', 'lower'], xmax=CIs_surp[CIs_surp$condition=='FILL', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='UNGRAM', 'mean'], xmin=CIs_surp[CIs_surp$condition=='UNGRAM', 'lower'], xmax=CIs_surp[CIs_surp$condition=='UNGRAM', 'upper']), height=HEIGHT, size=0.3)+
+  geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='CNPC', 'mean'], xmin=CIs_surp[CIs_surp$condition=='CNPC', 'lower'], xmax=CIs_surp[CIs_surp$condition=='CNPC', 'upper']), height=HEIGHT, size=0.3)
+plot
+ggsave(filename='all_v_normalized_error_only.png', path='plots/')
+
 
 # Normalized surprisal vs. acceptability with first 3 exposures
 CIs_acc_mean = double(0)
