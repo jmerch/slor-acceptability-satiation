@@ -2,13 +2,27 @@
 import os, sys, torch, transformers, math
 from transformers import AutoTokenizer, AutoModelForCausalLM, GPTNeoXTokenizerFast
 
+preps = ["of", "about", "against", "for", "to", "in", "on", ]
+
 def main():
     source = sys.argv[1]
-    name = sys.argv[2]
+    id_csv = sys.argv[2]
+    name = sys.argv[3]
     f = open(source)
     out = open("../data/"+name+"_"+"surprisals.csv", "w")
-
-    sentence_id = 2
+    id_file = open(id_csv)
+    raw_types = id_file.readlines()
+    raw_types.pop(0)
+    id_to_type = {}
+    sentence_id = 0
+    for i in range(len(raw_types)):
+        data = raw_types[i].strip().strip('"').split(",")
+        id = int(data[0])
+        type = data[1][1:]
+        id_to_type[id] = type
+        if i == 0:
+            sentence_id = id
+    #print(id_to_type)
     curr_total = 0
     exp_inc_total = 0
     exp_dec_total = 0
@@ -16,12 +30,14 @@ def main():
     normal_total = 0
     num_words = 0
     weight_total = 0
+    region_total = 0
+    region_size = 0
     #gauss_weight_total = 0
     surprisals = []
     words = []
     lines = f.readlines()
     lines.pop(0)
-    out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized"\n')
+    out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized","wh","matrix","comp","embedded","gap"\n')
     
     unique_word_surprisal = {}
     for line in lines:
@@ -30,7 +46,7 @@ def main():
         if word not in unique_word_surprisal:
             unique_word_surprisal[word] = 0
     get_individual_surprisal(unique_word_surprisal, "gpt2")
-    
+    #print(unique_word_surprisal)
     for line in lines:
         data = line.strip().split(" ")
         word = data[0]
@@ -52,7 +68,15 @@ def main():
                 weight_total += inc_weight
                 normal_total += surprisals[i] / unique_word_surprisal[words[i]]
                 #gauss_weight_total += gauss_weight
-            out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words}\n')
+            wh = matrix = comp = embedded = gap = 0
+            if (sentence_id in id_to_type) and id_to_type[sentence_id] in ["WH", "CNPC", "SUBJ"]:
+                wh = get_wh(words, surprisals)
+                matrix = get_matrix(words, surprisals)
+                comp = get_comp(words, surprisals)
+                embedded = get_embedded(words, surprisals)
+                gap = get_gap(words, surprisals, id_to_type[sentence_id])
+                #norm_gap = get_gap(words, surprisals, unique_word_surprisal)
+            out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words},{wh},{matrix},{comp},{embedded},{gap}\n')
             sentence_id += 1
             curr_total = 0
             weight_total = 0
@@ -65,7 +89,58 @@ def main():
             surprisals = []
             words = []
 
+def get_wh(words, surprisals, normalization_consts = None):
+    if normalization_consts == None:
+        return surprisals[0]
+    return surprisals[0] / normalization_consts[words[0]]
+    
+def get_matrix(words, surprisals, normalization_consts = None):
+    total = 0
+    num_words = len(words)
+    for i in range(1, num_words):
+        if words[i] == 'that' or words[i] == 'whether':
+            break
+        elif normalization_consts == None:
+            total += surprisals[i]
+        else:
+            total += surprisals[i] / normalization_consts[words[i]]
+    return total / num_words
 
+def get_comp(words, surprisals, normalization_consts = None):
+    num_words = len(words)
+    for i in range(1, num_words):
+        if words[i] == 'that' or words[i] == 'whether':
+            if normalization_consts == None:
+                return surprisals[i]
+            return surprisals[i] / normalization_consts[words[i]]
+
+def get_embedded(words, surprisals, normalization_consts = None):
+    num_words = len(words)
+    total = 0
+    embedded = False
+    for i in range(1, num_words):
+        if not embedded and (words[i] == 'that' or words[i] == 'whether'):
+            embedded = True 
+            continue
+        if embedded:
+            if normalization_consts == None:
+                total += surprisals[i]
+            else:
+                total += surprisals[i] / normalization_consts[words[i]]
+    return total / num_words
+
+def get_gap(words, surprisals,  condition, normalization_consts = None):
+    num_words = len(words)
+    if condition == "WH" or condition == "CNPC":
+        if (normalization_consts == None):
+            return surprisals[-1]
+        return surprisals[-1] / normalization_consts[words[-1]]
+    for i in range(1, num_words):
+        if words[i] in preps:
+            if normalization_consts == None:
+                return surprisals[i + 1]
+            return surprisals[i + 1] / normalization_consts[words[i + 1]]
+    
 
 def get_individual_surprisal(surprisal_dict, model):
     model_variant = model
