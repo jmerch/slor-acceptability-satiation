@@ -1,0 +1,129 @@
+"sentence_id","sentence_string","condition","mean_acc","mean_surprisal","normalized_surprisal"
+82,"Jacob brushed milk over the pastry and Emily oil over the dough .","locative-match-gap",0.644897959183673,9.93062260288459,0.667267079799664
+83,"Jacob brushed milk over the pastry and Emily oil over the dough .","locative-match-gap",0.476190476190476,9.93062260288459,0.667267079799664
+83,"Jacob brushed milk over the pastry and Emily the dough with oil .","locative-mismatch-gap",0.554112554112554,10.5923123543079,0.754952632139936
+84,"Jacob brushed milk over the pastry and Emily brushed oil over the dough .","locative-match-nogap",0.794285714285714,8.83621717350823,0.586094836978408
+84,"Jacob brushed milk over the pastry and Emily the dough with oil .","locative-mismatch-gap",0.682539682539683,10.5923123543079,0.754952632139936
+85,"Jacob brushed milk over the pastry and Emily brushed oil over the dough .","locative-match-nogap",0.814285714285714,8.83621717350823,0.586094836978408
+85,"Jacob brushed milk over the pastry and Emily brushed the dough with oil .","locative-mismatch-nogap",0.837662337662338,9.07953986099788,0.61046070115677
+86,"Jacob brushed milk over the pastry and Emily brushed the dough with oil .","locative-mismatch-nogap",0.831168831168831,9.07953986099788,0.61046070115677
+86,"Michael crammed food into his mouth and Hannah books into her bag .","locative-match-gap",0.597402597402597,9.36939987769494,0.677272785859623
+87,"Michael crammed food into his mouth and Hannah books into her bag .","locative-match-gap",0.558441558441558,9.36939987769494,0.677272785859623
+87,"Michael crammed food into his mouth and Hannah her bag with books .","locative-mismatch-gap",0.489795918367347,9.8441057571998,0.725099913018665
+88,"Michael crammed food into his mouth and Hannah crammed books into her bag .","locative-match-nogap",0.813852813852814,8.19490405917168,0.572940577197285
+88,"Michael crammed food into his mouth and Hannah her bag with books .","locative-mismatch-gap",0.357142857142857,9.8441057571998,0.725099913018665
+89,"Michael crammed food into his mouth and Hannah crammed books into her bag .","locative-match-nogap",0.825396825396825,8.19490405917168,0.572940577197285
+89,"Michael crammed food into his mouth and Hannah crammed her bag with books .","locative-mismatch-nogap",0.742857142857143,8.69274408476693,0.621275834998427
+90,"Matthew daubed graffiti on the wall and Madison paint on the statue .","locative-match-gap",0.6,10.5044152507415,0.657279427709424
+90,"Michael crammed food into his mouth and Hannah crammed her bag with books .","locative-mismatch-nogap",0.914285714285714,8.69274408476693,0.621275834998427
+91,"Matthew daubed graffiti on the wall and Madison paint on the statue .","locative-match-gap",0.585714285714286,10.5044152507415,0.657279427709424
+91,"Matthew daubed graffiti on the wall and Madison the statue with paint .","locative-mismatch-gap",0.62987012987013,10.8918851889097,0.719009371020967
+92,"Matthew daubed graffiti on the wall and Madison daubed paint on the statue .","locative-match-nogap",0.677551020408163,10.2143438080592,0.610845498797451
+92,"Matthew daubed graffiti on the wall and Madison the statue with paint .","locative-mismatch-gap",0.454545454545455,10.8918851889097,0.719009371020967
+93,"Matthew daubed graffiti on the wall and Madison daubed paint on the statue .","locative-match-nogap",0.619047619047619,10.2143438080592,0.610845498797451
+93,"Matthew daubed graffiti on the wall and Madison daubed the statue with paint .","locative-mismatch-nogap",0.714285714285714,10.2523120178708,0.614503975946226
+94,"Joshua heaped salad on the plate and Ashley bread on the tray .","locative-match-gap",0.658008658008658,9.97877106987513,0.696921955172336
+94,"Matthew daubed graffiti on the wall and Madison daubed the statue with paint .","locative-mismatch-nogap",0.80952380952381,10.2523120178708,0.614503975946226
+95,"Joshua heaped salad on the plate and Ashley bread on the tray .","locative-match-gap",0.73015873015873,9.97877106987513,0.696921955172336
+95,"Joshua heaped salad on the plate and Ashley the tray with bread .","locative-mismatch-gap",0.542857142857143,9.94648999434251,0.716539231675902
+96,"Joshua heaped salad on the plate and Ashley heaped bread on the tray .","locative-match-nogap",0.779220779220779,8.45364292178835,0.567395506514302
+96,"Joshua heaped salad on the plate and Ashley the tray with bread .","locative-mismatch-gap",0.542857142857143,9.94648999434251,0.716539231675902
+97,"Joshua heaped salad on the plate and Ashley heaped bread on the tray .","locative-match-nogap",0.714285714285714,8.45364292178835,0.567395506514302
+97,"Joshua heaped salad on the plate and Ashley heaped the tray with bread .","locative-mismatch-nogap",0.628571428571429,9.42087035093989,0.653697183819917
+98,"Joshua heaped salad on the plate and Ashley heaped the tray with bread .","locative-mismatch-nogap",0.69047619047619,9.42087035093989,0.653697183819917
+98,"The doctor injected the medication into Christopher's spine and the nurse the vaccine into Sarah's arm .","locative-match-gap",0.628571428571429,8.69465863967643,0.629744027875551
+99,"The doctor injected the medication into Christopher's spine and the nurse Sarah's arm with the vaccine .","locative-mismatch-gap",0.545454545454545,8.43876630418441,0.591825213171384
+99,"The doctor injected the medication into Christopher's spine and the nurse the vaccine into Sarah's arm .","locative-match-gap",0.404761904761905,8.69465863967643,0.629744027875551
+100,"The doctor injected the medication into Christopher's spine and the nurse Sarah's arm with the vaccine .","locative-mismatch-gap",0.666666666666667,8.43876630418441,0.591825213171384
+100,"The doctor injected the medication into Christopher's spine and the nurse injected the vaccine into Sarah's arm .","locative-match-nogap",0.76,7.33660164641009,0.513515934828139
+101,"The doctor injected the medication into Christopher's spine and the nurse injected Sarah's arm with the vaccine .","locative-mismatch-nogap",0.753246753246753,7.73585195011563,0.535773059808978
+101,"The doctor injected the medication into Christopher's spine and the nurse injected the vaccine into Sarah's arm .","locative-match-nogap",0.942857142857143,7.33660164641009,0.513515934828139
+102,"Nicholas jammed clothes into the suitcase and Alexis papers into the briefcase .","locative-match-gap",0.714285714285714,10.2707751987932,0.648386332539966
+102,"The doctor injected the medication into Christopher's spine and the nurse injected Sarah's arm with the vaccine .","locative-mismatch-nogap",0.792207792207792,7.73585195011563,0.535773059808978
+103,"Nicholas jammed clothes into the suitcase and Alexis papers into the briefcase .","locative-match-gap",0.623376623376623,10.2707751987932,0.648386332539966
+103,"Nicholas jammed clothes into the suitcase and Alexis the briefcase with papers .","locative-mismatch-gap",0.587755102040816,10.7644523703135,0.73311018982586
+104,"Nicholas jammed clothes into the suitcase and Alexis jammed papers into the briefcase .","locative-match-nogap",0.779220779220779,9.16199385002255,0.564128238407715
+104,"Nicholas jammed clothes into the suitcase and Alexis the briefcase with papers .","locative-mismatch-gap",0.392857142857143,10.7644523703135,0.73311018982586
+105,"Nicholas jammed clothes into the suitcase and Alexis jammed papers into the briefcase .","locative-match-nogap",0.873015873015873,9.16199385002255,0.564128238407715
+105,"Nicholas jammed clothes into the suitcase and Alexis jammed the briefcase with papers .","locative-mismatch-nogap",0.68,9.86995421616094,0.636207546418213
+106,"Andrew packed camping gear into his duffel bag and Samantha school supplies into her backpack .","locative-match-gap",0.697142857142857,8.81601679723826,0.571848374143949
+106,"Nicholas jammed clothes into the suitcase and Alexis jammed the briefcase with papers .","locative-mismatch-nogap",0.828571428571429,9.86995421616094,0.636207546418213
+107,"Andrew packed camping gear into his duffel bag and Samantha her backpack with school supplies .","locative-mismatch-gap",0.649350649350649,8.72857397262123,0.592046441290826
+107,"Andrew packed camping gear into his duffel bag and Samantha school supplies into her backpack .","locative-match-gap",0.614285714285714,8.81601679723826,0.571848374143949
+108,"Andrew packed camping gear into his duffel bag and Samantha her backpack with school supplies .","locative-mismatch-gap",0.597402597402597,8.72857397262123,0.592046441290826
+108,"Andrew packed camping gear into his duffel bag and Samantha packed school supplies into her backpack .","locative-match-nogap",0.702040816326531,7.23267686917611,0.469073104209868
+109,"Andrew packed camping gear into his duffel bag and Samantha packed her backpack with school supplies .","locative-mismatch-nogap",0.826839826839827,7.60269652244032,0.502590177959293
+109,"Andrew packed camping gear into his duffel bag and Samantha packed school supplies into her backpack .","locative-match-nogap",0.94047619047619,7.23267686917611,0.469073104209868
+110,"Andrew packed camping gear into his duffel bag and Samantha packed her backpack with school supplies .","locative-mismatch-nogap",0.873015873015873,7.60269652244032,0.502590177959293
+110,"Joseph slathered sunscreen on his body and Jessica moisturizer on her face .","locative-match-gap",0.683982683982684,9.12061968216529,0.550830511621981
+111,"Joseph slathered sunscreen on his body and Jessica her face with moisturizer .","locative-mismatch-gap",0.691428571428571,9.52195329849536,0.610141890960721
+111,"Joseph slathered sunscreen on his body and Jessica moisturizer on her face .","locative-match-gap",0.682539682539683,9.12061968216529,0.550830511621981
+112,"Joseph slathered sunscreen on his body and Jessica her face with moisturizer .","locative-mismatch-gap",0.614285714285714,9.52195329849536,0.610141890960721
+112,"Joseph slathered sunscreen on his body and Jessica slathered moisturizer on her face .","locative-match-nogap",0.733766233766234,7.94817366983209,0.482421771601146
+113,"Joseph slathered sunscreen on his body and Jessica slathered her face with moisturizer .","locative-mismatch-nogap",0.730612244897959,8.32907875307969,0.51047718454834
+113,"Joseph slathered sunscreen on his body and Jessica slathered moisturizer on her face .","locative-match-nogap",0.883116883116883,7.94817366983209,0.482421771601146
+114,"Daniel smeared cream cheese on a bagel and Elizabeth peanut butter on a cracker .","locative-match-gap",0.751020408163265,8.06871205667655,0.550476656818372
+114,"Joseph slathered sunscreen on his body and Jessica slathered her face with moisturizer .","locative-mismatch-nogap",0.916666666666667,8.32907875307969,0.51047718454834
+115,"Daniel smeared cream cheese on a bagel and Elizabeth a cracker with peanut butter .","locative-mismatch-gap",0.593073593073593,8.30972668627898,0.600011116461913
+115,"Daniel smeared cream cheese on a bagel and Elizabeth peanut butter on a cracker .","locative-match-gap",0.630952380952381,8.06871205667655,0.550476656818372
+116,"Daniel smeared cream cheese on a bagel and Elizabeth a cracker with peanut butter .","locative-mismatch-gap",0.746031746031746,8.30972668627898,0.600011116461913
+116,"Daniel smeared cream cheese on a bagel and Elizabeth smeared peanut butter on a cracker .","locative-match-nogap",0.788571428571429,7.25584663031623,0.485600306228669
+117,"Daniel smeared cream cheese on a bagel and Elizabeth smeared a cracker with peanut butter .","locative-mismatch-nogap",0.785714285714286,7.7609715036815,0.525243673772227
+117,"Daniel smeared cream cheese on a bagel and Elizabeth smeared peanut butter on a cracker .","locative-match-nogap",0.928571428571429,7.25584663031623,0.485600306228669
+118,"Daniel smeared cream cheese on a bagel and Elizabeth smeared a cracker with peanut butter .","locative-mismatch-nogap",0.896103896103896,7.7609715036815,0.525243673772227
+118,"Tyler splashed water on his face and Taylor paint on her canvas .","locative-match-gap",0.688311688311688,9.01650156424596,0.621803308668042
+119,"Tyler splashed water on his face and Taylor her canvas with paint .","locative-mismatch-gap",0.624489795918367,9.52720672350663,0.659470486121746
+119,"Tyler splashed water on his face and Taylor paint on her canvas .","locative-match-gap",0.597402597402597,9.01650156424596,0.621803308668042
+120,"Tyler splashed water on his face and Taylor her canvas with paint .","locative-mismatch-gap",0.333333333333333,9.52720672350663,0.659470486121746
+120,"Tyler splashed water on his face and Taylor splashed paint on her canvas .","locative-match-nogap",0.813852813852814,7.91095543014152,0.526167221397871
+121,"Tyler splashed water on his face and Taylor splashed her canvas with paint .","locative-mismatch-nogap",0.765714285714286,8.41771907572235,0.561788422765135
+121,"Tyler splashed water on his face and Taylor splashed paint on her canvas .","locative-match-nogap",0.746031746031746,7.91095543014152,0.526167221397871
+122,"Tyler splashed water on his face and Taylor splashed her canvas with paint .","locative-mismatch-nogap",0.842857142857143,8.41771907572235,0.561788422765135
+122,"William loaded the cargo onto the boat and Lauren the sack onto the truck .","locative-match-gap",0.662857142857143,8.96487909555435,0.651476966981065
+123,"William loaded the cargo onto the boat and Lauren the sack onto the truck .","locative-match-gap",0.585714285714286,8.96487909555435,0.651476966981065
+123,"William loaded the cargo onto the boat and Lauren the truck with the sack .","locative-mismatch-gap",0.616883116883117,8.94717309474945,0.673456801862454
+124,"William loaded the cargo onto the boat and Lauren loaded the sack onto the truck .","locative-match-nogap",0.76734693877551,7.66302611865103,0.538438263039429
+124,"William loaded the cargo onto the boat and Lauren the truck with the sack .","locative-mismatch-gap",0.532467532467532,8.94717309474945,0.673456801862454
+125,"William loaded the cargo onto the boat and Lauren loaded the sack onto the truck .","locative-match-nogap",0.845238095238095,7.66302611865103,0.538438263039429
+125,"William loaded the cargo onto the boat and Lauren loaded the truck with the sack .","locative-mismatch-nogap",0.783549783549784,8.14025253802538,0.581680307289647
+126,"Brandon sprinkled salt over the meat and Alyssa sugar over the cake .","locative-match-gap",0.714285714285714,9.40925193914714,0.631141860266773
+126,"William loaded the cargo onto the boat and Lauren loaded the truck with the sack .","locative-mismatch-nogap",0.761904761904762,8.14025253802538,0.581680307289647
+127,"Brandon sprinkled salt over the meat and Alyssa sugar over the cake .","locative-match-gap",0.793650793650794,9.40925193914714,0.631141860266773
+127,"Brandon sprinkled salt over the meat and Alyssa the cake with sugar .","locative-mismatch-gap",0.714285714285714,9.65803723545888,0.695676761044995
+128,"Brandon sprinkled salt over the meat and Alyssa sprinkled sugar over the cake .","locative-match-nogap",0.857142857142857,8.34387471360554,0.54945145138381
+128,"Brandon sprinkled salt over the meat and Alyssa the cake with sugar .","locative-mismatch-gap",0.7,9.65803723545888,0.695676761044995
+129,"Brandon sprinkled salt over the meat and Alyssa sprinkled sugar over the cake .","locative-match-nogap",0.844155844155844,8.34387471360554,0.54945145138381
+129,"Brandon sprinkled salt over the meat and Alyssa sprinkled the cake with sugar .","locative-mismatch-nogap",0.751020408163265,8.94974129054961,0.608228870963667
+130,"Brandon sprinkled salt over the meat and Alyssa sprinkled the cake with sugar .","locative-mismatch-nogap",0.785714285714286,8.94974129054961,0.608228870963667
+130,"Ryan sprayed disinfectant on the tables and Kayla pesticide on the flowers .","locative-match-gap",0.706122448979592,10.2567602877433,0.630913770086162
+131,"Ryan sprayed disinfectant on the tables and Kayla pesticide on the flowers .","locative-match-gap",0.55952380952381,10.2567602877433,0.630913770086162
+131,"Ryan sprayed disinfectant on the tables and Kayla the flowers with pesticide .","locative-mismatch-gap",0.614718614718615,10.3075210910577,0.670787135225295
+132,"Ryan sprayed disinfectant on the tables and Kayla sprayed pesticide on the flowers .","locative-match-nogap",0.817142857142857,8.91106295585632,0.54638088561974
+132,"Ryan sprayed disinfectant on the tables and Kayla the flowers with pesticide .","locative-mismatch-gap",0.619047619047619,10.3075210910577,0.670787135225295
+133,"Ryan sprayed disinfectant on the tables and Kayla sprayed pesticide on the flowers .","locative-match-nogap",0.871428571428571,8.91106295585632,0.54638088561974
+133,"Ryan sprayed disinfectant on the tables and Kayla sprayed the flowers with pesticide .","locative-mismatch-nogap",0.779220779220779,9.37185018828937,0.573549544232302
+134,"John piled the pillows on the bed and Abigail the cushions on the sofa .","locative-match-gap",0.733766233766234,8.11996371275745,0.591797085100405
+134,"Ryan sprayed disinfectant on the tables and Kayla sprayed the flowers with pesticide .","locative-mismatch-nogap",0.792207792207792,9.37185018828937,0.573549544232302
+135,"John piled the pillows on the bed and Abigail the cushions on the sofa .","locative-match-gap",0.688311688311688,8.11996371275745,0.591797085100405
+135,"John piled the pillows on the bed and Abigail the sofa with cushions .","locative-mismatch-gap",0.542857142857143,9.22862755508894,0.667254155000639
+136,"John piled the pillows on the bed and Abigail piled the cushions on the sofa .","locative-match-nogap",0.813852813852814,7.15784637711477,0.491329725484484
+136,"John piled the pillows on the bed and Abigail the sofa with cushions .","locative-mismatch-gap",0.345238095238095,9.22862755508894,0.667254155000639
+137,"John piled the pillows on the bed and Abigail piled the cushions on the sofa .","locative-match-nogap",0.841269841269841,7.15784637711477,0.491329725484484
+137,"John piled the pillows on the bed and Abigail piled the sofa with cushions .","locative-mismatch-nogap",0.771428571428571,8.15187474006476,0.557197573057854
+138,"John piled the pillows on the bed and Abigail piled the sofa with cushions .","locative-mismatch-nogap",0.814285714285714,8.15187474006476,0.557197573057854
+138,"Zachary scattered flower seeds over his front yard and Brianna garbage over her backyard .","locative-match-gap",0.702857142857143,10.089639321963,0.666602369360058
+139,"Zachary scattered flower seeds over his front yard and Brianna garbage over her backyard .","locative-match-gap",0.614285714285714,10.089639321963,0.666602369360058
+139,"Zachary scattered flower seeds over his front yard and Brianna her backyard with garbage .","locative-mismatch-gap",0.642857142857143,9.93648968537648,0.667849104356615
+140,"Zachary scattered flower seeds over his front yard and Brianna her backyard with garbage .","locative-mismatch-gap",0.493506493506494,9.93648968537648,0.667849104356615
+140,"Zachary scattered flower seeds over his front yard and Brianna scattered garbage over her backyard .","locative-match-nogap",0.677551020408163,8.95790358632803,0.579824494317459
+141,"Zachary scattered flower seeds over his front yard and Brianna scattered garbage over her backyard .","locative-match-nogap",0.821428571428571,8.95790358632803,0.579824494317459
+141,"Zachary scattered flower seeds over his front yard and Brianna scattered her backyard with garbage .","locative-mismatch-nogap",0.774891774891775,9.55045772343874,0.616610321109863
+142,"David stuffed the coins into his pocket and Olivia the bills into her purse .","locative-match-gap",0.718614718614719,8.1661871433258,0.604944964619793
+142,"Zachary scattered flower seeds over his front yard and Brianna scattered her backyard with garbage .","locative-mismatch-nogap",0.825396825396825,9.55045772343874,0.616610321109863
+143,"David stuffed the coins into his pocket and Olivia her purse with the bills .","locative-mismatch-gap",0.714285714285714,8.43633852005005,0.623028085130802
+143,"David stuffed the coins into his pocket and Olivia the bills into her purse .","locative-match-gap",0.761904761904762,8.1661871433258,0.604944964619793
+144,"David stuffed the coins into his pocket and Olivia her purse with the bills .","locative-mismatch-gap",0.614285714285714,8.43633852005005,0.623028085130802
+144,"David stuffed the coins into his pocket and Olivia stuffed the bills into her purse .","locative-match-nogap",0.87012987012987,6.64884532988071,0.473434849934272
+145,"David stuffed the coins into his pocket and Olivia stuffed her purse with the bills .","locative-mismatch-nogap",0.718367346938775,7.37247315049171,0.536207632635757
+145,"David stuffed the coins into his pocket and Olivia stuffed the bills into her purse .","locative-match-nogap",0.818181818181818,6.64884532988071,0.473434849934272
+146,"David stuffed the coins into his pocket and Olivia stuffed her purse with the bills .","locative-mismatch-nogap",0.880952380952381,7.37247315049171,0.536207632635757

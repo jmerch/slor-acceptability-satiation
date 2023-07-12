@@ -1,0 +1,65 @@
+"sentence_id","sentence_string","condition","mean_acc","mean_surprisal","normalized_surprisal"
+147,"Anthony gave his nephew a book and Emma her niece a doll .","dative-match-gap",0.653061224489796,9.53815924204313,0.683130236080572
+148,"Anthony gave his nephew a book and Emma a doll to her niece .","dative-mismatch-gap",0.773109243697479,9.48051822185516,0.700180581639995
+149,"Anthony gave his nephew a book and Emma gave her niece a doll .","dative-match-nogap",0.86734693877551,7.64132984621184,0.527722670735677
+150,"Anthony gave his nephew a book and Emma gave a doll to her niece .","dative-mismatch-nogap",0.912087912087912,7.91800022125244,0.562577662564386
+151,"James handed the receptionist the key and Megan the driver the suitcase .","dative-match-gap",0.56043956043956,10.4178301371061,0.773817763545588
+152,"James handed the receptionist the key and Megan the suitcase to the driver .","dative-mismatch-gap",0.663265306122449,9.94551123891558,0.744488367437457
+153,"James handed the receptionist the key and Megan handed the driver the suitcase .","dative-match-nogap",0.798319327731092,9.0058833020074,0.624310470196025
+154,"James handed the receptionist the key and Megan handed the suitcase to the driver .","dative-mismatch-nogap",0.826530612244898,8.50986278057098,0.5987093461095
+155,"Justin lent his brother his car and Grace her sister her bicycle .","dative-match-gap",0.551020408163265,10.091880596601,0.700255581348866
+156,"Justin lent his brother his car and Grace her bicycle to her sister .","dative-mismatch-gap",0.736263736263736,9.61459110464368,0.689057054851749
+157,"Justin lent his brother his car and Grace lent her sister her bicycle .","dative-match-nogap",0.897959183673469,8.29626723698207,0.559932819712643
+158,"Justin lent his brother his car and Grace lent her bicycle to her sister .","dative-mismatch-nogap",0.815126050420168,8.12640398343404,0.561799101401887
+159,"Alexander passed his wife the salt and Victoria her husband the pepper .","dative-match-gap",0.680672268907563,9.43317994704613,0.698808118032455
+160,"Alexander passed his wife the salt and Victoria the pepper to her husband .","dative-mismatch-gap",0.602040816326531,8.94874993392399,0.677246012436397
+161,"Alexander passed his wife the salt and Victoria passed her husband the pepper .","dative-match-nogap",0.89010989010989,8.52678241900035,0.609473477271209
+162,"Alexander passed his wife the salt and Victoria passed the pepper to her husband .","dative-mismatch-nogap",0.826530612244898,7.99634719689687,0.583879225804308
+163,"Jonathan bequeathed his son the land and Rachel her daughter the mansion .","dative-match-gap",0.693877551020408,9.27071034627107,0.654856438921989
+164,"Jonathan bequeathed his son the land and Rachel the mansion to her daughter .","dative-mismatch-gap",0.61344537815126,8.62640560263701,0.61868660382632
+165,"Jonathan bequeathed his son the land and Rachel bequeathed her daughter the mansion .","dative-match-nogap",0.877551020408163,8.17311360296195,0.553005195390853
+166,"Jonathan bequeathed his son the land and Rachel bequeathed the mansion to her daughter .","dative-mismatch-nogap",0.879120879120879,7.90801501406046,0.542116051885334
+167,"Christian sent his grandfather a card and Anna her grandmother flowers .","dative-match-gap",0.681318681318681,10.8086568315824,0.774849366052718
+168,"Christian sent his grandfather a card and Anna flowers to her grandmother .","dative-mismatch-gap",0.663265306122449,9.67377481093774,0.684501646531918
+169,"Christian sent his grandfather a card and Anna sent her grandmother flowers .","dative-match-nogap",0.798319327731092,8.66921120423537,0.610086250266743
+170,"Christian sent his grandfather a card and Anna sent flowers to her grandmother .","dative-mismatch-nogap",0.755102040816326,8.3334037406104,0.589235490574064
+171,"Austin promised the team a banquet and Sydney the crew a bonus .","dative-match-gap",0.540816326530612,10.7050513120798,0.82541810959257
+172,"Austin promised the team a banquet and Sydney a bonus to the crew .","dative-mismatch-gap",0.791208791208791,10.1133865288326,0.776435004795532
+173,"Austin promised the team a banquet and Sydney promised the crew a bonus .","dative-match-nogap",0.877551020408163,9.15109917095729,0.65631999996143
+174,"Austin promised the team a banquet and Sydney promised a bonus to the crew .","dative-mismatch-nogap",0.80672268907563,8.85996781984965,0.643282996580598
+175,"Dylan mailed the buyers the catalogues and Destiny the clients the brochures .","dative-match-gap",0.554621848739496,12.0926546110557,0.811751032819865
+176,"Dylan mailed the buyers the catalogues and Destiny the brochures to the clients .","dative-mismatch-gap",0.673469387755102,11.4370811411313,0.770300885568501
+177,"Dylan mailed the buyers the catalogues and Destiny mailed the clients the brochures .","dative-match-nogap",0.846153846153846,10.5652776562742,0.647845832536804
+178,"Dylan mailed the buyers the catalogues and Destiny mailed the brochures to the clients .","dative-mismatch-nogap",0.704081632653061,10.1874743024508,0.63662744717064
+179,"Ethan rented the family the house and Morgan the couple the room .","dative-match-gap",0.448979591836735,9.96712321501512,0.793557782124743
+180,"Ethan rented the family the house and Morgan the room to the couple .","dative-mismatch-gap",0.630252100840336,9.64906195231846,0.758851948857549
+181,"Ethan rented the family the house and Morgan rented the couple the room .","dative-match-nogap",0.612244897959184,8.53508927140917,0.630188815975218
+182,"Ethan rented the family the house and Morgan rented the room to the couple .","dative-mismatch-nogap",0.824175824175824,7.98540991147359,0.599763973135706
+183,"Benjamin tossed his girlfriend his wallet and Jennifer her boyfriend her bag .","dative-match-gap",0.604395604395604,9.78335521771358,0.684063612274605
+184,"Benjamin tossed his girlfriend his wallet and Jennifer her bag to her boyfriend .","dative-mismatch-gap",0.602040816326531,9.29409158229828,0.667983171722545
+185,"Benjamin tossed his girlfriend his wallet and Jennifer tossed her boyfriend her bag .","dative-match-nogap",0.831932773109244,8.37317415646144,0.563874690268813
+186,"Benjamin tossed his girlfriend his wallet and Jennifer tossed her bag to her boyfriend .","dative-mismatch-nogap",0.836734693877551,8.06993929545085,0.558819934751221
+187,"Noah sold his neighbor his bike and Jasmine her roommate her car .","dative-match-gap",0.530612244897959,10.1752499960936,0.714967501385641
+188,"Noah sold his neighbor his bike and Jasmine her car to her roommate .","dative-mismatch-gap",0.659340659340659,9.65765317635877,0.690567000807986
+189,"Noah sold his neighbor his bike and Jasmine sold her roommate her car .","dative-match-nogap",0.806122448979592,8.69549929031304,0.597246410356482
+190,"Noah sold his neighbor his bike and Jasmine sold her car to her roommate .","dative-mismatch-nogap",0.80672268907563,8.25152056018512,0.577541526456912
+191,"Samuel read his father the letter and Haley her mother the poem .","dative-match-gap",0.65546218487395,9.16923702680148,0.705371121014605
+192,"Samuel read his father the letter and Haley the poem to her mother .","dative-mismatch-gap",0.520408163265306,8.65170107569013,0.69040393750395
+193,"Samuel read his father the letter and Haley read her mother the poem .","dative-match-nogap",0.868131868131868,7.6834528531347,0.591818444957927
+194,"Samuel read his father the letter and Haley read the poem to her mother .","dative-mismatch-nogap",0.806122448979592,7.52998535633087,0.586225615999376
+195,"Robert offered the customer a discount and Julia the guest a refund .","dative-match-gap",0.642857142857143,9.50388051913335,0.743430954656254
+196,"Robert offered the customer a discount and Julia a refund to the guest .","dative-mismatch-gap",0.697478991596639,9.16915644918169,0.721061889479034
+197,"Robert offered the customer a discount and Julia offered the guest a refund .","dative-match-nogap",0.86734693877551,8.03499855313982,0.58419672868423
+198,"Robert offered the customer a discount and Julia offered a refund to the guest .","dative-mismatch-nogap",0.868131868131868,7.90466349919637,0.59569996606421
+199,"Nathan threw the boy a ball and Kaitlyn the dog a Frisbee .","dative-match-gap",0.659340659340659,10.0819471100202,0.774650247162254
+200,"Nathan threw the boy a ball and Kaitlyn a Frisbee to the dog .","dative-mismatch-gap",0.612244897959184,9.85841276629695,0.74977224308091
+201,"Nathan threw the boy a ball and Kaitlyn threw the dog a Frisbee .","dative-match-nogap",0.773109243697479,8.61667045757973,0.602336346861431
+202,"Nathan threw the boy a ball and Kaitlyn threw a Frisbee to the dog .","dative-mismatch-nogap",0.775510204081633,8.71907620346174,0.63179571480732
+203,"Cameron told his friends the story and Nicole her parents the news .","dative-match-gap",0.663265306122449,8.87807614986713,0.713949269911489
+204,"Cameron told his friends the story and Nicole the news to her parents .","dative-mismatch-gap",0.78021978021978,8.24019352027348,0.681394144065662
+205,"Cameron told his friends the story and Nicole told her parents the news .","dative-match-nogap",0.857142857142857,7.46219234807151,0.592173132290434
+206,"Cameron told his friends the story and Nicole told the news to her parents .","dative-mismatch-nogap",0.739495798319328,7.26615492502848,0.583268219280839
+207,"Kevin taught the adults English and Amanda the children Spanish .","dative-match-gap",0.554621848739496,9.6360012401234,0.744832253945352
+208,"Kevin taught the adults English and Amanda Spanish to the children .","dative-mismatch-gap",0.540816326530612,9.62689924240112,0.727211364791956
+209,"Kevin taught the adults English and Amanda taught the children Spanish .","dative-match-nogap",0.857142857142857,8.17444631457329,0.607625774240599
+210,"Kevin taught the adults English and Amanda taught Spanish to the children .","dative-mismatch-nogap",0.836734693877551,8.19389267151172,0.615711615313855

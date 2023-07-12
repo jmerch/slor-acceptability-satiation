@@ -9,8 +9,12 @@ OPT family:
 "facebook/opt-6.7b", "facebook/opt-13b", "facebook/opt-30b", "facebook/opt-66b"
 """
 
+#run: python scripts/surprisal.py input_file_path, gpt2, output_file_path
+# e.g. python scripts/surprisal.py data/lu_kim_2022/dativeSurpIn.txt gpt2 data/lu_kim_2022/dativeSurpOut.txt
+
 import os, sys, torch, transformers
-from transformers import AutoTokenizer, AutoModelForCausalLM, GPTNeoXTokenizerFast
+from transformers import AutoTokenizer, AutoModelForCausalLM
+#, GPTNeoXTokenizerFast
 
 
 def generate_stories(fn):
@@ -102,6 +106,11 @@ def main():
     curr_toks = ""
 
     print("word llm_surp")
+    # open the output file
+    if sys.argv[3]:
+        f = open(sys.argv[3], "w")
+    strings = []
+    
     for batch in batches:
         batch_input, start_idx = batch
         output_ids = batch_input.input_ids.squeeze(0)[1:]
@@ -116,6 +125,7 @@ def main():
         for i in range(start_idx, len(toks)):
             # necessary for diacritics in Dundee
             cleaned_tok = toks[i].replace("Ġ", "", 1).encode("latin-1").decode("utf-8")
+            print(cleaned_tok)
 
             # for token-level surprisal
             # print(cleaned_tok, surp[i].item())
@@ -125,11 +135,19 @@ def main():
             curr_toks += cleaned_tok
             # summing subword token surprisal ("rolling")
             words[curr_word_ix] = words[curr_word_ix].replace(cleaned_tok, "", 1)
+            
             if words[curr_word_ix] == "":
-                print(curr_toks, sum(curr_word_surp))
+                string = curr_toks + " " + str(sum(curr_word_surp)) + "\n"
+                #print(string)
+                strings += string
+                
                 curr_word_surp = []
                 curr_toks = ""
                 curr_word_ix += 1
+    
+    print(len(strings))
+    f.writelines(strings)
+    f.close()
 
 
 if __name__ == "__main__":
