@@ -1,14 +1,23 @@
 # Get mean surprisal and normalized mean surprisal
 
-import os, sys, torch, transformers, math
+import os, sys, torch, transformers, math, ast
 from transformers import AutoTokenizer, AutoModelForCausalLM
 #, GPTNeoXTokenizerFast
+
+# to run: python scripts/averageSurp_lukim.py data/lu_kim_2022/data_nameSurpOut.txt lu_kim_2022/data_name (arg 1 = path to SurpOut file; arg 2 = output file name)
+
+# Runs from main surprisal-and-acceptability folder, NOT from /scripts
 
 def main():
     source = sys.argv[1]
     name = sys.argv[2]
     f = open(source)
     out = open("data/"+name+"_"+"surprisals.csv", "w")
+    
+    surps = open("data/individual_surprisals.txt")
+    unique_word_surprisal = ast.literal_eval(surps.readlines()[0])
+    print("done storing into unique_word_surprisals")
+    #print("first key: ", list(unique_word_surprisal.keys())[0])
 
     sentence_id = 2
     curr_total = 0
@@ -25,6 +34,7 @@ def main():
     #lines.pop(0)
     out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized"\n')
     
+    """
     unique_word_surprisal = {}
     for line in lines:
         data = line.strip().split(" ")
@@ -33,6 +43,8 @@ def main():
             unique_word_surprisal[word] = 0
     get_individual_surprisal(unique_word_surprisal, "gpt2")
     #print(unique_word_surprisal)
+    """
+    notin = 0
     
     for line in lines:
         data = line.strip().split(" ")
@@ -54,8 +66,14 @@ def main():
                 curr_total += surprisals[i]
                 #gauss_total += surprisals[i] * gauss_weight
                 weight_total += inc_weight
-                normal_total += surprisals[i] / unique_word_surprisal[words[i]]
-                #gauss_weight_total += gauss_weight
+                if words[i] in unique_word_surprisal:
+                  normal_total += surprisals[i] / unique_word_surprisal[words[i]]
+                else:
+                  print(words[i])
+                  unique_word_surprisal[words[i]] = unique_word_surprisal['the']
+                  normal_total += surprisals[i] / unique_word_surprisal[words[i]]
+                  notin += 1
+                # gauss_weight_total += gauss_weight
             out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words}\n')
             sentence_id += 1
             curr_total = 0
@@ -69,7 +87,7 @@ def main():
             surprisals = []
             words = []
 
-
+    print(notin)
 
 def get_individual_surprisal(surprisal_dict, model):
     model_variant = model

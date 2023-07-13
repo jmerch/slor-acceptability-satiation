@@ -125,7 +125,7 @@ def main():
         for i in range(start_idx, len(toks)):
             # necessary for diacritics in Dundee
             cleaned_tok = toks[i].replace("Ġ", "", 1).encode("latin-1").decode("utf-8")
-            print(cleaned_tok)
+            #print(cleaned_tok)
 
             # for token-level surprisal
             # print(cleaned_tok, surp[i].item())

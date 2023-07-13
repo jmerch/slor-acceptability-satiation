@@ -1,18 +1,15 @@
 # This script reads data in the format of Lu & Kim (2022)
 
-# Overall Goal: We want, for each unique sentence, {sentenceID, sentenceString, mean acceptability rating, mean surprisal, ...other weightings surprisals...}
 
 # First, read csv data into R Data Frame
 library(dplyr)
 
-# Data files: "dative", "dativebase", "locative_baseline_full", "locativeresults"
-
-data_name = "locative_baseline_full"
+# Data files for Lu and Kim: "dative", "dativebase", "locative_baseline_full", "locativeresults"
+data_name = "dativebase"
 
 source = paste("data/lu_kim_2022/", data_name, ".csv", sep="")
 
 df = read.csv(source) # reads csv into a Data Frame, indexable by column name
-print(df[1]) # prints the first column (Time results were received.)
 
 # Produces a pared down data frame with just unique sentence ID, sentence string, acceptability for each individual response
 df_subset = subset(df, select=c(4, 6, 10, 12))
@@ -25,12 +22,12 @@ df_unique = df_subset %>%
   summarize(
     mean_acc = mean(acceptability/7) # scale 7 point likert scale to 0-1
   )
-print(df_unique)
 
 # Cleans up data (sentence strings and condition names)
 for (i in 1:nrow(df_unique)){ # replaces '%2C' with actual commas ','
   df_unique$sentence_string[i] = gsub('%2C','',df_unique$sentence_string[i])
   df_unique$sentence_string[i] = gsub('\\.',' .',df_unique$sentence_string[i])
+  df_unique$sentence_string[i] = gsub(',','',df_unique$sentence_string[i])
   df_unique$sentence_string[i] = gsub('â€™','\'',df_unique$sentence_string[i])
   df_unique$sentence_string[i] = gsub('’','\'',df_unique$sentence_string[i])
   
@@ -47,7 +44,8 @@ for (i in 1:nrow(df_unique)){ # replaces '%2C' with actual commas ','
     df_unique$condition[i] = gsub('[12]', '', df_unique$condition[i])
   }
 }
-print(df_unique)
+
+# saves data frame object, to be modified once we have the surprisal calculations
 saveRDS(df_unique, file = paste("data/lu_kim_2022/", data_name, ".rds", sep=""))
 
 # Now we need to produce 1) a list of unique sentences separated by "!ARTICLE" to calculate the mean surprisal, then add that to our data frame, writing it all as a csv
