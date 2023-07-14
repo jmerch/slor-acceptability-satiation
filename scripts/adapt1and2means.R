@@ -3,11 +3,11 @@ library(dplyr)
 #exp1c <- read.csv("data/satiation_baseline_cleaned.csv")
 exp2 <- read.csv("data/satiation_exp2_cleaned.csv")
 exp2 <- filter(exp2, phase == "exposure")
-surprisals2 <- read.csv("data/adapt2_surprisals.csv")
+surprisals2 <- read.csv("data/adapt_surprisals.csv")
 #exp1c <- arrange(exp1c, list_number)
 #exp1c <- arrange(exp1c, item_number)
 uniqueIds <- read.csv("data/adapt2ids.csv")
-ratings <- data.frame(matrix(ncol = 18, nrow = 0))
+ratings <- data.frame(matrix(ncol = 19, nrow = 0))
 ids <- integer(nrow(exp2))
 for(i in 1:nrow(exp2)) {
   row <- exp2[i,]
@@ -42,11 +42,12 @@ for (id in min(exp2$sentence_id):max(exp2$sentence_id)){
       comp_norm = surprisals2$comp_norm[id + 1]
       embedded_norm = surprisals2$embedded_norm[id + 1]
       gap_norm = surprisals2$gap_norm[id + 1]
-      new_row <- c(sentence_id = id, condition = condition, all_exposures = all, first_three_exposures = first_3 , mean_surprisal = surprisal, weight_first = first, weight_last = last, weight_sum = sum, normalized = normal, wh = wh, matrix = matrix, comp = comp, embedded = embedded, gap = gap, matrix_norm = matrix_norm, comp_norm = comp_norm, embedded_norm = embedded_norm, gap_norm = gap_norm)
+      beyond = surprisals2$beyond[id + 1]
+      new_row <- c(sentence_id = id, condition = condition, all_exposures = all, first_three_exposures = first_3 , mean_surprisal = surprisal, weight_first = first, weight_last = last, weight_sum = sum, normalized = normal, wh = wh, matrix = matrix, comp = comp, embedded = embedded, gap = gap, matrix_norm = matrix_norm, comp_norm = comp_norm, embedded_norm = embedded_norm, gap_norm = gap_norm, beyond = beyond)
       ratings <- rbind(ratings, new_row)
       }
 }
-colnames(ratings) <- c('sentence_id', 'condition', 'all_exposures', 'first_three_exposures', 'mean_surprisal', 'weight_first', 'weight_last', 'weight_sum', 'normalized', 'wh', 'matrix', 'comp', 'embedded', 'gap', 'matrix_norm', 'comp_norm', 'embedded_norm', 'gap_norm')
+colnames(ratings) <- c('sentence_id', 'condition', 'all_exposures', 'first_three_exposures', 'mean_surprisal', 'weight_first', 'weight_last', 'weight_sum', 'normalized', 'wh', 'matrix', 'comp', 'embedded', 'gap', 'matrix_norm', 'comp_norm', 'embedded_norm', 'gap_norm', 'beyond')
 type.convert(ratings)
 write.csv(ratings, "data/adaptRatings.csv", row.names=FALSE)
 sentence_types = ratings %>% select(c('sentence_id', 'condition'))

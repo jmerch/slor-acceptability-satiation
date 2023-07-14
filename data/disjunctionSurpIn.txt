@@ -1,0 +1,480 @@
+!ARTICLE
+Either John or those boys are interviewing the movie star .
+!ARTICLE
+Either John or those boys is interviewing the movie star .
+!ARTICLE
+Either those boys or John are interviewing the movie star .
+!ARTICLE
+Either those boys or John is interviewing the movie star .
+!ARTICLE
+Either these girls or those boys is interviewing the movie star .
+!ARTICLE
+Either John or Mary are interviewing the movie star .
+!ARTICLE
+Either John or Mary is interviewing the movie star .
+!ARTICLE
+Either these girls or those boys are interviewing the movie star .
+!ARTICLE
+Either William or those students are drafting the important email .
+!ARTICLE
+Either William or those students is drafting the important email .
+!ARTICLE
+Either those students or William are drafting the important email .
+!ARTICLE
+Either those students or William is drafting the important email .
+!ARTICLE
+Either these professors or those students is drafting the important email .
+!ARTICLE
+Either William or Jackie are drafting the important email .
+!ARTICLE
+Either William or Jackie is drafting the important email .
+!ARTICLE
+Either these professors or those students are drafting the important email .
+!ARTICLE
+Either Harry or those detectives are investigating the crime scene .
+!ARTICLE
+Either Harry or those detectives is investigating the crime scene .
+!ARTICLE
+Either those detectives or Harry are investigating the crime scene .
+!ARTICLE
+Either those detectives or Harry is investigating the crime scene .
+!ARTICLE
+Either the team of police officers or those detectives is investigating the crime scene .
+!ARTICLE
+Either Harry or Ahmad are investigating the crime scene .
+!ARTICLE
+Either Harry or Ahmad is investigating the crime scene .
+!ARTICLE
+Either those police officers or those detectives are investigating the crime scene .
+!ARTICLE
+Either Hanako or those mechanics are repairing the truck engine .
+!ARTICLE
+Either Hanako or those mechanics is repairing the truck engine .
+!ARTICLE
+Either those mechanics or Hanako are repairing the truck engine .
+!ARTICLE
+Either those mechanics or Hanako is repairing the truck engine .
+!ARTICLE
+Either these drivers or those mechanics is repairing the truck engine .
+!ARTICLE
+Either Hanako or George are repairing the truck engine .
+!ARTICLE
+Either Hanako or George is repairing the truck engine .
+!ARTICLE
+Either these drivers or those mechanics are repairing the truck engine .
+!ARTICLE
+Either Lisa or those children are preparing dinner .
+!ARTICLE
+Either Lisa or those children is preparing dinner .
+!ARTICLE
+Either those children or Lisa are preparing dinner .
+!ARTICLE
+Either those children or Lisa is preparing dinner .
+!ARTICLE
+Either these cooks or those children is preparing dinner .
+!ARTICLE
+Either Lisa or George are preparing dinner .
+!ARTICLE
+Either Lisa or George is preparing dinner .
+!ARTICLE
+Either these cooks or those children are preparing dinner .
+!ARTICLE
+Either David or those plumbers are fixing the leaking pipe .
+!ARTICLE
+Either David or those plumbers is fixing the leaking pipe .
+!ARTICLE
+Either those plumbers or David are fixing the leaking pipe .
+!ARTICLE
+Either those plumbers or David is fixing the leaking pipe .
+!ARTICLE
+Either these housekeepers or those plumbers is fixing the leaking pipe .
+!ARTICLE
+Either David or Joan are fixing the leaking pipe .
+!ARTICLE
+Either David or Joan is fixing the leaking pipe .
+!ARTICLE
+Either these housekeepers or those plumbers are fixing the leaking pipe .
+!ARTICLE
+Either Fatima or these research assistants are conducting the experiments .
+!ARTICLE
+Either Fatima or these research assistants is conducting the experiments .
+!ARTICLE
+Either these research assistants or Fatima are conducting the experiments .
+!ARTICLE
+Either these research assistants or Fatima is conducting the experiments .
+!ARTICLE
+Either those graduate students or these research assistants is conducting the experiments .
+!ARTICLE
+Either Fatima or Lucas are conducting the experiments .
+!ARTICLE
+Either Fatima or Lucas is conducting the experiments .
+!ARTICLE
+Either those graduate students or these research assistants are conducting the experiments .
+!ARTICLE
+Either Melissa or those electricians are fixing the wiring issues .
+!ARTICLE
+Either Melissa or those electricians is fixing the wiring issues .
+!ARTICLE
+Either those electricians or Melissa are fixing the wiring issues .
+!ARTICLE
+Either those electricians or Melissa is fixing the wiring issues .
+!ARTICLE
+Either these engineers or those electricians is fixing the wiring issues .
+!ARTICLE
+Either Melissa or Patrick are fixing the wiring issues .
+!ARTICLE
+Either Melissa or Patrick is fixing the wiring issues .
+!ARTICLE
+Either these engineers or those electricians are fixing the wiring issues .
+!ARTICLE
+Either Brian or those designers are creating the fashion collection .
+!ARTICLE
+Either Brian or those designers is creating the fashion collection .
+!ARTICLE
+Either those designers or Brian are creating the fashion collection .
+!ARTICLE
+Either those designers or Brian is creating the fashion collection .
+!ARTICLE
+Either these stylists or those designers is creating the fashion collection .
+!ARTICLE
+Either Brian or Jamaal are creating the fashion collection .
+!ARTICLE
+Either Brian or Jamaal is creating the fashion collection .
+!ARTICLE
+Either these stylists or those designers are creating the fashion collection .
+!ARTICLE
+Either Sarah or those staff members are writting the end-of-year report .
+!ARTICLE
+Either Sarah or those staff members is writting the end-of-year report .
+!ARTICLE
+Either those staff members or Sarah are writting the end-of-year report .
+!ARTICLE
+Either those staff members or Sarah is writting the end-of-year report .
+!ARTICLE
+Either those managers or those staff members is writting the end-of-year report .
+!ARTICLE
+Either Sarah or Matt are writting the end-of-year report .
+!ARTICLE
+Either Sarah or Matt is writting the end-of-year report .
+!ARTICLE
+Either those managers or those staff members are writting the end-of-year report .
+!ARTICLE
+Either Juan or these teachers are making the admission decisions .
+!ARTICLE
+Either Juan or these teachers is making the admission decisions .
+!ARTICLE
+Either these teachers or Juan are making the admission decisions .
+!ARTICLE
+Either these teachers or Juan is making the admission decisions .
+!ARTICLE
+Either those administrators or these teachers is making the admission decisions .
+!ARTICLE
+Either Juan or Antonio are making the admission decisions .
+!ARTICLE
+Either Juan or Antonio is making the admission decisions .
+!ARTICLE
+Either those administrators or these teachers are making the admission decisions .
+!ARTICLE
+Either Krishna or those statisticians are analyzing the market trends .
+!ARTICLE
+Either Krishna or those statisticians is analyzing the market trends .
+!ARTICLE
+Either those statisticians or Krishna are analyzing the market trends .
+!ARTICLE
+Either those statisticians or Krishna is analyzing the market trends .
+!ARTICLE
+Either those economists or those statisticians is analyzing the market trends .
+!ARTICLE
+Either Krishna or Amir are analyzing the market trends .
+!ARTICLE
+Either Krishna or Amir is analyzing the market trends .
+!ARTICLE
+Either those economists or those statisticians are analyzing the market trends .
+!ARTICLE
+Either Mateo or these architects are designing the building's layout .
+!ARTICLE
+Either Mateo or these architects is designing the building's layout .
+!ARTICLE
+Either these architects or Mateo are designing the building's layout .
+!ARTICLE
+Either these architects or Mateo is designing the building's layout .
+!ARTICLE
+Either these interior designers or these architects is designing the building's layout .
+!ARTICLE
+Either Mateo or Lin are designing the building's layout .
+!ARTICLE
+Either Mateo or Lin is designing the building's layout .
+!ARTICLE
+Either these interior designers or these architects are designing the building's layout .
+!ARTICLE
+Either Zeynab or those editors are proofreading the manuscripts .
+!ARTICLE
+Either Zeynab or those editors is proofreading the manuscripts .
+!ARTICLE
+Either those editors or Zeynab are proofreading the manuscripts .
+!ARTICLE
+Either those editors or Zeynab is proofreading the manuscripts .
+!ARTICLE
+Either those secretaries or those editors is proofreading the manuscripts .
+!ARTICLE
+Either Zeynab or Emma are proofreading the manuscripts .
+!ARTICLE
+Either Zeynab or Emma is proofreading the manuscripts .
+!ARTICLE
+Either those secretaries or those editors are proofreading the manuscripts .
+!ARTICLE
+Either Peter or those lawyers are handling the legal documents .
+!ARTICLE
+Either Peter or those lawyers is handling the legal documents .
+!ARTICLE
+Either those lawyers or Peter are handling the legal documents .
+!ARTICLE
+Either those lawyers or Peter is handling the legal documents .
+!ARTICLE
+Either these paralegals or those lawyers is handling the legal documents .
+!ARTICLE
+Either Peter or Noah are handling the legal documents .
+!ARTICLE
+Either Peter or Noah is handling the legal documents .
+!ARTICLE
+Either these paralegals or those lawyers are handling the legal documents .
+!ARTICLE
+Either Alex or these photographers are recording the solar eclipse .
+!ARTICLE
+Either Alex or these photographers is recording the solar eclipse .
+!ARTICLE
+Either these photographers or Alex are recording the solar eclipse .
+!ARTICLE
+Either these photographers or Alex is recording the solar eclipse .
+!ARTICLE
+Either those astronomers or these photographers is recording the solar eclipse .
+!ARTICLE
+Either Alex or Noah are recording the solar eclipse .
+!ARTICLE
+Either Alex or Noah is recording the solar eclipse .
+!ARTICLE
+Either those astronomers or these photographers are recording the solar eclipse .
+!ARTICLE
+Either Bill or those nurses are attending to the patients .
+!ARTICLE
+Either Bill or those nurses is attending to the patients .
+!ARTICLE
+Either those nurses or Bill are attending to the patients .
+!ARTICLE
+Either those nurses or Bill is attending to the patients .
+!ARTICLE
+Either these surgeons or those nurses is attending to the patients .
+!ARTICLE
+Either Bill or Kim are attending to the patients .
+!ARTICLE
+Either Bill or Kim is attending to the patients .
+!ARTICLE
+Either these surgeons or those nurses are attending to the patients .
+!ARTICLE
+Either Jimmy or those kids are building the tree house .
+!ARTICLE
+Either Jimmy or those kids is building the tree house .
+!ARTICLE
+Either those kids or Jimmy are building the tree house .
+!ARTICLE
+Either those kids or Jimmy is building the tree house .
+!ARTICLE
+Either those carpenters or those kids is building the tree house .
+!ARTICLE
+Either Jimmy or Carlos are building the tree house .
+!ARTICLE
+Either Jimmy or Carlos is building the tree house .
+!ARTICLE
+Either those carpenters or those kids are building the tree house .
+!ARTICLE
+Either Thomas or those tailors are sewing the dresses .
+!ARTICLE
+Either Thomas or those tailors is sewing the dresses .
+!ARTICLE
+Either those tailors or Thomas are sewing the dresses .
+!ARTICLE
+Either those tailors or Thomas is sewing the dresses .
+!ARTICLE
+Either these fashion designers or those tailors is sewing the dresses .
+!ARTICLE
+Either Thomas or Maria are sewing the dresses .
+!ARTICLE
+Either Thomas or Maria is sewing the dresses .
+!ARTICLE
+Either these fashion designers or those tailors are sewing the dresses .
+!ARTICLE
+Either Hasan or those volunteers are sorting the books .
+!ARTICLE
+Either Hasan or those volunteers is sorting the books .
+!ARTICLE
+Either those volunteers or Hasan are sorting the books .
+!ARTICLE
+Either those volunteers or Hasan is sorting the books .
+!ARTICLE
+Either those librarians or those volunteers is sorting the books .
+!ARTICLE
+Either Hasan or Yuki are sorting the books .
+!ARTICLE
+Either Hasan or Yuki is sorting the books .
+!ARTICLE
+Either those librarians or those volunteers are sorting the books .
+!ARTICLE
+Either Lydia or those painters are using the art studio .
+!ARTICLE
+Either Lydia or those painters is using the art studio .
+!ARTICLE
+Either those painters or Lydia are using the art studio .
+!ARTICLE
+Either those painters or Lydia is using the art studio .
+!ARTICLE
+Either those sculptors or those painters is using the art studio .
+!ARTICLE
+Either Lydia or Liam are using the art studio .
+!ARTICLE
+Either Lydia or Liam is using the art studio .
+!ARTICLE
+Either those sculptors or those painters are using the art studio .
+!ARTICLE
+Either Andy or those farmers are tending to the crops .
+!ARTICLE
+Either Andy or those farmers is tending to the crops .
+!ARTICLE
+Either those farmers or Andy are tending to the crops .
+!ARTICLE
+Either those farmers or Andy is tending to the crops .
+!ARTICLE
+Either those gardeners or those farmers is tending to the crops .
+!ARTICLE
+Either Andy or Joey are tending to the crops .
+!ARTICLE
+Either Andy or Joey is tending to the crops .
+!ARTICLE
+Either those gardeners or those farmers are tending to the crops .
+!ARTICLE
+Either Ellen or those atheletes are working out at the gym .
+!ARTICLE
+Either Ellen or those atheletes is working out at the gym .
+!ARTICLE
+Either those atheletes or Ellen are working out at the gym .
+!ARTICLE
+Either those atheletes or Ellen is working out at the gym .
+!ARTICLE
+Either those trainers or those atheletes is working out at the gym .
+!ARTICLE
+Either Ellen or Ali are working out at the gym .
+!ARTICLE
+Either Ellen or Ali is working out at the gym .
+!ARTICLE
+Either those trainers or those atheletes are working out at the gym .
+!ARTICLE
+Either Hank or those parents are taking care of the babies .
+!ARTICLE
+Either Hank or those parents is taking care of the babies .
+!ARTICLE
+Either those parents or Hank are taking care of the babies .
+!ARTICLE
+Either those parents or Hank is taking care of the babies .
+!ARTICLE
+Either those babysitters or those parents is taking care of the babies .
+!ARTICLE
+Either Hank or Pedro are taking care of the babies .
+!ARTICLE
+Either Hank or Pedro is taking care of the babies .
+!ARTICLE
+Either those babysitters or those parents are taking care of the babies .
+!ARTICLE
+Either Hossein or those illustrators are sketching the concept art .
+!ARTICLE
+Either Hossein or those illustrators is sketching the concept art .
+!ARTICLE
+Either those illustrators or Hossein are sketching the concept art .
+!ARTICLE
+Either those illustrators or Hossein is sketching the concept art .
+!ARTICLE
+Either those art students or those illustrators is sketching the concept art .
+!ARTICLE
+Either Hossein or Elias are sketching the concept art .
+!ARTICLE
+Either Hossein or Elias is sketching the concept art .
+!ARTICLE
+Either those art students or those illustrators are sketching the concept art .
+!ARTICLE
+Both the event planner and the coordinator are organizing the event .
+!ARTICLE
+Both Yuri and the assistant are completing the task .
+!ARTICLE
+Both the curator and Jennifer are preparing for the exhibition .
+!ARTICLE
+Both the inventory controller and the warehouse staff are managing the inventory .
+!ARTICLE
+Both Andrew and the strategists are developing a plan .
+!ARTICLE
+The event is being promoted by both the marketing team and the public relations team .
+!ARTICLE
+The artwork is being admired by both the viewers and the artist .
+!ARTICLE
+The vacation was planned by both the travelers and the tour guides .
+!ARTICLE
+The song was sung by both the singer and the backup vocalists .
+!ARTICLE
+The chocalate cake was enjoyed by both the children and the adults .
+!ARTICLE
+Julia will perform the surgery tomorrow morning .
+!ARTICLE
+Kevin approved the proposal to implement the new policy .
+!ARTICLE
+Bobby and the construction workers built a sturdy house in just six months .
+!ARTICLE
+Avery and the students painted colorful pictures for the art exhibition .
+!ARTICLE
+The company will launch a new product in the market next month .
+!ARTICLE
+The concept was explained to the students during the lecture by the teacher .
+!ARTICLE
+The broken bridge was repaired by the construction crew after the heavy storm .
+!ARTICLE
+A new software application was developed by the team to improve efficiency .
+!ARTICLE
+A delicious three-course meal was prepared for the guests by the chef .
+!ARTICLE
+A challenging project was assigned to the students by the professor .
+!ARTICLE
+Bonuses to the top-performing employees awarded were by the company .
+!ARTICLE
+My car's engine in just an hour fixed was by the mechanic .
+!ARTICLE
+A new by startup the company to acquired was expand its product line .
+!ARTICLE
+A life-saving performed operation was on the patient by James .
+!ARTICLE
+A fundraising by the students organized event was to help the homeless .
+!ARTICLE
+The suspect after was a pursuit lengthy arrested by Officer Johnson .
+!ARTICLE
+The bonuses to were Paul by awarded the company's board of directors .
+!ARTICLE
+An delivered speech inspiring was motivate by Sarah to the employees .
+!ARTICLE
+Funds to were support the local community by Naomi donated during the annual charity drive .
+!ARTICLE
+A cake Mary was baked delicious by for celebration Mehmet's birthday .
+!ARTICLE
+Alex a landscape painted beautiful on a large canvas .
+!ARTICLE
+Liam an crafted sculpture intricate out of marble .
+!ARTICLE
+Rebecca a new campaign to marketing boost proposed brand awareness .
+!ARTICLE
+The coach the trained intensively athletes for the championship upcoming .
+!ARTICLE
+The cleaned the beach marine volunteers to up protect the ecosystem .
+!ARTICLE
+The scientists a discovered solution groundbreaking to the problem .
+!ARTICLE
+The designed a sustainable state-of-the-art with engineer building features .
+!ARTICLE
+The team an professionals developed to simplify daily app for busy tasks .
+!ARTICLE
+The architect a famous skyscraper that designed became stunning an landmark .
+!ARTICLE
+The firefighters the trapped passengers building from the burning rescued .

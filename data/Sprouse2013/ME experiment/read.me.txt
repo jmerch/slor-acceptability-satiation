@@ -1,0 +1,10 @@
+Here is a list of the files contained in this zipped folder:
+
+1. LI.conditions.csv
+
+This contains a list of the two conditions that form each pairwise phenomenon. It is useful for writing a script to analyze all of the phenomena in a batch.
+
+2. LI.me.results.csv
+
+This contains the results of the magnitude estimation task. The judgment column contains the participants' raw ratings. The zscores column contains the z-score transformed ratings. The survey column indicates which of the experiments the participant completed in the format experiment[1-3].version[1-8]. The order column indicates the presentation order of the item (1-6 were practice items and are not included in the data set).
+

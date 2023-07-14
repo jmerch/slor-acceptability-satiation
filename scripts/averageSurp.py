@@ -9,8 +9,8 @@ def main():
     id_csv = sys.argv[2]
     name = sys.argv[3]
     f = open(source)
-    out = open("../data/"+name+"_"+"surprisals.csv", "w")
-    surps = open("../data/individual_surprisals.txt")
+    out = open("data/"+name+"_"+"surprisals.csv", "w")
+    surps = open("data/individual_surprisals.txt")
     unique_word_surprisal = ast.literal_eval(surps.readlines()[0])
     id_file = open(id_csv)
     raw_types = id_file.readlines()
@@ -39,7 +39,7 @@ def main():
     words = []
     lines = f.readlines()
     lines.pop(0)
-    out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized","wh","matrix","comp","embedded","gap","matrix_norm","comp_norm","embedded_norm","gap_norm"\n')
+    out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized","wh","matrix","comp","embedded","gap","matrix_norm","comp_norm","embedded_norm","gap_norm","beyond"\n')
     
     '''unique_word_surprisal = {}
     for line in lines:
@@ -56,7 +56,7 @@ def main():
         num_words += 1
         surprisals.append(surprisal)
         words.append(word.lower())
-        if (word == '?'):
+        if (word in '?.' ):
             #print(words)
             for i in range(num_words):
                 #gauss_weight = math.exp(-(i - (num_words / 2))**2)
@@ -82,7 +82,8 @@ def main():
                 embedded_norm = get_embedded(words, surprisals, unique_word_surprisal)
                 gap = get_gap(words, surprisals, id_to_type[sentence_id])
                 gap_norm = get_gap(words, surprisals, id_to_type[sentence_id], unique_word_surprisal)
-            out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words},{wh},{matrix},{comp},{embedded},{gap},{matrix_norm},{comp_norm},{embedded_norm},{gap_norm}\n')
+            beyond = beyond_threshold(words, surprisals, 8.9, unique_word_surprisal)
+            out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words},{wh},{matrix},{comp},{embedded},{gap},{matrix_norm},{comp_norm},{embedded_norm},{gap_norm},{beyond}\n')
             sentence_id += 1
             curr_total = 0
             weight_total = 0
@@ -153,7 +154,20 @@ def get_gap(words, surprisals,  condition, normalization_consts = None):
                 return surprisals[i + 1]
             return surprisals[i + 1] / normalization_consts[words[i + 1]]
     
-
+def beyond_threshold(words, surprisals, threshold, normalization_consts = None):
+    num_beyond = 0
+    beyond_total = 0
+    for i in range(len(surprisals)):
+        if surprisals[i] >= threshold:
+            if (normalization_consts == None):
+                beyond_total += surprisals[i]
+            else:
+                beyond_total += surprisals[i] / normalization_consts[words[i]]
+            num_beyond += 1
+    if num_beyond > 0:       
+        return beyond_total / num_beyond
+    return 0
+        
 
 def get_individual_surprisal(surprisal_dict, model):
     model_variant = model

@@ -1,0 +1,128 @@
+!ARTICLE
+Anthony gave his nephew a book, and Emma her niece a doll .
+!ARTICLE
+Anthony gave his nephew a book, and Emma a doll to her niece .
+!ARTICLE
+Anthony gave his nephew a book, and Emma gave her niece a doll .
+!ARTICLE
+Anthony gave his nephew a book, and Emma gave a doll to her niece .
+!ARTICLE
+James handed the receptionist the key, and Megan the driver the suitcase .
+!ARTICLE
+James handed the receptionist the key, and Megan the suitcase to the driver .
+!ARTICLE
+James handed the receptionist the key, and Megan handed the driver the suitcase .
+!ARTICLE
+James handed the receptionist the key, and Megan handed the suitcase to the driver .
+!ARTICLE
+Justin lent his brother his car, and Grace her sister her bicycle .
+!ARTICLE
+Justin lent his brother his car, and Grace her bicycle to her sister .
+!ARTICLE
+Justin lent his brother his car, and Grace lent her sister her bicycle .
+!ARTICLE
+Justin lent his brother his car, and Grace lent her bicycle to her sister .
+!ARTICLE
+Alexander passed his wife the salt, and Victoria her husband the pepper .
+!ARTICLE
+Alexander passed his wife the salt, and Victoria the pepper to her husband .
+!ARTICLE
+Alexander passed his wife the salt, and Victoria passed her husband the pepper .
+!ARTICLE
+Alexander passed his wife the salt, and Victoria passed the pepper to her husband .
+!ARTICLE
+Jonathan bequeathed his son the land, and Rachel her daughter the mansion .
+!ARTICLE
+Jonathan bequeathed his son the land, and Rachel the mansion to her daughter .
+!ARTICLE
+Jonathan bequeathed his son the land, and Rachel bequeathed her daughter the mansion .
+!ARTICLE
+Jonathan bequeathed his son the land, and Rachel bequeathed the mansion to her daughter .
+!ARTICLE
+Christian sent his grandfather a card, and Anna her grandmother flowers .
+!ARTICLE
+Christian sent his grandfather a card, and Anna flowers to her grandmother .
+!ARTICLE
+Christian sent his grandfather a card, and Anna sent her grandmother flowers .
+!ARTICLE
+Christian sent his grandfather a card, and Anna sent flowers to her grandmother .
+!ARTICLE
+Austin promised the team a banquet, and Sydney the crew a bonus .
+!ARTICLE
+Austin promised the team a banquet, and Sydney a bonus to the crew .
+!ARTICLE
+Austin promised the team a banquet, and Sydney promised the crew a bonus .
+!ARTICLE
+Austin promised the team a banquet, and Sydney promised a bonus to the crew .
+!ARTICLE
+Dylan mailed the buyers the catalogues, and Destiny the clients the brochures .
+!ARTICLE
+Dylan mailed the buyers the catalogues, and Destiny the brochures to the clients .
+!ARTICLE
+Dylan mailed the buyers the catalogues, and Destiny mailed the clients the brochures .
+!ARTICLE
+Dylan mailed the buyers the catalogues, and Destiny mailed the brochures to the clients .
+!ARTICLE
+Ethan rented the family the house, and Morgan the couple the room .
+!ARTICLE
+Ethan rented the family the house, and Morgan the room to the couple .
+!ARTICLE
+Ethan rented the family the house, and Morgan rented the couple the room .
+!ARTICLE
+Ethan rented the family the house, and Morgan rented the room to the couple .
+!ARTICLE
+Benjamin tossed his girlfriend his wallet, and Jennifer her boyfriend her bag .
+!ARTICLE
+Benjamin tossed his girlfriend his wallet, and Jennifer her bag to her boyfriend .
+!ARTICLE
+Benjamin tossed his girlfriend his wallet, and Jennifer tossed her boyfriend her bag .
+!ARTICLE
+Benjamin tossed his girlfriend his wallet, and Jennifer tossed her bag to her boyfriend .
+!ARTICLE
+Noah sold his neighbor his bike, and Jasmine her roommate her car .
+!ARTICLE
+Noah sold his neighbor his bike, and Jasmine her car to her roommate .
+!ARTICLE
+Noah sold his neighbor his bike, and Jasmine sold her roommate her car .
+!ARTICLE
+Noah sold his neighbor his bike, and Jasmine sold her car to her roommate .
+!ARTICLE
+Samuel read his father the letter, and Haley her mother the poem .
+!ARTICLE
+Samuel read his father the letter, and Haley the poem to her mother .
+!ARTICLE
+Samuel read his father the letter, and Haley read her mother the poem .
+!ARTICLE
+Samuel read his father the letter, and Haley read the poem to her mother .
+!ARTICLE
+Robert offered the customer a discount, and Julia the guest a refund .
+!ARTICLE
+Robert offered the customer a discount, and Julia a refund to the guest .
+!ARTICLE
+Robert offered the customer a discount, and Julia offered the guest a refund .
+!ARTICLE
+Robert offered the customer a discount, and Julia offered a refund to the guest .
+!ARTICLE
+Nathan threw the boy a ball, and Kaitlyn the dog a Frisbee .
+!ARTICLE
+Nathan threw the boy a ball, and Kaitlyn a Frisbee to the dog .
+!ARTICLE
+Nathan threw the boy a ball, and Kaitlyn threw the dog a Frisbee .
+!ARTICLE
+Nathan threw the boy a ball, and Kaitlyn threw a Frisbee to the dog .
+!ARTICLE
+Cameron told his friends the story, and Nicole her parents the news .
+!ARTICLE
+Cameron told his friends the story, and Nicole the news to her parents .
+!ARTICLE
+Cameron told his friends the story, and Nicole told her parents the news .
+!ARTICLE
+Cameron told his friends the story, and Nicole told the news to her parents .
+!ARTICLE
+Kevin taught the adults English, and Amanda the children Spanish .
+!ARTICLE
+Kevin taught the adults English, and Amanda Spanish to the children .
+!ARTICLE
+Kevin taught the adults English, and Amanda taught the children Spanish .
+!ARTICLE
+Kevin taught the adults English, and Amanda taught Spanish to the children .
