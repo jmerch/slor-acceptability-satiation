@@ -57,7 +57,7 @@ def main():
         surprisals.append(surprisal)
         words.append(word.lower())
         if (word in '?.' ):
-            #print(words)
+            print(words)
             for i in range(num_words):
                 #gauss_weight = math.exp(-(i - (num_words / 2))**2)
                 inc_weight = math.exp(-i)
@@ -68,7 +68,7 @@ def main():
                 curr_total += surprisals[i]
                 #gauss_total += surprisals[i] * gauss_weight
                 weight_total += inc_weight
-                normal_total += surprisals[i] / unique_word_surprisal[words[i]]
+                normal_total += surprisals[i] / get_norm(words[i], unique_word_surprisal)
                 #gauss_weight_total += gauss_weight
             wh = wh_norm = matrix = matrix_norm = comp = comp_norm = embedded = embedded_norm = gap = gap_norm = 0
             if (sentence_id in id_to_type) and id_to_type[sentence_id] in ["WH", "CNPC", "SUBJ"]:
@@ -99,7 +99,7 @@ def main():
 def get_wh(words, surprisals, normalization_consts = None):
     if normalization_consts == None:
         return surprisals[0]
-    return surprisals[0] / normalization_consts[words[0]]
+    return surprisals[0] / get_norm(words[0], normalization_consts)
     
 def get_matrix(words, surprisals, normalization_consts = None):
     total = 0
@@ -112,7 +112,7 @@ def get_matrix(words, surprisals, normalization_consts = None):
             total += surprisals[i]
             region_size += 1
         else:
-            total += surprisals[i] / normalization_consts[words[i]]
+            total += surprisals[i] / get_norm(words[i], normalization_consts)
             region_size += 1
             
     return total / region_size
@@ -123,7 +123,7 @@ def get_comp(words, surprisals, normalization_consts = None):
         if words[i] == 'that' or words[i] == 'whether':
             if normalization_consts == None:
                 return surprisals[i]
-            return surprisals[i] / normalization_consts[words[i]]
+            return surprisals[i] / get_norm(words[i], normalization_consts)
 
 def get_embedded(words, surprisals, normalization_consts = None):
     num_words = len(words)
@@ -138,7 +138,7 @@ def get_embedded(words, surprisals, normalization_consts = None):
             if normalization_consts == None:
                 total += surprisals[i]
             else:
-                total += surprisals[i] / normalization_consts[words[i]]
+                total += surprisals[i] / get_norm(words[i], normalization_consts)
             region_size += 1
     return total / region_size
 
@@ -147,13 +147,18 @@ def get_gap(words, surprisals,  condition, normalization_consts = None):
     if condition == "WH" or condition == "CNPC":
         if (normalization_consts == None):
             return surprisals[-1]
-        return surprisals[-1] / normalization_consts[words[-1]]
+        return surprisals[-1] / get_norm(words[-1], normalization_consts)
     for i in range(1, num_words):
         if words[i] in preps:
             if normalization_consts == None:
                 return surprisals[i + 1]
-            return surprisals[i + 1] / normalization_consts[words[i + 1]]
+            return surprisals[i + 1] / get_norm(words[i + 1], normalization_consts)
     
+def get_norm(word, normalization_consts):
+    if word in normalization_consts:
+        return normalization_consts[word]
+    return normalization_consts["the"]
+
 def beyond_threshold(words, surprisals, threshold, normalization_consts = None):
     num_beyond = 0
     beyond_total = 0
@@ -162,7 +167,7 @@ def beyond_threshold(words, surprisals, threshold, normalization_consts = None):
             if (normalization_consts == None):
                 beyond_total += surprisals[i]
             else:
-                beyond_total += surprisals[i] / normalization_consts[words[i]]
+                beyond_total += surprisals[i] / get_norm(words[i], normalization_consts)
             num_beyond += 1
     if num_beyond > 0:       
         return beyond_total / num_beyond

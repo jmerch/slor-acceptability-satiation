@@ -1,0 +1,165 @@
+IV. Adjunct Islands
+
+Island Embedded
+
+	What do you frown if you forget at the office?
+	What do you laugh if you buy at the auction?
+	What do you worry if you leave in the car? 
+	What do you blush if you submit to the art contest?
+	What do you sneeze if you leave open at night?
+	What do you notice if you turn on at night?
+	What do you object if you write on the blackboard?
+	What do you complain if you keep in your office?
+
+Non-Island |	Who thinks that you forgot a briefcase at the office?
+Matrix	Who wishes that you bought a painting at the auction?
+	Who suspects that you left the keys in the car?
+	Who thinks that you will submit a drawing to the art contest?
+	Who hopes that you will leave a window open at night?
+	Who complains that you turn on the air conditioning at night?
+	Who claims that you wrote the equation on the blackboard?
+	Who proposes that you keep the copy paper in your office?
+
+Non-Island |	What do you think that you forgot at the office?
+Embedded	What do you wish that you bought at the auction?
+	What do you suspect that you left in the car?
+	What do you think that you will submit to the art contest?
+	What do you hope that I will leave open at night?
+	What do you complain that I turn on at night?
+	What do you claim that you wrote on the blackboard?
+	What do you propose that you keep in your office?
+
+Island |	Who frowns if you forget a briefcase at the office?
+Matrix	Who laughs if you buy a painting at the auction?
+	Who worries if you leave the keys in the car?
+	Who blushes if you submit a drawing to the art contest?
+	Who sneezes if you leave a window open at night?
+	Who notices if you turn the air conditioning on at night?
+	Who objects if you write the equation on the blackboard?
+	Who complains if you keep the copy paper in your office?
+
+
+
+
+
+
+
+
+I. Whether Islands
+
+Non-island |	Who thinks that you like hockey?
+Matrix	Who thinks that you wrote the letter?
+	Who thinks that you bought the house?
+	Who thinks that you ate the salad?
+	Who thinks that you read the book?
+	Who thinks that you saw the movie?
+	Who thinks that you started the rumor?
+	Who thinks that you baked the cake?
+
+Non-island |	What do you think that you like?
+Embedded	What do you think that you wrote?
+	What do you think that you bought?
+	What do you think that you ate?
+	What do you think that you read?
+	What do you think that you saw?
+	What do you think that you started?
+	What do you think that you baked?
+
+Island |	Who wonders whether you like hockey?
+Matrix	Who wonders whether you wrote the letter?
+	Who wonders whether you bought the house?
+	Who wonders whether you ate the salad?
+	Who wonders whether you read the book?
+	Who wonders whether you saw the movie?
+	Who wonders whether you started the rumor?
+	Who wonders whether you baked the cake?
+
+Island |	What do you wonder whether you like?
+Embedded	What do you wonder whether you wrote?
+	What do you wonder whether you bought?
+	What do you wonder whether you ate?
+	What do you wonder whether you read?
+	What do you wonder whether you saw?
+	What do you wonder whether you started?
+	What do you wonder whether you baked?
+
+
+II. Complex NP Islands
+
+Non-Island |	Who suggested that you play golf?
+Matrix	Who predicted that you would finish your homework?
+	Who heard that you won the award? 
+	Who denied that you could afford the house?
+	Who stated that you owned the car?
+	Who claimed that you saw the bear?
+	Who doubted that you could find the clue?
+	Who heard that I sold my house?
+
+Non-Island |	What did you suggest that I play?
+Embedded	What did you predict that you would finish?
+	What did you hear that you won?
+	What did you deny that you could afford?
+	What did you state that you owned?
+	What did you claim that you saw?
+	What did you doubt that you could find?
+	What did you hear that I sold?
+
+Island |	Who made the suggestion that you play golf?
+Matrix	Who doubted the prediction that you would finish your homework?
+	Who heard the rumor that you won the the award?
+	Who denied the fact that you could afford the house?
+	Who verified the statement that you owned the car?
+	Who made the claim that you saw the bear?
+	Who doubted the possibility that you could find the clue?
+	Who heard the rumor that I sold my house?
+
+Island |	What did you make the suggestion that I play?
+Embedded	What did you doubt the prediction that you would finish?
+	What did you hear the rumor that you won?
+	What did you deny the fact that you could afford?
+	What did you verify the statement that you owned?
+	What did you make the claim that you saw?
+	What did you doubt the possibility that you could find?
+	What did you hear the rumor that I sold?
+
+III. Subject Islands
+
+Simple NP |	What do you think the gift prompted?
+Object	What do you think the speech interrupted?
+	What do you think the meeting delayed?
+	What do you think the documentary preceded?
+	What do you think the email criticized?
+	What do you think the picture accompanied?
+	What do you think the flyer promoted?
+	What do you think the verdict started?
+
+Simple NP |	What do you think prompted the hearing?
+Subject	What do you think interrupted the TV show?
+	What do you think delayed the fundraiser?
+	What do you think preceded the movie?
+	What do you think criticized the joke?
+	What do you think accompanied the invitation?
+	What do you think promoted the play?
+	What do you think started the debate?
+
+Complex NP|	What do you think the gift from the lobbyist prompted the hearing about?  
+Object	What do you think the speech by the president interrupted the TV show about?
+	What do you think the meeting with the millionaire delayed the fundraiser for?
+	What do you think the documentary by the famous historian preceded the movie about?
+	What do you think the email from the priest criticized the joke about?
+	What do you think the picture of the bride accompanied the invitation to?
+	What do you think the flyer from the actress promoted the play about?
+	What do you think the verdict from the judge started the debate about?
+
+Complex NP|	Who do you think the gift from prompted the hearing about congressional ethics? 
+Subject	Who do you think the speech by interrupted the TV show about whales?
+	Who do you think the meeting with delayed the fundraiser for the candidate?
+	Who do you think the documentary by preceded the movie about gangsters?
+	Who do you think the email from criticized the joke about religion?
+	Who do you think the picture of accompanied the invitation to the wedding?
+	Who do you think the flyer from promoted the play about the Great Depression?
+	Who do you think the verdict from started the debate about civil rights?
+
+
+
+

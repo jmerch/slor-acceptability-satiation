@@ -1,8 +1,3 @@
-"#Data from Experiment 2 of Sprouse, Jon, Matt Wagers, & Colin Phillips. 2012. A test of the relation between working memory capacity and syntactic island effects. Language 88(1): 82-123.",,,,,,,,,,,,,,,
-#This data is provided in the spirit of open science so that other researchers can verify the analyses.,,,,,,,,,,,,,,,
-#Please contact Jon Sprouse if you would like to discuss the possibility of using this data set for novel research.,,,,,,,,,,,,,,,
-"#If you are using R to read this file, try adding skip=5 to the read function.",,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
 subject,gender,age,recall,n2,n3,n4,survey,order,condition,subdesign,structure,distance,item,raw.judgment,zscores
 1,F,19,2.2,2.48,1.81,0.67,2a,32,ADJ.isl.em,adj,island,embedded,ADJ.isl.em.03,75,-0.827690602
 1,F,19,2.2,2.48,1.81,0.67,2a,54,ADJ.isl.em,adj,island,embedded,ADJ.isl.em.07,30,-1.096939352

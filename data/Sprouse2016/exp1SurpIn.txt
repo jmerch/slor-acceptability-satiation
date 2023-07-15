@@ -1,0 +1,576 @@
+!ARTICLE
+John was kissed John .
+!ARTICLE
+He gave a book Mary .
+!ARTICLE
+The game was played shoeless .
+!ARTICLE
+John intended to give the children something nice to eat, and give the children he did a generous handful of candy .
+!ARTICLE
+The article angered Bill at the government .
+!ARTICLE
+Sarah convinced Bill to have gone to the party .
+!ARTICLE
+Cat and dog that were fighting all the time had to be separated .
+!ARTICLE
+The dog that I saw's collar was leather .
+!ARTICLE
+Steve intended to give the parents something special to commemorate graduation, and give the parents a large plaque he did .
+!ARTICLE
+There has been a man considered sick .
+!ARTICLE
+How many books there were on the table ?
+!ARTICLE
+Who do you wonder which picture of is on sale ?
+!ARTICLE
+There seems a man to be in the garden .
+!ARTICLE
+I told Mr. Smith that I wonder when to paint the fence together .
+!ARTICLE
+All the men seem to have all eaten supper .
+!ARTICLE
+Max talked to a man as tall as his father .
+!ARTICLE
+It appears that a certain senator will resign, but which senator is still a secret .
+!ARTICLE
+Read things, Mike did quickly .
+!ARTICLE
+Toby said to Sally to take care of herself .
+!ARTICLE
+Amanda went to Santa Cruz, and Bill thinks that Claire did too .
+!ARTICLE
+Ralph is more tall than fit .
+!ARTICLE
+It seems to him that Kim solved the problem .
+!ARTICLE
+It seems a man to be in the room .
+!ARTICLE
+They slept an hour and then went to work .
+!ARTICLE
+John tried to win .
+!ARTICLE
+This is a pen .
+!ARTICLE
+Each other like Wallace and Greg .
+!ARTICLE
+This is table .
+!ARTICLE
+John wants for everyone you do to have fun .
+!ARTICLE
+Who did you believe a friend of satisfied ?
+!ARTICLE
+It is unimaginable Mary to arrive on time .
+!ARTICLE
+Sue asked what who bought .
+!ARTICLE
+I called the client who the secretary worries if the lawyer insults .
+!ARTICLE
+I sympathize with the parents who the reverand sighs if the bride and groom neglect to thank .
+!ARTICLE
+I talked to the famous actor who the news reporter coughs if the tourists photograph .
+!ARTICLE
+I met the famous artist who the parents blush if the child prodigy imitates .
+!ARTICLE
+I served the child who the other customer winks if the young couple play with at the restaurant .
+!ARTICLE
+I spoke with the college president who the professor faints if the students publicly criticize .
+!ARTICLE
+I interviewed the executive who the employee laughs if the office manager blackmails .
+!ARTICLE
+I emailed the congressman who the teacher smiles if her students write letters to .
+!ARTICLE
+I called the secretary who worries if the lawyer insults the client .
+!ARTICLE
+I sympathize with the reverand who sighs if the bride and groom neglect to thank their parents .
+!ARTICLE
+I talked to the news reporter who coughs if the tourists photograph the famous actor .
+!ARTICLE
+I met the parents that blush if the child prodigy imitates the famous artist .
+!ARTICLE
+I served the customer who winks if the young couple play with their child at the restaurant .
+!ARTICLE
+I spoke with the professor who faints if the students publicly criticize the college president .
+!ARTICLE
+I interviewed the employee who laughs if the office manager blackmails an executive .
+!ARTICLE
+I emailed the teacher who smiles if her students write letters to their congressman .
+!ARTICLE
+I called the client who the secretary thought that the lawyer insulted .
+!ARTICLE
+I sympathize with the parents who the reverand believes that the bride and groom neglected to thank .
+!ARTICLE
+I talked to the famous actor who the news reporter claims that the tourists photographed .
+!ARTICLE
+I met the famous artist who the parents thought that the child prodigy imitated .
+!ARTICLE
+I served the child who the other customer believed that the young couple played with at the restaurant .
+!ARTICLE
+I spoke with the college president who the professor claims that the students publicly criticized .
+!ARTICLE
+I interviewed the executive who the employee thought that the office manager was blackmailing .
+!ARTICLE
+I emailed the congressman who the teacher said that her students were writing letters to .
+!ARTICLE
+I called the secretary who thought that the lawyer insulted the client .
+!ARTICLE
+I sympathize with the reverand who believes that the bride and groom neglected to thank their parents .
+!ARTICLE
+I talked to the news reporter who claims that the tourists photographed the famous actor .
+!ARTICLE
+I met the parents who thought that the child prodigy imitated the famous artist .
+!ARTICLE
+I served the customer who believes that the young couple played with their child at the restaurant .
+!ARTICLE
+I spoke with the professor who claims that the students publicly criticized the college president .
+!ARTICLE
+I interviewed the employee who thought that the office manager was blackmailing an executive .
+!ARTICLE
+I emailed the teacher who said that her students were writing letters to their congressman .
+!ARTICLE
+I know the boat captain who the fisherman heard the rumor that Laura is dating .
+!ARTICLE
+I trust the waiter who the chef made the suggestion that Rebecca should hire .
+!ARTICLE
+I agree with the principal who the teacher made the recommendation that Stan should talk to .
+!ARTICLE
+I believe the customer who the employee made the claim that Amy insulted .
+!ARTICLE
+I spoke to the criminal who the detective heard the rumor that Lilly could identify .
+!ARTICLE
+I trust the stock broker who the accountant made the suggestion that Ralph should contact .
+!ARTICLE
+I like the new doctor who the nurse made the recommendation that Susan should see .
+!ARTICLE
+I called teammate who the coach made the claim that Dennis pushed .
+!ARTICLE
+I know the fisherman who heard the rumor that Laura is dating the boat captain .
+!ARTICLE
+I trust the chef who made the suggestion that Rebecca should hire a new waiter .
+!ARTICLE
+I agree with the teacher who made the recommendation that Stan should talk to the principal .
+!ARTICLE
+I believe the employee who made the claim that Amy insulted the customer .
+!ARTICLE
+I spoke to the detective who heard the rumor that Lilly could identify the criminal .
+!ARTICLE
+I trust the accountant who made the suggestion that Ralph should contact a stock broker .
+!ARTICLE
+I like the nurse who made the recommendation that Susan should see a new doctor .
+!ARTICLE
+I called the coach who made the claim that Dennis pushed his teammate .
+!ARTICLE
+I know the boat captain who the fisherman heard that Laura is dating .
+!ARTICLE
+I trust the waiter who the chef suggested that Rebecca should hire .
+!ARTICLE
+I agree with the principal who the teacher recommended that Stan should talk to .
+!ARTICLE
+I believe the customer who the employee claimed that Amy insulted .
+!ARTICLE
+I spoke to the criminal who the detective heard that Lilly could identify .
+!ARTICLE
+I trust the stock broker who the accountant suggested that Ralph should contact .
+!ARTICLE
+I like the new doctor who the nurse recommended that Susan should see .
+!ARTICLE
+I called teammate who the coach claimed that Dennis pushed .
+!ARTICLE
+I know the fisherman who heard that Laura is dating the boat captain .
+!ARTICLE
+I trust the chef who suggested that Rebecca should hire a new waiter .
+!ARTICLE
+I agree with the teacher who recommended that Stan should talk to the principal .
+!ARTICLE
+I believe the employee who claimed that Amy insulted the customer .
+!ARTICLE
+I spoke to the detective who heard that Lilly could identify the criminal .
+!ARTICLE
+I trust the accountant who suggested that Ralph should contact a stock broker .
+!ARTICLE
+I like the nurse who recommended that Susan should see a new doctor .
+!ARTICLE
+I called the coach who claimed that Dennis pushed his teammate .
+!ARTICLE
+I voted for the congressman who you think the gift from prompted the rumor about bribery .
+!ARTICLE
+I met the local hero who you think the speech by interrupted the news report about the president .
+!ARTICLE
+I called the candidate who you think the meeting with delayed the fundraiser for the campaign .
+!ARTICLE
+I interviewed the soldier who you think the movie about inspired the new book about the terrorist .
+!ARTICLE
+I spoke with the priest who you think the email from criticized the joke about the Pope .
+!ARTICLE
+I respect the musician who you think the picture of accompanied the magazine article about orphans .
+!ARTICLE
+I admire the peace activist who you think the flyer from promoted the new play about refugees .
+!ARTICLE
+I spoke to the author who you think the new book about caused the complaints about violent stories .
+!ARTICLE
+I voted for the congressman who you think the gift from the lobbyist prompted the rumor about .
+!ARTICLE
+I met the local hero who you think the speech by the president interrupted the news report about .
+!ARTICLE
+I called the candidate who you think the meeting with the millionaire delayed the fundraiser for .
+!ARTICLE
+I interviewed the soldier who you think the movie about the terrorist inspired the new book about .
+!ARTICLE
+I researched the Pope who you think the email from the priest criticized the joke about .
+!ARTICLE
+I respect the musician who you think the picture of orphans accompanied the magazine article about .
+!ARTICLE
+I admire the peace activist who you think the flyer from the director promoted the new play about .
+!ARTICLE
+I spoke to the author who you think the new book about vampires caused the complaints about .
+!ARTICLE
+I voted for the congressman who you think offended the lobbyist .
+!ARTICLE
+I met the local hero who you think praised the president .
+!ARTICLE
+I called the candidate who you think supported the millionaire .
+!ARTICLE
+I interviewed the soldier who you think captured the terrorist .
+!ARTICLE
+I researched the Pope who you think criticized the priest .
+!ARTICLE
+I respect the musician who you think cares about orphans .
+!ARTICLE
+I admire the director who you think developed the new play .
+!ARTICLE
+I spoke to the author who you think complained about the censors .
+!ARTICLE
+I voted for the congressman who you think the lobbyist offended .
+!ARTICLE
+I met the local hero who you think the president praised .
+!ARTICLE
+I called the candidate who you think the millionaire supported .
+!ARTICLE
+I interviewed the soldier who you think the terrorist captured .
+!ARTICLE
+I researched the Pope who you think the priest criticized .
+!ARTICLE
+I respect the musician who you think the orphans can rely on .
+!ARTICLE
+I admire the director who you think the new playhouse hired .
+!ARTICLE
+I spoke to the author who you think the censors complained about .
+!ARTICLE
+I take classes with the struggling student who the professor wonders when Paul will tutor .
+!ARTICLE
+I respect the general who the soldier wonders how Matt will impress .
+!ARTICLE
+I dislike the home owner who the real estate agent wonders where Caroline will confront .
+!ARTICLE
+I like the talented actor who the director wonders why Tom should hire .
+!ARTICLE
+I called the principal who the teacher wonders when Christine will apologize to .
+!ARTICLE
+I negotiated with the famous band who the agent wonders where Alan will perform with .
+!ARTICLE
+I share a locker with the quarterback who the cheerleader wonders why Jessica kissed .
+!ARTICLE
+I spoke with the chef who the waiter wonders why Rachel should talk to .
+!ARTICLE
+I take classes with the professor who wonders when Paul will tutor the struggling student .
+!ARTICLE
+I respect the soldier who wonders how Matt will impress the general .
+!ARTICLE
+I dislike the real estate agent who wonders where Caroline will confront the home owner .
+!ARTICLE
+I like the director who wonders why Tom should hire the talented actor .
+!ARTICLE
+I called the teacher who wonders when Christine will apologize to the principal .
+!ARTICLE
+I negotiated with the agent who wonders where Alan will perform with the famous band .
+!ARTICLE
+I share a locker with the cheerleader who wonders why Jessica kissed the quarterback .
+!ARTICLE
+I spoke with the waiter who wonders why Rachel should talk to the chef .
+!ARTICLE
+I take classes with the struggling student who the professor thinks that Paul will tutor .
+!ARTICLE
+I respect the general who the soldier thinks that Matt will impress .
+!ARTICLE
+I dislike the home owner who the real estate agent thinks that Caroline will confront .
+!ARTICLE
+I like the talented actor who the director thinks that Tom should hire .
+!ARTICLE
+I called the principal who the teacher thinks that Christine will apologize to .
+!ARTICLE
+I negotiated with the famous band who the agent thinks that Alan will perform with .
+!ARTICLE
+I share a locker with the quarterback who the cheerleader thinks that Jessica kissed .
+!ARTICLE
+I spoke with the chef who the waiter thinks that Rachel should talk to .
+!ARTICLE
+I take classes with the professor who thinks that Paul will tutor the struggling student .
+!ARTICLE
+I respect the soldier who thinks that Matt will impress the general .
+!ARTICLE
+I dislike the real estate agent who thinks that Caroline will confront the home owner .
+!ARTICLE
+I like the director who thinks that Tom should hire the talented actor .
+!ARTICLE
+I called the teacher who thinks that Christine will apologize to the principal .
+!ARTICLE
+I negotiated with the agent who thinks that Alan will perform with the famous band .
+!ARTICLE
+I share a locker with the cheerleader who thinks that Jessica kissed the quarterback .
+!ARTICLE
+I spoke with the waiter who thinks that Rachel should talk to the chef .
+!ARTICLE
+What do you worry if the lawyer forgets at the office ?
+!ARTICLE
+What do you laugh if the heiress buys at the auction ?
+!ARTICLE
+What do you sigh if the bride and groom neglect to send promptly ?
+!ARTICLE
+What do you blush if the child prodigy submits to the art contest ?
+!ARTICLE
+What do you sneeze if the dog owner leaves open at night ?
+!ARTICLE
+What do you cough if the tourists photograph in the exhibit ?
+!ARTICLE
+What do you wink if the sweethearts share at the movies ?
+!ARTICLE
+What do you faint if the actors forget on stage ?
+!ARTICLE
+Who worries if the lawyer forgets his briefcase at the office ?
+!ARTICLE
+Who laughs if the heiress buys a painting at the auction ?
+!ARTICLE
+Who sighs if the bride and groom neglect to send a thank you note promptly ?
+!ARTICLE
+Who blushes if the child prodigy submits a drawing to the art contest ?
+!ARTICLE
+Who sneezes if the dog owner leaves a window open at night ?
+!ARTICLE
+Who coughs if the tourists photograph the priceless painting in the exhibit ?
+!ARTICLE
+Who winks if the sweethearts share popcorn at the movies ?
+!ARTICLE
+Who faints if the actors forget their lines on stage ?
+!ARTICLE
+What do you think that the lawyer forgot at the office ?
+!ARTICLE
+What do you wish that the heiress bought at the auction ?
+!ARTICLE
+What do you suspect that the bride and groom neglected to send promptly ?
+!ARTICLE
+What do you think that the child prodigy will submit to the art contest ?
+!ARTICLE
+What do you hope that the dog owner will leave open at night ?
+!ARTICLE
+What do you complain that the tourists photograph in the exhibit ?
+!ARTICLE
+What do you claim that the sweethearts share at the movies ?
+!ARTICLE
+What do you believe that the actors will forget on stage ?
+!ARTICLE
+Who thinks that the lawyer forgot his briefcase at the office ?
+!ARTICLE
+Who wishes that the heiress bought a painting at the auction ?
+!ARTICLE
+Who suspects that the bride and groom neglected to send a thank you note promptly ?
+!ARTICLE
+Who thinks that the child prodigy will submit a drawing to the art contest ?
+!ARTICLE
+Who hopes that the dog owner will leave a window open at night ?
+!ARTICLE
+Who complains that the tourists photograph the priceless painting in the exhibit ?
+!ARTICLE
+Who claims that the sweethearts share popcorn at the movies ?
+!ARTICLE
+Who believes that the actors will forget their lines on stage ?
+!ARTICLE
+What did you hear the rumor that Jeff baked ?
+!ARTICLE
+What did you deny the fact that Laura ate ?
+!ARTICLE
+What did you make the announcement that Andrew won ?
+!ARTICLE
+What did you make the announcement that Jane lost ?
+!ARTICLE
+What did you make the claim that Amy stole ?
+!ARTICLE
+What did you hear the rumor that Ralph received ?
+!ARTICLE
+What did you deny the fact that Jared could afford ?
+!ARTICLE
+What did you make the claim that Elizabeth joined ?
+!ARTICLE
+Who heard the rumor that Jeff baked a pie ?
+!ARTICLE
+Who denied the fact that Lauraate the cookie ?
+!ARTICLE
+Who made the announcement that Andrew won the match ?
+!ARTICLE
+Who made the announcement that Jane lost the game ?
+!ARTICLE
+Who made the claim that Amy stole the pizza ?
+!ARTICLE
+Who heard the rumor that Ralph received the award ?
+!ARTICLE
+Who denied the fact that Jared could afford the car ?
+!ARTICLE
+Who made the claim that Elizabeth joined the club ?
+!ARTICLE
+What did you hear that Jeff baked ?
+!ARTICLE
+What did you deny that Laura ate ?
+!ARTICLE
+What did you announce that Andrew won ?
+!ARTICLE
+What did you announce that Jane lost ?
+!ARTICLE
+What did you claim that Amy stole ?
+!ARTICLE
+What did you hear that Ralph received ?
+!ARTICLE
+What did you deny that Jared could afford ?
+!ARTICLE
+What did you claim that Elizabeth joined ?
+!ARTICLE
+Who heard that Jeff baked a pie ?
+!ARTICLE
+Who denied that Laura ate the cookie ?
+!ARTICLE
+Who announced that Andrew won the match ?
+!ARTICLE
+Who announced that Jane lost the game ?
+!ARTICLE
+Who claimed that Amy stole the pizza ?
+!ARTICLE
+Who heard that Ralph received the award ?
+!ARTICLE
+Who denied that Jared could afford the car ?
+!ARTICLE
+Who claimed that Elizabeth joined the club ?
+!ARTICLE
+Who do you think the gift from prompted the rumor about the senator ?
+!ARTICLE
+Who do you think the speech by interrupted the news report about the mayor ?
+!ARTICLE
+Who do you think the meeting with delayed the fundraiser for the candidate ?
+!ARTICLE
+Who do you think the documentary about inspired the song by Adele ?
+!ARTICLE
+Who do you think the email from criticized the joke about the Pope ?
+!ARTICLE
+Who do you think the picture of accompanied the magazine article about Avril Lavigne ?
+!ARTICLE
+Who do you think the flyer from promoted the play about Abraham Lincoln ?
+!ARTICLE
+Who do you think the review by praised the book about Martin Luther King Jr ?
+!ARTICLE
+Who do you think the gift from the lobbyist prompted the rumor about ?
+!ARTICLE
+Who do you think the speech by the president interrupted the news report about ?
+!ARTICLE
+Who do you think the meeting with the millionaire delayed the fundraiser for ?
+!ARTICLE
+Who do you think the documentary about the famous actor inspired the new song by ?
+!ARTICLE
+Who do you think the email from the priest criticized the joke about ?
+!ARTICLE
+Who do you think the picture of Chad Krueger accompanied the magazine article about ?
+!ARTICLE
+Who do you think the flyer from the actress promoted the play about ?
+!ARTICLE
+Who do you think the review by the critic praised the book about ?
+!ARTICLE
+What do you think prompted the rumor ?
+!ARTICLE
+What do you think interrupted the news report ?
+!ARTICLE
+What do you think delayed the fundraiser ?
+!ARTICLE
+What do you think inspired the new song ?
+!ARTICLE
+What do you think criticized the joke ?
+!ARTICLE
+What do you think accompanied the article ?
+!ARTICLE
+What do you think promoted the play ?
+!ARTICLE
+What do you think started the debate ?
+!ARTICLE
+What do you think the gift prompted ?
+!ARTICLE
+What do you think the speech interrupted ?
+!ARTICLE
+What do you think the meeting delayed ?
+!ARTICLE
+What do you think the documentary inspired ?
+!ARTICLE
+What do you think the email criticized ?
+!ARTICLE
+What do you think the picture accompanied ?
+!ARTICLE
+What do you think the flyer promoted ?
+!ARTICLE
+What do you think the verdict started ?
+!ARTICLE
+What does the detective wonder whether Paul stole ?
+!ARTICLE
+What does the police officer wonder whether Matt chased ?
+!ARTICLE
+What does the manager wonder whether Tom sold ?
+!ARTICLE
+What does the soldier wonder whether Stacey wrote ?
+!ARTICLE
+What does the agent wonder whether Aaron bought ?
+!ARTICLE
+What does the teacher wonder whether George read ?
+!ARTICLE
+What does the girl wonder whether Heather saw ?
+!ARTICLE
+What does the guest wonder whether Casey baked ?
+!ARTICLE
+Who wonders whether Paul stole the necklace ?
+!ARTICLE
+Who wonders whether Matt chased the bus ?
+!ARTICLE
+Who wonders whether Tom sold the television ?
+!ARTICLE
+Who wonders whether Stacey wrote the letter ?
+!ARTICLE
+Who wonders whether Aaron bought the house ?
+!ARTICLE
+Who wonders whether George read the book ?
+!ARTICLE
+Who wonders whether Heather saw the movie ?
+!ARTICLE
+Who wonders whether Casey baked the cake ?
+!ARTICLE
+What does the detective think that Paul stole ?
+!ARTICLE
+What does the police officer think that Matt chased ?
+!ARTICLE
+What does the manager think that Tom sold ?
+!ARTICLE
+What does the soldier think that Stacey wrote ?
+!ARTICLE
+What does the agent think that Aaron bought ?
+!ARTICLE
+What does the teacher think that George read ?
+!ARTICLE
+What does the girl think that Heather saw ?
+!ARTICLE
+What does the guest think that Casey baked ?
+!ARTICLE
+Who thinks that Paul stole the necklace ?
+!ARTICLE
+Who thinks that Matt chased the bus ?
+!ARTICLE
+Who thinks that Tom sold the television ?
+!ARTICLE
+Who thinks that Stacey wrote the letter ?
+!ARTICLE
+Who thinks that Aaron bought the house ?
+!ARTICLE
+Who thinks that George read the book ?
+!ARTICLE
+Who thinks that Heather saw the movie ?
+!ARTICLE
+Who thinks that Casey baked the cake ?

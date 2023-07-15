@@ -1,8 +1,3 @@
-"#Data from Sprouse, Jon, Ivano Caponigro, Ciro Greco, & Carlo Cecchetto. 2016. Experimental syntax and the variation of island effects in English and Italian. Natural Language and Linguistic Theory 34: 307-344.",,,,,,,,,,
-#This data is provided in the spirit of open science so that other researchers can verify the analyses.,,,,,,,,,,
-#Please contact Jon Sprouse if you would like to discuss the possibility of using this data set for novel research.,,,,,,,,,,
-"#If you are using R to read this file, try adding skip=5 to the read function.",,,,,,,,,,
-,,,,,,,,,,
 subject,survey,order,judgment,item,condition,zscores,dependency,island,structure,distance
 A15EZJS1DROADE,1.3,13,1,F.1.UG,F.1.UG,-2.677619051,filler,filler,filler,filler
 A1948V3S82RNX5,1.2,17,1,F.1.UG,F.1.UG,-1.188566717,filler,filler,filler,filler
