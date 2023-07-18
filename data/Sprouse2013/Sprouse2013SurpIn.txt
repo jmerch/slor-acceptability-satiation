@@ -1,0 +1,4464 @@
+!ARTICLE
+Kerry attempted to study physics .
+!ARTICLE
+Jimmy attempted to weave a basket .
+!ARTICLE
+Brittany attempted to touch the porcupine .
+!ARTICLE
+Frank attempted to eat a triple fudge sundae .
+!ARTICLE
+Kat attempted to keep her mail .
+!ARTICLE
+Phillip attempted to watch a movie .
+!ARTICLE
+Vivian attempted to write stories .
+!ARTICLE
+Tommy attempted to take a picture .
+!ARTICLE
+He seems to that Kim solved the problem .
+!ARTICLE
+They appear to that Chris is the right person for the job .
+!ARTICLE
+She seems to that Garrett should be punished for lying .
+!ARTICLE
+I appear to that Data is an unsafe driver .
+!ARTICLE
+I seem to that Robert can't be trusted .
+!ARTICLE
+She appears to that Kyle cheated on his homework .
+!ARTICLE
+They seem to that Sandra hates cooking .
+!ARTICLE
+He appears to that Erin enjoys swimming .
+!ARTICLE
+It seems to him that Kim solved the problem .
+!ARTICLE
+It appears to them that Chris is the right person for the job .
+!ARTICLE
+It seems to her that Garrett should be punished for lying .
+!ARTICLE
+It appears to me that Dana is an unsafe driver .
+!ARTICLE
+It seems to me that Robert can't be trusted .
+!ARTICLE
+It appears to her that Kyle cheated on his homework .
+!ARTICLE
+It seems to them that Sandra hates cooking .
+!ARTICLE
+It appears to him that Erin enjoys swimming .
+!ARTICLE
+Ginny remembered to bring the beer .
+!ARTICLE
+Thomas tried to stop the thief .
+!ARTICLE
+Susan attempted to perform a backflip .
+!ARTICLE
+Bobby planned to attend college .
+!ARTICLE
+Sarah hoped to go to the party .
+!ARTICLE
+Scott intended to run for class president .
+!ARTICLE
+Vanessa refused to take out the garbage .
+!ARTICLE
+Michael managed to drive his car .
+!ARTICLE
+Gino believed Rebecca to be the best .
+!ARTICLE
+Anthony believed Dawn to be intelligent .
+!ARTICLE
+Charlene believed Shawn to be helpful .
+!ARTICLE
+Marty believed Carla to be trustworthy .
+!ARTICLE
+Jessica believed Brad to be vain .
+!ARTICLE
+Charles believed Faith to be unhappy .
+!ARTICLE
+Lacey believed John to be jealous .
+!ARTICLE
+Victor believed Dana to be the youngest .
+!ARTICLE
+Sarah convinced Bill that he would go to the party .
+!ARTICLE
+Joe convinced Sue that she would eat her lunch .
+!ARTICLE
+Juan convinced Maria that she would finish her shopping .
+!ARTICLE
+Betty convinced Fred that he would wash the car .
+!ARTICLE
+Cindy convinced Charles that he would go to the bank .
+!ARTICLE
+Debra convinced Elliot that he would wash the dishes .
+!ARTICLE
+Elaine convinced Francis that he would take a shower .
+!ARTICLE
+Mindy convinced George that he would finish the novel .
+!ARTICLE
+Ginny remembered to have bought the beer .
+!ARTICLE
+Thomas tried to have stopped the thief .
+!ARTICLE
+Susan attempted to have performed a backflip .
+!ARTICLE
+Bobby planned to have attended college .
+!ARTICLE
+Sarah hoped to have gone to the party .
+!ARTICLE
+Scott intended to have run for class president .
+!ARTICLE
+Vanessa refused to have taken out the garbage .
+!ARTICLE
+Michael managed to have driven his car .
+!ARTICLE
+Sarah convinced Bill to have gone to the party .
+!ARTICLE
+Joe convinced Sue to have eaten her lunch .
+!ARTICLE
+Juan convinced Maria to have finished her shopping .
+!ARTICLE
+Betty convinced Fred to have washed the car .
+!ARTICLE
+Cindy convinced Charles to have gone to the bank .
+!ARTICLE
+Debra convinced Elliot to have washed the dishes .
+!ARTICLE
+Elaine convinced Francis to have taken a shower .
+!ARTICLE
+Mindy convinced George to have finished the novel .
+!ARTICLE
+Sarah convinced Bill that he will have gone to the party by the time he goes to bed this evening .
+!ARTICLE
+Celia convinced Brad that he will have eaten dinner by the time she gets home .
+!ARTICLE
+Benny convinced Cindy that she will have gotten dressed by the time he wakes up .
+!ARTICLE
+Cameron convinced Velma that she will have finished her coffee by the time the place closes .
+!ARTICLE
+Judy convinced Edith that she will have forgotten about Rick by the time Christmas comes around .
+!ARTICLE
+Jan convinced Emile that he will have gotten better by the time he has to go to school .
+!ARTICLE
+The father convinced the mother that she will have forgiven her daughter by the time she comes home for a visit .
+!ARTICLE
+The principal convinced the teacher that he will have finished grading before he goes on vacation .
+!ARTICLE
+Sarah convinced Bill that he would have gone to the party by the time he goes to bed this evening .
+!ARTICLE
+Celia convinced Brad that he would have eaten dinner by the time she gets home .
+!ARTICLE
+Benny convinced Cindy that she would have gotten dressed by the time he wakes up .
+!ARTICLE
+Cameron convinced Velma that she would have finished her coffee by the time the place closes .
+!ARTICLE
+Judy convinced Edith that she would have forgotten about Rick by the time Christmas comes around .
+!ARTICLE
+Jan convinced Emile that he would have gotten better by the time he has to go to school .
+!ARTICLE
+The father convinced the mother that she would have forgiven her daughter by the time she comes home for a visit .
+!ARTICLE
+The principal convinced the teacher that he would have finished grading before he goes on vacation .
+!ARTICLE
+Sarah saw pictures of .
+!ARTICLE
+Jimmy saw baskets of .
+!ARTICLE
+Brittany touched plenty of .
+!ARTICLE
+Frank ate mountains of .
+!ARTICLE
+Kat kept tons of .
+!ARTICLE
+Phillip saw movies of .
+!ARTICLE
+Vivian wrote stories of .
+!ARTICLE
+Tommy pictured memories of .
+!ARTICLE
+Gino believed Rebecca to win the game .
+!ARTICLE
+Anthony believed Dawn to hit the ball .
+!ARTICLE
+Charlene believed Shawn to write the paper .
+!ARTICLE
+Marty believed Carla to fix the computer .
+!ARTICLE
+Jessica believed Brad to start the car .
+!ARTICLE
+Charles believed Faith to smash the bag .
+!ARTICLE
+Lacey believed John to eat the food .
+!ARTICLE
+Victor believed Dana to throw the trash .
+!ARTICLE
+John believes without a doubt that his team will win .
+!ARTICLE
+Emma thought for a moment that her friend was at the door .
+!ARTICLE
+Bill heard from Sarah that their boss was fired .
+!ARTICLE
+Ashley suggested to Michael that he should throw a party .
+!ARTICLE
+Thomas read in the paper that the stock market crashed .
+!ARTICLE
+Jessica saw on the news that Michael Jackson died .
+!ARTICLE
+David learned from the internet that Lindsay Lohan is back in rehab .
+!ARTICLE
+Amanda hinted to Jack that there will be a pop quiz on Monday .
+!ARTICLE
+John believes without a doubt his team will win .
+!ARTICLE
+Emma thought for a moment her friend was at the door .
+!ARTICLE
+Bill heard from Sarah their boss was fired .
+!ARTICLE
+Ashley suggested to Michael he should throw a party .
+!ARTICLE
+Thomas read in the paper the stock market crashed .
+!ARTICLE
+Jessica saw on the news Michael Jackson died .
+!ARTICLE
+David learned from the internet Lindsay Lohan is back in rehab .
+!ARTICLE
+Amanda hinted to Jack there will be a pop quiz on Monday .
+!ARTICLE
+It is illegal for one to criticize the government .
+!ARTICLE
+It is not wise for one to skip class .
+!ARTICLE
+It is important for one to sleep regularly .
+!ARTICLE
+It is suspicious for one to wear black .
+!ARTICLE
+It is silly for one to sing in the shower .
+!ARTICLE
+It is possible for one to fix past mistakes .
+!ARTICLE
+It is normal for one to be afraid of the dentist .
+!ARTICLE
+It is unfair for one to judge the less fortunate .
+!ARTICLE
+It is illegal one to criticize the government .
+!ARTICLE
+It is not wise one to skip class .
+!ARTICLE
+It is important one to sleep regularly .
+!ARTICLE
+It is suspicious one to wear black .
+!ARTICLE
+It is silly one to sing in the shower .
+!ARTICLE
+It is possible one to fix past mistakes .
+!ARTICLE
+It is normal one to be afraid of the dentist .
+!ARTICLE
+It is unfair one to judge the less fortunate .
+!ARTICLE
+My belief that Kim is clever is sincere .
+!ARTICLE
+The thought that Brian is inept is accurate .
+!ARTICLE
+The announcement that Michelle is retiring surprised the office .
+!ARTICLE
+My discovery that Nick is a liar disappointed Miranda .
+!ARTICLE
+The expectation that Lauren will graduate is reasonable .
+!ARTICLE
+My suspicion that Adam is cheating is based on evidence .
+!ARTICLE
+Your assumption that Kelly is lying offended her mother .
+!ARTICLE
+Your allegation that Eric is untrustworthy is biased .
+!ARTICLE
+My belief Kim is clever is sincere .
+!ARTICLE
+The thought Brian is inept is accurate .
+!ARTICLE
+The announcement Michelle is retiring surprised the office .
+!ARTICLE
+My discovery Nick is a liar disappointed Miranda .
+!ARTICLE
+The expectation Lauren will graduate is reasonable .
+!ARTICLE
+My suspicion Adam is cheating is based on evidence .
+!ARTICLE
+Your assumption Kelly is lying offended her mother .
+!ARTICLE
+Your allegation Eric is untrustworthy is biased .
+!ARTICLE
+How likely to win the race is John ?
+!ARTICLE
+How likely to get the promotion is Elizabeth ?
+!ARTICLE
+How likely to win the election is Kristin ?
+!ARTICLE
+How likely to buy the car is Sam ?
+!ARTICLE
+How likely to sell the house is Diane ?
+!ARTICLE
+How likely to pass the class is Alex ?
+!ARTICLE
+How likely to break the record is Ellen ?
+!ARTICLE
+How likely to take the job is Nancy ?
+!ARTICLE
+How likely to be a riot is there ?
+!ARTICLE
+How likely to be a meeting is there ?
+!ARTICLE
+How likely to be a strike is there ?
+!ARTICLE
+How likely to be a party is there ?
+!ARTICLE
+How likely to be a stock market crash is there ?
+!ARTICLE
+How likely to be a storm is there ?
+!ARTICLE
+How likely to be an earthquake is there ?
+!ARTICLE
+How likely to be a tornado is there ?
+!ARTICLE
+John is believed to have parked here .
+!ARTICLE
+Linda is certain to have passed the test .
+!ARTICLE
+Steven is likely to have gone for a walk .
+!ARTICLE
+Maria is bound to have finished her homework .
+!ARTICLE
+Eddie seems to have painted the portrait .
+!ARTICLE
+Kelsey appears to have left early .
+!ARTICLE
+Dylan seems to have written the computer program .
+!ARTICLE
+Carla appears to have graduated high school .
+!ARTICLE
+John is illegal to park here .
+!ARTICLE
+Linda is possible to pass the test .
+!ARTICLE
+Steven is necessary to go for a walk .
+!ARTICLE
+Maria is important to finish her homework .
+!ARTICLE
+Eddie was tried to paint the portrait .
+!ARTICLE
+Kelsey was attempted to leave early .
+!ARTICLE
+Dylan was planned to write the computer program .
+!ARTICLE
+Carla was hoped to graduate high school .
+!ARTICLE
+" Don't touch that dial !" suggested abruptly the TV screen .
+!ARTICLE
+" Wait one moment please ! " asked kindly the voice recording .
+!ARTICLE
+" This just in ! " interrupted hastily the radio announcer .
+!ARTICLE
+" Ready , aim , fire ! " directed strictly the army sergeant .
+!ARTICLE
+" Click it or Ticket ! " flashed brightly the freeway sign .
+!ARTICLE
+" Stop bullying me ! " shouted fearfully the overweight child .
+!ARTICLE
+" Touchdown ! " screamed excitedly the football fan .
+!ARTICLE
+" Clear ! " exclaimed worriedly the doctor .
+!ARTICLE
+"Don't touch that dial !" suggested the TV screen abruptly .
+!ARTICLE
+" Wait one moment please ! " asked the voice recording kindly .
+!ARTICLE
+" This just in ! " interrupted the radio announcer hastily .
+!ARTICLE
+" Ready , aim , fire ! " directed the army sergeant strictly .
+!ARTICLE
+" Click it or Ticket ! " flashed the freeway sign brightly .
+!ARTICLE
+" Stop bullying me ! " shouted the overweight child fearfully .
+!ARTICLE
+" Touchdown ! " screamed the football fan excitedly .
+!ARTICLE
+" Clear ! " exclaimed the doctor worriedly .
+!ARTICLE
+Debbie ate chocolate , and Kathy milk drank .
+!ARTICLE
+Ryan read the sports page , and Sandra the news watched .
+!ARTICLE
+Jack washed the dishes , and Kate the laundry folded .
+!ARTICLE
+Laura set the table , and Sharon the cake baked .
+!ARTICLE
+Mark turned on the TV , and Penny the DVD player loaded .
+!ARTICLE
+Jason drove his car , and Tara her bike rode .
+!ARTICLE
+Andy ordered a cheeseburger , and Bill another drink requested .
+!ARTICLE
+Heather dusted the shelves , and Madison the carpet vacuumed .
+!ARTICLE
+Debbie ate chocolate , and Kathy drank milk .
+!ARTICLE
+Ryan read the sports page , and Sandra watched the news .
+!ARTICLE
+Jack washed the dishes , and Kate folded the laundry .
+!ARTICLE
+Laura set the table , and Sharon baked the cake .
+!ARTICLE
+Mark turned on the TV , and Penny loaded the DVD player .
+!ARTICLE
+Jason drove his car , and Tara rode her bike .
+!ARTICLE
+Andy ordered a cheeseburger , and Bill requested another drink .
+!ARTICLE
+Heather dusted the shelves , and Madison vacuumed the carpet .
+!ARTICLE
+Was kissed John .
+!ARTICLE
+Was fired Marcie .
+!ARTICLE
+Was hired Linda .
+!ARTICLE
+Was suspended Dale .
+!ARTICLE
+Was congratulated Caroline .
+!ARTICLE
+Was scolded Steve .
+!ARTICLE
+Was interviewed Hillary .
+!ARTICLE
+Was insulted Annie .
+!ARTICLE
+John was kissed John .
+!ARTICLE
+The book was read the book .
+!ARTICLE
+The laundry was folded the laundry .
+!ARTICLE
+The money was stolen the money .
+!ARTICLE
+The hedges were trimmed the hedges .
+!ARTICLE
+Kelly was praised Kelly .
+!ARTICLE
+Tommy was punished Tommy .
+!ARTICLE
+Abigail was promoted Abigail .
+!ARTICLE
+Mary drove Rio and John flew to Sao Paulo .
+!ARTICLE
+Luke swam the shore and Gabrielle swam to the boat .
+!ARTICLE
+Angela biked the store and Sean walked to the park .
+!ARTICLE
+Daniel jogged the gym and Kayla walked to the restaurant .
+!ARTICLE
+Beth hitchhiked Los Angeles and Robert drove to San Diego .
+!ARTICLE
+Paul flew Ireland and Laura sailed to Greece .
+!ARTICLE
+Shannon walked school and Corey biked to practice .
+!ARTICLE
+Mark sailed the Caribbean and Cathy flew to the Mediterranean .
+!ARTICLE
+Mary drove to Rio and John flew to Sao Paulo .
+!ARTICLE
+Luke swam to the shore and Gabrielle swam to the boat .
+!ARTICLE
+Angela biked to the store and Sean walked to the park .
+!ARTICLE
+Daniel jogged to the gym and Kayla walked to the restaurant .
+!ARTICLE
+Beth hitchhiked to Los Angeles and Robert drove to San Diego .
+!ARTICLE
+Paul flew to Ireland and Laura sailed to Greece .
+!ARTICLE
+Shannon walked to school and Corey biked to practice .
+!ARTICLE
+Mark sailed to the Caribbean and Cathy flew to the Mediterranean .
+!ARTICLE
+They all have left and they have all done so deliberately .
+!ARTICLE
+They all have eaten and they have all done so quickly .
+!ARTICLE
+They all have finished and they have all done so efficiently .
+!ARTICLE
+They all have helped and they have all done so generously .
+!ARTICLE
+They all have practiced and they have all done so regularly .
+!ARTICLE
+They all have studied and they have all done so effectively .
+!ARTICLE
+They all have spoken and they have all done so eloquently .
+!ARTICLE
+They all have listened and they have all done so intently .
+!ARTICLE
+They all have left and they have done all so deliberately .
+!ARTICLE
+They all have eaten and they have done all so quickly .
+!ARTICLE
+They all have finished and they have done all so efficiently .
+!ARTICLE
+They all have helped and they have done all so generously .
+!ARTICLE
+They all have practiced and they have done all so regularly .
+!ARTICLE
+They all have studied and they have done all so effectively .
+!ARTICLE
+They all have spoken and they have done all so eloquently .
+!ARTICLE
+They all have listened and they have done all so intently .
+!ARTICLE
+Chris is happy , and Pat does so too .
+!ARTICLE
+Frank is foolish , and Alexis does so too .
+!ARTICLE
+Artemis is grumpy , and Toni does so too .
+!ARTICLE
+Arty is sick , and Mark does so too .
+!ARTICLE
+Joanne is jealous , and Annie does so too .
+!ARTICLE
+Fritz is uncomfortable , and Frannie does so too .
+!ARTICLE
+Clive is nervous , and Kirsten does so too .
+!ARTICLE
+Orin is skinny , and Jamal does so too .
+!ARTICLE
+Chris is happy , and Pat is too .
+!ARTICLE
+Frank is foolish , and Alexis is too .
+!ARTICLE
+Artemis is grumpy , and Toni is too .
+!ARTICLE
+Arty is sick , and Mark is too .
+!ARTICLE
+Joanne is jealous , and Annie is too .
+!ARTICLE
+Fritz is uncomfortable , and Frannie is too .
+!ARTICLE
+Clive is nervous , and Kirsten is too .
+!ARTICLE
+Orin is skinny , and Jamal is too .
+!ARTICLE
+Max may have been studying , but Jason may have been doing so too .
+!ARTICLE
+Tiffany may have been reading , but Melissa may have been doing so too .
+!ARTICLE
+Derek may have been sleeping , but Travis may have been doing so too .
+!ARTICLE
+Kate may have been driving , but Rebecca may have been doing so too .
+!ARTICLE
+David may have been skiing , but William may have been doing so too .
+!ARTICLE
+Cecilia may have been dancing , but Ariel may have been doing so too .
+!ARTICLE
+Richard may have been hiding , but Blake may have been doing so too .
+!ARTICLE
+Alicia may have been shopping , but Sally may have been doing so too .
+!ARTICLE
+Max may have been studying , but Jason may have done so too .
+!ARTICLE
+Tiffany may have been reading , but Melissa may have done so too .
+!ARTICLE
+Derek may have been sleeping , but Travis may have done so too .
+!ARTICLE
+Kate may have been driving , but Rebecca may have done so too .
+!ARTICLE
+David may have been skiing , but William may have done so too .
+!ARTICLE
+Cecilia may have been dancing , but Ariel may have done so too .
+!ARTICLE
+Richard may have been hiding , but Blake may have done so too .
+!ARTICLE
+Alicia may have been shopping , but Sally may have done so too .
+!ARTICLE
+John flattered Mary while insulting herself .
+!ARTICLE
+Amber called Anthony after injuring himself .
+!ARTICLE
+Tim complimented Hannah after introducing herself .
+!ARTICLE
+Tina aggravated Ethan while amusing himself .
+!ARTICLE
+Natalie surprised Jared while boring himself .
+!ARTICLE
+Dale found Brooke after frightening herself .
+!ARTICLE
+Molly avoided Keith after embarrassing himself .
+!ARTICLE
+Josh annoyed Paige while distracting herself .
+!ARTICLE
+John flattered Mary while insulting himself .
+!ARTICLE
+Amber called Anthony after injuring herself .
+!ARTICLE
+Tim complimented Hannah after introducing himself .
+!ARTICLE
+Tina aggravated Ethan while amusing herself .
+!ARTICLE
+Natalie surprised Jared while boring herself .
+!ARTICLE
+Dale found Brooke after frightening himself .
+!ARTICLE
+Molly avoided Keith after embarrassing herself .
+!ARTICLE
+Josh annoyed Paige while distracting himself .
+!ARTICLE
+Last night there was an attempt to shoot oneself .
+!ARTICLE
+Last month there was a plan to promote oneself .
+!ARTICLE
+Last week there was a request to transfer oneself .
+!ARTICLE
+Last year there was a proposal to fire oneself .
+!ARTICLE
+Last Monday there was a plot to annoy oneself .
+!ARTICLE
+Last Tuesday there was an agreement to replace oneself .
+!ARTICLE
+Last weekend there was a suggestion to uninvite oneself .
+!ARTICLE
+Last Friday there was an order to transfer oneself .
+!ARTICLE
+Last night there was an attempt to shoot me .
+!ARTICLE
+Last month there was a plan to promote me .
+!ARTICLE
+Last week there was a request to transfer me .
+!ARTICLE
+Last year there was a proposal to fire me .
+!ARTICLE
+Last Monday there was a plot to annoy me .
+!ARTICLE
+Last Tuesday there was an agreement to replace me .
+!ARTICLE
+Last weekend there was a suggestion to uninvite me .
+!ARTICLE
+Last Friday there was an order to transfer me .
+!ARTICLE
+Helen examined Bernie in order for us to vindicate herself .
+!ARTICLE
+Nathan called Samantha in order for us to amuse himself .
+!ARTICLE
+Austin left instructions in order for us to help himself .
+!ARTICLE
+Emma brought video games in order for us to distract herself .
+!ARTICLE
+Allison bought board games in order for us to entertain herself .
+!ARTICLE
+Edward created a website in order for us to promote himself .
+!ARTICLE
+Cynthia threw a party in order for us to establish herself .
+!ARTICLE
+Gary interrupted the conversation in order for us to introduce himself .
+!ARTICLE
+Helen examined Bernie in order for us to vindicate ourselves .
+!ARTICLE
+Nathan called Samantha in order for us to amuse ourselves .
+!ARTICLE
+Austin left instructions in order for us to help ourselves .
+!ARTICLE
+Emma brought video games in order for us to distract ourselves .
+!ARTICLE
+Allison bought board games in order for us to entertain ourselves .
+!ARTICLE
+Edward created a website in order for us to promote ourselves .
+!ARTICLE
+Cynthia threw a party in order for us to establish ourselves .
+!ARTICLE
+Gary interrupted the conversation in order for us to introduce ourselves .
+!ARTICLE
+John's promise to Susan to take care of herself .
+!ARTICLE
+Erica's vow to Matt to take care of himself .
+!ARTICLE
+Ryan's offer to Susan to take care of herself .
+!ARTICLE
+Natalie's guarantee to Robert to take care of himself .
+!ARTICLE
+Ethan's obligation to Patricia to take care of herself .
+!ARTICLE
+Debbie's pledge to Jason to take care of himself .
+!ARTICLE
+Carl's pledge to Jenny to take care of herself .
+!ARTICLE
+Melissa's pledge to Dan to take care of himself .
+!ARTICLE
+John's promise to Susan to take care of himself .
+!ARTICLE
+Erica's vow to Matt to take care of herself .
+!ARTICLE
+Ryan's offer to Susan to take care of himself .
+!ARTICLE
+Natalie's guarantee to Robert to take care of herself .
+!ARTICLE
+Ethan's obligation to Patricia to take care of himself .
+!ARTICLE
+Debbie's pledge to Jason to take care of herself .
+!ARTICLE
+Carl's pledge to Jenny to take care of himself .
+!ARTICLE
+Melissa's pledge to Dan to take care of herself .
+!ARTICLE
+Toby said to Sally to take care of himself .
+!ARTICLE
+Veronica shouted to Nathan to look after herself .
+!ARTICLE
+Christopher yelled to April to protect himself .
+!ARTICLE
+Stacey screamed to Anthony to cover herself .
+!ARTICLE
+Brent signaled to Samantha to excuse himself .
+!ARTICLE
+Amy said to Shane to entertain herself .
+!ARTICLE
+Eric shouted to Maria to believe in himself .
+!ARTICLE
+Tania signaled to Frank to behave herself .
+!ARTICLE
+Toby said to Sally to take care of herself .
+!ARTICLE
+Veronica shouted to Nathan to look after himself .
+!ARTICLE
+Christopher yelled to April to protect herself .
+!ARTICLE
+Stacey screamed to Anthony to cover himself .
+!ARTICLE
+Brent signaled to Samantha to excuse herself .
+!ARTICLE
+Amy said to Shane to entertain himself .
+!ARTICLE
+Eric shouted to Maria to believe in herself .
+!ARTICLE
+Tania signaled to Frank to behave himself .
+!ARTICLE
+Jack asked Sally to be allowed to take care of herself .
+!ARTICLE
+Beth begged Peter to be allowed to take care of himself .
+!ARTICLE
+Dean requested Michelle to be allowed to take care of herself .
+!ARTICLE
+Eva beseeched Luke to be allowed to take care of himself .
+!ARTICLE
+Helen pleaded with Kyle to be allowed to take care of himself .
+!ARTICLE
+Jake prayed to mother nature to be allowed to take care of herself .
+!ARTICLE
+Katie asked Greg to be allowed to take care of himself .
+!ARTICLE
+Leonard begged Jennifer to be allowed to take care of herself .
+!ARTICLE
+Jack asked Sally to be allowed to take care of himself .
+!ARTICLE
+Beth begged Peter to be allowed to take care of herself .
+!ARTICLE
+Dean requested Michelle to be allowed to take care of himself .
+!ARTICLE
+Eva beseeched Luke to be allowed to take care of herself .
+!ARTICLE
+Helen pleaded with Kyle to be allowed to take care of herself .
+!ARTICLE
+Jake prayed to mother nature to be allowed to take care of himself .
+!ARTICLE
+Katie asked Greg to be allowed to take care of herself .
+!ARTICLE
+Leonard begged Jennifer to be allowed to take care of himself .
+!ARTICLE
+John tried to win .
+!ARTICLE
+Kelly attempted to run the marathon .
+!ARTICLE
+William planned to write a novel .
+!ARTICLE
+Linda remembered to pick-up the dry cleaning .
+!ARTICLE
+Peter hoped to find a date .
+!ARTICLE
+Patricia agreed to host the party .
+!ARTICLE
+Alex started to study Karate .
+!ARTICLE
+Cindy struggled to finish her homework .
+!ARTICLE
+John tried himself to win .
+!ARTICLE
+Kelly attempted herself to run the marathon .
+!ARTICLE
+William planned himself to write a novel .
+!ARTICLE
+Linda remembered herself to pick-up the dry cleaning .
+!ARTICLE
+Peter hoped himself to find a date .
+!ARTICLE
+Patricia agreed herself to host the party .
+!ARTICLE
+Alex started himself to study Karate .
+!ARTICLE
+Cindy struggled herself to finish her homework .
+!ARTICLE
+He saw Mary and kissed .
+!ARTICLE
+She ran into Spencer and asked out .
+!ARTICLE
+He thought of Sarah and contacted .
+!ARTICLE
+She called Victor and yelled at .
+!ARTICLE
+He followed Brenda and confronted .
+!ARTICLE
+She chased Phillip and insulted .
+!ARTICLE
+He grabbed Ryan and tackled .
+!ARTICLE
+She invited Briana and ignored .
+!ARTICLE
+He saw Mary and kissed her .
+!ARTICLE
+She ran into Spencer and asked him out .
+!ARTICLE
+He thought of Sarah and contacted her .
+!ARTICLE
+She called Victor and yelled at him .
+!ARTICLE
+He followed Brenda and confronted her .
+!ARTICLE
+She chased Phillip and insulted him .
+!ARTICLE
+He grabbed Ryan and tackled him .
+!ARTICLE
+She invited Briana and ignored her .
+!ARTICLE
+There has been a moose shot in the woods .
+!ARTICLE
+There has been a necklace stolen from the jewelry store .
+!ARTICLE
+There has been a new governor elected in California .
+!ARTICLE
+There has been an announcement made in the newspaper .
+!ARTICLE
+There has been another story written about the new healthcare law .
+!ARTICLE
+There has been a treaty signed between Israel and Palestine .
+!ARTICLE
+There has been a deal reached between the two parties .
+!ARTICLE
+There has been a verdict issued about the new marriage law .
+!ARTICLE
+There has been shot a moose in the woods .
+!ARTICLE
+There has been stolen a necklace from the jewelry store .
+!ARTICLE
+There has been elected a new governor in California .
+!ARTICLE
+There has been made an announcement in the newspaper .
+!ARTICLE
+There has been written another story about the new healthcare law .
+!ARTICLE
+There has been signed a treaty between Israel and Palestine .
+!ARTICLE
+There has been reached a deal between the two parties .
+!ARTICLE
+There has been issued a verdict about the new marriage law .
+!ARTICLE
+There has been a man considered sick .
+!ARTICLE
+There has been a suspect considered guilty .
+!ARTICLE
+There has been a student considered dangerous .
+!ARTICLE
+There has been a criminal considered insane .
+!ARTICLE
+There has been a woman considered desperate .
+!ARTICLE
+There has been a man considered violent .
+!ARTICLE
+There has been a dog considered noisy .
+!ARTICLE
+There has been a book considered obscene .
+!ARTICLE
+There has been considered a man sick .
+!ARTICLE
+There has been considered a suspect guilty .
+!ARTICLE
+There has been considered a student dangerous .
+!ARTICLE
+There has been considered a criminal insane .
+!ARTICLE
+There has been considered a woman desperate .
+!ARTICLE
+There has been considered a man violent .
+!ARTICLE
+There has been considered a dog noisy .
+!ARTICLE
+There has been considered a book obscene .
+!ARTICLE
+He gave Mary a book .
+!ARTICLE
+She baked Jason a pie .
+!ARTICLE
+He sent his mother a card .
+!ARTICLE
+She wrote her boyfriend a poem .
+!ARTICLE
+He served the guests the wine .
+!ARTICLE
+She taught the students math .
+!ARTICLE
+He offered Annie a loan .
+!ARTICLE
+She picked Matt some flowers .
+!ARTICLE
+He gave a book Mary .
+!ARTICLE
+She baked a pie Jason .
+!ARTICLE
+He sent a card his mother .
+!ARTICLE
+She wrote a poem her boyfriend .
+!ARTICLE
+He served the wine the guests .
+!ARTICLE
+She taught math the students .
+!ARTICLE
+He offered a loan Annie .
+!ARTICLE
+She picked some flowers Matt .
+!ARTICLE
+We proclaimed to the public John to be a hero .
+!ARTICLE
+We proved to the authorities Susan to be the thief .
+!ARTICLE
+We believed with all our hearts Ben to be innocent .
+!ARTICLE
+We alleged to the police Carrie to be guilty .
+!ARTICLE
+We proclaimed in the newspaper Ralph to be generous .
+!ARTICLE
+We proved to the manager Amelia to be responsible .
+!ARTICLE
+We believed without hesitation Kenneth to be trustworthy .
+!ARTICLE
+We alleged to the judge Ellen to be a liar .
+!ARTICLE
+I expected there three men .
+!ARTICLE
+We consider there three problems .
+!ARTICLE
+Jack expects there flowers .
+!ARTICLE
+Mrs Price expects there a cake .
+!ARTICLE
+Mr Simpson considers there danger .
+!ARTICLE
+Ms Wiggins expected there fireworks .
+!ARTICLE
+Mr Telford expected there trouble .
+!ARTICLE
+Miss Warrington expects there a party .
+!ARTICLE
+I expected there to be three men .
+!ARTICLE
+We consider there to be three problems .
+!ARTICLE
+Jack expects there to be flowers .
+!ARTICLE
+Mrs Price expects there to be a cake .
+!ARTICLE
+Mr Simpson considers there to be danger .
+!ARTICLE
+Ms Wiggins expected there to be fireworks .
+!ARTICLE
+Mr Telford expected there to be trouble .
+!ARTICLE
+Miss Warrington expects there to be a party .
+!ARTICLE
+We proclaimed John to the public to be a hero .
+!ARTICLE
+We proved Susan to the authorities to be the thief .
+!ARTICLE
+We believed Ben with all our hearts to be innocent .
+!ARTICLE
+We alleged Carrie to the police to be guilty .
+!ARTICLE
+We proclaimed Ralph in the newspaper to be generous .
+!ARTICLE
+We proved Amelia to the manager to be responsible .
+!ARTICLE
+We believed Kenneth without hesitation to be trustworthy .
+!ARTICLE
+We alleged Ellen to the judge to be a liar .
+!ARTICLE
+What under no circumstances should he do ?
+!ARTICLE
+What at no time did he touch ?
+!ARTICLE
+Who in no way did they mean to criticize ?
+!ARTICLE
+How much time off in no month should you take ?
+!ARTICLE
+What during no storm should people leave on ?
+!ARTICLE
+What under no circumstances will the curator permit visitors to do ?
+!ARTICLE
+What at no time were the patrons aware of ?
+!ARTICLE
+What in no way did my parents intend to turn me into ?
+!ARTICLE
+Under no circumstances should he leave .
+!ARTICLE
+At no time did he touch the artwork .
+!ARTICLE
+In no way did they mean to criticize the president .
+!ARTICLE
+In no month should you take more than three days off .
+!ARTICLE
+During no storm should people leave their computers on .
+!ARTICLE
+Under no circumstances will the curator permit visitors to take pictures .
+!ARTICLE
+At no time were the patrons aware of the disturbance .
+!ARTICLE
+In no way did my parents intend to turn me into a geek .
+!ARTICLE
+Who the hell is in love with who ?
+!ARTICLE
+Who the hell asked who out ?
+!ARTICLE
+Who the hell kissed who ?
+!ARTICLE
+Who the hell screamed at who ?
+!ARTICLE
+Who the hell called who ?
+!ARTICLE
+Who the hell brought who to the party ?
+!ARTICLE
+Who the hell hugged who ?
+!ARTICLE
+Who the hell insulted who ?
+!ARTICLE
+Who is in love with who the hell ?
+!ARTICLE
+Who asked who the hell out ?
+!ARTICLE
+Who kissed who the hell ?
+!ARTICLE
+Who screamed at who the hell ?
+!ARTICLE
+Who called who the hell ?
+!ARTICLE
+Who brought who the hell to the party ?
+!ARTICLE
+Who hugged who the hell ?
+!ARTICLE
+Who insulted who the hell ?
+!ARTICLE
+John didn't give Mary a red cent .
+!ARTICLE
+The millionaire didn't leave the hospital a red cent .
+!ARTICLE
+Shelly didn't loan Mark a red cent .
+!ARTICLE
+The customer didn't pay the store a red cent .
+!ARTICLE
+Pete didn't offer Blake a red cent .
+!ARTICLE
+The government didn't send the citizens a red cent .
+!ARTICLE
+Clare didn't promise Rita a red cent .
+!ARTICLE
+The bank didn't refund the customers a red cent .
+!ARTICLE
+John didn't give every charity a red cent .
+!ARTICLE
+The millionaire didn't leave every hospital a red cent .
+!ARTICLE
+Shelly didn't loan every business a red cent .
+!ARTICLE
+The customer didn't pay every store a red cent .
+!ARTICLE
+Pete didn't offer every politician a red cent .
+!ARTICLE
+The government didn't send every citizen a red cent .
+!ARTICLE
+Clare didn't promise every employee a red cent .
+!ARTICLE
+The bank didn't refund every customer a red cent .
+!ARTICLE
+I visited a city yesterday near the city that John did .
+!ARTICLE
+Josie read a book last week like the book that Cindy did .
+!ARTICLE
+Sandy watched a show last night like the show that Wilson did .
+!ARTICLE
+Jody drove a car five years ago like the car that Ryan did .
+!ARTICLE
+She decided on a plan two days ago like the plan that Gregory did .
+!ARTICLE
+Joan bought a last year house next to the house that Erin did .
+!ARTICLE
+We found a dog last month like the dog that Nathan did .
+!ARTICLE
+I received a gift two weeks ago like the gift that Aaron did .
+!ARTICLE
+I visited a city near the city yesterday that John did .
+!ARTICLE
+Josie read a book like the book last week that Cindy did .
+!ARTICLE
+Sandy watched a show like the show last night that Wilson did .
+!ARTICLE
+Jody drove a car like the car five years ago that Ryan did .
+!ARTICLE
+She decided on a plan like the plan two days ago that Gregory did .
+!ARTICLE
+Joan bought a house next to the house last year that Erin did .
+!ARTICLE
+We found a dog like the dog last month that Nathan did .
+!ARTICLE
+I received a gift like the gift two weeks ago that Aaron did .
+!ARTICLE
+I told you that Bill when we met will come to the party .
+!ARTICLE
+I said that Sean at the meeting should organize the fundraiser .
+!ARTICLE
+I believed that the quarterback before the game would break the passing record .
+!ARTICLE
+I heard that Kelly from a friend cheated on her boyfriend .
+!ARTICLE
+I read that Lindsay in the newspaper stole a necklace .
+!ARTICLE
+I wrote that Thomas in an email would administer the exam .
+!ARTICLE
+I posted that Congress on a website should cut taxes .
+!ARTICLE
+I suggested that Laura when we dated should cut her hair .
+!ARTICLE
+I told you when we met that Bill will come to the party .
+!ARTICLE
+I said at the meeting that Sean should organize the fundraiser .
+!ARTICLE
+I believed before the game that the quarterback would break the passing record .
+!ARTICLE
+I heard from a friend that Kelly cheated on her boyfriend .
+!ARTICLE
+I read in the newspaper that Lindsay stole a necklace .
+!ARTICLE
+I wrote in an email that Thomas would administer the exam .
+!ARTICLE
+I posted on a website that Congress should cut taxes .
+!ARTICLE
+I suggested when we dated that Laura should cut her hair .
+!ARTICLE
+John wants for everyone you do to have fun .
+!ARTICLE
+Dana hopes for everyone you do to succeed .
+!ARTICLE
+Lewis intends for everyone you do to be happy .
+!ARTICLE
+Melanie prefers for everyone you do to get a raise .
+!ARTICLE
+Kyle expects for everyone you do to be honest .
+!ARTICLE
+Sophia is anxious for everyone you do to arrive .
+!ARTICLE
+Ben is hopeful for everyone you do to attend .
+!ARTICLE
+Valerie is excited for everyone you do to graduate .
+!ARTICLE
+John wants for everyone to have fun that you do .
+!ARTICLE
+Dana hopes for everyone to succeed that you do .
+!ARTICLE
+Lewis intends for everyone to be happy that you do .
+!ARTICLE
+Melanie prefers for everyone to get a raise that you do .
+!ARTICLE
+Kyle expects for everyone to be honest that you do .
+!ARTICLE
+Sophia is anxious for everyone to arrive that you are .
+!ARTICLE
+Ben is hopeful for everyone to attend that you are .
+!ARTICLE
+Valerie is excited for everyone to graduate that you are .
+!ARTICLE
+John believes to be sick .
+!ARTICLE
+Naomi judged to be incompetent .
+!ARTICLE
+The judge acknowledged to be an expert .
+!ARTICLE
+The detective assumed to be guilty .
+!ARTICLE
+The governor declared to be innocent .
+!ARTICLE
+Katie revealed to be a liar .
+!ARTICLE
+Mike believes to be a genius .
+!ARTICLE
+Larry took to be honest .
+!ARTICLE
+John believes Mary to be sick .
+!ARTICLE
+Naomi judged Veronica to be incompetent .
+!ARTICLE
+The judge acknowledged Rick to be an expert .
+!ARTICLE
+The detective assumed Ron to be guilty .
+!ARTICLE
+The governor declared Steve to be innocent .
+!ARTICLE
+Katie revealed Vincent to be a liar .
+!ARTICLE
+Mike believes Phil to be a genius .
+!ARTICLE
+Larry took Monica to be honest .
+!ARTICLE
+The politician was bribed to avoid the draft .
+!ARTICLE
+The flowers were planted to attract hummingbirds .
+!ARTICLE
+The safe was locked to protect the jewels .
+!ARTICLE
+The executive was fired to appease the shareholders .
+!ARTICLE
+The cupcakes were baked to celebrate her birthday .
+!ARTICLE
+The dent was repaired to cover up the accident .
+!ARTICLE
+The monument was constructed to commemorate the victory .
+!ARTICLE
+The warehouse was demolished to build new apartments .
+!ARTICLE
+The politician bribes easily to avoid the draft .
+!ARTICLE
+The flowers plant seasonally to attract hummingbirds .
+!ARTICLE
+The safe locks often to protect the jewels .
+!ARTICLE
+The executive fires quickly to appease the shareholders .
+!ARTICLE
+The cupcakes bake nicely to celebrate her birthday .
+!ARTICLE
+The dent repairs easily to cover up the accident .
+!ARTICLE
+The monument constructs impressively to commemorate the victory .
+!ARTICLE
+The warehouse demolishes well to build new apartments .
+!ARTICLE
+The bureaucrat was bribed deliberately .
+!ARTICLE
+The victim was deceived intentionally .
+!ARTICLE
+The employee was fired reluctantly .
+!ARTICLE
+The patient was examined carefully .
+!ARTICLE
+The waitress was insulted frequently .
+!ARTICLE
+The vase was painted carelessly .
+!ARTICLE
+The book was written truthfully .
+!ARTICLE
+The package was handled clumsily .
+!ARTICLE
+The bureaucrat bribes deliberately .
+!ARTICLE
+The victim deceives intentionally .
+!ARTICLE
+The employee fires reluctantly .
+!ARTICLE
+The patient examines carefully .
+!ARTICLE
+The waitress insults frequently .
+!ARTICLE
+The vase paints carelessly .
+!ARTICLE
+The book writes truthfully .
+!ARTICLE
+The package handles clumsily .
+!ARTICLE
+The student was arrested .
+!ARTICLE
+The bureaucrat was bribed deliberately .
+!ARTICLE
+The victim was deceived intentionally .
+!ARTICLE
+The employee was fired reluctantly .
+!ARTICLE
+The patient was examined carefully .
+!ARTICLE
+The waitress was insulted frequently .
+!ARTICLE
+The vase was painted carelessly .
+!ARTICLE
+The book was written truthfully .
+!ARTICLE
+The was arrested student .
+!ARTICLE
+The was bribed bureaucrat deliberately .
+!ARTICLE
+The was deceived victim intentionally .
+!ARTICLE
+The was fired employee reluctantly .
+!ARTICLE
+The was examined patientcarefully .
+!ARTICLE
+The was insulted waitress frequently .
+!ARTICLE
+The was painted vase carelessly .
+!ARTICLE
+The was written book truthfully .
+!ARTICLE
+Yesterday seemed that John left .
+!ARTICLE
+Friday appeared that Maude went home early .
+!ARTICLE
+Next week seems that Juan will be in town .
+!ARTICLE
+Monday appears that Juanita was running late .
+!ARTICLE
+Tomorrow seems that there will be a hurricane .
+!ARTICLE
+Tonight appears that Marjorie is staying over .
+!ARTICLE
+Last week seemed that everyone was calling in sick .
+!ARTICLE
+Next week appears that the strikers will be back to work .
+!ARTICLE
+It seemed that yesterday John left .
+!ARTICLE
+It appeared that Friday Maude went home early .
+!ARTICLE
+It seems that next week Juan will be in town .
+!ARTICLE
+It appears that Monday Juanita was running late .
+!ARTICLE
+It seems that tomorrow there will be a hurricane .
+!ARTICLE
+It appears that tonight Marjorie is staying over .
+!ARTICLE
+It seemed that last week everyone was calling in sick .
+!ARTICLE
+It appears that next week the strikers will be back to work .
+!ARTICLE
+Deciding which movie to see next makes John very happy .
+!ARTICLE
+Picking which book to read next gives Larry a lot of pleasure .
+!ARTICLE
+Choosing which restaurant to visit next gives Dana a headache .
+!ARTICLE
+Selecting which class to take next causes Laura stress .
+!ARTICLE
+Selecting which song to play at the concert makes Tim feel important .
+!ARTICLE
+Choosing which museum to see next makes Caroline very excited .
+!ARTICLE
+Picking which suit to wear in the morning makes Helen late to work .
+!ARTICLE
+Deciding which rollercoaster to ride next gives Josh an adrenaline rush .
+!ARTICLE
+Deciding who to see that new movie next makes very happy .
+!ARTICLE
+Picking who to read that new book next gives a lot of pleasure .
+!ARTICLE
+Choosing who to visit that new restaurant next gives a headache .
+!ARTICLE
+Selecting who to take that new class next causes stress .
+!ARTICLE
+Selecting who to play that new song at the concert makes feel important .
+!ARTICLE
+Choosing who to visit that new museum next makes very excited .
+!ARTICLE
+Picking who to wear that new suit in the morning makes late to work .
+!ARTICLE
+Deciding who to ride that new rollercoaster next gives an adrenaline rush .
+!ARTICLE
+Anyone better leave town .
+!ARTICLE
+Anyone better play soccer .
+!ARTICLE
+Anyone better make dinner .
+!ARTICLE
+Anyone better come home .
+!ARTICLE
+Anyone better evacuate the building .
+!ARTICLE
+Anyone better run the marathon .
+!ARTICLE
+Anyone better fly the plane .
+!ARTICLE
+Anyone better sing the national anthem .
+!ARTICLE
+Someone better leave town .
+!ARTICLE
+Someone better play soccer .
+!ARTICLE
+Someone better make dinner .
+!ARTICLE
+Someone better come home .
+!ARTICLE
+Someone better evacuate the building .
+!ARTICLE
+Someone better run the marathon .
+!ARTICLE
+Someone better fly the plane .
+!ARTICLE
+Someone better sing the national anthem .
+!ARTICLE
+What did John wonder what he bought ?
+!ARTICLE
+What did Maria wonder what he cooked for dinner ?
+!ARTICLE
+Who did Tasha wonder who she invited to the party ?
+!ARTICLE
+What did Dane wonder what she wants for her birthday ?
+!ARTICLE
+Who did Kelly wonder who Brian is taking to the prom ?
+!ARTICLE
+What did Peter wonder what Carl wants form the grocery store ?
+!ARTICLE
+What did Courtney wonder what Sharon will wear on her date ?
+!ARTICLE
+What did Ethan wonder what Jack would say about the scandal ?
+!ARTICLE
+John wondered what he bought .
+!ARTICLE
+Maria wondered what he cooked for dinner .
+!ARTICLE
+Tasha wondered who she invited to the party .
+!ARTICLE
+Dane wondered what she wants for her birthday .
+!ARTICLE
+Kelly wondered who Brian is taking to the prom .
+!ARTICLE
+Peter wondered what Carl wants from the grocery store .
+!ARTICLE
+Courtney wondered what Sharon will wear on her date .
+!ARTICLE
+Ethan wondered what Jack would say about the scandal .
+!ARTICLE
+Which book did you file before reading ?
+!ARTICLE
+Which appetizer did you taste before serving ?
+!ARTICLE
+Which car did you crash after buying ?
+!ARTICLE
+Which coworker did George compliment before insulting ?
+!ARTICLE
+Which candidate did Nicole complain about after voting for ?
+!ARTICLE
+Which book did you lose before finishing ?
+!ARTICLE
+Which shirt did you buy without trying on ?
+!ARTICLE
+Which song did you download without recognizing ?
+!ARTICLE
+Which book did you sleep before reading ?
+!ARTICLE
+Which appetizer did you cough before serving ?
+!ARTICLE
+Which car did you worry after buying ?
+!ARTICLE
+Which coworker did George yawn before insulting ?
+!ARTICLE
+Which candidate did Nicole swim after voting for ?
+!ARTICLE
+Which book did you resign before finishing ?
+!ARTICLE
+Which shirt did you laugh without trying on ?
+!ARTICLE
+Which song did you nap without recognizing ?
+!ARTICLE
+Who did you see steal the wallet ?
+!ARTICLE
+Who did they see tag the wall ?
+!ARTICLE
+Who did she hear insult the manager ?
+!ARTICLE
+Who did we hear scream at the neighbors ?
+!ARTICLE
+Who did she see punch Alex ?
+!ARTICLE
+Who did I see hug Natalie ?
+!ARTICLE
+Who did they see take the cookie ?
+!ARTICLE
+Who did you see cut the wire ?
+!ARTICLE
+Who was seen steal the wallet ?
+!ARTICLE
+Who was seen tag the wall ?
+!ARTICLE
+Who was heard insult the manager ?
+!ARTICLE
+Who was heard scream at the neighbors ?
+!ARTICLE
+Who was seen punch Alex ?
+!ARTICLE
+Who was seen hug Natalie ?
+!ARTICLE
+Who was seen take the cookie ?
+!ARTICLE
+Who was seen cut the wire ?
+!ARTICLE
+There are linguists tall .
+!ARTICLE
+There are fishermen proud .
+!ARTICLE
+There are books thick .
+!ARTICLE
+There are leaves green .
+!ARTICLE
+There are firemen brave .
+!ARTICLE
+There are programs difficult .
+!ARTICLE
+There are laptops heavy .
+!ARTICLE
+There are trucks large .
+!ARTICLE
+There are linguists available .
+!ARTICLE
+There are fisherman sick .
+!ARTICLE
+There are books accessible .
+!ARTICLE
+There are leaves burnt .
+!ARTICLE
+There are firemen injured .
+!ARTICLE
+There are programs offered .
+!ARTICLE
+There are laptops turned on .
+!ARTICLE
+There are trucks lined up .
+!ARTICLE
+The children almost all are sleeping .
+!ARTICLE
+The students in this class almost all are passing .
+!ARTICLE
+The chefs in this restaurant almost all are French .
+!ARTICLE
+The employees almost all are working diligently .
+!ARTICLE
+The players almost all are injured .
+!ARTICLE
+The girls almost all are wearing pink .
+!ARTICLE
+The doctors almost all are wealthy .
+!ARTICLE
+The boys almost all are interested in playing football .
+!ARTICLE
+The children are almost all sleeping .
+!ARTICLE
+The students in this class are almost all passing .
+!ARTICLE
+The chefs in this restaurant are almost all French .
+!ARTICLE
+The employees are almost all working diligently .
+!ARTICLE
+The players are almost all injured .
+!ARTICLE
+The girls are almost all wearing pink .
+!ARTICLE
+The doctors are almost all wealthy .
+!ARTICLE
+The boys are almost all interested in playing football .
+!ARTICLE
+What do you worry if the lawyer forgets at the office ?
+!ARTICLE
+What do you laugh if the heiress buys at the auction ?
+!ARTICLE
+What do you worry if the boss leaves in the car ?
+!ARTICLE
+What do you blush if the child prodigy submits to the art contest ?
+!ARTICLE
+What do you sneeze if the dog owner leaves open at night ?
+!ARTICLE
+What do you notice if the neighbor turns on at night ?
+!ARTICLE
+What do you object if the janitor erases from the blackboard ?
+!ARTICLE
+What do you complain if the office manager keeps in her office ?
+!ARTICLE
+What do you think that the lawyer forgot at the office ?
+!ARTICLE
+What do you wish that the heiress bought at the auction ?
+!ARTICLE
+What do you suspect that the boss left in the car ?
+!ARTICLE
+What do you think that the child prodigy will submit to the art contest ?
+!ARTICLE
+What do you hope that the dog owner will leave open at night ?
+!ARTICLE
+What do you complain that the neighbor turns on at night ?
+!ARTICLE
+What do you claim that the janitor erased from the blackboard ?
+!ARTICLE
+What do you propose that the office manager keep in her office ?
+!ARTICLE
+It appears that a certain senator will resign , but which senator is still a secret .
+!ARTICLE
+It seems that a certain official will divulge the information , but which official is still a mystery .
+!ARTICLE
+It seems that one of the employees will steal , but which employee is still not known .
+!ARTICLE
+It seems that a certain student will cheat , but which student is still unknown .
+!ARTICLE
+It appears that a certain player will leave the team , but which player is still a secret .
+!ARTICLE
+It appears that one of the contestants will win , but which contestant is still anybody's guess .
+!ARTICLE
+It appears that a one of the criminals will confess , but which criminal is still unknown .
+!ARTICLE
+It seems likely that a well-known celebrity will attend , but which celebrity is still a mystery .
+!ARTICLE
+She said that a biography of one of the Marx brothers is going to be published this year , but I don't remember which .
+!ARTICLE
+Kathryn said that a picture of one of the founders is going to be posted at the end of the month , but I don't remember which .
+!ARTICLE
+Jamie mentioned that a scene from one of the films is going to be shown this Thursday , but I don't remember which .
+!ARTICLE
+Alan said that a poster of one of the models is going to be hung by the end of the day , but I don't remember which .
+!ARTICLE
+Daniel said that a scene from one of the plays is going to be reenacted at the performance this Friday , but I don't remember which .
+!ARTICLE
+The professor said that the score of one the assignments is going to be posted online by the end of the day , but I don't remember which .
+!ARTICLE
+Karen said that one of the workers is going to get promoted at the end of the month , but I don't remember which .
+!ARTICLE
+Alex said that a recording of one of the songs is going to be played at the event , but I don't remember which .
+!ARTICLE
+It appears that a certain senator will resign , but which senator it does is still a secret .
+!ARTICLE
+It seems that a certain official will divulge the information , but which official it does is still a mystery .
+!ARTICLE
+It seems that one of the employees will steal , but which employee it does is still not known .
+!ARTICLE
+It seems that a certain student will cheat , but which student it does is still unknown .
+!ARTICLE
+It appears that a certain player will leave the team , but which player it does is still a secret .
+!ARTICLE
+It appears that one of the contestants will win , but which contestant it does is still anybody's guess .
+!ARTICLE
+It appears that a one of the criminals will confess , but which criminal it does is still unknown .
+!ARTICLE
+It seems likely that a well-known celebrity will attend , but which celebrity it does is still a mystery .
+!ARTICLE
+She said that a biography of one of the Marx brothers is going to be published this year , but I don't remember which she did .
+!ARTICLE
+Kathryn said that a picture of one of the founders is going to be posted at the end of the month , but I don't remember which she did .
+!ARTICLE
+Jamie mentioned that a scene from one of the films is going to be shown this Thursday , but I don't remember which she did .
+!ARTICLE
+Alan said that a poster of one of the models is going to be hung by the end of the day , but I don't remember which she did .
+!ARTICLE
+Daniel said that a scene from one of the plays is going to be reenacted at the performance this Friday , but I don't remember which he did .
+!ARTICLE
+The professor said that the score of one the assignments is going to be posted online by the end of the day , but I don't remember which he did .
+!ARTICLE
+Karen said that one of the workers is going to get promoted at the end of the month , but I don't remember which she did .
+!ARTICLE
+Alex said that a recording of one of the songs is going to be played at the event , but I don't remember which he did .
+!ARTICLE
+They said they heard about a Balkan language , but I don't know which Balkan language .
+!ARTICLE
+Monica said she saw one of your videos on the internet , but I'm not sure which video .
+!ARTICLE
+Steven said he read about a new hybrid car , but I don't know which car .
+!ARTICLE
+Benjamin said he noticed a suspicious-looking man by the school , but I don't know which man .
+!ARTICLE
+Melissa said she read about one of Shakespeare's plays , but I don't know which play .
+!ARTICLE
+Oliver said he read about an interesting Supreme Court case , but I don't know which case .
+!ARTICLE
+Jose said he dreamt about one of his High School classes , but I don't know which class .
+!ARTICLE
+Brandon said he requested one of the tutors , but I don't which tutor .
+!ARTICLE
+They said they heard about a Balkan language , but I don't know which Balkan language they did .
+!ARTICLE
+Monica said she saw one of your videos on the internet , but I'm not sure which video she did .
+!ARTICLE
+Steven said he read about a new hybrid car , but I don't know which car he did .
+!ARTICLE
+Benjamin said he noticed a suspicious-looking man by the school , but I don't know which man he did .
+!ARTICLE
+Melissa said she read about one of Shakespeare's plays , but I don't know which play she did .
+!ARTICLE
+Oliver said he read about an interesting Supreme Court case , but I don't know which case he did .
+!ARTICLE
+Jose said he dreamt about one of his High School classes , but I don't know which class he did .
+!ARTICLE
+Brandon said he requested one of the tutors , but I don't which tutor he did .
+!ARTICLE
+Wallace and Greg like each other .
+!ARTICLE
+Matthew and Jennifer hugged each other .
+!ARTICLE
+Stephanie and Christopher hurt each other .
+!ARTICLE
+Amber and William saw each other .
+!ARTICLE
+Eric and Amy found each other .
+!ARTICLE
+Kelly and Aaron love each other .
+!ARTICLE
+Richard and Christine hate each other .
+!ARTICLE
+Shannon and Dustin surprised each other .
+!ARTICLE
+Each other like Wallace and Greg .
+!ARTICLE
+Each other hugged Matthew and Jennifer .
+!ARTICLE
+Each other hurt Stephanie and Christopher .
+!ARTICLE
+Each other saw Amber and William .
+!ARTICLE
+Each other found Eric and Amy .
+!ARTICLE
+Each other love Kelly and Aaron .
+!ARTICLE
+Each other hate Richard and Christine .
+!ARTICLE
+Each other surprised Shannon and Dustin .
+!ARTICLE
+The students were punished and their teachers by their parents .
+!ARTICLE
+The first-time racers were defeated and the amateur racers by the professional racers .
+!ARTICLE
+The volunteers were appreciated and the interns by the doctors .
+!ARTICLE
+The children were cared for and the teenagers by the adults .
+!ARTICLE
+The poor were overlooked and the bankers by the politicians .
+!ARTICLE
+The directors were impressed and the singers by the dancers .
+!ARTICLE
+The smugglers were arrested and the coastguard by the police .
+!ARTICLE
+The employees were overworked and the executives by the managers .
+!ARTICLE
+The students were punished by their parents and their teachers .
+!ARTICLE
+The first-time racers were defeated by the professional racers and the amateur racers .
+!ARTICLE
+The volunteers were appreciated by the doctors and the interns .
+!ARTICLE
+The children were cared for by the adults and the teenagers .
+!ARTICLE
+The poor were overlooked by the politicians and the bankers .
+!ARTICLE
+The directors were impressed by the dancers and singers .
+!ARTICLE
+The smugglers were arrested by the police and the coastguard .
+!ARTICLE
+The employees were overworked by the managers and the executives .
+!ARTICLE
+I gave nothing to anybody .
+!ARTICLE
+Our professor gave no extensions to any students .
+!ARTICLE
+My boss gave no opportunities to any employees .
+!ARTICLE
+Monica gives no money to any strangers .
+!ARTICLE
+The trainer gives no treats to any dogs .
+!ARTICLE
+My parents give no donations to any charities .
+!ARTICLE
+Eloise gives no presents to any friends .
+!ARTICLE
+The government gives no help to any poor people .
+!ARTICLE
+I gave anything to nobody .
+!ARTICLE
+Our professor gave any extensions to no students .
+!ARTICLE
+My boss gave any opportunities to no employees .
+!ARTICLE
+Monica gives any money to no strangers .
+!ARTICLE
+The trainer gives any treats to no dogs .
+!ARTICLE
+My parents give any donations to no charities .
+!ARTICLE
+Eloise gives any presents to no friends .
+!ARTICLE
+The government gives any help to no poor people .
+!ARTICLE
+Wallace gave at breakfast time his favorite pet beagle an enormous chewy dog-biscuit .
+!ARTICLE
+Susan gave at lunch time her son a large tasty bologna sandwich .
+!ARTICLE
+Chris gave at dinner time his wife a nice big anniversary present .
+!ARTICLE
+Karen gave at breakfast time her friend a huge delicious plate of waffles .
+!ARTICLE
+Thomas gave at lunch time his employee a huge generous raise .
+!ARTICLE
+Angela gave at dinner time her youngest daughter a cute pink pair of earrings .
+!ARTICLE
+Sabrina gave at breakfast time her elderly mother a beautiful new coffee mug .
+!ARTICLE
+Mark gave at lunch time his girlfriend an expensive high tech phone .
+!ARTICLE
+Wallace gave his favorite pet beagle an enormous chewy dog-biscuit at breakfast time .
+!ARTICLE
+Susan gave her son a large tasty bologna sandwich at lunch time .
+!ARTICLE
+Chris gave his wife a nice big anniversary present at dinner time .
+!ARTICLE
+Karen gave her friend a huge delicious plate of waffles at breakfast time .
+!ARTICLE
+Thomas gave his employee a huge generous raise at lunch time .
+!ARTICLE
+Angela gave her youngest daughter a cute pink pair of earrings at dinner time .
+!ARTICLE
+Sabrina gave her elderly mother a beautiful new coffee mug at breakfast time .
+!ARTICLE
+Mark gave his girlfriend an expensive high tech phone at lunch time .
+!ARTICLE
+John promised Mary to leave , and Sue did to write more poetry .
+!ARTICLE
+Courtney tried to read more Shakespeare , and Zachary did to study more chemistry .
+!ARTICLE
+Scott attempted to eat more vegetables , and Erin did to run more laps .
+!ARTICLE
+Allison forgot to practice her violin , and Carl did to finish his homework .
+!ARTICLE
+Leon intended to exercise , and Eli did to watch a movie .
+!ARTICLE
+Kelsey hoped to win the marathon , and Christian did to win the tennis tournament .
+!ARTICLE
+Julian learned to drive , and Rita did to compose music .
+!ARTICLE
+Natalie refused to bike to work , and Gabrielle did to drive .
+!ARTICLE
+John promised Mary to leave , and Sue promised to write more poetry .
+!ARTICLE
+Courtney tried to read more Shakespeare , and Zachary tried to study more chemistry .
+!ARTICLE
+Scott attempted to eat more vegetables , and Erin attempted to run more laps .
+!ARTICLE
+Allison forgot to practice her violin , and Carl forgot to finish his homework .
+!ARTICLE
+Leon intended to exercise , and Eli intended to watch a movie .
+!ARTICLE
+Kelsey hoped to win the marathon , and Christian hoped to win the tennis tournament .
+!ARTICLE
+Julian learned to drive , and Rita learned to compose music .
+!ARTICLE
+Natalie refused to bike to work , and Gabrielle refused to drive .
+!ARTICLE
+Wendy stood more buckets than Peter did in the garage .
+!ARTICLE
+John put more books than Bill did on the table .
+!ARTICLE
+Sarah gave more children than Susan did candy .
+!ARTICLE
+Greg put more onions than Lana did in the soup .
+!ARTICLE
+Dwayne gave more charities than Frieda did money .
+!ARTICLE
+The instructor put more solutions than the TA did on the board .
+!ARTICLE
+The farmer gave more horses than the farmhand did oats .
+!ARTICLE
+The maid put more towels than the butler did in the bathroom .
+!ARTICLE
+Wendy stood more buckets in the garage than Peter did in the basement .
+!ARTICLE
+John put more books on the table than Bill did on the floor .
+!ARTICLE
+Sarah gave more children candy than Susan did cookies .
+!ARTICLE
+Greg put more onions in the soup than Lana did in the salad .
+!ARTICLE
+Dwayne gave more charities money than Frieda did food .
+!ARTICLE
+The instructor put more solutions on the board than the TA did on the handout .
+!ARTICLE
+The farmer gave more horses oats than the farmhand did hay .
+!ARTICLE
+The maid put more towels in the bathroom than the butler did in the kitchen .
+!ARTICLE
+John intended to give the children something nice to eat , and give the children he did a generous handful of candy .
+!ARTICLE
+Becky wanted to give the students something good to write about , and give the students she did a great group of topics .
+!ARTICLE
+Jason decided to give his teammates something healthy to drink , and give his teammates he did a bottle of Gatorade .
+!ARTICLE
+Glen wanted to give the clients something yummy to snack on , and give the clients he did a platter of treats .
+!ARTICLE
+Kimberly wanted to give the charity something warm to wear , and give the charity she did a bundle of jackets .
+!ARTICLE
+Steve intended to give the parents something special to commemorate graduation , and give the parents he did a large plaque .
+!ARTICLE
+Kylie decided to give the guests something comfortable to sleep on , and give the guests she did a large padded bed .
+!ARTICLE
+Calvin intended to give the chefs something difficult to cook , and give the chefs he did a handful of challenging recipes .
+!ARTICLE
+John intended to give the children something nice to eat , and give the children a generous handful of candy he did .
+!ARTICLE
+Becky wanted to give the students something good to write about , and give the students a great group of topics she did .
+!ARTICLE
+Jason decided to give his teammates something healthy to drink , and give his teammates a bottle of Gatorade he did .
+!ARTICLE
+Glen wanted to give the clients something yummy to snack on , and give the clients a platter of treats he did .
+!ARTICLE
+Kimberly wanted to give the charity something warm to wear , and give the charity a bundle of jackets she did .
+!ARTICLE
+Steve intended to give the parents something special to commemorate graduation , and give the parents a large plaque he did .
+!ARTICLE
+Kylie decided to give the guests something comfortable to sleep on , and give the guests a large padded bed she did .
+!ARTICLE
+Calvin intended to give the chefs something difficult to cook , and give the chefs a handful of challenging recipes he did .
+!ARTICLE
+The flute was being played by the soloist .
+!ARTICLE
+The bracelet was being inspected by the jeweler .
+!ARTICLE
+The table was being set by the waiter .
+!ARTICLE
+The movie was being filmed in Toronto .
+!ARTICLE
+The song was being released as a single .
+!ARTICLE
+The floor was being cleaned by the janitor .
+!ARTICLE
+The popcorn was being cooked by the snack bar attendant .
+!ARTICLE
+The bed was being assembled by the delivery men .
+!ARTICLE
+The flute was being shiny .
+!ARTICLE
+The bracelet was being sparkly .
+!ARTICLE
+The table was being heavy .
+!ARTICLE
+The movie was being scary .
+!ARTICLE
+The song was being catchy .
+!ARTICLE
+The floor was being slippery .
+!ARTICLE
+The popcorn was being buttery .
+!ARTICLE
+The bed was being comfortable .
+!ARTICLE
+We students of physics are taller than you of chemistry .
+!ARTICLE
+We speakers of English are more numerous than you of Japanese .
+!ARTICLE
+We citizens of California are tanner than you of Maine .
+!ARTICLE
+We graduates of college are just as unemployed as you of high school .
+!ARTICLE
+We majors in biology are just as smart as you of mathematics .
+!ARTICLE
+We drinkers of tea are just as hyper as you of coffee .
+!ARTICLE
+We users of PCs are just as competent as you of Macs .
+!ARTICLE
+We supporters of democrats are just as worried about the economy as you of republicans .
+!ARTICLE
+We students of physics are taller than you students of chemistry .
+!ARTICLE
+We speakers of English are more numerous than you speakers of Japanese .
+!ARTICLE
+We citizens of California are tanner than you citizens of Maine .
+!ARTICLE
+We graduates of college are just as unemployed as you graduates of high school .
+!ARTICLE
+We majors in biology are just as smart as you majors of mathematics .
+!ARTICLE
+We drinkers of tea are just as hyper as you drinkers of coffee .
+!ARTICLE
+We users of PCs are just as competent as you users of Macs .
+!ARTICLE
+We supporters of democrats are just as worried about the economy as you supporters of republicans .
+!ARTICLE
+He was judge .
+!ARTICLE
+She was winner .
+!ARTICLE
+I was loser .
+!ARTICLE
+It was culprit .
+!ARTICLE
+It was problem .
+!ARTICLE
+I was coach .
+!ARTICLE
+She was teacher .
+!ARTICLE
+He was assistant .
+!ARTICLE
+He was the judge .
+!ARTICLE
+She was the winner .
+!ARTICLE
+I was the loser .
+!ARTICLE
+He was the culprit .
+!ARTICLE
+She was the problem .
+!ARTICLE
+I was the coach .
+!ARTICLE
+She was the teacher .
+!ARTICLE
+He was the assistant .
+!ARTICLE
+Cat and dog that were fighting all the time had to be separated .
+!ARTICLE
+Brother and sister that were playing all the time had to be sent to bed .
+!ARTICLE
+Boss and employee that were disagreeing all the time had to be transferred .
+!ARTICLE
+Salesman and client that were negotiating all the time had to be reassigned .
+!ARTICLE
+Husband and wife that were constantly bickering filed for divorce .
+!ARTICLE
+Teacher and student that were constantly arguing had to be move to different classes .
+!ARTICLE
+Maid and butler that were constantly gossiping had to be sent to different houses .
+!ARTICLE
+Actor and actress that were constantly fighting had to be moved to different scenes .
+!ARTICLE
+The cat and dog that were fighting all the time had to be separated .
+!ARTICLE
+The brother and sister that were playing all the time had to be sent to bed .
+!ARTICLE
+The boss and employee that were disagreeing all the time had to be transferred .
+!ARTICLE
+The salesman and client that were negotiating all the time had to be reassigned .
+!ARTICLE
+The husband and wife that were constantly bickering filed for divorce .
+!ARTICLE
+The teacher and student that were constantly arguing had to be move to different classes .
+!ARTICLE
+The maid and butler that were constantly gossiping had to be sent to different houses .
+!ARTICLE
+The actor and actress that were constantly fighting had to be moved to different scenes .
+!ARTICLE
+Knife with the golden blade and fork with the silver handle go on the left .
+!ARTICLE
+Chair with the brown cushion and desk with the large drawers are in the study .
+!ARTICLE
+Pencil with the blue eraser and binder with the black cover are in the top drawer .
+!ARTICLE
+Drss with the purple dots and headband with the white stripes are in your dresser .
+!ARTICLE
+Shoes with the red laces and boots with the brown buckles are in your closet .
+!ARTICLE
+Laptop with the silver case and ipod with the pink earbuds are in your suitcase .
+!ARTICLE
+Hula-hoop with green stripes and jump rope with orange handles are in the garage .
+!ARTICLE
+Hammer with the black handle and screwdriver with the square tip are in your toolbox .
+!ARTICLE
+The knife with the golden blade and the fork with the silver handle go on the left .
+!ARTICLE
+The chair with the brown cushion and the desk with the large drawers are in the study .
+!ARTICLE
+The pencil with the blue eraser and the binder with the black cover are in the top drawer .
+!ARTICLE
+The dress with the purple dots and the headband with the white stripes are in your dresser .
+!ARTICLE
+The shoes with the red laces and the boots with the brown buckles are in your closet .
+!ARTICLE
+The laptop with the silver case and the ipod with the pink earbuds are in your suitcase .
+!ARTICLE
+The hula-hoop with green stripes and the jump rope with orange handles are in the garage .
+!ARTICLE
+The hammer with the black handle and the screwdriver with the square tip are in your toolbox .
+!ARTICLE
+Fork is silver-plated and bowl is enameled .
+!ARTICLE
+Blanket is white and quilt is green .
+!ARTICLE
+Window is broken and door is open .
+!ARTICLE
+Peanut is sweet and pretzel is salty .
+!ARTICLE
+Book is long and essay is short .
+!ARTICLE
+Sunflower is yellow and rose is red .
+!ARTICLE
+Table is hard and bed is soft .
+!ARTICLE
+TV is big and radio is small .
+!ARTICLE
+The fork is silver-plated and the bowl is enameled .
+!ARTICLE
+The blanket is white and the quilt is green .
+!ARTICLE
+The window is broken and the door is open .
+!ARTICLE
+The peanut is sweet and the pretzel is salty .
+!ARTICLE
+The book is long and the essay is short .
+!ARTICLE
+The sunflower is yellow and the rose is red .
+!ARTICLE
+The table is hard and the bed is soft .
+!ARTICLE
+The TV is big and the radio is small .
+!ARTICLE
+This is table .
+!ARTICLE
+This is book .
+!ARTICLE
+This is cabinet .
+!ARTICLE
+This is car .
+!ARTICLE
+This is fan .
+!ARTICLE
+This is pen .
+!ARTICLE
+This is shelf .
+!ARTICLE
+This is computer .
+!ARTICLE
+This is a table .
+!ARTICLE
+This is a book .
+!ARTICLE
+This is a cabinet .
+!ARTICLE
+This is a car .
+!ARTICLE
+This is a fan .
+!ARTICLE
+This is a pen .
+!ARTICLE
+This is a shelf .
+!ARTICLE
+This is a computer .
+!ARTICLE
+The dog that I saw's collar was leather .
+!ARTICLE
+The fork with the silver handle's tines are sharp .
+!ARTICLE
+The program that is sending robots to Mars's history is controversial .
+!ARTICLE
+The dinosaur with terrible teeth's roar was monstrous .
+!ARTICLE
+The restaurant that doesn't train its staff's food is dangerous .
+!ARTICLE
+The bird that awakens before sunrise's noise is annoying .
+!ARTICLE
+The movie theater with the fantastic sound system's lobby was empty .
+!ARTICLE
+The woman with the thick accent's speech is difficult to understand .
+!ARTICLE
+The collar of the dog that I saw was leather .
+!ARTICLE
+The tines of the fork with the silver handle are sharp .
+!ARTICLE
+The history of the program that is sending robots to Mars is controversial .
+!ARTICLE
+The roar of the dinosaur with terrible teeth was monstrous .
+!ARTICLE
+The food of the restaurant that doesn't train its staff is dangerous .
+!ARTICLE
+The noise of the bird that awakens before sunrise is annoying .
+!ARTICLE
+The lobby of the movie theater with the fantastic sound system was empty .
+!ARTICLE
+The speech of the woman with the thick accent is difficult to understand .
+!ARTICLE
+There expects to be a man in the garden .
+!ARTICLE
+There tried to be a meeting on Thursday .
+!ARTICLE
+There desires to be a new deal in the works .
+!ARTICLE
+There forgot to be a car waiting at the airport .
+!ARTICLE
+There hoped to be a party for the new manager .
+!ARTICLE
+There intends to be a new rule about vacation days .
+!ARTICLE
+There managed to be a bonus in my paycheck .
+!ARTICLE
+There remembered to be a construction sign on the freeway .
+!ARTICLE
+There seems to be a man in the garden .
+!ARTICLE
+There appears to be a meeting on Thursday .
+!ARTICLE
+There seems to be a new deal in the works .
+!ARTICLE
+There appears to be a car waiting at the airport .
+!ARTICLE
+There seems to be a party for the new manager .
+!ARTICLE
+There appears to be a new rule about vacation days .
+!ARTICLE
+There seems to be a bonus in my paycheck .
+!ARTICLE
+There appears to be a construction sign on the freeway .
+!ARTICLE
+One interpreter tried to be assigned to every visiting diplomat .
+!ARTICLE
+One actor attempted to be the star of every scene .
+!ARTICLE
+One protester managed to be heard during every speech .
+!ARTICLE
+One child refused to complete every assignment .
+!ARTICLE
+One soldier refused to obey every order .
+!ARTICLE
+One mechanic managed to repair every car .
+!ARTICLE
+One dog attempted to fetch every stick .
+!ARTICLE
+One athlete tried to win event .
+!ARTICLE
+One interpreter each tried to be assigned to every visiting diplomat .
+!ARTICLE
+One actor each attempted to be the star of every scene .
+!ARTICLE
+One protester each managed to be heard during every speech .
+!ARTICLE
+One child each refused to complete every assignment .
+!ARTICLE
+One soldier each refused to obey every order .
+!ARTICLE
+One mechanic each managed to repair every car .
+!ARTICLE
+One dog each attempted to fetch every stick .
+!ARTICLE
+One athlete each tried to win each event .
+!ARTICLE
+I bought any books only occasionally .
+!ARTICLE
+Prof Jones met with any students only rarely .
+!ARTICLE
+The store sold any hardbacks only occasionally .
+!ARTICLE
+Fritz wrote any stories only rarely .
+!ARTICLE
+The postman delivers any letters only occasionally .
+!ARTICLE
+The virtuoso practices any pieces only rarely .
+!ARTICLE
+Thin people eat any snacks only occasionally .
+!ARTICLE
+Most people clean any windows only rarely .
+!ARTICLE
+I only occasionally bought any books .
+!ARTICLE
+Prof Jones only rarely met with any students .
+!ARTICLE
+The store only occasionally sold any hardbacks .
+!ARTICLE
+Fritz only rarely wrote any stories .
+!ARTICLE
+The postman only occasionally delivers any letters .
+!ARTICLE
+The virtuoso only rarely practices any pieces .
+!ARTICLE
+Thin people only occasionally eat any snacks .
+!ARTICLE
+Most people only rarely clean any windows .
+!ARTICLE
+Anything has nobody done .
+!ARTICLE
+Anywhere has nobody gone .
+!ARTICLE
+Anyone has nobody met .
+!ARTICLE
+Anything has nobody bought .
+!ARTICLE
+Anything has nobody seen .
+!ARTICLE
+Anyone has nobody praised .
+!ARTICLE
+Anything has nobody desired .
+!ARTICLE
+Anyone has nobody found .
+!ARTICLE
+Nobody has done anything .
+!ARTICLE
+Nobody has gone anywhere .
+!ARTICLE
+Nobody has met anyone .
+!ARTICLE
+Nobody has bought anything .
+!ARTICLE
+Nobody has seen anything .
+!ARTICLE
+Nobody has praised anyone .
+!ARTICLE
+Nobody has desired anything .
+!ARTICLE
+Nobody has found anyone .
+!ARTICLE
+It seemed at that time David had left .
+!ARTICLE
+It seemed at that time Mark had quit .
+!ARTICLE
+It seemed at that time Michelle had won .
+!ARTICLE
+It seemed at that time Stacey had been hired .
+!ARTICLE
+It seemed at that time Tom had moved .
+!ARTICLE
+It seemed at that time Clara had been promoted .
+!ARTICLE
+It seemed at that time Adam had been fired .
+!ARTICLE
+It seemed at that time Robert had confessed .
+!ARTICLE
+What the students believe is they will pass the exam .
+!ARTICLE
+What the athletes believe is they will win the game .
+!ARTICLE
+What the squirrels believe is they will find food .
+!ARTICLE
+What the robbers believe is they will escape the cops .
+!ARTICLE
+What the detectives believe is they will solve the case .
+!ARTICLE
+What they children believe is they will get some candy .
+!ARTICLE
+What the runners believe is they will win the race .
+!ARTICLE
+What the police believe is they will catch the thief .
+!ARTICLE
+They suspected and we believed Peter would visit the hospital .
+!ARTICLE
+They believed and we thought Jamie would finish the assignment .
+!ARTICLE
+They thought and we expected Charles would read his speech .
+!ARTICLE
+They expected and we knew Courtney would ride the elephant .
+!ARTICLE
+They knew and we saw Mark would skip work .
+!ARTICLE
+They saw and we confirmed Andrea would present her artwork .
+!ARTICLE
+They denied and we suspected Sean would buy the car .
+!ARTICLE
+They affirmed but we denied Mary would tell the truth .
+!ARTICLE
+Mary believed Peter finished school and Bill Peter got a job .
+!ARTICLE
+Laurie believed Eric won the gold medal and Sally Eric won the silver medal .
+!ARTICLE
+Ernie believed Jackie passed the test and Louie Jackie got an A .
+!ARTICLE
+Donald believed Joe finished his homework and Dewey Joe took a nap .
+!ARTICLE
+Sarah believed Daniel grew a few inches and Richard Daniel gained some weight .
+!ARTICLE
+Raymond believed Amy practiced her music and Danielle Amy won a competition .
+!ARTICLE
+Matt believed Ben read a book and Lilly Ben watched a movie .
+!ARTICLE
+Mary believed Tommy drank his milk and Brandon Tommy ate the vegetables .
+!ARTICLE
+John likes Mary , Jane didn't believe .
+!ARTICLE
+Chris hates vegetables , Helen didn't believe .
+!ARTICLE
+Mike pushed the little girl , Bianca didn't believe .
+!ARTICLE
+Emma ate the whole cake , her mother didn't believe .
+!ARTICLE
+Debbie cheated on her husband , her friends didn't believe .
+!ARTICLE
+Leonard drank the whole bottle , Michael didn't believe .
+!ARTICLE
+Wesley stole the shirt , his girlfriend didn't believe .
+!ARTICLE
+Addison bit the boy , Jena didn't believe .
+!ARTICLE
+It seemed at that time that David had left .
+!ARTICLE
+It seemed at that time that Mark had quit .
+!ARTICLE
+It seemed at that time that Michelle had won .
+!ARTICLE
+It seemed at that time that Stacey had been hired .
+!ARTICLE
+It seemed at that time that Tom had moved .
+!ARTICLE
+It seemed at that time that Clara had been promoted .
+!ARTICLE
+It seemed at that time that Adam had been fired .
+!ARTICLE
+It seemed at that time that Robert had confessed .
+!ARTICLE
+What the students believe is that they will pass the exam .
+!ARTICLE
+What the athletes believe is that they will win the game .
+!ARTICLE
+What the squirrels believe is that they will find food .
+!ARTICLE
+What the robbers believe is that they will escape the cops .
+!ARTICLE
+What the detectives believe is that they will solve the case .
+!ARTICLE
+What they children believe is that they will get some candy .
+!ARTICLE
+What the runners believe is that they will win the race .
+!ARTICLE
+What the police believe is that they will catch the thief .
+!ARTICLE
+They suspected and we believed Peter would visit the hospital .
+!ARTICLE
+They believed and we thought that Jamie would finish the assignment .
+!ARTICLE
+They thought and we expected that Charles would read his speech .
+!ARTICLE
+They expected and we knew that Courtney would ride the elephant .
+!ARTICLE
+They knew and we saw that Mark would skip work .
+!ARTICLE
+They saw and we confirmed that Andrea would present her artwork .
+!ARTICLE
+They denied and we suspected that Sean would buy the car .
+!ARTICLE
+They affirmed but we denied that Mary would tell the truth .
+!ARTICLE
+Mary believed that Peter finished school and Bill that Peter got a job .
+!ARTICLE
+Laurie believed that Eric won the gold medal and Sally that Eric won the silver medal .
+!ARTICLE
+Ernie believed that Jackie passed the test and Louie that Jackie got an A .
+!ARTICLE
+Donald believed that Joe finished his homework and that Dewey Joe took a nap .
+!ARTICLE
+Sarah believed that Daniel grew a few inches and Richard that Daniel gained some weight .
+!ARTICLE
+Raymond believed that Amy practiced her music and Danielle that Amy won a competition .
+!ARTICLE
+Matt believed that Ben read a book and Lilly that Ben watched a movie .
+!ARTICLE
+Mary believed that Tommy drank his milk and Brandon that Tommy ate the vegetables .
+!ARTICLE
+That John likes Mary , Jane didn't believe .
+!ARTICLE
+That Chris hates vegetables , Helen didn't believe .
+!ARTICLE
+That Mike pushed the little girl , Bianca didn't believe .
+!ARTICLE
+That Emma ate the whole cake , her mother didn't believe .
+!ARTICLE
+That Debbie cheated on her husband , her friends didn't believe .
+!ARTICLE
+That Leonard drank the whole bottle , Michael didn't believe .
+!ARTICLE
+That Wesley stole the shirt , his girlfriend didn't believe .
+!ARTICLE
+That Addison bit the boy , Jena didn't believe .
+!ARTICLE
+What did they believe at that time that Peter fixed ?
+!ARTICLE
+What did they think at the time that Anthony ate ?
+!ARTICLE
+What did the children say at the time that the band played ?
+!ARTICLE
+What did the audience claim at the time that the host promised ?
+!ARTICLE
+What did the students claim at that time that the teacher said ?
+!ARTICLE
+What did the police say at that time that the thieves stole ?
+!ARTICLE
+What did they think at that time that the customer bought ?
+!ARTICLE
+What did the art critic believe at the time that Pablo painted ?
+!ARTICLE
+At that time , what did they believe that Peter fixed ?
+!ARTICLE
+At that time , what did they think that Anthony ate ?
+!ARTICLE
+At that time , what did the children say that the band played ?
+!ARTICLE
+At that time , what did the audience claim that the host promised ?
+!ARTICLE
+At that time , what did the students claim that the teacher said ?
+!ARTICLE
+At that time , what did the police say that the thieves stole ?
+!ARTICLE
+At that time , what did they think that the customer bought ?
+!ARTICLE
+At that time what did the art critic believe that Pablo painted ?
+!ARTICLE
+This is the man who I think that will buy your house next year .
+!ARTICLE
+This is the girl who I think that will babysit your child next Thursday .
+!ARTICLE
+This is the women who I think that will replace the manager .
+!ARTICLE
+This is the teacher who I think that will tutor your son after school .
+!ARTICLE
+This is the student who I think that will copy from you during the exam .
+!ARTICLE
+This is the doctor who I think that will cure your sister .
+!ARTICLE
+This is the lawyer who I think that will represent your husband at trial .
+!ARTICLE
+This is the child who I think that will walk your dog .
+!ARTICLE
+This is the man who I think will buy your house next year .
+!ARTICLE
+This is the girl who I think will babysit your child next Thursday .
+!ARTICLE
+This is the women who I think will replace the manager .
+!ARTICLE
+This is the teacher who I think will tutor your son after school .
+!ARTICLE
+This is the student who I think will copy from you during the exam .
+!ARTICLE
+This is the doctor who I think will cure your sister .
+!ARTICLE
+This is the lawyer who I think will represent your husband at trial .
+!ARTICLE
+This is the child who I think will walk your dog .
+!ARTICLE
+Angela wondered how John managed to cook , but it's not clear what food .
+!ARTICLE
+Sarah wondered why Dan tried to drink , but it's not clear what beverage .
+!ARTICLE
+Eric wondered how Lisa learned to dance , but it's not clear what dance .
+!ARTICLE
+Matt wondered why Kelly hoped to win , but it's not clear what contest .
+!ARTICLE
+Sharon wondered why Amy hoped to read , but it's not clear what book .
+!ARTICLE
+Terry wondered how Cindy learned to swim , but it's not clear what stroke .
+!ARTICLE
+Mike wondered why Leslie tried to visit , but it's not clear what city .
+!ARTICLE
+Natalie wondered how William managed to pass , but it's not clear what class .
+!ARTICLE
+Angela wondered how John managed to cook a certain food , but it's not clear what food .
+!ARTICLE
+Sarah wondered why Dan tried to drink a certain beverage , but it's not clear what beverage .
+!ARTICLE
+Eric wondered how Lisa learned to dance a certain dance , but it's not clear what dance .
+!ARTICLE
+Matt wondered why Kelly hoped to win a certain contest , but it's not clear what contest .
+!ARTICLE
+Sharon wondered why Amy hoped to read a certain book , but it's not clear what book .
+!ARTICLE
+Terry wondered how Cindy learned to swim a certain stroke , but it's not clear what stroke .
+!ARTICLE
+Mike wondered why Leslie tried to visit a certain city , but it's not clear what city .
+!ARTICLE
+Natalie wondered how William managed to pass a certain class , but it's not clear what class .
+!ARTICLE
+Who did you believe a friend of satisfied ?
+!ARTICLE
+Who does the maid consider a neighbor of suspicious ?
+!ARTICLE
+Who does he consider a picture of precious ?
+!ARTICLE
+Who do they consider a teacher of geeky ?
+!ARTICLE
+Who does Dr Parker consider a criticism of unjustified ?
+!ARTICLE
+Who does the committee consider a discussion of unwarranted ?
+!ARTICLE
+Who do our leaders consider an associate of untrustworthy ?
+!ARTICLE
+Who does my brother want a picture of displayed ?
+!ARTICLE
+I believed a friend of Andy satisfied .
+!ARTICLE
+The maid considers a neighbor of Mary suspicious .
+!ARTICLE
+He considers a picture of Svetlana precious .
+!ARTICLE
+They consider a teacher of Chris geeky .
+!ARTICLE
+Dr Parker considers a criticism of Jane unjustified .
+!ARTICLE
+The committee considers a discussion of the dean unwarranted .
+!ARTICLE
+Our leaders consider an associate of Edwin untrustworthy .
+!ARTICLE
+My brother wants a picture of Reagan displayed .
+!ARTICLE
+Ralph is more than fit tall .
+!ARTICLE
+Cassie is more than intelligent talented .
+!ARTICLE
+Greg is more than angry relieved .
+!ARTICLE
+Tom is more than afraid worried .
+!ARTICLE
+Kayla is more than insulted grateful .
+!ARTICLE
+Sam is more than hurt disappointed .
+!ARTICLE
+Laura is more than nervous excited .
+!ARTICLE
+Charles is more than intimidated impressed .
+!ARTICLE
+Ralph is more tall than fit .
+!ARTICLE
+Cassie is more talented than intelligent .
+!ARTICLE
+Greg is more relieved than angry .
+!ARTICLE
+Tom is more worried than afraid .
+!ARTICLE
+Kayla is more grateful than insulted .
+!ARTICLE
+Sam is more disappointed than hurt .
+!ARTICLE
+Laura is more excited than nervous .
+!ARTICLE
+Charles is more impressed than intimidated .
+!ARTICLE
+I told you that Bill when we met will come to the party .
+!ARTICLE
+I told you that Chris when we met will travel to France in December .
+!ARTICLE
+I told you that Sarah when we met will attend college in the fall .
+!ARTICLE
+I told you that Markus when we met will be moving in June .
+!ARTICLE
+I hope that Angelina with all my heart will visit us soon .
+!ARTICLE
+I hope that Kevin with all my heart will buy a new car .
+!ARTICLE
+I hope that Olivia with all my heart will win a scholarship .
+!ARTICLE
+I hope that Sandy with all my heart will be promoted .
+!ARTICLE
+I told you when we met that Bill will come to the party .
+!ARTICLE
+I told you when we met that Chris will travel to France in December .
+!ARTICLE
+I told you when we met that Sarah will attend college in the fall .
+!ARTICLE
+I told you when we met that Markus will be moving in June .
+!ARTICLE
+I hope with all my heart that Angelina will visit us soon .
+!ARTICLE
+I hope with all my heart that Kevin will buy a new car .
+!ARTICLE
+I hope with all my heart that Olivia will win a scholarship .
+!ARTICLE
+I hope with all my heart that Sandy will be promoted .
+!ARTICLE
+I expect that everyone you do will visit Mary .
+!ARTICLE
+I anticipate that everyone you do will see John .
+!ARTICLE
+We expect that everybody you do will hug Kimberly .
+!ARTICLE
+I expect that everyone you do will praise Ricky .
+!ARTICLE
+I anticipate that everybody you do will visit Jack .
+!ARTICLE
+They anticipate that everybody you do will contact Fred .
+!ARTICLE
+He anticipates that everyone you do will meet Susie .
+!ARTICLE
+I anticipate that everybody you do will watch Melissa .
+!ARTICLE
+I expect that everyone will visit Mary that you do .
+!ARTICLE
+I anticipate that everyone will see John that you do .
+!ARTICLE
+We expect that everybody will hug Kimberly that you do .
+!ARTICLE
+I expect that everyone will praise Ricky that you do .
+!ARTICLE
+I anticipate that everybody will visit Jack that you do .
+!ARTICLE
+They anticipate that everybody will contact Fred that you do .
+!ARTICLE
+He anticipates that everyone will meet Susie that you do .
+!ARTICLE
+I anticipate that everybody will watch Melissa that you do .
+!ARTICLE
+I ran Mary .
+!ARTICLE
+Joe held Silvia the bag .
+!ARTICLE
+Fred mowed Jamie the lawn .
+!ARTICLE
+Jenny cleaned her sister the table .
+!ARTICLE
+Zoe did her boyfriend a dance .
+!ARTICLE
+Dad swept Mom the porch .
+!ARTICLE
+Sarah washed her husband the dishes .
+!ARTICLE
+Fran searched Danny the web .
+!ARTICLE
+I ran for Mary .
+!ARTICLE
+Joe held the bag for Silvia .
+!ARTICLE
+Fred mowed the lawn for Jamie .
+!ARTICLE
+Jenny cleaned the table for her sister .
+!ARTICLE
+Zoe did a dance for her boyfriend .
+!ARTICLE
+Dad swept the porch for Mom .
+!ARTICLE
+Sarah washed the dishes for her husband .
+!ARTICLE
+Fran searched the web for Danny .
+!ARTICLE
+The article angered Bill .
+!ARTICLE
+The book report disappointed Sam .
+!ARTICLE
+The loud noise bothered Linda .
+!ARTICLE
+The news story worried Sally .
+!ARTICLE
+The parking ticket annoyed Ben .
+!ARTICLE
+The eerie sound frightened Seth .
+!ARTICLE
+The verdict surprised Susan .
+!ARTICLE
+The new play amused Kelly .
+!ARTICLE
+The article angered Bill at the government .
+!ARTICLE
+The book report disappointed Sam in the student .
+!ARTICLE
+The loud noise bothered Linda by the party .
+!ARTICLE
+The news story worried Sally about the environment .
+!ARTICLE
+The parking ticket annoyed Ben at the police .
+!ARTICLE
+The eerie sound frightened Seth at the ghost .
+!ARTICLE
+The verdict surprised Susan by the judge .
+!ARTICLE
+The new play amused Kelly by the actor .
+!ARTICLE
+I find it irritating that usually this street is closed .
+!ARTICLE
+I find it annoying that usually this bus is late .
+!ARTICLE
+I find it upsetting that usually this theater is sold out .
+!ARTICLE
+I find it gratifying that usually our team is ranked first .
+!ARTICLE
+I find it disturbing that usually those children are hungry .
+!ARTICLE
+I find it frustrating that usually this store is overpriced .
+!ARTICLE
+I find it disheartening that usually politicians are liars .
+!ARTICLE
+I find it shocking that usually students are cheaters .
+!ARTICLE
+I find it irritating for usually this street to be closed .
+!ARTICLE
+I find it annoying for usually this bus to be late .
+!ARTICLE
+I find it upsetting for usually this theater to be sold out .
+!ARTICLE
+I find it gratifying for usually our team to be ranked first .
+!ARTICLE
+I find it disturbing for usually those children to be hungry .
+!ARTICLE
+I find it frustrating for usually this store to be overpriced .
+!ARTICLE
+I find it disheartening for usually politicians to be liars .
+!ARTICLE
+I find it shocking for usually students to be cheaters .
+!ARTICLE
+A taller man than my father walked in .
+!ARTICLE
+A bigger dog than my corgi started snarling .
+!ARTICLE
+A prettier woman than my friend attended the show .
+!ARTICLE
+A nicer prof than my advisor taught the class .
+!ARTICLE
+A younger girl than my babysitter watched the children .
+!ARTICLE
+A cuter surfer than my husband came along the beach .
+!ARTICLE
+A skinnier model than my sister won the pageant .
+!ARTICLE
+A smarter lawyer than my brother received the job .
+!ARTICLE
+A man taller than my father walked in .
+!ARTICLE
+A dog bigger than my corgi started snarling .
+!ARTICLE
+A woman prettier than my friend attended the show .
+!ARTICLE
+A prof nicer than my advisor taught the class .
+!ARTICLE
+A girl younger than my babysitter watched the children .
+!ARTICLE
+A surfer cuter than my husband came along the beach .
+!ARTICLE
+A model skinnier than my sister won the pageant .
+!ARTICLE
+A lawyer smarter than my brother received the job .
+!ARTICLE
+Max talked to as tall a man as his father .
+!ARTICLE
+Tom argued with as stubborn a man as his brother .
+!ARTICLE
+Robert yelled at as obnoxious a boy as his cousin .
+!ARTICLE
+Charlie spoke to as joyful a woman as his mother .
+!ARTICLE
+James whispered to as deaf a man as his grandfather .
+!ARTICLE
+Anna read to as young a girl as her sister .
+!ARTICLE
+Jessica shouted at as nervous a girl as her daughter .
+!ARTICLE
+Tanya danced with as handsome a boy as her father .
+!ARTICLE
+Max talked to a man as tall as his father .
+!ARTICLE
+Tom argued with a man as stubborn as his brother .
+!ARTICLE
+Robert yelled at a boy as obnoxious as his cousin .
+!ARTICLE
+Charlie spoke to a woman as joyful as his mother .
+!ARTICLE
+James whispered to a man as deaf as his grandfather .
+!ARTICLE
+Anna read to a girl as young as her sister .
+!ARTICLE
+Jessica shouted at a girl as nervous as her daughter .
+!ARTICLE
+Tanya danced with a boy as handsome as her father .
+!ARTICLE
+Mary pounded the apple flattened .
+!ARTICLE
+John kicked the door opened .
+!ARTICLE
+Bill drank the glass emptied .
+!ARTICLE
+The heat turned the meat rotted .
+!ARTICLE
+Nathan shook the towel dried .
+!ARTICLE
+Lisa rolled the pancake flattened .
+!ARTICLE
+Natalie pushed the window opened .
+!ARTICLE
+Jason shook the shirt dried .
+!ARTICLE
+Mary pounded the apple flat .
+!ARTICLE
+John kicked the door open .
+!ARTICLE
+Bill drank the glass empty .
+!ARTICLE
+The heat turned the meat rotten .
+!ARTICLE
+Nathan shook the towel dry .
+!ARTICLE
+Lisa rolled the pancake flat .
+!ARTICLE
+Natalie pushed the window open .
+!ARTICLE
+Jason shook the shirt dry .
+!ARTICLE
+It seems a man is in the room .
+!ARTICLE
+It seems a woman is in the yard .
+!ARTICLE
+It seems a horse is in the road .
+!ARTICLE
+It seems a baby is in the car .
+!ARTICLE
+It seems a dog is on the roof .
+!ARTICLE
+It seems a cat is in the tree .
+!ARTICLE
+It seems a cow is in the field .
+!ARTICLE
+It seems a snake is in the garden .
+!ARTICLE
+It seems a man to be in the room .
+!ARTICLE
+It seems a woman to be in the yard .
+!ARTICLE
+It seems a horse to be in the road .
+!ARTICLE
+It seems a baby to be in the car .
+!ARTICLE
+It seems a dog to be on the roof .
+!ARTICLE
+It seems a cat to be in the tree .
+!ARTICLE
+It seems a cow to be in the field .
+!ARTICLE
+It seems a snake to be in the garden .
+!ARTICLE
+There is likely to appear a man .
+!ARTICLE
+There is likely to arrive a letter .
+!ARTICLE
+There is likely to spread a disease around the world .
+!ARTICLE
+There is likely to depart a train at midnight .
+!ARTICLE
+There is likely to sit a table in the corner .
+!ARTICLE
+There is likely to live a snake in the garden .
+!ARTICLE
+There is likely to stand a bookshelf against the wall .
+!ARTICLE
+There is likely to run a river down the mountain .
+!ARTICLE
+There is likely a man to appear .
+!ARTICLE
+There is likely a letter to arrive .
+!ARTICLE
+There is likely a disease to spread around the world .
+!ARTICLE
+There is likely a train to depart at midnight .
+!ARTICLE
+There is likely a table to sit in the corner .
+!ARTICLE
+There is likely a snake to live in the garden .
+!ARTICLE
+There is likely a bookshelf to stand against the wall .
+!ARTICLE
+There is likely a river to run down the mountain .
+!ARTICLE
+What did you give to whom ?
+!ARTICLE
+What did you contribute to whom ?
+!ARTICLE
+What did you send to whom ?
+!ARTICLE
+What did you administer to whom ?
+!ARTICLE
+What did you yield to whom ?
+!ARTICLE
+What did you grant to whom ?
+!ARTICLE
+What did you address to whom ?
+!ARTICLE
+What did you present to whom ?
+!ARTICLE
+To whom did you give what ?
+!ARTICLE
+To whom did you contribute what ?
+!ARTICLE
+To whom did you send what ?
+!ARTICLE
+To whom did you administer what ?
+!ARTICLE
+To whom did you yield what ?
+!ARTICLE
+To whom did you grant what ?
+!ARTICLE
+To whom did you address what ?
+!ARTICLE
+To whom did you present what ?
+!ARTICLE
+Some frogs and a fish is in the pond .
+!ARTICLE
+Some papers and a pen is in the drawer .
+!ARTICLE
+Some dogs and a cat is in the alley .
+!ARTICLE
+Some boys and a girl is in the car .
+!ARTICLE
+Some workers and a supervisor is in the office .
+!ARTICLE
+Some players and a coach is in the arena .
+!ARTICLE
+Some magazines and a book is in the storage box .
+!ARTICLE
+Some sweaters and a shirt is in the suitcase .
+!ARTICLE
+Some frogs and a fish are in the pond .
+!ARTICLE
+Some papers and a pen are in the drawer .
+!ARTICLE
+Some dogs and a cat are in the alley .
+!ARTICLE
+Some boys and a girl are in the car .
+!ARTICLE
+Some workers and a supervisor are in the office .
+!ARTICLE
+Some players and a coach are in the arena .
+!ARTICLE
+Some magazines and a book are in the storage box .
+!ARTICLE
+Some sweaters and a shirt are in the suitcase .
+!ARTICLE
+Sue asked what who bought .
+!ARTICLE
+Nina wondered what who ordered .
+!ARTICLE
+Jack figured out what who stole .
+!ARTICLE
+Dale asked what who said .
+!ARTICLE
+Heather wondered what who ate .
+!ARTICLE
+Nick figured out what who found .
+!ARTICLE
+Brain asked what who sent .
+!ARTICLE
+Melissa wondered what who hid .
+!ARTICLE
+Sue asked me who bought what .
+!ARTICLE
+Nina wondered who ordered what .
+!ARTICLE
+Jack figured out who stole what .
+!ARTICLE
+Dale asked who said what .
+!ARTICLE
+Heather wondered who ate what .
+!ARTICLE
+Nick figured out who found what .
+!ARTICLE
+Brian asked who sent what .
+!ARTICLE
+Melissa wondered who hid what .
+!ARTICLE
+I would have been elected .
+!ARTICLE
+She would have been hired .
+!ARTICLE
+He would have been fired .
+!ARTICLE
+We would have been selected .
+!ARTICLE
+They would have been promoted .
+!ARTICLE
+I would have been chosen .
+!ARTICLE
+She would have been recognized .
+!ARTICLE
+He would have been replaced .
+!ARTICLE
+Me would have been elected .
+!ARTICLE
+Her would have been hired .
+!ARTICLE
+Him would have been fired .
+!ARTICLE
+Us would have been selected .
+!ARTICLE
+Them would have been promoted .
+!ARTICLE
+Me would have been chosen .
+!ARTICLE
+Her would have been recognized .
+!ARTICLE
+Him would have been replaced .
+!ARTICLE
+I talked to with whom you danced yesterday .
+!ARTICLE
+You spoke to for whom I sang last week .
+!ARTICLE
+They envy with whom I studied last night .
+!ARTICLE
+We need on whom you rely a lot these days .
+!ARTICLE
+She visited for whom she baked the cake .
+!ARTICLE
+He met about whom he wrote several stories .
+!ARTICLE
+I depend on with whom I grew up .
+!ARTICLE
+They nominated through whom we contacted them .
+!ARTICLE
+I talked to Mary , with whom you danced yesterday .
+!ARTICLE
+You spoke to Anne-Marie , for whom I sang last week .
+!ARTICLE
+They envy Jacob , with whom I studied last night .
+!ARTICLE
+We need Josephine , on whom you rely a lot these days .
+!ARTICLE
+She visited Grandma , for whom she baked the cake .
+!ARTICLE
+He met Bush , about whom he wrote several stories .
+!ARTICLE
+I depend on Andrew , with whom I grew up .
+!ARTICLE
+They nominated Lillian , through whom we contacted them .
+!ARTICLE
+I hate eating sushi .
+!ARTICLE
+I like drinking milkshakes .
+!ARTICLE
+I prefer lifting weights .
+!ARTICLE
+I tried collecting coins .
+!ARTICLE
+I tried running marathons .
+!ARTICLE
+I prefer playing tennis .
+!ARTICLE
+I like taking vacations .
+!ARTICLE
+I hate missing work .
+!ARTICLE
+I seem eating sushi .
+!ARTICLE
+I tend drinking milkshakes .
+!ARTICLE
+I appear lifting weights .
+!ARTICLE
+I turned out collecting coins .
+!ARTICLE
+I turned out running marathons .
+!ARTICLE
+I appear playing tennis .
+!ARTICLE
+I tend taking vacations .
+!ARTICLE
+I seem missing work .
+!ARTICLE
+There tend to be storms at this time of year .
+!ARTICLE
+There seem to be teenagers at the birthday party .
+!ARTICLE
+There are certain to be new ideas in the report .
+!ARTICLE
+There is likely to be a problem with this plan .
+!ARTICLE
+There happen to be tools in the trunk .
+!ARTICLE
+There are unlikely to be insects inside the wood .
+!ARTICLE
+There appear to be ambulances nearby .
+!ARTICLE
+There happens to be cream in this sauce .
+!ARTICLE
+There like to be storms at this time of year .
+!ARTICLE
+There want to be teenagers at the birthday party .
+!ARTICLE
+There hope to be new ideas in the report .
+!ARTICLE
+There is eager to be a problem with this plan .
+!ARTICLE
+There expect to be tools in the trunk .
+!ARTICLE
+There are happy to be insects inside the wood .
+!ARTICLE
+There try to be ambulances nearby .
+!ARTICLE
+There is anxious to be cream in this sauce .
+!ARTICLE
+I like eating sushi .
+!ARTICLE
+I hate worrying about exams .
+!ARTICLE
+You tried dancing a tango .
+!ARTICLE
+She detests standing in the rain .
+!ARTICLE
+He tried getting a scholarship .
+!ARTICLE
+They fear being left behind .
+!ARTICLE
+We despise getting bills in the mail .
+!ARTICLE
+They love receiving large presents .
+!ARTICLE
+I seem eating sushi .
+!ARTICLE
+I tend worrying about exams .
+!ARTICLE
+You seem dancing a tango .
+!ARTICLE
+She happens standing in the rain .
+!ARTICLE
+He was unlikely getting a scholarship .
+!ARTICLE
+They seem being left behind .
+!ARTICLE
+We happen getting bills in the mail .
+!ARTICLE
+They tend receiving large presents .
+!ARTICLE
+He existed a dangerous existence .
+!ARTICLE
+The coup d'état occurred a sudden occurrence in the Middle East .
+!ARTICLE
+The train arrived a punctual arrival .
+!ARTICLE
+The submarine emerged an abrupt emergence .
+!ARTICLE
+The sun appeared a bright appearance this morning .
+!ARTICLE
+My flight arrived a late arrival .
+!ARTICLE
+The storm emerged a sudden emergence .
+!ARTICLE
+My parents appeared an unexpected appearance last night .
+!ARTICLE
+The tree grew a century's growth within only ten years .
+!ARTICLE
+The stock market dropped its largest drop in three years today .
+!ARTICLE
+Stanley watched as the ball bounced a funny little bounce right into the shortstop's glove .
+!ARTICLE
+The apples fell just a short fall to the lower deck , and so were not too badly bruised .
+!ARTICLE
+My daughter grew a year's growth in just three months .
+!ARTICLE
+The price of oil dropped a substantial drop today .
+!ARTICLE
+The glass fell just a short fall to the floor , but it broke anyway .
+!ARTICLE
+The tennis players watched the ball bounce a crazy bounce off the line .
+!ARTICLE
+How many books there were on the table ?
+!ARTICLE
+How much money there is in your account ?
+!ARTICLE
+How few people there were at the rally ?
+!ARTICLE
+How little action there was in the movie ?
+!ARTICLE
+How many beers there are in the fridge ?
+!ARTICLE
+How much wine there is in the bottle ?
+!ARTICLE
+How few copies there are at the store ?
+!ARTICLE
+How little snow there was on the sidewalk ?
+!ARTICLE
+Into which room walked three men ?
+!ARTICLE
+Down which street drove two cars ?
+!ARTICLE
+Up which hill ran four horses ?
+!ARTICLE
+In which field played two teams ?
+!ARTICLE
+Along which beach strolled four couples ?
+!ARTICLE
+Around which track raced three drivers ?
+!ARTICLE
+Over which bridge drove six trucks ?
+!ARTICLE
+Through which tunnel raced five sports cars ?
+!ARTICLE
+Into which room did walk three men ?
+!ARTICLE
+Down which street did drive two cars ?
+!ARTICLE
+Up which hill did run four horses ?
+!ARTICLE
+In which field did play two teams ?
+!ARTICLE
+Along which beach did stroll four couples ?
+!ARTICLE
+Around which track did race three drivers ?
+!ARTICLE
+Over which bridge did drive six trucks ?
+!ARTICLE
+Through which tunnel did race five sports cars ?
+!ARTICLE
+Into which room did three men walk ?
+!ARTICLE
+Down which hill did the car roll ?
+!ARTICLE
+Through which door did the soldiers enter ?
+!ARTICLE
+From which direction did the fire come ?
+!ARTICLE
+Onto which floor did the wine glass fall ?
+!ARTICLE
+Around which corner did the survivors run ?
+!ARTICLE
+Over which hill did a helicopter fly ?
+!ARTICLE
+Up which staircase did the rescuers walk ?
+!ARTICLE
+Into which room three men walked ?
+!ARTICLE
+Down which hill the car rolled ?
+!ARTICLE
+Through which door the soldiers entered ?
+!ARTICLE
+From which direction came the fire ?
+!ARTICLE
+Onto which floor fell the wine glass ?
+!ARTICLE
+Around which corner ran the survivors ?
+!ARTICLE
+Over which hill flew a helicopter ?
+!ARTICLE
+Up which staircase walked the rescuers ?
+!ARTICLE
+Blake said that he would beard his tormentor before the night was up , but the actual doing of so proved rather difficult .
+!ARTICLE
+My roommate said that he would bring home more milk , but the actual doing of so remains to be seen .
+!ARTICLE
+Megan said that Ben might propose to her , but the actual doing of so would take much courage .
+!ARTICLE
+The dentist said that I should start flossing , but the actual doing of so is burdensome .
+!ARTICLE
+The label said that he should handle the package with care , but the actual doing of so was not easy for the driver .
+!ARTICLE
+Alex said we should take Sunset Blvd , but the actual doing of so was slowed down by heavy traffic .
+!ARTICLE
+The politicians said that we should use less gas , but the actual doing of so has proved very challenging .
+!ARTICLE
+Mr Ted said we should write five pages each night , but the actual doing of so turned out to be impossible .
+!ARTICLE
+Blake said that he would beard his tormentor before the night was up , but the actual doing of it proved rather difficult .
+!ARTICLE
+My roommate said that he would bring home more milk , but the actual doing of it remains to be seen .
+!ARTICLE
+Megan said that Ben might propose to her , but the actual doing of it would take much courage .
+!ARTICLE
+The dentist said that I should start flossing , but the actual doing of it is burdensome .
+!ARTICLE
+The label said that he should handle the package with care , but the actual doing of it was not easy for the driver .
+!ARTICLE
+Alex said we should take Sunset Blvd , but the actual doing of it was slowed down by heavy traffic .
+!ARTICLE
+The politicians said that we should use less gas , but the actual doing of it has proved very challenging .
+!ARTICLE
+Mr Ted said we should write five pages each night , but the actual doing of it turned out to be impossible .
+!ARTICLE
+From Alabama to Louisiana John played the banjo .
+!ARTICLE
+From January to March he stayed with his uncle .
+!ARTICLE
+From 9 am to 5 pm Suzanne works in a cubicle .
+!ARTICLE
+From here to the border Jeremy will be the driver .
+!ARTICLE
+From Tuesday to Friday the store stays open until 9 pm .
+!ARTICLE
+From 1939 to 1945 the world was at war .
+!ARTICLE
+From the Atlantic to the Pacific there are people who oppose immigration reform .
+!ARTICLE
+From New York to London the plane encountered little turbulence .
+!ARTICLE
+To Mary for Bill I gave a book .
+!ARTICLE
+On her parents for money Melanie relied .
+!ARTICLE
+To the neighbors about the noise the old man complained .
+!ARTICLE
+To the professor about my grade I talked .
+!ARTICLE
+To their girlfriends in French the musicians sang .
+!ARTICLE
+To the store on a bike Francois rode .
+!ARTICLE
+With the generals about a new approach the President talked .
+!ARTICLE
+At your spouse on the phone you shouldn't yell .
+!ARTICLE
+It will take three to five days for him to recover .
+!ARTICLE
+It will take two to four hours for the plumber to fix the leak .
+!ARTICLE
+It will take six to eight weeks for your furniture to be delivered .
+!ARTICLE
+It will take eight to ten minutes for the material to harden .
+!ARTICLE
+It will take two to three months for the medication to work .
+!ARTICLE
+It will take 20 to 25 years for this roof to leak again .
+!ARTICLE
+It will take three to four hours for most girls to get ready for the prom .
+!ARTICLE
+It will take five to seven days for your cat to feel better .
+!ARTICLE
+It will take from three five days for him to recover .
+!ARTICLE
+It will take from two four hours for the plumber to fix the leak .
+!ARTICLE
+It will take from six eight weeks for your furniture to be delivered .
+!ARTICLE
+It will take from eight ten minutes for the material to harden .
+!ARTICLE
+It will take from two three months for the medication to work .
+!ARTICLE
+It will take from 20 25 years for this roof to leak again .
+!ARTICLE
+It will take from three four hours for most girls to get ready for the prom .
+!ARTICLE
+It will take from five seven days for your cat to feel better .
+!ARTICLE
+They slept an hour and then went to work .
+!ARTICLE
+We walked a few minutes and then sat down on a bench .
+!ARTICLE
+The twins jogged an hour and then swam a mile .
+!ARTICLE
+Sandy worked five months and then went on vacation .
+!ARTICLE
+He lingered a minute and then joined the celebration .
+!ARTICLE
+We shopped an entire afternoon and finally found the right dress .
+!ARTICLE
+Patti and Marcia talked a while and then took a bus downtown .
+!ARTICLE
+The newlyweds travelled a few days and then settled down at a motel .
+!ARTICLE
+An hour , they slept , and then went to work .
+!ARTICLE
+A few minutes , we walked , and then sat down on a bench .
+!ARTICLE
+An hour , the twins jogged , and then swam a mile .
+!ARTICLE
+Five months , Sandy worked , and then went on vacation .
+!ARTICLE
+A minute , he lingered , and then joined the celebration .
+!ARTICLE
+An entire afternoon , we shopped , and finally found the right dress .
+!ARTICLE
+A while , Patti and Marcia talked , and then took a bus downtown .
+!ARTICLE
+A few days , the newlyweds travelled , and then settled down at a motel .
+!ARTICLE
+George kicked the boy the ball .
+!ARTICLE
+Fred baked the kids coconut cookies .
+!ARTICLE
+You will give the keys to Maxine .
+!ARTICLE
+I should send my congressman the letter .
+!ARTICLE
+Larry cooked her husband the meal .
+!ARTICLE
+Sebastian lent Roxanne his history notes .
+!ARTICLE
+You bought your daughter the teddy bear .
+!ARTICLE
+They brought Mr Sheldrake the contract .
+!ARTICLE
+Who did George kick the ball ?
+!ARTICLE
+Who did Fred bake coconut cookies ?
+!ARTICLE
+Who will you give the keys ?
+!ARTICLE
+Who should I send the letter ?
+!ARTICLE
+Who did Larry cook the meal ?
+!ARTICLE
+Who did Sebastian lend his history notes ?
+!ARTICLE
+Who did you buy the teddy bear ?
+!ARTICLE
+Who did they bring the contract ?
+!ARTICLE
+There seems to be a man in the garden .
+!ARTICLE
+There appears to be a duck in the back yard .
+!ARTICLE
+There seems to be a box on your doorstep .
+!ARTICLE
+There appears to be a book on the coffee table .
+!ARTICLE
+There seems to be a gun under his jacket .
+!ARTICLE
+There appears to be a problem with the space shuttle .
+!ARTICLE
+There seems to be a stain on my pants .
+!ARTICLE
+There appears to be a scratch on this CD .
+!ARTICLE
+There seems a man to be in the garden .
+!ARTICLE
+There appears a duck to be in the back yard .
+!ARTICLE
+There seems a box to be on your doorstep .
+!ARTICLE
+There appears a book to be on the coffee table .
+!ARTICLE
+There seems a gun to be under his jacket .
+!ARTICLE
+There appears a problem to be with the space shuttle .
+!ARTICLE
+There seems a stain to be on my pants .
+!ARTICLE
+There appears a scratch to be on this CD .
+!ARTICLE
+The ship was sunk deliberately .
+!ARTICLE
+The chamber was flooded intentionally .
+!ARTICLE
+The reward was doubled deliberately .
+!ARTICLE
+The freezer was defrosted intentionally .
+!ARTICLE
+The pool was emptied deliberately .
+!ARTICLE
+The balloon was burst intentionally .
+!ARTICLE
+The pond was drained deliberately .
+!ARTICLE
+The meat was thawed intentionally .
+!ARTICLE
+The ship sank deliberately .
+!ARTICLE
+The chamber flooded intentionally .
+!ARTICLE
+The reward doubled deliberately .
+!ARTICLE
+The freezer defrosted intentionally .
+!ARTICLE
+The pool emptied deliberately .
+!ARTICLE
+The balloon burst intentionally .
+!ARTICLE
+The pond drained deliberately .
+!ARTICLE
+The meat thawed intentionally .
+!ARTICLE
+Eva was killed from John .
+!ARTICLE
+Hillary was interviewed from the FBI .
+!ARTICLE
+Steve was scolded from his teacher .
+!ARTICLE
+Caroline was congratulated from her coworkers .
+!ARTICLE
+Dale was suspended from the principal .
+!ARTICLE
+Linda was hired from Theresa .
+!ARTICLE
+Marcie was fired from her manager .
+!ARTICLE
+John was kissed from his mother .
+!ARTICLE
+Eva was killed by John .
+!ARTICLE
+Hillary was interviewed by the FBI .
+!ARTICLE
+Steve was scolded by his teacher .
+!ARTICLE
+Caroline was congratulated by her coworkers .
+!ARTICLE
+Dale was suspended by the principal .
+!ARTICLE
+Linda was hired by Theresa .
+!ARTICLE
+Marcie was fired by her manager .
+!ARTICLE
+John was kissed by his mother .
+!ARTICLE
+The boat was sunk to collect the insurance .
+!ARTICLE
+The chamber was flooded to drown the spiders .
+!ARTICLE
+The reward was doubled to help catch the thief .
+!ARTICLE
+The freezer was defrosted to remove the ice build-up .
+!ARTICLE
+The pool was emptied to find the ring .
+!ARTICLE
+The balloon was burst to punish the child .
+!ARTICLE
+The pond was drained to reduce mosquitoes .
+!ARTICLE
+The specimen was thawed to study it more closely .
+!ARTICLE
+The boat sank to collect the insurance .
+!ARTICLE
+The chamber flooded to drown the spiders .
+!ARTICLE
+The reward doubled to help catch the thief .
+!ARTICLE
+The freezer defrosted to remove the ice build-up .
+!ARTICLE
+The pool emptied to find the ring .
+!ARTICLE
+The balloon burst to punish the child .
+!ARTICLE
+The pond drained to reduce mosquitoes .
+!ARTICLE
+The specimen thawed to study it more closely .
+!ARTICLE
+John broke a cup , and Mary did so with a saucer .
+!ARTICLE
+Sarah ate a hot dog , and Marcie did so with a hamburger .
+!ARTICLE
+Ricky threw a baseball , and Michael did so with a football .
+!ARTICLE
+Sammy ordered a steak , and Richie did so with a veal cutlet .
+!ARTICLE
+Lonnie dropped a book , and Gabby did so with a pencil .
+!ARTICLE
+Amanda lost a key , and Jennie did so with a credit card .
+!ARTICLE
+Eldon deleted a file , and Francesca did so with a folder .
+!ARTICLE
+Milton stole a candy bar , and Andy did so with a pack of gum .
+!ARTICLE
+John broke a cup , and Mary did so too .
+!ARTICLE
+Sarah ate a hot dog , and Marcie did so too .
+!ARTICLE
+Ricky threw a baseball , and Michael did so too .
+!ARTICLE
+Sammy ordered a steak , and Richie did so too .
+!ARTICLE
+Lonnie dropped a book , and Gabby did so too .
+!ARTICLE
+Amanda lost a key , and Jennie did so too .
+!ARTICLE
+Eldon deleted a file , and Francesca did so too .
+!ARTICLE
+Milton stole a candy bar , and Andy did so too .
+!ARTICLE
+Jack came the person he is in love with .
+!ARTICLE
+Lisa arrived the professor .
+!ARTICLE
+Dylan played tennis his doubles partner .
+!ARTICLE
+Kelly attended the party her boyfriend .
+!ARTICLE
+Linda graduated high school her brother .
+!ARTICLE
+Mark went roller-skating his new girlfriend .
+!ARTICLE
+Larry applied for the job the deadline .
+!ARTICLE
+Brittany bought the car her cousin .
+!ARTICLE
+Jack came with the person he is in love with .
+!ARTICLE
+Lisa arrived after the professor .
+!ARTICLE
+Dylan played tennis with his doubles partner .
+!ARTICLE
+Kelly attended the party with her boyfriend .
+!ARTICLE
+Linda graduated high school before her brother .
+!ARTICLE
+Mark went roller-skating with his new girlfriend .
+!ARTICLE
+Larry applied for the job after the deadline .
+!ARTICLE
+Brittany bought the car with her cousin .
+!ARTICLE
+Lily will dance who the king chooses .
+!ARTICLE
+Fred works what Jack despises .
+!ARTICLE
+Leonard talks what Sally likes .
+!ARTICLE
+Tanya will laugh who Lisa chooses .
+!ARTICLE
+Joe chuckled what Vince said .
+!ARTICLE
+Iris scoffs what I read .
+!ARTICLE
+Sophie dances who she likes .
+!ARTICLE
+Eric stares who he envies .
+!ARTICLE
+Lily will dance with the person the king chooses .
+!ARTICLE
+Fred works on the things Jack despises .
+!ARTICLE
+Leonard talks about the things Sally likes .
+!ARTICLE
+Tanya will laugh at the people Lisa chooses .
+!ARTICLE
+Joe chuckled about the things Vince said .
+!ARTICLE
+Iris scoffs at the things I read .
+!ARTICLE
+Sophie dances for the people she likes .
+!ARTICLE
+Eric stares at the people he envies .
+!ARTICLE
+Sherry met a man very fond of whom she found herself .
+!ARTICLE
+Nate argued with a manager technically subordinate to who he later found himself .
+!ARTICLE
+Carrie fired an assistant dependent on who she later found herself .
+!ARTICLE
+Pete was forced to talk to a teacher generally wary of who he finds himself .
+!ARTICLE
+Helen listened to the advice of a doctor usually skeptical of who she finds herself .
+!ARTICLE
+Cindy's mother cautioned her not to date a guy too similar to who she finds herself .
+!ARTICLE
+Eric began a romantic relationship with an employee superior to who later found himself .
+!ARTICLE
+Rebecca married a man true to who she intends to stay .
+!ARTICLE
+Sherry met a man who she found herself very fond of .
+!ARTICLE
+Nate argued with a manager who he later found himself subordinate to .
+!ARTICLE
+Carrie fired an assistant who she later found herself to be dependent on .
+!ARTICLE
+Pete was forced to talk to a teacher who he finds himself generally wary of .
+!ARTICLE
+Helen listened to the advice of a doctor who she usually finds herself skeptical of .
+!ARTICLE
+Cindy's mother cautioned her not to date a guy who she finds herself too similar to .
+!ARTICLE
+Eric began a romantic relationship with an employee who he later found himself superior to .
+!ARTICLE
+Rebecca married a man who she intends to stay true to .
+!ARTICLE
+Who bought what ?
+!ARTICLE
+Who said what ?
+!ARTICLE
+Who ate what ?
+!ARTICLE
+Who stole what ?
+!ARTICLE
+Who brought what ?
+!ARTICLE
+Who read what ?
+!ARTICLE
+Who sold what ?
+!ARTICLE
+Who wore what ?
+!ARTICLE
+What did who buy ?
+!ARTICLE
+What did who say ?
+!ARTICLE
+What did who eat ?
+!ARTICLE
+What did who steal ?
+!ARTICLE
+What did who bring ?
+!ARTICLE
+What did who read ?
+!ARTICLE
+What did who sell ?
+!ARTICLE
+What did who wear ?
+!ARTICLE
+Ice cream gives me in the morning brain-freeze .
+!ARTICLE
+She baked him for his birthday a cake .
+!ARTICLE
+John picked her before their date some flowers .
+!ARTICLE
+He envied me after the promotion my success .
+!ARTICLE
+He waved them at the end of the night goodbye .
+!ARTICLE
+They brought the animals after the zoo closed some food .
+!ARTICLE
+We built them after the earthquake a new house .
+!ARTICLE
+She denied him after the deal fell through the promotion .
+!ARTICLE
+Ice cream gives me brain-freeze in the morning .
+!ARTICLE
+She baked him a cake for his birthday .
+!ARTICLE
+John picked her some flowers before their date .
+!ARTICLE
+He envied me my success after the promotion .
+!ARTICLE
+He waved them goodbye at the end of the night .
+!ARTICLE
+They brought the animals some food after the zoo closed .
+!ARTICLE
+We built them a new house after the earthquake .
+!ARTICLE
+She denied him the promotion after the deal fell through .
+!ARTICLE
+Lloyd Webber musicals are easy to condemn without even watching .
+!ARTICLE
+My dog is tough to groom without frightening .
+!ARTICLE
+Certain fabrics are simple to cut without tearing .
+!ARTICLE
+That movie impossible to watch without enjoying .
+!ARTICLE
+This sculpture will be hard to ship without breaking .
+!ARTICLE
+Maggie is difficult to compliment without embarrassing .
+!ARTICLE
+This door is challenging to paint without opening .
+!ARTICLE
+My favorite cookies are tricky to bake without burning .
+!ARTICLE
+Lloyd Webber musicals are likely to be condemned without anyone even watching .
+!ARTICLE
+My dog appears to have been groomed without anyone frightening .
+!ARTICLE
+Certain fabrics are likely to be cut without anyone tearing .
+!ARTICLE
+That movie seems to be watched without anyone enjoying .
+!ARTICLE
+This sculpture seems to have been shipped without anyone breaking .
+!ARTICLE
+Maggie is unlikely to be complimented without anyone embarrassing .
+!ARTICLE
+This door is unlikely to be painted without anyone opening .
+!ARTICLE
+My favorite cookies are certain to be baked without anyone burning .
+!ARTICLE
+Who did that Mary was going out with bother you ?
+!ARTICLE
+Who was that the principal would fire expected by the reporters ?
+!ARTICLE
+Who was that John's mother would ground anticipated by Suzette ?
+!ARTICLE
+What was that the movers would break feared by the family ?
+!ARTICLE
+What was that the construction workers might uncover known by the bank robber ?
+!ARTICLE
+What was that the computer needed explained by the technician ?
+!ARTICLE
+Who was that Martians kidnapped believed by no one ?
+!ARTICLE
+Who is that the jail must release accepted by few citizens ?
+!ARTICLE
+That Mary was going out with Luke bothered you .
+!ARTICLE
+That the principal would fire Euclid was expected by the reporters ?
+!ARTICLE
+That John's mother would ground him was anticipated by Suzette .
+!ARTICLE
+That the movers would break the vase was feared by the family .
+!ARTICLE
+That the construction workers might uncover the treasure was known by the bank robber .
+!ARTICLE
+That the computer needed more memory was explained by the technician .
+!ARTICLE
+That Martians kidnapped Marty was believed by no one .
+!ARTICLE
+That the jail must release the notorious killer is accepted by few citizens .
+!ARTICLE
+Who do you wonder which picture of is on sale ?
+!ARTICLE
+Who does she wonder which story about is on the front page ?
+!ARTICLE
+Who do you wonder which portrait of is on display ?
+!ARTICLE
+Who do you wonder which article by is in print ?
+!ARTICLE
+Who do you wonder which letter to is in the mail ?
+!ARTICLE
+Who does Angela wonder which story about is online ?
+!ARTICLE
+Who do you wonder which student of is in trouble ?
+!ARTICLE
+Who do you wonder which image of is in the display case ?
+!ARTICLE
+You wonder which picture of Marge is on sale .
+!ARTICLE
+She wonders which story about Valerie is on the front page .
+!ARTICLE
+You wonder which portrait of the president is on display .
+!ARTICLE
+You wonder which article by Jackson is in print .
+!ARTICLE
+You wonder which letter to Harry is in the mail .
+!ARTICLE
+Angela wonders which story about Elaine is online .
+!ARTICLE
+You wonder which student of Mrs Simpson is in trouble .
+!ARTICLE
+You wonder which image of Streisand is in the display case .
+!ARTICLE
+At that battle were given the generals who lost hell .
+!ARTICLE
+In that room is given anyone who stays long enough horrible headaches .
+!ARTICLE
+At that time were given the tables we inherited from Aunt Selma a good scrubbing .
+!ARTICLE
+With that Supreme Court decision were denied minorities some of their rights .
+!ARTICLE
+On that day were given the girls who saw me the creeps .
+!ARTICLE
+With that announcement were many citizens denied the opportunity to protest .
+!ARTICLE
+During that game was given the team from Illinois hell .
+!ARTICLE
+At that point were given the counters that had just been used a quick wipe .
+!ARTICLE
+At that battle the generals who lost were given hell .
+!ARTICLE
+In that room anyone who stays long enough is given horrible headaches .
+!ARTICLE
+At that time the tables we inherited from Aunt Selma were given a good scrubbing .
+!ARTICLE
+With that Supreme Court decision minorities were denied some of their rights .
+!ARTICLE
+On that day the girls who saw me were given the creeps .
+!ARTICLE
+With that announcement many citizens were denied the opportunity to protest .
+!ARTICLE
+During that game the team from Illinois was given hell .
+!ARTICLE
+At that point the counters that had just been used were given a quick wipe .
+!ARTICLE
+At that time were given the tables we inherited from Aunt Selma a good scrubbing .
+!ARTICLE
+At the end of the year was denied the manager that I hired a promotion .
+!ARTICLE
+Before the award ceremony was picked the prom queen some flowers .
+!ARTICLE
+On his birthday was baked the sick boy a cake .
+!ARTICLE
+At the Oscars was envied the actor in the blockbuster movie his success .
+!ARTICLE
+After the dinner party were waved the departing guests goodbye .
+!ARTICLE
+During the heat wave were brought the animals kept at the zoo some water .
+!ARTICLE
+During the cleanup were built the earthquake victims a new house .
+!ARTICLE
+The tables we inherited from Aunt Selma were given a good scrubbing at that time .
+!ARTICLE
+The manager that I hired was denied a promotion at the end of the year .
+!ARTICLE
+The prom queen was picked some flowers before the award ceremony .
+!ARTICLE
+The sick boy was baked a cake on his birthday .
+!ARTICLE
+The actor in the blockbuster movie was envied his success at the Oscars .
+!ARTICLE
+The departing guests were waved goodbye after the dinner party .
+!ARTICLE
+The animals kept at the zoo were brought some water during the heat wave .
+!ARTICLE
+The earthquake victims were built a new house during the cleanup .
+!ARTICLE
+The man that he gave the creeps to last night is over there .
+!ARTICLE
+The generals that Ted gave hell to yesterday are quite embarrassed .
+!ARTICLE
+The people that the construction noise gave a headache to this morning are furious .
+!ARTICLE
+The tables that the bus boy gave a good scrubbing to before closing look great .
+!ARTICLE
+The child that the clown gave the creeps to at the party is still upset .
+!ARTICLE
+The apprentice that Donald gave hell to on last night's program is very worried .
+!ARTICLE
+The horse that the jockey gave a slap to on the track refuses to co-operate .
+!ARTICLE
+The counter that the waitress gave a quick wipe to when we arrived was still wet .
+!ARTICLE
+The man that he gave the creeps last night to is over there .
+!ARTICLE
+The generals that Ted gave hell yesterday to are quite embarrassed .
+!ARTICLE
+The people that the construction noise gave a headache this morning to are furious .
+!ARTICLE
+The tables that the bus boy gave a good scrubbing before closing to look great .
+!ARTICLE
+The child that the clown gave the creeps at the party to is still upset .
+!ARTICLE
+The apprentice that Donald gave hell on last night's program to is very worried .
+!ARTICLE
+The horse that the jockey gave a slap on the track to refuses to co-operate .
+!ARTICLE
+The counter that the waitress gave a quick wipe when we arrived to was still wet .
+!ARTICLE
+The count gives me the creeps .
+!ARTICLE
+The lighting here gives me a headache .
+!ARTICLE
+The teacher denied George his extra credit .
+!ARTICLE
+The reporter envied me my success .
+!ARTICLE
+The judge spared the murderer his life .
+!ARTICLE
+The IRS denied Lilly her refund .
+!ARTICLE
+The doctor envied the nurse her success .
+!ARTICLE
+The police officer spared the prisoner an ordeal .
+!ARTICLE
+The count gives the creeps to me .
+!ARTICLE
+The lighting here gives a headache to me .
+!ARTICLE
+The teacher denied his extra credit to George .
+!ARTICLE
+The reporter envied my success to me .
+!ARTICLE
+The judge spared his life to the murderer .
+!ARTICLE
+The IRS denied her refund to Lilly .
+!ARTICLE
+The doctor envied her success to the nurse .
+!ARTICLE
+The police officer spared an ordeal to the prisoner .
+!ARTICLE
+All the men seem to have all eaten supper .
+!ARTICLE
+All the boys appear to have all finished their homework .
+!ARTICLE
+All the games are likely to have all ended by now .
+!ARTICLE
+All the children are certain to have all been picked up .
+!ARTICLE
+All the muffins are unlikely to have all been eaten already .
+!ARTICLE
+All the campers are expected to have all eaten by 7 o'clock .
+!ARTICLE
+All the transmitters seem to have all failed simultaneously .
+!ARTICLE
+All the postal workers seem to have all taken a break at the same time .
+!ARTICLE
+The game was played wearing no shoes .
+!ARTICLE
+The club was entered wearing no shirt .
+!ARTICLE
+The bed was slept in wearing no clothes .
+!ARTICLE
+The summit was reached sweating profusely .
+!ARTICLE
+The bottle was smashed while being drunk .
+!ARTICLE
+The papers were graded while being bored .
+!ARTICLE
+The car was driven while being tired .
+!ARTICLE
+The question was answered feeling nervous .
+!ARTICLE
+The game was played shoeless .
+!ARTICLE
+The club was entered shirtless .
+!ARTICLE
+The bed was slept in naked .
+!ARTICLE
+The summit was reached sweaty .
+!ARTICLE
+The bottle was smashed drunk .
+!ARTICLE
+The papers were graded bored .
+!ARTICLE
+The car was driven tired .
+!ARTICLE
+The question was answered nervous .
+!ARTICLE
+I told Mr Smith that I wonder when to paint the fence together .
+!ARTICLE
+Mr Fender realized that his wife hated to kiss in front of the kids .
+!ARTICLE
+We knew that Prof Barnacle arranged to meet after class .
+!ARTICLE
+I informed Stan that I wanted to wash the car together .
+!ARTICLE
+Jennie noticed that her boyfriend hoped to kiss in front of his parents .
+!ARTICLE
+We were sure that the teaching assistant liked to meet before lecture .
+!ARTICLE
+I told Shelby that I am glad to assemble the bookshelves together .
+!ARTICLE
+We are certain that Jason is afraid to meet tomorrow .
+!ARTICLE
+I told Mr Smith that I am able to paint the fence together .
+!ARTICLE
+Mr Fender realized that his wife started to kiss in front of the kids .
+!ARTICLE
+We knew that Prof Barnacle remembered to meet after class .
+!ARTICLE
+I informed Stan that I must wash the car together .
+!ARTICLE
+Jennie noticed that her boyfriend dared to kiss in front of his parents .
+!ARTICLE
+We were sure that the teaching assistant would fail to meet before lecture .
+!ARTICLE
+I told Shelby that I must assemble the bookshelves together .
+!ARTICLE
+We are certain that Jason needs to meet tomorrow .
+!ARTICLE
+His wife kissed in front of the kids .
+!ARTICLE
+Her husband hugged in front of the guests .
+!ARTICLE
+Her grandfather embraced at the dinner .
+!ARTICLE
+The manager met before the store opened .
+!ARTICLE
+The teacher spoke together after class .
+!ARTICLE
+The gardener painted the fence together .
+!ARTICLE
+His sister reunited at the family picnic .
+!ARTICLE
+Her cousin ate together at the café .
+!ARTICLE
+He and his wife kissed in front of the kids .
+!ARTICLE
+She and her husband hugged in front of the guests .
+!ARTICLE
+Her grandmother and grandfather embraced at the dinner .
+!ARTICLE
+The manager and cashier met before the store opened .
+!ARTICLE
+The teacher and principal spoke together after class .
+!ARTICLE
+The gardener and handyman painted the fence together .
+!ARTICLE
+His sister and brother reunited at the family picnic .
+!ARTICLE
+Her aunt and cousin ate together at the café .
+!ARTICLE
+I am now hiring for John to work with .
+!ARTICLE
+Fred leased for his son to drive .
+!ARTICLE
+Jaden ordered for her sister to wear to the dance .
+!ARTICLE
+Shannon stole for her family to enjoy .
+!ARTICLE
+Mr Parker rents for his mother to stay in .
+!ARTICLE
+Mr Feldon saves for his family to use in an emergency .
+!ARTICLE
+Ms Murphy wrote for her students to use .
+!ARTICLE
+Mrs Phelps knitted for her dog to wear .
+!ARTICLE
+I am now hiring people for John to work with .
+!ARTICLE
+Fred leased a car for his son to drive .
+!ARTICLE
+Jaden ordered a dress for her sister to wear to the dance .
+!ARTICLE
+Shannon stole food for her family to enjoy .
+!ARTICLE
+Mr Parker rents an apartment for his mother to stay in .
+!ARTICLE
+Mr Feldon saves money for his family to use in an emergency .
+!ARTICLE
+Ms Murphy wrote a textbook for her students to use .
+!ARTICLE
+Mrs Phelps knitted a sweater for her dog to wear .
+!ARTICLE
+There had hung over the fireplace all of the portraits by Picasso .
+!ARTICLE
+There had prevailed in the trial all of the defendants we were rooting for .
+!ARTICLE
+There had loomed over us all of the projects we had been putting off .
+!ARTICLE
+There had lived across the street all of the kids who were vandalizing our yard .
+!ARTICLE
+There had emerged from the darkness all of the raccoons Jamie had seen earlier .
+!ARTICLE
+There had stood in the corner all of the grandfather clocks Maria had collected over the years .
+!ARTICLE
+There have accumulated in the basement all of the trophies Trevor has won playing sports .
+!ARTICLE
+There have arisen in these negotiations all of the issues the lawyers warned us about .
+!ARTICLE
+There had all hung over the fireplace the portraits by Picasso .
+!ARTICLE
+There had all prevailed in the trial the defendants we were rooting for .
+!ARTICLE
+There had all loomed over us the projects we had been putting off .
+!ARTICLE
+There had all lived across the street the kids who were vandalizing our yard .
+!ARTICLE
+There had all emerged from the darkness the raccoons Jamie had seen earlier .
+!ARTICLE
+There had all stood in the corner the grandfather clocks Maria had collected over the years .
+!ARTICLE
+There have all accumulated in the basement the trophies Trevor has won playing sports .
+!ARTICLE
+There have all arisen in these negotiations the issues the lawyers warned us about .
+!ARTICLE
+She plays the guitar and Betsy the harmonica .
+!ARTICLE
+Mike prefers tennis and Jon baseball .
+!ARTICLE
+Caroline likes cupcakes and Lisa cookies .
+!ARTICLE
+Dennis loves math and Steve science .
+!ARTICLE
+Carl collects stamps and Ryan coins .
+!ARTICLE
+Oliver wants to be a lawyer and Oscar a doctor .
+!ARTICLE
+Tracey bought a van and Tom a truck .
+!ARTICLE
+Stacey wants a dog and Jeff a cat .
+!ARTICLE
+She plays the guitar because Betsy the harmonica .
+!ARTICLE
+Mike prefers tennis because Jon baseball .
+!ARTICLE
+Caroline likes cupcakes because Lisa cookies .
+!ARTICLE
+Dennis loves math because Steve science .
+!ARTICLE
+Carl collects stamps because Ryan coins .
+!ARTICLE
+Oliver wants to be a lawyer because Oscar a doctor .
+!ARTICLE
+Tracey bought a van because Tom a truck .
+!ARTICLE
+Stacey wants a dog because Jeff a cat .
+!ARTICLE
+Sandy plays the guitar better than Betsy the harmonica .
+!ARTICLE
+Arthur cooked the lasagna better than Adam the pasta .
+!ARTICLE
+Emma draws dogs better than Sophia dinosaurs .
+!ARTICLE
+Joel devoured the pie more voraciously than Mark the cake .
+!ARTICLE
+Ariel cleaned the kitchen more thoroughly than Omar the living room .
+!ARTICLE
+Alex read the magazine more meticulously than Ronald the textbook .
+!ARTICLE
+Amanda hurled the water balloon more forcefully than Irene the baseball .
+!ARTICLE
+Kelsey speaks Japanese more fluently than Jason English .
+!ARTICLE
+Sandy plays the guitar better than Betsy does .
+!ARTICLE
+Arthur cooks lasagna better than Adam does .
+!ARTICLE
+Emma draws dogs better than Sophia does .
+!ARTICLE
+Joel devoured the pie more voraciously than Mark did .
+!ARTICLE
+Ariel cleaned the kitchen more thoroughly than Omar did .
+!ARTICLE
+Alex read the magazine more meticulously than Ronald did .
+!ARTICLE
+Amanda hurled the water balloon more forcefully than Irene did .
+!ARTICLE
+Kelsey speaks Japanese more fluently than Jason does .
+!ARTICLE
+Amanda went to Santa Cruz , and Bill thinks that Claire to Monterrey .
+!ARTICLE
+Rich plays the guitar , and Sandy thinks that Bobby the piano .
+!ARTICLE
+The girls made sandwiches , and I believe that the boys hot dogs .
+!ARTICLE
+Mr Snow brought a briefcase , and I guess that Mrs Jones a laptop .
+!ARTICLE
+Our friend has a car , and we know that his mother an SUV .
+!ARTICLE
+The maid broke a glass , and we suspect that the butler a saucer .
+!ARTICLE
+Ellen ironed a shirt , and I suppose that Marion a blouse .
+!ARTICLE
+Ricardo likes soup , and he knows that Juan salad .
+!ARTICLE
+Amanda went to Santa Cruz , and Bill thinks that Claire did too .
+!ARTICLE
+Rich plays the guitar , and Sandy thinks that Bobby does too .
+!ARTICLE
+The girls made sandwiches , and I believe that the boys did too .
+!ARTICLE
+Mr Snow brought a briefcase , and I guess that Mrs Jones did too .
+!ARTICLE
+Our friend has a car , and we know that his mother does too .
+!ARTICLE
+The maid broke a glass , and we suspect that the butler did too .
+!ARTICLE
+Ellen ironed a shirt , and I suppose that Marion did too .
+!ARTICLE
+Ricardo likes soup , and he knows that Juan does too .
+!ARTICLE
+Read things , Mike did quickly .
+!ARTICLE
+Examine things , Katie did diligently .
+!ARTICLE
+Steal things , the thief did sneakily .
+!ARTICLE
+Clean the room , the child did reluctantly .
+!ARTICLE
+Eat cookies , the fat kid did voraciously .
+!ARTICLE
+Jump on things , the youngster did excitedly .
+!ARTICLE
+Frighten people , the clown did willingly .
+!ARTICLE
+Threaten students , the bully did triumphantly .
+!ARTICLE
+Mike read things quickly .
+!ARTICLE
+Katie examined things diligently .
+!ARTICLE
+The thief stole things sneakily .
+!ARTICLE
+The child cleaned the room reluctantly .
+!ARTICLE
+The fat kid ate cookies voraciously .
+!ARTICLE
+The youngster jumped on things excitedly .
+!ARTICLE
+The clown frightened people willingly .
+!ARTICLE
+The bully threatened students triumphantly .
+!ARTICLE
+Want to write , Randy did a novel .
+!ARTICLE
+Expect to receive , Sarah did a good grade .
+!ARTICLE
+Try to solve , Martin did the math problem .
+!ARTICLE
+Promise to wash , Neal did the car .
+!ARTICLE
+Forget to walk , Susan did the dog .
+!ARTICLE
+Learn to repair , Lisa did computers .
+!ARTICLE
+Hope to attend , John did college .
+!ARTICLE
+Manage to pass , Tim did his exam .
+!ARTICLE
+Randy wanted to write a novel .
+!ARTICLE
+Sarah expected to receive a good grade .
+!ARTICLE
+Martin tried to solve the math problem .
+!ARTICLE
+Neal promised to wash the car .
+!ARTICLE
+Susan forgot to walk the dog .
+!ARTICLE
+Lisa learned to repair computers .
+!ARTICLE
+John hoped to attend college .
+!ARTICLE
+Tim managed to pass his exam .
+!ARTICLE
+What did he prove an account of false ?
+!ARTICLE
+Who do you consider supporters of beneath our notice ?
+!ARTICLE
+Who did they find a parent of guilty ?
+!ARTICLE
+Who did the executives appoint a friend of chairman of the board ?
+!ARTICLE
+Who did the board deem children of unworthy to attend this school ?
+!ARTICLE
+Who did the citizens elect an enemy of mayor ?
+!ARTICLE
+Who did the frat boys imagine a daughter of naked ?
+!ARTICLE
+Who did officials proclaim an associate of the winner ?
+!ARTICLE
+Who did he give statues of to all the season-ticket holders ?
+!ARTICLE
+Who did you send supporters of to trial ?
+!ARTICLE
+Who did they send a parent of to an unpleasant meeting ?
+!ARTICLE
+Who did the executives appoint a friend of to the board ?
+!ARTICLE
+Who did the coach trade an enemy of to another team ?
+!ARTICLE
+Who did the principal assign children of to a different teacher ?
+!ARTICLE
+Who did the frat boys introduce a daughter of to their pledges ?
+!ARTICLE
+Who did officials dispatch an associate of to the embassy ?
+!ARTICLE
+Bill asked if such books John only reads at home .
+!ARTICLE
+Chris knows whether this book Candice read .
+!ARTICLE
+Leslie wonders whether these clothes Harold will wash .
+!ARTICLE
+Judah inquired whether this jersey he can keep .
+!ARTICLE
+Shelly is uncertain whether the dishes Edgar will wash .
+!ARTICLE
+Mindy asked if my history notes she could borrow .
+!ARTICLE
+Jessie wonders whether the big solo Rachel will sing .
+!ARTICLE
+Sam inquired if the new Lexus he could test drive .
+!ARTICLE
+Bill knows that such books John only reads at home .
+!ARTICLE
+Chris knows that this book Candice read .
+!ARTICLE
+Leslie is certain that these clothes Harold will wash .
+!ARTICLE
+Judah confirmed that this jersey he can keep .
+!ARTICLE
+Shelly is certain that the dishes Edgar will wash .
+!ARTICLE
+Mindy was confident that my history notes she could borrow .
+!ARTICLE
+Jessie knows that the big solo Rachel will sing .
+!ARTICLE
+Sam discovered that the new Lexus he could test drive .
+!ARTICLE
+If frankly he's unable to cope , we'll have to replace him .
+!ARTICLE
+If they luckily arrived on time , we will be saved .
+!ARTICLE
+If the students apparently can't follow the discussion , we'll cover a different chapter .
+!ARTICLE
+If George probably comes , the party will be a disaster .
+!ARTICLE
+If Lewis possibly finishes the report in time , the meeting will be a success .
+!ARTICLE
+If Kelly might have time , she will do it .
+!ARTICLE
+If Grace probably passes the class , she will graduate on time .
+!ARTICLE
+If frankly you continue to argue , the boss will fire you .
+!ARTICLE
+When this column she started to write last year , I thought she would be fine .
+!ARTICLE
+When that play he started to perform this week , we believed he would be fine .
+!ARTICLE
+When those cakes you started to bake this afternoon , I figured they were for tonight's dessert .
+!ARTICLE
+When these books they started to arrange an hour ago , I thought they would tidy the rest of the room .
+!ARTICLE
+When this exam we started to take this morning , it didn't look so long .
+!ARTICLE
+When that report Marnie started to present yesterday , I thought we were in for a lot of surprises .
+!ARTICLE
+When these paintings Fritz started to paint last year , I thought he was awfully talented .
+!ARTICLE
+When this program George started to write last week , he believed it would work flawlessly .
+!ARTICLE
+When last year she started to write this column , I thought she would be fine .
+!ARTICLE
+When this week he started to perform that play , we believed he would be fine .
+!ARTICLE
+When this afternoon you started to bake those cakes , I figured they were for tonight's dessert .
+!ARTICLE
+When an hour ago they started to arrange these books , I thought they would tidy the rest of the room .
+!ARTICLE
+When this morning we started to take this exam , it didn't look so long .
+!ARTICLE
+When yesterday Marnie started to present that report , I thought we were in for a lot of surprises .
+!ARTICLE
+When last year Fritz started to paint these paintings , I thought he was awfully talented .
+!ARTICLE
+When last week George started to write this program , he believed it would work flawlessly .

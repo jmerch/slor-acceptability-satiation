@@ -1,0 +1,13 @@
+Here is a list of the files contained in this zipped folder:
+
+1. conditions.csv
+
+This contains a list of the two conditions that form each pairwise phenomenon. It is useful for writing a script to analyze all of the phenomena in a batch.
+
+2. FC.logistic.csv
+
+This contains the results of the forced-choice task formatted for logistic regression. The judgment column is 1 if the participant chose the item as the most acceptable item in the pair, and 0 if the participant did not choose the item as the most acceptable item in the pair.
+
+3. FC.signtest.csv
+
+This contains the results of the forced-choice task formatted for a sign test. The judment column indicates which of the two items in the pair the participant chose (1 for the first, 2 for the second). The expected colum indicates which of the two items we would expect the participant to choose based on the judgments reported in LI. The pattern column is 1 if the participant's judgment matches the expected judgment, and 0 if the participant's judgment does not match the expected judgment.
