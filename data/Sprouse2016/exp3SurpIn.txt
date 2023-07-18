@@ -319,258 +319,258 @@ I share a locker with the cheerleader who thinks that Jessica kissed the quarter
 !ARTICLE
 I spoke with the waiter who thinks that Rachel should talk to the chef .
 !ARTICLE
-What do you worry if the lawyer forgets at the office ?
+Which file does the secretary worry if the lawyer forgets at the office ?
 !ARTICLE
-What do you laugh if the heiress buys at the auction ?
+Which paintind does the art dealer laugh if the heiress buys at the auction ?
 !ARTICLE
-What do you sigh if the bride and groom neglect to send promptly ?
+Which note does the guest sigh if the bride and groom neglect to send promptly ?
 !ARTICLE
-What do you blush if the child prodigy submits to the art contest ?
+Which drawing does the teacher blush if the child prodigy submits to the art contest ?
 !ARTICLE
-What do you sneeze if the dog owner leaves open at night ?
+Which window does the roommate sneeze if the dog owner leaves open at night ?
 !ARTICLE
-What do you cough if the tourists photograph in the exhibit ?
+Which painting does the museum employee cough if the tourists photograph in the exhibit ?
 !ARTICLE
-What do you wink if the sweethearts share at the movies ?
+Which snack does the usher wink if the sweethearts share at the movies ?
 !ARTICLE
-What do you faint if the actors forget on stage ?
+Which lines does the director faint if the actors forget on stage ?
 !ARTICLE
-Who worries if the lawyer forgets his briefcase at the office ?
+Which secretary worries if the lawyer forgets the file at the office ?
 !ARTICLE
-Who laughs if the heiress buys a painting at the auction ?
+Which art dealer laughs if the heiress buys a painting at the auction ?
 !ARTICLE
-Who sighs if the bride and groom neglect to send a thank you note promptly ?
+Which guest sighs if the bride and groom neglect to send a thank you note promptly ?
 !ARTICLE
-Who blushes if the child prodigy submits a drawing to the art contest ?
+Which teacher blushes if the child prodigy submits a drawing to the art contest ?
 !ARTICLE
-Who sneezes if the dog owner leaves a window open at night ?
+Which roommate sneezes if the dog owner leaves a window open at night ?
 !ARTICLE
-Who coughs if the tourists photograph the priceless painting in the exhibit ?
+Which museum employee coughs if the visitors photograph the priceless painting in the exhibit ?
 !ARTICLE
-Who winks if the sweethearts share popcorn at the movies ?
+Which usher winks if the sweethearts share popcorn at the movies ?
 !ARTICLE
-Who faints if the actors forget their lines on stage ?
+Which director faints if the actors forget their lines on stage ?
 !ARTICLE
-What do you think that the lawyer forgot at the office ?
+Which file does the secretary think that the lawyer forgot at the office ?
 !ARTICLE
-What do you wish that the heiress bought at the auction ?
+Which painting does the art dealer wish that the heiress bought at the auction ?
 !ARTICLE
-What do you suspect that the bride and groom neglected to send promptly ?
+Whiich note does the guest suspect that the bride and groom neglected to send promptly ?
 !ARTICLE
-What do you think that the child prodigy will submit to the art contest ?
+Which drawing does the teacher think that the child prodigy will submit to the art contest ?
 !ARTICLE
-What do you hope that the dog owner will leave open at night ?
+Which window does the roommate hope that the dog owner will leave open at night ?
 !ARTICLE
-What do you complain that the tourists photograph in the exhibit ?
+Which painting does the museum employee complain that the visitors photograph in the exhibit ?
 !ARTICLE
-What do you claim that the sweethearts share at the movies ?
+Which snack does the usher claim that the sweethearts share at the movies ?
 !ARTICLE
-What do you believe that the actors will forget on stage ?
+Which lines does the director believe that the actors will forget on stage ?
 !ARTICLE
-Who thinks that the lawyer forgot his briefcase at the office ?
+Which secretary thinks that the lawyer forgot the file at the office ?
 !ARTICLE
-Who wishes that the heiress bought a painting at the auction ?
+Which art dealer wishes that the heiress bought a painting at the auction ?
 !ARTICLE
-Who suspects that the bride and groom neglected to send a thank you note promptly ?
+Which guest suspects that the bride and groom neglected to send a thank you note promptly ?
 !ARTICLE
-Who thinks that the child prodigy will submit a drawing to the art contest ?
+Which teacher thinks that the child prodigy will submit a drawing to the art contest ?
 !ARTICLE
-Who hopes that the dog owner will leave a window open at night ?
+Which roommate hopes that the dog owner will leave a window open at night ?
 !ARTICLE
-Who complains that the tourists photograph the priceless painting in the exhibit ?
+Which museum employee complains that the visitors photograph the priceless painting in the exhibit ?
 !ARTICLE
-Who claims that the sweethearts share popcorn at the movies ?
+Which usher claims that the sweethearts share popcorn at the movies ?
 !ARTICLE
-Who believes that the actors will forget their lines on stage ?
+Which director believes that the actors will forget their lines on stage ?
 !ARTICLE
-What did you hear the rumor that Jeff baked ?
+Which pie did the chef hear the rumor that Jeff baked ?
 !ARTICLE
-What did you deny the fact that Laura ate ?
+Which cookie did the parent deny the fact that Laura ate ?
 !ARTICLE
-What did you make the announcement that Andrew won ?
+Which match did the referee make the announcement that Andrew won ?
 !ARTICLE
-What did you make the announcement that Jane lost ?
+Which game did the coach make the announcement that Jane lost ?
 !ARTICLE
-What did you make the claim that Amy stole ?
+Which pizza did the witness make the claim that Amy stole ?
 !ARTICLE
-What did you hear the rumor that Ralph received ?
+Which award did the finalist hear the rumor that Ralph received ?
 !ARTICLE
-What did you deny the fact that Jared could afford ?
+Which car did the salesman deny the fact that Jared could afford ?
 !ARTICLE
-What did you make the claim that Elizabeth joined ?
+Which club did the teacher make the claim that Elizabeth joined ?
 !ARTICLE
-Who heard the rumor that Jeff baked a pie ?
+Which chef heard the rumor that Jeff baked a pie ?
 !ARTICLE
-Who denied the fact that Laura ate the cookie ?
+Which parent denied the fact that Laura ate the cookie ?
 !ARTICLE
-Who made the announcement that Andrew won the match ?
+Which referee made the announcement that Andrew won the match ?
 !ARTICLE
-Who made the announcement that Jane lost the game ?
+Which coach made the announcement that Jane lost the game ?
 !ARTICLE
-Who made the claim that Amy stole the pizza ?
+Which witness made the claim that Amy stole the pizza ?
 !ARTICLE
-Who heard the rumor that Ralph received the award ?
+Which finalist heard the rumor that Ralph received the award ?
 !ARTICLE
-Who denied the fact that Jared could afford the car ?
+Which salesman denied the fact that Jared could afford the car ?
 !ARTICLE
-Who made the claim that Elizabeth joined the club ?
+Which teacher made the claim that Elizabeth joined the club ?
 !ARTICLE
-What did you hear that Jeff baked ?
+Which pie did the chef hear that Jeff baked ?
 !ARTICLE
-What did you deny that Laura ate ?
+Which cookie did the parent deny that Laura ate ?
 !ARTICLE
-What did you announce that Andrew won ?
+Which match did the referee announce that Andrew won ?
 !ARTICLE
-What did you announce that Jane lost ?
+Which game did the coach announce that Jane lost ?
 !ARTICLE
-What did you claim that Amy stole ?
+Which pizza did the witness claim that Amy stole ?
 !ARTICLE
-What did you hear that Ralph received ?
+Which award did the finalist hear that Ralph received ?
 !ARTICLE
-What did you deny that Jared could afford ?
+Which car did the salesman deny that Jared could afford ?
 !ARTICLE
-What did you claim that Elizabeth joined ?
+Which club did the teacher claim that Elizabeth joined ?
 !ARTICLE
-Who heard that Jeff baked a pie ?
+Which chef heard that Jeff baked a pie ?
 !ARTICLE
-Who denied that Laura ate the cookie ?
+Which parent denied that Laura ate the cookie ?
 !ARTICLE
-Who announced that Andrew won the match ?
+Which referee announced that Andrew won the match ?
 !ARTICLE
-Who announced that Jane lost the game ?
+Which coach announced that Jane lost the game ?
 !ARTICLE
-Who claimed that Amy stole the pizza ?
+Which witness claimed that Amy stole the pizza ?
 !ARTICLE
-Who heard that Ralph received the award ?
+Which finalist heard that Ralph received the award ?
 !ARTICLE
-Who denied that Jared could afford the car ?
+Which salesman denied that Jared could afford the car ?
 !ARTICLE
-Who claimed that Elizabeth joined the club ?
+Which teacher claimed that Elizabeth joined the club ?
 !ARTICLE
-Who do you think the gift from prompted the rumor about the senator ?
+Which lobbyist do you think the gift from prompted the rumor about the senator ?
 !ARTICLE
-Who do you think the speech by interrupted the news report about the mayor ?
+Which president do you think the speech by interrupted the news report about the mayor ?
 !ARTICLE
-Who do you think the meeting with delayed the fundraiser for the candidate ?
+Which businees leader do you think the meeting with delayed the fundraiser for the candidate ?
 !ARTICLE
-Who do you think the documentary about inspired the song by Adele ?
+Which actor do you think the documentary about inspired the song by Adele ?
 !ARTICLE
-Who do you think the email from criticized the joke about the Pope ?
+Which priest do you think the email from criticized the joke about the Pope ?
 !ARTICLE
-Who do you think the picture of accompanied the magazine article about Avril Lavigne ?
+Which band do you think the picture of accompanied the magazine article about Avril Lavigne ?
 !ARTICLE
-Who do you think the flyer from promoted the play about Abraham Lincoln ?
+Which actress do you think the flyer from promoted the play about Abraham Lincoln ?
 !ARTICLE
-Who do you think the review by praised the book about Martin Luther King Jr ?
+Which critic do you think the review by praised the book about Martin Luther King Jr ?
 !ARTICLE
-Who do you think the gift from the lobbyist prompted the rumor about ?
+Which senator do you think the gift from the lobbyist prompted the rumor about ?
 !ARTICLE
-Who do you think the speech by the president interrupted the news report about ?
+Which mayor do you think the speech by the president interrupted the news report about ?
 !ARTICLE
-Who do you think the meeting with the millionaire delayed the fundraiser for ?
+Which candidate do you think the meeting with the millionaire delayed the fundraiser for ?
 !ARTICLE
-Who do you think the documentary about the famous actor inspired the new song by ?
+Which musician do you think the documentary about the famous actor inspired the new song by ?
 !ARTICLE
-Who do you think the email from the priest criticized the joke about ?
+Which religious leader do you think the email from the priest criticized the joke about ?
 !ARTICLE
-Who do you think the picture of Chad Krueger accompanied the magazine article about ?
+Which band do you think the picture of Chad Krueger accompanied the magazine article about ?
 !ARTICLE
-Who do you think the flyer from the actress promoted the play about ?
+Which president do you think the flyer from the actress promoted the play about ?
 !ARTICLE
-Who do you think the review by the critic praised the book about ?
+Which activist do you think the review by the critic praised the book about ?
 !ARTICLE
-What do you think prompted the rumor ?
+Which gift do you think prompted the rumor ?
 !ARTICLE
-What do you think interrupted the news report ?
+Which speech do you think interrupted the news report ?
 !ARTICLE
-What do you think delayed the fundraiser ?
+Which meeting do you think delayed the fundraiser ?
 !ARTICLE
-What do you think inspired the new song ?
+Which documentary do you think inspired the new song ?
 !ARTICLE
-What do you think criticized the joke ?
+Which email do you think criticized the joke ?
 !ARTICLE
-What do you think accompanied the article ?
+Which picture do you think accompanied the article ?
 !ARTICLE
-What do you think promoted the play ?
+Which flyer do you think promoted the play ?
 !ARTICLE
-What do you think started the debate ?
+Which verdict do you think started the debate ?
 !ARTICLE
-What do you think the gift prompted ?
+Which rumor do you think the gift prompted ?
 !ARTICLE
-What do you think the speech interrupted ?
+Which news report do you think the speech interrupted ?
 !ARTICLE
-What do you think the meeting delayed ?
+Which fundraiser do you think the meeting delayed ?
 !ARTICLE
-What do you think the documentary inspired ?
+Which song do you think the documentary inspired ?
 !ARTICLE
-What do you think the email criticized ?
+Which joke do you think the email criticized ?
 !ARTICLE
-What do you think the picture accompanied ?
+Which article do you think the picture accompanied ?
 !ARTICLE
-What do you think the flyer promoted ?
+Which play do you think the flyer promoted ?
 !ARTICLE
-What do you think the verdict started ?
+Which debate do you think the verdict started ?
 !ARTICLE
-What does the detective wonder whether Paul stole ?
+Which necklace does the detective wonder whether Paul stole ?
 !ARTICLE
-What does the police officer wonder whether Matt chased ?
+Which bus does the police officer wonder whether Matt chased ?
 !ARTICLE
-What does the manager wonder whether Tom sold ?
+Which television does the manager wonder whether Tom sold ?
 !ARTICLE
-What does the soldier wonder whether Stacey wrote ?
+Which letter does the soldier wonder whether Stacey wrote ?
 !ARTICLE
-What does the agent wonder whether Aaron bought ?
+Which house does the agent wonder whether Aaron bought ?
 !ARTICLE
-What does the teacher wonder whether George read ?
+Which book does the teacher wonder whether George read ?
 !ARTICLE
-What does the girl wonder whether Heather saw ?
+Which movie does the girl wonder whether Heather saw ?
 !ARTICLE
-What does the guest wonder whether Casey baked ?
+Which cake does the guest wonder whether Casey baked ?
 !ARTICLE
-Who wonders whether Paul stole the necklace ?
+Which detective wonders whether Paul stole the necklace ?
 !ARTICLE
-Who wonders whether Matt chased the bus ?
+Which police officer wonders whether Matt chased the bus ?
 !ARTICLE
-Who wonders whether Tom sold the television ?
+Which manager wonders whether Tom sold the television ?
 !ARTICLE
-Who wonders whether Stacey wrote the letter ?
+Which soldier wonders whether Stacey wrote the letter ?
 !ARTICLE
-Who wonders whether Aaron bought the house ?
+Which agent wonders whether Aaron bought the house ?
 !ARTICLE
-Who wonders whether George read the book ?
+Which teacher wonders whether George read the book ?
 !ARTICLE
-Who wonders whether Heather saw the movie ?
+Which girl wonders whether Heather saw the movie ?
 !ARTICLE
-Who wonders whether Casey baked the cake ?
+Which guest wonders whether Casey baked the cake ?
 !ARTICLE
-What does the detective think that Paul stole ?
+Which necklace does the detective think that Paul stole ?
 !ARTICLE
-What does the police officer think that Matt chased ?
+Which bus does the police officer think that Matt chased ?
 !ARTICLE
-What does the manager think that Tom sold ?
+Which television does the manager think that Tom sold ?
 !ARTICLE
-What does the soldier think that Stacey wrote ?
+Which letter does the soldier think that Stacey wrote ?
 !ARTICLE
-What does the agent think that Aaron bought ?
+Which house does the agent think that Aaron bought ?
 !ARTICLE
-What does the teacher think that George read ?
+Which book does the teacher think that George read ?
 !ARTICLE
-What does the girl think that Heather saw ?
+Which movie does the girl think that Heather saw ?
 !ARTICLE
-What does the guest think that Casey baked ?
+Which cake does the guest think that Casey baked ?
 !ARTICLE
-Who thinks that Paul stole the necklace ?
+Which detective thinks that Paul stole the necklace ?
 !ARTICLE
-Who thinks that Matt chased the bus ?
+Which police officer thinks that Matt chased the bus ?
 !ARTICLE
-Who thinks that Tom sold the television ?
+Which manager thinks that Tom sold the television ?
 !ARTICLE
-Who thinks that Stacey wrote the letter ?
+Which soldier thinks that Stacey wrote the letter ?
 !ARTICLE
-Who thinks that Aaron bought the house ?
+Which agent thinks that Aaron bought the house ?
 !ARTICLE
-Who thinks that George read the book ?
+Which teacher thinks that George read the book ?
 !ARTICLE
-Who thinks that Heather saw the movie ?
+Which girl thinks that Heather saw the movie ?
 !ARTICLE
-Who thinks that Casey baked the cake ?
+Which guest thinks that Casey baked the cake ?

@@ -1,0 +1,675 @@
+!ARTICLE
+The teacher believes the claim that the boy found a box of diamonds .
+What does the teacher believe the claim that the boy found ?
+!ARTICLE
+The teacher wonders whether the boy found a box of diamonds .
+What does the teacher wonder whether the boy found ?
+!ARTICLE
+The teacher thinks that a box of diamonds was found by the boy .
+What does the teacher think that a box of was found by the boy ?
+!ARTICLE
+The professor believes the claim that the student spilled a bottle of water .
+What does the professor believe the claim that the student spilled ?
+!ARTICLE
+The professor wonders whether the student spilled a bottle of water .
+What does the professor wonder whether the student spilled ?
+!ARTICLE
+The professor thinks that a bottle of water was spilled by the student .
+What does the professor think that a bottle of was spilled by the student ?
+!ARTICLE
+The investigator acknowledges the possibility that the robbers deleted a segment of the surveillance video .
+What does the investigator acknowledge the possibility that the robbers deleted ?
+!ARTICLE
+The investigator wonders whether the robbers deleted a segment of the surveillance video .
+What does the investigator wonder whether the robbers deleted ?
+!ARTICLE
+The investigator thinks that a segment of the surveillance video was deleted by the robbers .
+What does the investigator think that a segment of was deleted ?
+!ARTICLE
+The journalist believes the claim that the politician once wrote a book about astronomy .
+What does the journalist believe the claim that the politician once wrote ?
+!ARTICLE
+The journalist wonders whether the politician once wrote a book about astronomy .
+What does the journalist wonder whether the politician once wrote ?
+!ARTICLE
+The journalist thinks that a book about astronomy was written by the politician .
+What does the journalist think that the book about was written by the politician ?
+!ARTICLE
+The police officer believes the claim that the truck hit a stack of hay .
+What does the police officer believe the claim that the truck hit ?
+!ARTICLE
+The police officer wonders whether the truck hit a stack of hay .
+What does the police officer wonder whether the truck hit ?
+!ARTICLE
+The police officer thinks that a stack of hay was hit by the truck .
+What does the police officer think that a stack of was hit by the truck ?
+!ARTICLE
+The lawyer believes the claim that the scientist wrote an article about quantum physics .
+What does the lawyer believe the claim that the scientist wrote ?
+!ARTICLE
+The lawyer wonders whether the scientist wrote an article about quantum physics .
+What does the lawyer wonder whether the scientist wrote ?
+!ARTICLE
+The lawyer thinks the article about quantum physics was written by a scientist .
+What does the lawyer think the article about was written by a scientist ?
+!ARTICLE
+The manager believed the claim that the intern had taken a photo of the equipment .
+What did the manager believe the claim that the intern had taken ?
+!ARTICLE
+The manager wondered whether the intern had taken a photo of the equipment .
+What did the manager wonder whether the intern had taken ?
+!ARTICLE
+The manager thinks that the photo of the equipment had been taken by an intern .
+What did the manager think that the photo of had been taken by an intern ?
+!ARTICLE
+The zookeeper believes the claim that a lion attacked a herd of antelopes yesterday .
+What does the zookeeper believe the claim that a lion attacked yesterday ?
+!ARTICLE
+The zookeeper wonders whether the lion attacked a herd of antelopes yesterday .
+What does the zookeeper wonder whether the lion attacked ?
+!ARTICLE
+The zookeeper thinks that a herd of antelopes was attacked by a lion yesterday .
+What does the zookeeper think that a herd of was attacked by a lion yesterday ?
+!ARTICLE
+The publisher believed the claim that the famous author had already finished the draft of his new book .
+What did the publisher believe the claim that the famous author had already finished ?
+!ARTICLE
+The publisher wondered whether the author had already finished the draft of his new book .
+What did the publish wonder whether the author had already finished ?
+!ARTICLE
+The publisher thought that the draft of the author's new book was already finished .
+What did the publisher think that the draft of was already finished ?
+!ARTICLE
+The mayor believes the claim that the union is planning a protest against the new immigration law .
+What does the mayor believe the claim that the union is planning a protest against ?
+!ARTICLE
+The mayor wonders whether the union is planning a protest against the new immigration law .
+What does the mayor wonder whether the union is planning a protest against ?
+!ARTICLE
+The mayor thinks that a protest against the new immigration law is being planned by the union .
+What does the mayor think a protest against is being planned by the union ?
+!ARTICLE
+The mechanic believes the claim that the apprentice spilled the bottle of lubricant .
+What does the mechanic believe the claim that the apprentice spilled ?
+!ARTICLE
+The mechanic wonders whether the apprentice spilled the bottle of lubricant .
+What does the mechanic wonder whether the apprentice spilled ?
+!ARTICLE
+The mechanic thinks that a bottle of lubricant was spilled by the apprentice .
+What does the mechanic think that a bottle of was spilled by the apprentice ?
+!ARTICLE
+The judge believed the claim that the police officer had emailed a report of the car crash to the prosecutor .
+What did the judge believe the claim that the police officer had emailed to the prosecutor ?
+!ARTICLE
+The judge wondered whether the police officer had emailed a report of the car crash to the prosecutor .
+What did the judge wonder whether the police officer had emailed to the prosecutor ?
+!ARTICLE
+The judge thought that a report of the car crash had been emailed to the prosecutor .
+What did the judge think that a report of had been emailed to the prosecutor ?
+!ARTICLE
+The athlete believes the claim that her manager called the agent of another athlete .
+Who does the athlete believe the claim that her manager called ?
+!ARTICLE
+The athlete wonders whether her manager called the agent of another athlete .
+Who does the athlete wonder whether her manager called ?
+!ARTICLE
+The athlete thinks that the agent of another athlete called her manager .
+Who does the athlete think that the agent of called her manager ?
+!ARTICLE
+The physician believes the claim that the group of researchers designed an effective vaccine for malaria .
+What does the physician believe the claim that the group of researchers designed ?
+!ARTICLE
+The physician wonders whether the group of researchers designed an effective vaccine for malaria .
+What does the physician wonder whether the group of researchers designed ?
+!ARTICLE
+The physician thinks that an effective vaccine for malaria was designed by the group of researchers .
+What does the physician think that an effective vaccine for was designed by the group of researchers ?
+!ARTICLE
+The prime minister believes the claim that a foreign spy stole the report of military expenditure .
+What does the prime minister believe the claim that a foreign spy stole ?
+!ARTICLE
+The prime minister wonders whether a foreign spy stole the report of military expenditure .
+What does the prime minister wonder whether a foreign spy stole ?
+!ARTICLE
+The prime minister thinks that the report of military expenditure was stolen by a foreign spy .
+What does the prime minister think that the report of was stolen by a foreign spy ?
+!ARTICLE
+The lexicographer believes the claim that some of his colleagues revised the dictionary for the endangered language .
+What does the lexicographer believe the claim that some of his colleagues revised ?
+!ARTICLE
+The lexicographer wonders whether some of his colleagues revised the dictionary for the endangered language .
+What does the lexicographer wonder whether some of his colleagues revised ?
+!ARTICLE
+The lexicographer thinks that the dictionary for the endangered language was revised by some of his colleagues .
+What does the lexicographer think that the dictionary for was revised by some of his colleagues ?
+!ARTICLE
+The doctor believes the claim that the mayor vetoed the proposal for a new hospital .
+What does the doctor believe the claim that the mayor vetoed ?
+!ARTICLE
+The doctor wonders whether the mayor vetoed the proposal for a new hospital .
+What does the doctor wonder whether the mayor vetoed ?
+!ARTICLE
+The doctor thinks that the proposal for a new hospital was vetoed by the mayor .
+What does the doctor think that the proposal for was vetoed by the mayor ?
+!ARTICLE
+The pilot believes the claim that the description of the hijacker matches the suspect .
+Who does the pilot believe the claim that the description of the hijacker matches ?
+!ARTICLE
+The pilot wonders whether the description of the hijacker matches the suspect .
+Who does the pilot wonder whether the description of the hijacker matches ?
+!ARTICLE
+The pilot thinks that the description of the hijacker matches the suspect .
+Who does the pilot think that the description of matches the suspect ?
+!ARTICLE
+The football coach believes the claim that the brother of his best player has already contacted another coach .
+Who does the football coach believe the claim that the brother of his best player has already contacted ?
+!ARTICLE
+The football coach wonders whether the brother of his best player contacted another coach .
+Who does the football coach wonder whether the brother of his best player contacted ?
+!ARTICLE
+The football coach thinks that the brother of his best player contacted another coach .
+Who does the football coach think that the brother of contacted another coach ?
+!ARTICLE
+The musician believes the claim that the record company will buy the copyrights to his songs .
+What does the musician believe the claim that the record company will buy ?
+!ARTICLE
+The musician wonders whether the record company will buy the copyrights to his songs .
+What does the musician wonder whether the record company will buy ?
+!ARTICLE
+The musician thinks that the copyrights to his songs will be bought by the record company .
+What does the musician think that the copyrights to will be bought by the record company ?
+!ARTICLE
+The chef believes the claim that the food critic will publish a positive review of his restaurant .
+What does the chef believe the claim that the food critic will publish ?
+!ARTICLE
+The chef wonders whether the food critic will publish a positive review of his restaurant .
+What does the chef wonder whether the food critic will publish ?
+!ARTICLE
+The chef thinks that a positive review of his restaurant will be published by the food critic .
+What does the chef think that a positive review of will be published by the food critic ?
+!ARTICLE
+The investors believe the claim that the construction company purchased a truckload of logs .
+What do the investors believe the claim that the construction company purchased ?
+!ARTICLE
+The investors wonder whether the construction company purchased a truckload of logs .
+What do the investors wonder whether the construction company purchased ?
+!ARTICLE
+The investors think that a truckload of logs was purchased by the construction company .
+What do the investors think that a truckload of was purchased by the construction company ?
+!ARTICLE
+The biologist believes the claim that researchers will eventually find a cure to AIDS .
+What does the biologist believe the claim that researchers will eventually find ?
+!ARTICLE
+The biologist wonders whether researchers will eventually find a cure to AIDS .
+What does the biologist wonder whether researchers will eventually find ?
+!ARTICLE
+The biologist thinks that a cure to AIDS will eventually be found by researchers .
+What does the biologist think that a cure to will eventually be found by researchers ?
+!ARTICLE
+The headmaster believes the claim that an expert in Chinese history wrote the manuscript .
+What does the headmaster believe the claim that an expert in Chinese history wrote ?
+!ARTICLE
+The headmaster wonders whether an expert in Chinese history wrote the manuscript .
+What does the headmaster wonder whether an expert in Chinese history wrote ?
+!ARTICLE
+The headmaster thinks that an expert in Chinese history wrote the manuscript .
+What does the headmaster think that an expert in wrote the manuscript ?
+!ARTICLE
+The villagers believed the claim that the news article on healthcare had caused the grave public unrest .
+What did the villagers believe the claim that the news article on healthcare had caused ?
+!ARTICLE
+The villagers wondered whether the news article on healthcare had caused the grave public unrest .
+What did the villagers wonder whether the news article on healthcare had caused ?
+!ARTICLE
+The villagers thought that the news article on healthcare had caused the grave public unrest .
+What did the villagers think that the news article on had caused the grave public unrest ?
+!ARTICLE
+The mechanic believes the claim that a tank of biofuel can power the locomotive .
+What does the mechanic believe the claim that a tank of biofuel can power ?
+!ARTICLE
+The mechanic wonders whether a tank of biofuel can power the locomotive .
+What does the mechanic wonder whether a tank of biofuel can power ?
+!ARTICLE
+The mechanic thinks that a tank of biofuel can power the locomotive .
+What does the mechanic think that a tank of can power the locomotive ?
+!ARTICLE
+The pharmacist believed the claim that a pack of painkillers could cause nausea .
+What did the pharmacist believe the claim that a pack of painkillers could cause ?
+!ARTICLE
+The pharmacist wondered whether a pack of painkillers could cause nausea .
+What did the pharmacist wonder whether a pack of painkillers could cause ?
+!ARTICLE
+The pharmacist thought that a pack of painkillers could cause nausea .
+What did the pharmacist think that a pack of could cause nausea ?
+!ARTICLE
+The pianist believes the claim that two hours of piano practice per day can lead to perfection .
+What does the pianist believe the claim that two hours of piano practice per day can lead to ?
+!ARTICLE
+The pianist wonders whether two hours of piano practice per day can lead to perfection .
+What does the pianist wonder whether two hours of piano practice per day can lead to ?
+!ARTICLE
+The pianist thinks that two hours of piano practice per day can lead to perfection .
+What does the pianist think that two hours of per day can lead to perfection ?
+!ARTICLE
+The detective believes the claim that a bottle of poison killed the businessman .
+Who does the detective believe the claim that a bottle of poison killed ?
+!ARTICLE
+The detective wonders whether a bottle of poison killed the businessman .
+What does the detective wonder whether a bottle of poison killed ?
+!ARTICLE
+The detective thinks that a bottle of poison killed the businessman .
+What does the detective think that a bottle of killed the businessman ?
+!ARTICLE
+The secretary believes the claim that the daughter of the congresswoman agreed with President .
+Who does the secretary believe the claim that the daughter of the congresswoman agreed with ?
+!ARTICLE
+The secretary wonders whether the daughter of the congresswoman agreed with the President .
+Who does the secretary wonder whether the daughter of the congresswoman agreed with ?
+!ARTICLE
+The secretary thinks that the daughter of the congresswoman agreed with the President .
+Who does the secretary think that the daughter of agreed with the president ?
+!ARTICLE
+The radio host believes the claim that the ex-wife of the movie star bought a new house .
+what does the radio host believe the claim that the ex-wife of the movie star bought ?
+!ARTICLE
+The radio host wonders whether the ex-wife of the movie star bought a new house .
+What does the radio host wonder whether the ex-wife of the movie star bought ?
+!ARTICLE
+The radio host thinks that the ex-wife of the move star bought a new house .
+Who does the radio host think that the ex-wife of bought a new house ?
+!ARTICLE
+The Prime Minister believes the claim that the senate will review the report on global warming .
+What does the Prime Minister believe the claim that the senate will review ?
+!ARTICLE
+The Prime Minister wonders whether the senate will review the report on global warming .
+What does the Prime Minister wonder whether the senate will review ?
+!ARTICLE
+The Prime Minister thinks that the report on global warming will be reviewed by the senate .
+What does the Prime Minister think that the report on will be reviewed by the senate ?
+!ARTICLE
+The nurse believes the claim that the treatment of a special skin condition mimics the effects of eczema .
+What does the nurse believe the claim that the treatment of a special condition mimics ?
+!ARTICLE
+The nurse wonders whether the treatment of a special skin condition mimics the effects of eczema .
+What does the nurse wonder whether the treatment of a special condition mimics ?
+!ARTICLE
+The nuse thinks that the treatment of a special skin condition mimics the effects of eczema .
+What does the nurse think that the treatment of mimics the effects of eczema ?
+!ARTICLE
+The zoologist believes the claim that the mating call of the Gray Catbird resembles the sounds of a cat .
+What does the zoologist believe the claim that the mating call of the Gray Catbird resembles ?
+!ARTICLE
+The zoologist believes wonders whether the mating call of the Gray Catbird resembles the sounds of a cat .
+What does the zoologist wonder whether the mating call of the Gray Catbird resembles ?
+!ARTICLE
+The zoologist thinks that the mating call of the mating call of the Gray Catebird resembles the sounds of a cat .
+What does the zoologist think that the mating call of resembles the sounds of a cat ?
+!ARTICLE
+The boy believes the claim that the superhero will defeat the demons of the underworld .
+Who does the boy believe the claim that the superhero will defeat ?
+!ARTICLE
+The boy wonders whether the superhero will defeat the demons of the underworld .
+Who does the boy wonder whether the superhero will defeat ?
+!ARTICLE
+The boy thinks that the demons of the underworld will be defeated by the superhero .
+What does the boy think that the demons of will be defeated by the superhero ?
+!ARTICLE
+The director believes the claim that the main actor will blow off the final rehearsal of the play .
+What does the director believe the claim that the main actor will blow off ?
+!ARTICLE
+The director wonders whether the main actor will blow off the final rehearsal of the play .
+What does the director wonder whether the main actor will blow off ?
+!ARTICLE
+The director thinks that the final rehearsal of the play will be blown off by the main actor .
+What does the director think that the final rehearsal of will be blown off by the main actor ?
+!ARTICLE
+The delinquents believe the claim that the police arrested another group of delinquents .
+Who do the delinquents believe the claim that the police arrested ?
+!ARTICLE
+The delinquents wonder whether the police arrested another group of delinquents .
+Who do the delinquents wonder whether the police arrested ?
+!ARTICLE
+The delinquents think that another group of delinquents was arrested by the police .
+What do the delinquents think that another group of was arrested by the police ?
+!ARTICLE
+The anesthesiologist believed the claim that the best surgeon of the hospital had committed malpractice .
+What did the anesthesiologist believe the claim that the best surgeon of the hospital had committed ?
+!ARTICLE
+The anesthesiologist wondered whether the best surgeon of the hospital had committed malpractice .
+What did the anesthesiologist wonder whether the best surgeon of the hospital had committed ?
+!ARTICLE
+The anesthesiologist thought that the best surgeon of the hospital had committed malpractice .
+What did the anesthesiologist think that the best surgeon of had committed malpractice ?
+!ARTICLE
+The activists believe the claim that government officials bribed the leader of the group .
+Who do the activists believe the claim that government officials bribed ?
+!ARTICLE
+The activists wonder whether government officials bribed the leader of the group .
+Who do the activists wonder whether government officials bribed ?
+!ARTICLE
+The activists think that the leader of the group was bribed by government officials .
+What do the activists think that the leader of was bribed by government officials ?
+!ARTICLE
+The janitor believes the claim that a bottle of bleach can remove the stain .
+What does the janitor believe the claim that a bottle of bleach can remove ?
+!ARTICLE
+The janitor wonders whether a bottle of bleach can remove the stain .
+What does the janitor wonder whether a bottle of bleach can remove ?
+!ARTICLE
+The janitor thinks that a bottle of bleach can remove the stain .
+What does the janitor think that a bottle of can remove the stain ?
+!ARTICLE
+The bartender believes the claim that the brother of the mayor invited a special guest .
+Who does the bartender believe the claim that the brother of the mayor invited ?
+!ARTICLE
+The bartender wonders whether the brother of the mayor invited a special guest .
+Who does the bartender wonder whether the brother of the mayor invited ?
+!ARTICLE
+The bartender thinks that the brother of the mayor invited a special guest .
+Who does the bartender think that the brother of invited a special guest ?
+!ARTICLE
+The spy believes the claim that the commander of the special forces initiated the attack .
+What does the spy believe the claim that the commander of the special forces initiated ?
+!ARTICLE
+The spy wonders whether the commander of the special forces initiated the attack .
+What does the spy wonder whether the commander of the special forces initiated ?
+!ARTICLE
+The spy thinks that the commander of the special forces initiated the attack .
+What does the spy think that the commander of initiated the attack ?
+!ARTICLE
+The carpenter believes the claim that the sister of the mayor will order a bookcase .
+What does the carpenter believe the claim that the sister of the mayor will order ?
+!ARTICLE
+The carpenter wonders whether the sister of the mayor will order a bookcase .
+What does the carpenter wonder whether the sister of the mayor will order ?
+!ARTICLE
+The carpenter thinks that the sister of the mayor will order a bookcase .
+Who does the carpenter think that the sister of will order a bookcase ?
+!ARTICLE
+The presidential candidate believes the claim that the report of the accident scared his opponent .
+Who does the presidential candidate believe the claim that the report of the accident scared ?
+!ARTICLE
+The presidential candidate wonders whether the report of the accident scared his opponent .
+Who does the presidential candidate wonder whether the report of the accident scared ?
+!ARTICLE
+The presidential candidate thinks that the report of the accident scared his opponent .
+What does the presidential candidate think that the report of scared his opponent ?
+!ARTICLE
+The actor believes the claim that the famous scholar wrote a book about cinematography .
+What does the actor believe the claim that the famous scholar wrote ?
+!ARTICLE
+The actor wonders whether the famous scholar wrote a book about cinematography .
+What does the actor wonder whether the famous scholar wrote ?
+!ARTICLE
+The actor thinks that the book about cinematography was written by the famous scholar .
+What does the actor think that a book about was written by the famous scholar ?
+!ARTICLE
+The police officer believes the claim that the bystanders witnessed the traffic accident .
+Who believes the claim that the bystanders witnessed the traffic accident ?
+!ARTICLE
+The customer believed the claim that the waiter mixed up all the orders .
+Who believed the claim that the waiter mixed up all the orders ?
+!ARTICLE
+The celebrity believes the claim that the reporter hid in the bushes to photograph her new house .
+Who believes the claim that the reporter hid in the bushes to photograph her new house ?
+!ARTICLE
+The mayor believed the claim that the fireman had to smash a window to gain entrance to the house on fire .
+Who believed the claim that the fireman had to smash a window to gain entrance to the house on fire ?
+!ARTICLE
+The suspect wonders whether the witness told the detectives what happened last night .
+Who wonders whether the witness told the detectives what happened last night ?
+!ARTICLE
+The student wondered whether the teacher would bring a box of chocalate to class the next day .
+Who wondered whether the teacher would bring a box of chocalate to class the next day ?
+!ARTICLE
+The inspector wonders whether the engineer pressed a button to activate the new machine .
+Who wonders whether the engineer pressed a button to activate the new machine ?
+!ARTICLE
+The guests wondered whether vegetarian dishes will be served at the dinner party .
+Who wondered whether vegetarian dishes will be served at the dinner party ?
+!ARTICLE
+The patient thinks that the doctor decided not to treat the mysterious condition .
+Who thinks that the doctor decided not to treat the mysterious condition ?
+!ARTICLE
+The editor thinks that the journalist should be held responsible for the typos in the article .
+Who thinks that the journalist should be held responsible for the typos in the article ?
+!ARTICLE
+The soldier thought the general should order his troops to retreat .
+Who did the soldier think should order his troops to retreat ?
+!ARTICLE
+The soccer player thinks the manager will be fired by the club chairman .
+Who does the soccer player thinks will be fired by the club chairman ?
+!ARTICLE
+The chef believes that the restaurant owner is planning to open a new branch .
+What does the chef believe that the restaurant owner is planning to open ?
+!ARTICLE
+The banker believed that the customer took out a loan to purchase a new car .
+What did the banker believe that the customer took out a loan to purchase ?
+!ARTICLE
+The composer thinks that the violinist has three extra tickets to the concert .
+What does the composer think that the violinist has three extra tickets to ?
+!ARTICLE
+The economist wondered whether raising personal income tax would help the economy .
+Who wondered whether raising personal income tax would help the economy ?
+!ARTICLE
+The cashier thinks that the new promotions will attract more customers .
+Who thinks that the new promotions will attract more customers ?
+!ARTICLE
+The air traffic controller believes the claim that most flights will be cancelled due to the blizzard .
+Who believes the claim that most flights will be cancelled due to the blizzard ?
+!ARTICLE
+The nutritionist wonders whether his client benefited from the dietary supplements .
+Who wonders whether his client benefited from the dietary supplements ?
+!ARTICLE
+The receptionist thought that the office should remain open during Christmas .
+Who thought that the office should remain open during Christmas ?
+!ARTICLE
+The construction worker believes the claim that companies should allow their employees to unionize .
+Who believes the claim that companies should allow their employees to unionize ?
+!ARTICLE
+The ecologist wonders whether the Amazon rainforest is shrinking every year .
+Who wonders whether the Amazon rainforest is shrinking every year ?
+!ARTICLE
+The neuroscientist thinks that the politician is probably suffering from dementia .
+Who thinks that the politician is probably suffering from dementia ?
+!ARTICLE
+The astronaut believes that the spaceship requires monthly maintenance in order to function properly .
+Who believes that the spaceship requires monthly maintenance in order to function properly ?
+!ARTICLE
+The vice president wonders whether the president will sign the peace treaty with the rebels .
+Who wonders whether the president will sign the peace trety with the rebels ?
+!ARTICLE
+The autoworker thinks that the factory should remain open during the economic recession .
+Who thinks that the factory should remain open during the economic recession ?
+!ARTICLE
+The polyglot believes that Dutch would be an easy language for English speakers to learn .
+Who believes that Dutch would be an easy language for English speakers to learn ?
+!ARTICLE
+The air marshal wonders whether the hijackers will release the hostages .
+Who wonders whether the hijackers will release the hostages ?
+!ARTICLE
+The old lady thinks that there are not enough parking spots near the shopping mall .
+Who thinks that there are not enough parking spots near the shopping mall ?
+!ARTICLE
+The dog trainer believes that the animal shelter should remain open during Thanksgiving .
+Who believes that the animal shelter should remain open during Thanksgiving ?
+!ARTICLE
+The police officer believes the claim that the bystanders witnessed the traffic accident .
+Who believes the claim that the bystanders witnessed the traffic accident ?
+!ARTICLE
+The customer believed the claim that the waiter mixed up all the orders .
+Who believed the claim that the waiter mixed up all the orders ?
+!ARTICLE
+The celebrity believes the claim that the reporter hid in the bushes to photograph her new house .
+Who believes the claim that the reporter hid in the bushes to photograph her new house ?
+!ARTICLE
+The mayor believed the claim that the fireman had to smash a window to gain entrance to the house on fire .
+Who believed the claim that the fireman had to smash a window to gain entrance to the house on fire ?
+!ARTICLE
+The suspect wonders whether the witness told the detectives what happened last night .
+Who wonders whether the witness told the detectives what happened last night ?
+!ARTICLE
+The student wondered whether the teacher would bring a box of chocalate to class the next day .
+Who wondered whether the teacher would bring a box of chocalate to class the next day ?
+!ARTICLE
+The inspector wonders whether the engineer pressed a button to activate the new machine .
+Who wonders whether the engineer pressed a button to activate the new machine ?
+!ARTICLE
+The guests wondered whether vegetarian dishes will be served at the dinner party .
+Who wondered whether vegetarian dishes will be served at the dinner party ?
+!ARTICLE
+The patient thinks that the doctor decided not to treat the mysterious condition .
+Who thinks that the doctor decided not to treat the mysterious condition ?
+!ARTICLE
+The editor thinks that the journalist should be held responsible for the typos in the article .
+Who thinks that the journalist should be held responsible for the typos in the article ?
+!ARTICLE
+The soldier thought the general should order his troops to retreat .
+Who did the soldier think should order his troops to retreat ?
+!ARTICLE
+The soccer player thinks the manager will be fired by the club chairman .
+Who does the soccer player thinks will be fired by the club chairman ?
+!ARTICLE
+The chef believes that the restaurant owner is planning to open a new branch .
+What does the chef believe that the restaurant owner is planning to open ?
+!ARTICLE
+The banker believed that the customer took out a loan to purchase a new car .
+What did the banker believe that the customer took out a loan to purchase ?
+!ARTICLE
+The composer thinks that the violinist has three extra tickets to the concert .
+What does the composer think that the violinist has three extra tickets to ?
+!ARTICLE
+The city officials are trying to find out the source of the virus outbreak .
+What out find to trying officials are the city ?
+!ARTICLE
+The software engineer thinks that there is a bug in the system .
+Who there is a the bug system in thinks that ?
+!ARTICLE
+The presidential candidate acknowledged the possibility that there might be an error in the poll result .
+Who result poll the in error an be might there that acknowledged ?
+!ARTICLE
+The trainers believe the claim that the team needs a more sophisticated training regimen .
+What team do needs trainers the that believe the ?
+!ARTICLE
+The analyst wonders whether the level of competition on college sports has become fiercer .
+Who fiercer whether competition sports become the college level in has wonders ?
+!ARTICLE
+The children who were malnourished recovered from the flu .
+What from malnourished were recover did the children who ?
+!ARTICLE
+The police officer wonders whether the bystanders witnessed the terrifying incident .
+Who whether incident witnessed wonders the bystanders the terrible ?
+!ARTICLE
+The waiter recommended the new cocktail to the guests who sat on the patio .
+What patio the on sat who guests waiter did the recommend to ?
+!ARTICLE
+The reporter thinks that the politician will give a speech at the fundraising event .
+Who event fundraising at thinks the that politician the a speech will give ?
+!ARTICLE
+The tourist wondered whether the art exhibition at the city musuem was worth going to .
+Who worth to going is whether the art exhibition wondered city the musuem at ?
+!ARTICLE
+The cook believes the claim that the restaurant did not pass the health inspection .
+Who the inspection the did not restaurant pass health believes the claim that ?
+!ARTICLE
+The dentist thinks that the senator should vote for the proposed health care reform .
+Who senator proposed should thinks the that vote health care reform for the ?
+!ARTICLE
+The guitarist wonders whether the drummer will come to the rehearsal .
+Who to the wonders rehearsal the whether drummer come will ?
+!ARTICLE
+The sheriff believes the claim that the kidnapper is hiding in the mall .
+Who that the in mall the kidnapper is hiding believes the claim ?
+!ARTICLE
+The nuclear physicist thinks that the new nuclear power plant is extremely safe .
+Who safe thinks plant new that the is extremely power nuclear ?
+!ARTICLE
+The vice president wonders whether the president will sign the peace treaty with the rebels .
+Who whether the president the peace trety with wonders will sign the rebels ?
+!ARTICLE
+The autoworker thinks that the factory should remain open during the economic recession .
+Who during the factory should thinks that remain open the economic recession ?
+!ARTICLE
+The polyglot believes that Dutch would be an easy language for English speakers to learn .
+Who be would Dutch language easy an believes that for English to speakers learn ?
+!ARTICLE
+The air marshal wonders whether the hijackers will release the hostages .
+Who hijackers wonders release whether hostages the will the ?
+!ARTICLE
+The old lady thinks that there are not enough parking spots near the shopping mall .
+Who spots near the shopping parking thinks that there are not enough mall ?
+!ARTICLE
+The dog trainer believes that the animal shelter should remain open during Thanksgiving .
+Who during believes open Thanksgiving that the shelter should animal remain ?
+!ARTICLE
+The police officer wonders whether the bystanders witnessed the terrifying incident .
+Who whether incident witnessed wonders the bystanders the terrible ?
+!ARTICLE
+The waiter recommended the new cocktail to the guests who sat on the patio .
+What patio the on sat who guests waiter did the recommend to ?
+!ARTICLE
+The reporter thinks that the politician will give a speech at the fundraising event .
+Who event fundraising at thinks the that politician the a speech will give ?
+!ARTICLE
+The tourist wondered whether the art exhibition at the city musuem was worth going to .
+Who worth to going is whether the art exhibition wondered city the musuem at ?
+!ARTICLE
+The cook believes the claim that the restaurant did not pass the health inspection .
+Who the inspection the did not restaurant pass health believes the claim that ?
+!ARTICLE
+The dentist thinks that the senator should vote for the proposed health care reform .
+Who senator proposed should thinks the that vote health care reform for the ?
+!ARTICLE
+The guitarist wonders whether the drummer will come to the rehearsal .
+Who to the wonders rehearsal the whether drummer come will ?
+!ARTICLE
+The sheriff believes the claim that the kidnapper is hiding in the mall .
+Who that the in mall the kidnapper is hiding believes the claim ?
+!ARTICLE
+The nuclear physicist thinks that the new nuclear power plant is extremely safe .
+Who safe thinks plant new that the is extremely power nuclear ?
+!ARTICLE
+The city officials are trying to find out the source of the virus outbreak .
+What out find to trying officials are the city ?
+!ARTICLE
+The software engineer thinks that there is a bug in the system .
+Who there is a the bug system in thinks that ?
+!ARTICLE
+The presidential candidate acknowledged the possibility that there might be an error in the poll result .
+Who result poll the in error an be might there that acknowledged ?
+!ARTICLE
+The trainers believe the claim that the team needs a more sophisticated training regimen .
+What team do needs trainers the that believe the ?
+!ARTICLE
+The analyst wonders whether the level of competition on college sports has become fiercer .
+Who fiercer whether competition sports become the college level in has wonders ?
+!ARTICLE
+The children who were malnourished recovered from the flu .
+What from malnourished were recover did the children who ?
+!ARTICLE
+The police officer wonders whether the bystanders witnessed the terrifying incident .
+Who whether incident witnessed wonders the bystanders the terrible ?
+!ARTICLE
+The waiter recommended the new cocktail to the guests who sat on the patio .
+What patio the on sat who guests waiter did the recommend to ?
+!ARTICLE
+The reporter thinks that the politician will give a speech at the fundraising event .
+Who event fundraising at thinks the that politician the a speech will give ?
+!ARTICLE
+The tourist wondered whether the art exhibition at the city musuem was worth going to .
+Who worth to going is whether the art exhibition wondered city the musuem at ?
+!ARTICLE
+The cook believes the claim that the restaurant did not pass the health inspection .
+Who the inspection the did not restaurant pass health believes the claim that ?
+!ARTICLE
+The dentist thinks that the senator should vote for the proposed health care reform .
+Who senator proposed should thinks the that vote health care reform for the ?
+!ARTICLE
+The guitarist wonders whether the drummer will come to the rehearsal .
+Who to the wonders rehearsal the whether drummer come will ?
+!ARTICLE
+The sheriff believes the claim that the kidnapper is hiding in the mall .
+Who that the in mall the kidnapper is hiding believes the claim ?
+!ARTICLE
+The nuclear physicist thinks that the new nuclear power plant is extremely safe .
+Who safe thinks plant new that the is extremely power nuclear ?

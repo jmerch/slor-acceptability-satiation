@@ -101,6 +101,50 @@ plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], 
   geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='locative-match-nogap', 'mean'], ymin=CIs_acc[CIs_acc$condition=='locative-match-nogap', 'lower'], ymax=CIs_acc[CIs_acc$condition=='locative-match-nogap', 'upper']), width=WIDTH, size=0.3)+
   geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='locative-mismatch-gap', 'mean'], ymin=CIs_acc[CIs_acc$condition=='locative-mismatch-gap', 'lower'], ymax=CIs_acc[CIs_acc$condition=='locative-mismatch-gap', 'upper']), width=WIDTH, size=0.3)+
   geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='locative-mismatch-nogap', 'mean'], ymin=CIs_acc[CIs_acc$condition=='locative-mismatch-nogap', 'lower'], ymax=CIs_acc[CIs_acc$condition=='locative-mismatch-nogap', 'upper']), width=WIDTH, size=0.3)+
+
+plot = all_experiments %>%
+  ggplot((aes(x = normalized, y= mean_acc))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Mean Acceptability and Surprisal", 
+       x = "Normalized Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+plot
+
+plot = all_experiments %>%
+  ggplot((aes(x = normalized, y= mean_acc))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Mean Acceptability and Surprisal", 
+       x = "Normalized Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+plot
+
+plot = disjunction %>%
+  ggplot((aes(x = normalized, y= mean_acc))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Disjunction Mean Acceptability and Surprisal", 
+       x = "Normalized Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+plot
+
+plot = disjunction %>%
+  ggplot((aes(x = mean_surprisal, y= mean_acc))) +
+  geom_point(aes(color = condition)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Disjunction Mean Acceptability and Surprisal", 
+       x = "Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text()) 
+
   
   geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='WH', 'mean'], xmin=CIs_surp[CIs_surp$condition=='WH', 'lower'], xmax=CIs_surp[CIs_surp$condition=='WH', 'upper']), height=HEIGHT, size=0.3)+
   geom_errorbarh(aes(y = CIs_acc[CIs_acc$condition=='SUBJ', 'mean'], xmin=CIs_surp[CIs_surp$condition=='SUBJ', 'lower'], xmax=CIs_surp[CIs_surp$condition=='SUBJ', 'upper']), height=HEIGHT, size=0.3)+
@@ -355,3 +399,4 @@ all_logistic = glm(mean_acc ~ mean_surprisal, all_experiments, family = "binomia
 all_linear = lm(mean_acc~mean_surprisal, all_experiments)
 AIC(all_logistic)
 AIC(all_linear)
+summary(all_linear)

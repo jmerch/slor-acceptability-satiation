@@ -1,4 +1,4 @@
-install.packages("tidyverse")
+#install.packages("tidyverse")
 #library(dplyr) 
 library(tidyverse)
 MAX_BLOCK_SEQ <- 3
@@ -43,6 +43,40 @@ colnames(ratings) <- c('sentence_id', 'condition', 'all_exposures', 'first_three
 ratings = filter(ratings, sentence_id != 23 & sentence_id != 39)
 ratings = type.convert(ratings)
 write.csv(ratings, "data/genRatings.csv", row.names=FALSE)
+
+
+contextSurprisals <- read.csv("data/genContext_surprisals.csv")
+contextRatings <- data.frame(matrix(ncol = 18, nrow = 0))
+for (id in min(all_exposure$sentence_id):max(all_exposure$sentence_id)){
+  if (id %in% all_exposure$sentence_id) {
+    all <- mean(all_exposure[all_exposure$sentence_id == id, 'response'])
+    first_3 <- mean(all_exposure[all_exposure$sentence_id == id & all_exposure$block_sequence <= MAX_BLOCK_SEQ, 'response'])
+    surprisal <- contextSurprisals$mean_surprisal[id - 1]
+    first <- contextSurprisals$weight_first[id - 1]
+    last <- contextSurprisals$weight_last[id - 1]
+    normal <- contextSurprisals$normalized[id-1]
+    sum <- contextSurprisals$weight_sum[id - 1]
+    gap <- contextSurprisals$gap[id-1]
+    #normalized_gap <- surprisals$normalized_gap[id - 1]
+    #region <- surprisals$region_mean[id - 1]
+    wh <- contextSurprisals$wh[id - 1]
+    matrix <- contextSurprisals$matrix[id - 1]
+    embedded <- contextSurprisals$embedded[id - 1]
+    comp <- contextSurprisals$comp[id - 1]
+    matrix_norm = contextSurprisals$matrix_norm[id - 1]
+    comp_norm = contextSurprisals$comp_norm[id - 1]
+    embedded_norm = contextSurprisals$embedded_norm[id - 1]
+    gap_norm = contextSurprisals$gap_norm[id - 1]
+    condition <- subset(all_exposure, sentence_id == id)[1,]["item_type"]
+    #beyond = contextSurprisals$beyond_5[id - 1]
+    new_row <- c(sentence_id = id, condition = condition, all_exposures = all, first_three_exposures = first_3, mean_surprisal = surprisal, weight_first = first, weight_last = last, weight_sum = sum, normalized = normal, wh = wh, matrix = matrix, comp = comp, embedded = embedded, gap = gap, matrix_norm = matrix_norm, comp_norm = comp_norm, embedded_norm = embedded_norm, gap_norm = gap_norm)
+    contextRatings <- rbind(contextRatings, new_row)
+  }
+}
+colnames(contextRatings) <- c('sentence_id', 'condition', 'all_exposures', 'first_three_exposures', 'mean_surprisal', 'weight_first', 'weight_last', 'weight_sum', 'normalized', 'wh', 'matrix', 'comp', 'embedded', 'gap', 'matrix_norm', 'comp_norm', 'embedded_norm', 'gap_norm')
+ratings = filter(contextRatings, sentence_id != 23 & sentence_id != 39)
+ratings = type.convert(contextRatings)
+write.csv(ratings, "data/genContextRatings.csv", row.names=FALSE)
 
 sentence_types = ratings %>% select(c('sentence_id', 'condition'))
 write.csv(sentence_types, "data/genID_to_cond.csv", row.names=FALSE)
