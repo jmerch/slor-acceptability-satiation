@@ -31,3 +31,17 @@ plot = df %>%
   theme(axis.title = element_text())
 plot
 ggsave(filename = "sprouse2013_mean_surp.png", path='plots/Sprouse2013')
+
+print(df[1,])
+
+plot = df %>%
+  ggplot((aes(x = normalized, y= mean_acc))) +
+  geom_point() +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Sprouse 2013 Mean Acceptability and Surprisal", 
+       x = "Normalized Surprisal", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+plot
+ggsave(filename = "sprouse2013_norm_surp.png", path='plots/Sprouse2013')
