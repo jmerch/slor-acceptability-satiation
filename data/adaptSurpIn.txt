@@ -43,7 +43,7 @@ What did the manager think that the photo of had been taken by an intern ?
 !ARTICLE
 What does the zookeeper believe the claim that a lion attacked yesterday ?
 !ARTICLE
-What does the zookeper wonder whether the lion attacked ?
+What does the zookeeper wonder whether the lion attacked ?
 !ARTICLE
 What does the zookeeper think that a herd of was attacked by a lion yesterday ?
 !ARTICLE
@@ -179,7 +179,7 @@ Who does the secretary wonder whether the daughter of the congresswoman agreed w
 !ARTICLE
 Who does the secretary think that the daughter of agreed with the president ?
 !ARTICLE
-Whtat does the radio host believe the claim that the ex-wife of the movie star bought ?
+what does the radio host believe the claim that the ex-wife of the movie star bought ?
 !ARTICLE
 What does the radio host wonder whether the ex-wife of the movie star bought ?
 !ARTICLE
@@ -265,7 +265,7 @@ What does the presidential candidate think that the report of scared his opponen
 !ARTICLE
 What does the actor believe the claim that the famous scholar wrote ?
 !ARTICLE
-What does the actor wonder whether the famouse scholar wrote ?
+What does the actor wonder whether the famous scholar wrote ?
 !ARTICLE
 What does the actor think that a book about was written by the famous scholar ?
 !ARTICLE
@@ -299,6 +299,36 @@ What did the banker believe that the customer took out a loan to purchase ?
 !ARTICLE
 What does the composer think that the violinist has three extra tickets to ?
 !ARTICLE
+Who wondered whether raising personal income tax would help the economy ?
+!ARTICLE
+Who thinks that the new promotions will attract more customers ?
+!ARTICLE
+Who believes the claim that most flights will be cancelled due to the blizzard ?
+!ARTICLE
+Who wonders whether his client benefited from the dietary supplements ?
+!ARTICLE
+Who thought that the office should remain open during Christmas ?
+!ARTICLE
+Who believes the claim that companies should allow their employees to unionize ?
+!ARTICLE
+Who wonders whether the Amazon rainforest is shrinking every year ?
+!ARTICLE
+Who thinks that the politician is probably suffering from dementia ?
+!ARTICLE
+Who believes that the spaceship requires monthly maintenance in order to function properly ?
+!ARTICLE
+Who wonders whether the president will sign the peace trety with the rebels ?
+!ARTICLE
+Who thinks that the factory should remain open during the economic recession ?
+!ARTICLE
+Who believes that Dutch would be an easy language for English speakers to learn ?
+!ARTICLE
+Who wonders whether the hijackers will release the hostages ?
+!ARTICLE
+Who thinks that there are not enough parking spots near the shopping mall ?
+!ARTICLE
+Who believes that the animal shelter should remain open during Thanksgiving ?
+!ARTICLE
 Who believes the claim that the bystanders witnessed the traffic accident ?
 !ARTICLE
 Who believed the claim that the waiter mixed up all the orders ?
@@ -329,32 +359,92 @@ What did the banker believe that the customer took out a loan to purchase ?
 !ARTICLE
 What does the composer think that the violinist has three extra tickets to ?
 !ARTICLE
-Who believes the claim that the bystanders witnessed the traffic accident ?
+What out find to trying officials are the city ?
 !ARTICLE
-Who believed the claim that the waiter mixed up all the orders ?
+Who there is a the bug system in thinks that ?
 !ARTICLE
-Who believes the claim that the reporter hid in the bushes to photograph her new house ?
+Who result poll the in error an be might there that acknowledged ?
 !ARTICLE
-Who believed the claim that the fireman had to smash a window to gain entrance to the house on fire ?
+What team do needs trainers the that believe the ?
 !ARTICLE
-Who wonders whether the witness told the detectives what happened last night ?
+Who fiercer whether competition sports become the college level in has wonders ?
 !ARTICLE
-Who wondered whether the teacher would bring a box of chocalate to class the next day ?
+What from malnourished were recover did the children who ?
 !ARTICLE
-Who wonders whether the engineer pressed a button to activate the new machine ?
+Who whether incident witnessed wonders the bystanders the terrible ?
 !ARTICLE
-Who wondered whether vegetarian dishes will be served at the dinner party ?
+What patio the on sat who guests waiter did the recommend to ?
 !ARTICLE
-Who thinks that the doctor decided not to treat the mysterious condition ?
+Who event fundraising at thinks the that politician the a speech will give ?
 !ARTICLE
-Who thinks that the journalist should be held responsible for the typos in the article ?
+Who worth to going is whether the art exhibition wondered city the musuem at ?
 !ARTICLE
-Who did the soldier think should order his troops to retreat ?
+Who the inspection the did not restaurant pass health believes the claim that ?
 !ARTICLE
-Who does the soccer player thinks will be fired by the club chairman ?
+Who senator proposed should thinks the that vote health care reform for the ?
 !ARTICLE
-What does the chef believe that the restaurant owner is planning to open ?
+Who to the wonders rehearsal the whether drummer come will ?
 !ARTICLE
-What did the banker believe that the customer took out a loan to purchase ?
+Who that the in mall the kidnapper is hiding believes the claim ?
 !ARTICLE
-What does the composer think that the violinist has three extra tickets to ?
+Who safe thinks plant new that the is extremely power nuclear ?
+!ARTICLE
+Who whether the president the peace trety with wonders will sign the rebels ?
+!ARTICLE
+Who during the factory should thinks that remain open the economic recession ?
+!ARTICLE
+Who be would Dutch language easy an believes that for English to speakers learn ?
+!ARTICLE
+Who hijackers wonders release whether hostages the will the ?
+!ARTICLE
+Who spots near the shopping parking thinks that there are not enough mall ?
+!ARTICLE
+Who during believes open Thanksgiving that the shelter should animal remain ?
+!ARTICLE
+Who whether incident witnessed wonders the bystanders the terrible ?
+!ARTICLE
+What patio the on sat who guests waiter did the recommend to ?
+!ARTICLE
+Who event fundraising at thinks the that politician the a speech will give ?
+!ARTICLE
+Who worth to going is whether the art exhibition wondered city the musuem at ?
+!ARTICLE
+Who the inspection the did not restaurant pass health believes the claim that ?
+!ARTICLE
+Who senator proposed should thinks the that vote health care reform for the ?
+!ARTICLE
+Who to the wonders rehearsal the whether drummer come will ?
+!ARTICLE
+Who that the in mall the kidnapper is hiding believes the claim ?
+!ARTICLE
+Who safe thinks plant new that the is extremely power nuclear ?
+!ARTICLE
+What out find to trying officials are the city ?
+!ARTICLE
+Who there is a the bug system in thinks that ?
+!ARTICLE
+Who result poll the in error an be might there that acknowledged ?
+!ARTICLE
+What team do needs trainers the that believe the ?
+!ARTICLE
+Who fiercer whether competition sports become the college level in has wonders ?
+!ARTICLE
+What from malnourished were recover did the children who ?
+!ARTICLE
+Who whether incident witnessed wonders the bystanders the terrible ?
+!ARTICLE
+What patio the on sat who guests waiter did the recommend to ?
+!ARTICLE
+Who event fundraising at thinks the that politician the a speech will give ?
+!ARTICLE
+Who worth to going is whether the art exhibition wondered city the musuem at ?
+!ARTICLE
+Who the inspection the did not restaurant pass health believes the claim that ?
+!ARTICLE
+Who senator proposed should thinks the that vote health care reform for the ?
+!ARTICLE
+Who to the wonders rehearsal the whether drummer come will ?
+!ARTICLE
+Who that the in mall the kidnapper is hiding believes the claim ?
+!ARTICLE
+Who safe thinks plant new that the is extremely power nuclear ?
