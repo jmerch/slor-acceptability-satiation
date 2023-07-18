@@ -24,7 +24,6 @@ def main():
         id_to_type[id] = type
         if i == 0:
             sentence_id = id
-    #print(id_to_type)
     curr_total = 0
     exp_inc_total = 0
     exp_dec_total = 0
@@ -39,8 +38,8 @@ def main():
     words = []
     lines = f.readlines()
     lines.pop(0)
-    out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized","wh","matrix","comp","embedded","gap","matrix_norm","comp_norm","embedded_norm","gap_norm","beyond"\n')
-    
+    out.write('"sentence_id","mean_surprisal","weight_first","weight_last","weight_sum","normalized","wh","matrix","comp","embedded","gap","matrix_norm","comp_norm","embedded_norm","gap_norm","beyond_5", "beyond_6", "beyond_7", "beyond_8", "beyond_9"\n')
+
     '''unique_word_surprisal = {}
     for line in lines:
         data = line.strip().split(" ")
@@ -52,7 +51,7 @@ def main():
     for line in lines:
         data = line.strip().split(" ")
         word = data[0]
-        surprisal = float(data[1]) 
+        surprisal = float(data[1])
         num_words += 1
         surprisals.append(surprisal)
         words.append(word.lower())
@@ -82,8 +81,13 @@ def main():
                 embedded_norm = get_embedded(words, surprisals, unique_word_surprisal)
                 gap = get_gap(words, surprisals, id_to_type[sentence_id])
                 gap_norm = get_gap(words, surprisals, id_to_type[sentence_id], unique_word_surprisal)
-            beyond = beyond_threshold(words, surprisals, 8.9, unique_word_surprisal)
-            out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words},{wh},{matrix},{comp},{embedded},{gap},{matrix_norm},{comp_norm},{embedded_norm},{gap_norm},{beyond}\n')
+            elif (sentence_id in id_to_type):
+                gap = get_gap(words, surprisals, id_to_type[sentence_id])
+                gap_norm = get_gap(words, surprisals, id_to_type[sentence_id], unique_word_surprisal)
+            if gap == None:
+                gap = 0
+                gap_norm = 0
+            out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words},{wh},{matrix},{comp},{embedded},{gap},{matrix_norm},{comp_norm},{embedded_norm},{gap_norm},{beyond_threshold(words, surprisals, 5)},{beyond_threshold(words, surprisals, 6)},{beyond_threshold(words, surprisals, 7)},{beyond_threshold(words, surprisals, 8)},{beyond_threshold(words, surprisals, 9)}\n')
             sentence_id += 1
             curr_total = 0
             weight_total = 0
@@ -100,7 +104,7 @@ def get_wh(words, surprisals, normalization_consts = None):
     if normalization_consts == None:
         return surprisals[0]
     return surprisals[0] / get_norm(words[0], normalization_consts)
-    
+
 def get_matrix(words, surprisals, normalization_consts = None):
     total = 0
     num_words = len(words)
@@ -114,7 +118,7 @@ def get_matrix(words, surprisals, normalization_consts = None):
         else:
             total += surprisals[i] / get_norm(words[i], normalization_consts)
             region_size += 1
-            
+
     return total / region_size
 
 def get_comp(words, surprisals, normalization_consts = None):
@@ -132,7 +136,7 @@ def get_embedded(words, surprisals, normalization_consts = None):
     embedded = False
     for i in range(1, num_words):
         if not embedded and (words[i] == 'that' or words[i] == 'whether'):
-            embedded = True 
+            embedded = True
             continue
         if embedded:
             if normalization_consts == None:
@@ -140,20 +144,31 @@ def get_embedded(words, surprisals, normalization_consts = None):
             else:
                 total += surprisals[i] / get_norm(words[i], normalization_consts)
             region_size += 1
+    if (region_size == 0):
+        return 0
     return total / region_size
 
 def get_gap(words, surprisals,  condition, normalization_consts = None):
+    if condition in ["FILL", "POLAR"]:
+        return 0
+    if condition == "UNGRAM":
+        return 30
     num_words = len(words)
-    if condition == "WH" or condition == "CNPC":
+    if condition in ["WH", "CNPC"] or ".lg" in condition: # "RC.adj.isl.lg", "RC.adj.non.lg"]:
         if (normalization_consts == None):
             return surprisals[-1]
         return surprisals[-1] / get_norm(words[-1], normalization_consts)
     for i in range(1, num_words):
-        if words[i] in preps:
+        if words[i] in preps and (condition == "SUBJ" or ".sub." in condition):
             if normalization_consts == None:
                 return surprisals[i + 1]
             return surprisals[i + 1] / get_norm(words[i + 1], normalization_consts)
-    
+        if words[i] in ["that", "who"] and ".sh" in condition: # in ["RC.adj.non.sh",  "RC.adj.isl.sh"]:
+            if normalization_consts == None:
+                return surprisals[i + 1]
+            return surprisals[i + 1] / get_norm(words[i + 1], normalization_consts)
+
+
 def get_norm(word, normalization_consts):
     if word in normalization_consts:
         return normalization_consts[word]
@@ -163,16 +178,16 @@ def beyond_threshold(words, surprisals, threshold, normalization_consts = None):
     num_beyond = 0
     beyond_total = 0
     for i in range(len(surprisals)):
-        if surprisals[i] >= threshold:
+        if surprisals[i] >= threshold + 8:
             if (normalization_consts == None):
                 beyond_total += surprisals[i]
             else:
                 beyond_total += surprisals[i] / get_norm(words[i], normalization_consts)
             num_beyond += 1
-    if num_beyond > 0:       
+    if num_beyond > 0:
         return beyond_total / num_beyond
     return 0
-        
+
 
 def get_individual_surprisal(surprisal_dict, model):
     model_variant = model

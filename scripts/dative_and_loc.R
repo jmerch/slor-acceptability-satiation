@@ -82,7 +82,7 @@ plot = disjunction %>%
        x = "Mean Surprisal", 
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
-  theme(axis.title = element_text()) +
+  theme(axis.title = element_text()) 
   
 plot
 
@@ -104,3 +104,4 @@ all_logistic = glm(mean_acc ~ mean_surprisal, all_experiments, family = "binomia
 all_linear = lm(mean_acc~mean_surprisal, all_experiments)
 AIC(all_logistic)
 AIC(all_linear)
+summary(all_linear)

@@ -21,7 +21,7 @@ if not lines_only:
 
         for line in clean_lines:
             jsons.append(json.loads(line))
-            
+
     for stim in jsons:
         out.write("!ARTICLE\n")
         sentence_key = "Target"
@@ -36,7 +36,3 @@ else:
         punct = line.strip()[-1]
         out.write("!ARTICLE\n")
         out.write(line.strip().strip(punct) + f' {punct}\n')
- 
-        
-
-
