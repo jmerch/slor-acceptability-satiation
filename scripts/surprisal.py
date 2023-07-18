@@ -10,7 +10,8 @@ OPT family:
 """
 
 #run: python scripts/surprisal.py input_file_path, gpt2, output_file_path
-# e.g. python scripts/surprisal.py data/lu_kim_2022/dativeSurpIn.txt gpt2 data/lu_kim_2022/dativeSurpOut.txt
+# e.g. python scripts/surprisal.py data/lu_kim_2022/dativebaseSurpIn.txt gpt2 data/lu_kim_2022/dativebaseSurpOut.txt
+#  python scripts/surprisal.py data/Sprouse2013/Sprouse2013SurpIn.txt gpt2 data/Sprouse2013/Sprouse2013SurpOut.txt
 
 import os, sys, torch, transformers
 from transformers import AutoTokenizer, AutoModelForCausalLM

@@ -1,19 +1,18 @@
 library(dplyr) 
+install.packages("tidyr")
+library(tidyr)
 
-# Data files for Lu and Kim: "dative", "dativebase", "locative_baseline_full", "locativeresults"
-data_name = "locativeresults"
+df = read.csv("data/Sprouse2013/Sprouse2013_surprisals.csv")
+acceptability = readRDS(file="data/Sprouse2013/Sprouse2013.rds")
+print(df[nrow(df),])
+print(nrow(df))
+print(acceptability[nrow(acceptability),])
 
-df = readRDS(file = paste("data/lu_kim_2022/", data_name, ".rds", sep=""))
+for (i in 1:nrow(acceptability)){
+  df$mean_acceptability = acceptability$mean_acc
+}
 
-surprisals = read.csv(paste("data/lu_kim_2022/", data_name, "_surprisals.csv", sep=""))
-
-df$mean_surprisal = surprisals$mean_surprisal
-df$normalized_surprisal = surprisals$normalized
-df$weight_first = surprisals$weight_first
-df$weight_last = surprisals$weight_last
-df$weight_sum = surprisals$weight_sum
-
-write.csv(df, paste("data/lu_kim_2022/", data_name, "Ratings.csv",sep=""), row.names=FALSE)
+write.csv(df, "data/Sprouse2013/Sprouse2013Ratings.csv", row.names=FALSE)
 
 ##### checking that results are lined up -- ignore #######
 # mean surprisal of first sentence of dativebase

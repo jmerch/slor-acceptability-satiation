@@ -30,7 +30,7 @@ for (i in 1:nrow(df_unique)){ # replaces '%2C' with actual commas ','
   df_unique$sentence_string[i] = gsub(',','',df_unique$sentence_string[i])
   df_unique$sentence_string[i] = gsub('â€™','\'',df_unique$sentence_string[i])
   df_unique$sentence_string[i] = gsub('’','\'',df_unique$sentence_string[i])
-  
+
   #df_unique$condition[i] = gsub('-', ' ', df_unique$condition[i])
   if (data_name == "dative" || data_name == "locativeresults"){
     df_unique$condition[i] = gsub('[12]', '', df_unique$condition[i]) 

@@ -4,9 +4,15 @@ import os, sys, torch, transformers, math, ast
 from transformers import AutoTokenizer, AutoModelForCausalLM
 #, GPTNeoXTokenizerFast
 
-# to run: python scripts/averageSurp_lukim.py data/lu_kim_2022/data_nameSurpOut.txt lu_kim_2022/data_name (arg 1 = path to SurpOut file; arg 2 = output file name)
+# to run: python scripts/averageSurp_lukim.py data/lu_kim_2022/locativeresultsSurpOut.txt lu_kim_2022/locativeresults (arg 1 = path to SurpOut file; arg 2 = output file name)
+#         python scripts/averageSurp_lukim.py data/Sprouse2013/Sprouse2013SurpOut.txt Sprouse2013/Sprouse2013
 
 # Runs from main surprisal-and-acceptability folder, NOT from /scripts
+
+# 32 mr, ms, mrs, prof, dr; _surprisals.csv has 2230 sentences, actual data should be 2232 (before removing title periods, _surprisals.csv had 2264)
+# The speech of the woman with the thick accent, ..... (has no period so next sentence is attached to it)
+# Larry cooked her husband the meal .... (^^)
+
 
 def main():
     source = sys.argv[1]
@@ -49,13 +55,13 @@ def main():
     for line in lines:
         data = line.strip().split(" ")
         word = data[0]
+        #print(word)
         surprisal = float(data[1]) 
         num_words += 1
         surprisals.append(surprisal)
         words.append(word)
         #print(words)
         if (word == '?' or word == '.'):
-            #print(words)
             for i in range(num_words):
                 #gauss_weight = math.exp(-(i - (num_words / 2))**2)
                 inc_weight = math.exp(-i)
@@ -66,14 +72,15 @@ def main():
                 curr_total += surprisals[i]
                 #gauss_total += surprisals[i] * gauss_weight
                 weight_total += inc_weight
-                if words[i] in unique_word_surprisal:
-                  normal_total += surprisals[i] / unique_word_surprisal[words[i]]
+                if words[i].lower() in unique_word_surprisal:
+                  normal_total += surprisals[i] / unique_word_surprisal[words[i].lower()]
                 else:
-                  print(words[i])
+                  print(words[i].lower())
                   unique_word_surprisal[words[i]] = unique_word_surprisal['the']
                   normal_total += surprisals[i] / unique_word_surprisal[words[i]]
                   notin += 1
                 # gauss_weight_total += gauss_weight
+            sent = " ".join(words)
             out.write(f'{sentence_id},{curr_total / num_words},{exp_inc_total / weight_total},{exp_dec_total / weight_total},{exp_sum_total / (weight_total * 2)},{normal_total / num_words}\n')
             sentence_id += 1
             curr_total = 0
