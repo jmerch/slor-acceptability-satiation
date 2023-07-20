@@ -196,23 +196,53 @@ plot = all_2016_no_fill%>%
 plot
 
 plot = all_2016_no_fill%>%
-  ggplot((aes(x = gap_norm, y= mean_acc, group = island, color = island))) +
+  ggplot((aes(x = gap, y= mean_acc, group = island, color = island))) +
   geom_point(aes(color = distance)) +
   geom_smooth(method = "lm", se=FALSE) +
   labs(title = "Sprouse 2016 Mean Acceptability and Surprisal", 
-       x = "Normalized Surprisal Post Gap", 
+       x = "Surprisal Post Gap", 
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 plot
 
 plot = all_2016_no_fill_long%>%
-  ggplot((aes(x = gap_norm, y= mean_acc, group = island, color = island))) +
+  ggplot((aes(x = gap, y= mean_acc, group = island, color = island))) +
   geom_point(aes(color = island)) +
   geom_smooth(method = "lm", se=FALSE) +
   labs(title = "Sprouse 2016 Mean Acceptability and Surprisal", 
-       x = "Normalized Surprisal Post Gap (Long Distance Only)", 
+       x = "Surprisal Post Gap (Long Distance Only)", 
        y = "Mean Acceptability") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 plot
+
+plot = all_2016_no_fill_long%>%
+  ggplot((aes(x = mean_surprisal, y= mean_acc, group = island, color = island))) +
+  geom_point(aes(color = island)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Sprouse 2016 Mean Acceptability and Surprisal", 
+       x = "Mean Surprisal (Long Distance Only)", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+plot
+
+plot = all_2016_no_fill_long%>%
+  ggplot((aes(x = normalized, y= mean_acc))) +
+  geom_point(aes(color = island)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "Sprouse 2016 Mean Acceptability and Surprisal", 
+       x = "Normalized Surprisal (Long Distance Only)", 
+       y = "Mean Acceptability") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+plot
+
+
+
+
+summary(lm(mean_acc ~ gap, all_2016_no_fill_long))
+summary(lm(mean_acc ~ normalized, all_2016_no_fill_long))
+summary(lm(mean_acc ~ mean_surprisal, all_2016_no_fill_long))
+

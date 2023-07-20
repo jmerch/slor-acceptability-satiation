@@ -1,5 +1,4 @@
 library(dplyr) 
-install.packages("tidyr")
 library(tidyr)
 
 df = read.csv("data/Sprouse2013/Sprouse2013_surprisals.csv")
@@ -45,3 +44,4 @@ plot = df %>%
   theme(axis.title = element_text())
 plot
 ggsave(filename = "sprouse2013_norm_surp.png", path='plots/Sprouse2013')
+
