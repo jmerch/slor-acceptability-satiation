@@ -1,0 +1,14 @@
+  0%|                                                                                                                      | 0/30 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "satiation.py", line 53, in <module>
+    trainer.train()
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/trainer.py", line 1396, in train
+    for step, inputs in enumerate(epoch_iterator):
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 61, in fetch
+    return self.collate_fn(data)
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/data/data_collator.py", line 247, in __call__
+    batch = self.tokenizer.pad(
+AttributeError: 'function' object has no attribute 'pad'

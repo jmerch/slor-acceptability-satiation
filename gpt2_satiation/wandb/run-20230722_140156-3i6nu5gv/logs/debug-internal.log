@@ -1,0 +1,48 @@
+2023-07-22 14:01:57,902 INFO    MainThread:39885 [internal.py:wandb_internal():90] W&B internal server running at pid: 39885, started at: 2023-07-22 14:01:57.901864
+2023-07-22 14:01:57,903 INFO    WriterThread:39885 [datastore.py:open_for_write():75] open: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/run-3i6nu5gv.wandb
+2023-07-22 14:01:57,904 DEBUG   SenderThread:39885 [sender.py:send():232] send: header
+2023-07-22 14:01:57,904 DEBUG   SenderThread:39885 [sender.py:send():232] send: run
+2023-07-22 14:01:58,263 DEBUG   HandlerThread:39885 [handler.py:handle_request():141] handle_request: check_version
+2023-07-22 14:01:58,270 INFO    SenderThread:39885 [dir_watcher.py:__init__():197] watching files in: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files
+2023-07-22 14:01:58,271 INFO    SenderThread:39885 [sender.py:_start_run_threads():811] run started: 3i6nu5gv with start time 1690059716
+2023-07-22 14:01:58,271 DEBUG   SenderThread:39885 [sender.py:send():232] send: summary
+2023-07-22 14:01:58,271 INFO    SenderThread:39885 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-07-22 14:01:58,272 DEBUG   SenderThread:39885 [sender.py:send_request():246] send_request: check_version
+2023-07-22 14:01:58,408 DEBUG   HandlerThread:39885 [handler.py:handle_request():141] handle_request: run_start
+2023-07-22 14:01:58,409 DEBUG   HandlerThread:39885 [meta.py:__init__():35] meta init
+2023-07-22 14:01:58,410 DEBUG   HandlerThread:39885 [meta.py:__init__():49] meta init done
+2023-07-22 14:01:58,410 DEBUG   HandlerThread:39885 [meta.py:probe():209] probe
+2023-07-22 14:01:58,425 DEBUG   HandlerThread:39885 [meta.py:_setup_git():199] setup git
+2023-07-22 14:01:58,472 DEBUG   HandlerThread:39885 [meta.py:_setup_git():206] setup git done
+2023-07-22 14:01:58,472 DEBUG   HandlerThread:39885 [meta.py:_save_pip():53] save pip
+2023-07-22 14:01:58,473 DEBUG   HandlerThread:39885 [meta.py:_save_pip():67] save pip done
+2023-07-22 14:01:58,473 DEBUG   HandlerThread:39885 [meta.py:_save_conda():74] save conda
+2023-07-22 14:01:58,639 WARNING MainThread:39885 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-07-22 14:01:58,659 DEBUG   HandlerThread:39885 [meta.py:_save_conda():84] save conda done
+2023-07-22 14:01:58,660 DEBUG   HandlerThread:39885 [meta.py:probe():247] probe done
+2023-07-22 14:01:58,717 DEBUG   SenderThread:39885 [sender.py:send():232] send: files
+2023-07-22 14:01:58,717 INFO    SenderThread:39885 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-07-22 14:01:59,266 INFO    Thread-11 :39885 [upload_job.py:push():132] Uploaded file /var/folders/qt/cbpm3dts7rq346rzkpyck5c00000gn/T/tmpmjrab84hwandb/1xh0cu8n-wandb-metadata.json
+2023-07-22 14:01:59,276 INFO    Thread-7  :39885 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/wandb-metadata.json
+2023-07-22 14:01:59,276 INFO    Thread-7  :39885 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/requirements.txt
+2023-07-22 14:01:59,276 INFO    Thread-7  :39885 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/conda-environment.yaml
+2023-07-22 14:01:59,276 INFO    Thread-7  :39885 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/wandb-summary.json
+2023-07-22 14:02:27,370 DEBUG   SenderThread:39885 [sender.py:send():232] send: stats
+2023-07-22 14:02:28,958 WARNING MainThread:39885 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-07-22 14:02:28,958 ERROR   MainThread:39885 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-07-22 14:02:29,373 INFO    HandlerThread:39885 [handler.py:finish():806] shutting down handler
+2023-07-22 14:02:29,378 INFO    SenderThread:39885 [sender.py:finish():1110] shutting down sender
+2023-07-22 14:02:29,378 INFO    SenderThread:39885 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-07-22 14:02:29,381 INFO    WriterThread:39885 [datastore.py:close():279] close: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/run-3i6nu5gv.wandb
+2023-07-22 14:02:29,394 INFO    SenderThread:39885 [dir_watcher.py:finish():342] scan: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files
+2023-07-22 14:02:29,394 INFO    SenderThread:39885 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/requirements.txt requirements.txt
+2023-07-22 14:02:29,394 INFO    SenderThread:39885 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/config.yaml config.yaml
+2023-07-22 14:02:29,394 INFO    SenderThread:39885 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/wandb-summary.json wandb-summary.json
+2023-07-22 14:02:29,395 INFO    SenderThread:39885 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/conda-environment.yaml conda-environment.yaml
+2023-07-22 14:02:29,397 INFO    SenderThread:39885 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/wandb-metadata.json wandb-metadata.json
+2023-07-22 14:02:29,398 INFO    SenderThread:39885 [file_pusher.py:finish():145] shutting down file pusher
+2023-07-22 14:02:29,398 INFO    SenderThread:39885 [file_pusher.py:join():150] waiting for file pusher
+2023-07-22 14:02:30,025 INFO    Thread-12 :39885 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/requirements.txt
+2023-07-22 14:02:30,039 INFO    Thread-13 :39885 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/config.yaml
+2023-07-22 14:02:30,068 INFO    Thread-14 :39885 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_140156-3i6nu5gv/files/wandb-summary.json
+2023-07-22 14:02:30,629 INFO    MainThread:39885 [internal.py:handle_exit():80] Internal process exited

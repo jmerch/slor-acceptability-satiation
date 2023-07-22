@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-07-22T20:58:56.100725",
+    "startedAt": "2023-07-22T20:58:54.481727",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "satiation.py",
+    "codePath": "gpt2_satiation/satiation.py",
+    "git": {
+        "remote": "https://github.com/jmerch/surprisal-and-acceptability.git",
+        "commit": "34a1fb3c8c3306f97aaa3838b3b670d1e093a004"
+    },
+    "email": "lianwang0713@gmail.com",
+    "root": "/Users/lianwang/satation/surprisal-and-acceptability",
+    "host": "SAP-SE.customer.alter.net",
+    "username": "lianwang",
+    "executable": "/Users/lianwang/opt/anaconda3/envs/nlp/bin/python"
+}

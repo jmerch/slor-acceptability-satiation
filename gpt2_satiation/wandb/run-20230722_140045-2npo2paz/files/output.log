@@ -1,0 +1,34 @@
+/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 10
+  Num Epochs = 3
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 1
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+  0%|                                                                                                                      | 0/30 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 703, in convert_to_tensors
+    tensor = as_tensor(value)
+ValueError: too many dimensions 'str'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "satiation.py", line 55, in <module>
+    trainer.train()
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/trainer.py", line 1396, in train
+    for step, inputs in enumerate(epoch_iterator):
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 61, in fetch
+    return self.collate_fn(data)
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/data/data_collator.py", line 247, in __call__
+    batch = self.tokenizer.pad(
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 2854, in pad
+    return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 208, in __init__
+    self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 719, in convert_to_tensors
+    raise ValueError(

@@ -1,0 +1,49 @@
+/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 10
+  Num Epochs = 3
+  Instantaneous batch size per device = 1
+  Total train batch size (w. parallel, distributed & accumulation) = 1
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+
+
+
+ 33%|████████████████████████████████████▎                                                                        | 10/30 [00:09<00:16,  1.22it/s]***** Running Evaluation *****
+  Num examples = 15
+  Batch size = 1
+  0%|                                                                                                                      | 0/15 [00:00<?, ?it/s]
+
+Configuration saved in checkpoints/polar_10/checkpoint-10/config.json
+Model weights saved in checkpoints/polar_10/checkpoint-10/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10/checkpoint-10/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10/checkpoint-10/special_tokens_map.json
+
+
+
+ 63%|█████████████████████████████████████████████████████████████████████                                        | 19/30 [00:21<00:09,  1.12it/s]
+ 67%|████████████████████████████████████████████████████████████████████████▋                                    | 20/30 [00:21<00:08,  1.16it/s]***** Running Evaluation *****
+  Num examples = 15
+  Batch size = 1
+ 67%|████████████████████████████████████████████████████████████████████████▋                                    | 20/30 [00:23<00:08,  1.16it/s]Saving model checkpoint to checkpoints/polar_10/checkpoint-20
+Configuration saved in checkpoints/polar_10/checkpoint-20/config.json
+Model weights saved in checkpoints/polar_10/checkpoint-20/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10/checkpoint-20/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10/checkpoint-20/special_tokens_map.json
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:35<00:00,  1.03it/s]***** Running Evaluation *****
+  Num examples = 15
+  Batch size = 1
+ 27%|█████████████████████████████▎                                                                                | 4/15 [00:00<00:01,  9.81it/s]
+
+Configuration saved in checkpoints/polar_10/checkpoint-30/config.json
+{'train_runtime': 39.8583, 'train_samples_per_second': 0.753, 'train_steps_per_second': 0.753, 'train_loss': 3.835748799641927, 'epoch': 3.0}
+Model weights saved in checkpoints/polar_10/checkpoint-30/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10/checkpoint-30/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10/checkpoint-30/special_tokens_map.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:39<00:00,  1.33s/it]

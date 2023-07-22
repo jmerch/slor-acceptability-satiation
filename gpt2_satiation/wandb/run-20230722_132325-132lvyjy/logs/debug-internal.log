@@ -1,0 +1,160 @@
+2023-07-22 13:23:27,167 INFO    MainThread:39305 [internal.py:wandb_internal():90] W&B internal server running at pid: 39305, started at: 2023-07-22 13:23:27.167677
+2023-07-22 13:23:27,169 INFO    WriterThread:39305 [datastore.py:open_for_write():75] open: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/run-132lvyjy.wandb
+2023-07-22 13:23:27,170 DEBUG   SenderThread:39305 [sender.py:send():232] send: header
+2023-07-22 13:23:27,170 DEBUG   SenderThread:39305 [sender.py:send():232] send: run
+2023-07-22 13:23:27,703 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: check_version
+2023-07-22 13:23:27,715 INFO    SenderThread:39305 [dir_watcher.py:__init__():197] watching files in: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files
+2023-07-22 13:23:27,715 INFO    SenderThread:39305 [sender.py:_start_run_threads():811] run started: 132lvyjy with start time 1690057405
+2023-07-22 13:23:27,716 DEBUG   SenderThread:39305 [sender.py:send():232] send: summary
+2023-07-22 13:23:27,716 INFO    SenderThread:39305 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-07-22 13:23:27,716 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: check_version
+2023-07-22 13:23:27,980 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: run_start
+2023-07-22 13:23:27,982 DEBUG   HandlerThread:39305 [meta.py:__init__():35] meta init
+2023-07-22 13:23:27,982 DEBUG   HandlerThread:39305 [meta.py:__init__():49] meta init done
+2023-07-22 13:23:27,982 DEBUG   HandlerThread:39305 [meta.py:probe():209] probe
+2023-07-22 13:23:28,004 DEBUG   HandlerThread:39305 [meta.py:_setup_git():199] setup git
+2023-07-22 13:23:28,058 DEBUG   HandlerThread:39305 [meta.py:_setup_git():206] setup git done
+2023-07-22 13:23:28,058 DEBUG   HandlerThread:39305 [meta.py:_save_pip():53] save pip
+2023-07-22 13:23:28,059 DEBUG   HandlerThread:39305 [meta.py:_save_pip():67] save pip done
+2023-07-22 13:23:28,059 DEBUG   HandlerThread:39305 [meta.py:_save_conda():74] save conda
+2023-07-22 13:23:28,954 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/requirements.txt
+2023-07-22 13:23:28,954 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/wandb-summary.json
+2023-07-22 13:23:28,954 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/conda-environment.yaml
+2023-07-22 13:23:31,482 DEBUG   HandlerThread:39305 [meta.py:_save_conda():84] save conda done
+2023-07-22 13:23:31,482 DEBUG   HandlerThread:39305 [meta.py:probe():247] probe done
+2023-07-22 13:23:31,548 DEBUG   SenderThread:39305 [sender.py:send():232] send: files
+2023-07-22 13:23:31,549 INFO    SenderThread:39305 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-07-22 13:23:31,553 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: stop_status
+2023-07-22 13:23:31,553 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: stop_status
+2023-07-22 13:23:31,806 DEBUG   SenderThread:39305 [sender.py:send():232] send: telemetry
+2023-07-22 13:23:31,807 DEBUG   SenderThread:39305 [sender.py:send():232] send: config
+2023-07-22 13:23:31,809 DEBUG   SenderThread:39305 [sender.py:send():232] send: metric
+2023-07-22 13:23:31,810 DEBUG   SenderThread:39305 [sender.py:send():232] send: telemetry
+2023-07-22 13:23:31,810 DEBUG   SenderThread:39305 [sender.py:send():232] send: metric
+2023-07-22 13:23:31,810 WARNING SenderThread:39305 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2023-07-22 13:23:31,810 DEBUG   SenderThread:39305 [sender.py:send():232] send: telemetry
+2023-07-22 13:23:31,811 DEBUG   SenderThread:39305 [sender.py:send():232] send: telemetry
+2023-07-22 13:23:31,959 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/conda-environment.yaml
+2023-07-22 13:23:31,959 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/wandb-metadata.json
+2023-07-22 13:23:31,960 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/output.log
+2023-07-22 13:23:32,404 INFO    Thread-11 :39305 [upload_job.py:push():132] Uploaded file /var/folders/qt/cbpm3dts7rq346rzkpyck5c00000gn/T/tmpo7b040zdwandb/1ixnf0vc-wandb-metadata.json
+2023-07-22 13:23:33,965 INFO    Thread-7  :39305 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/output.log
+2023-07-22 13:23:34,089 DEBUG   SenderThread:39305 [sender.py:send():232] send: exit
+2023-07-22 13:23:34,089 INFO    SenderThread:39305 [sender.py:send_exit():368] handling exit code: 1
+2023-07-22 13:23:34,089 INFO    SenderThread:39305 [sender.py:send_exit():370] handling runtime: 6
+2023-07-22 13:23:34,090 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:34,090 INFO    SenderThread:39305 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-07-22 13:23:34,091 INFO    SenderThread:39305 [sender.py:send_exit():376] send defer
+2023-07-22 13:23:34,091 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:34,094 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,097 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 0
+2023-07-22 13:23:34,098 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,098 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 0
+2023-07-22 13:23:34,098 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 1
+2023-07-22 13:23:34,100 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,100 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 1
+2023-07-22 13:23:34,127 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,127 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 1
+2023-07-22 13:23:34,127 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 2
+2023-07-22 13:23:34,127 DEBUG   SenderThread:39305 [sender.py:send():232] send: stats
+2023-07-22 13:23:34,128 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,128 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 2
+2023-07-22 13:23:34,128 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,128 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 2
+2023-07-22 13:23:34,129 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 3
+2023-07-22 13:23:34,129 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,129 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 3
+2023-07-22 13:23:34,130 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,130 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 3
+2023-07-22 13:23:34,130 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 4
+2023-07-22 13:23:34,130 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,131 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 4
+2023-07-22 13:23:34,131 DEBUG   SenderThread:39305 [sender.py:send():232] send: summary
+2023-07-22 13:23:34,133 INFO    SenderThread:39305 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-07-22 13:23:34,133 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,133 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 4
+2023-07-22 13:23:34,133 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 5
+2023-07-22 13:23:34,134 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,134 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 5
+2023-07-22 13:23:34,134 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,134 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 5
+2023-07-22 13:23:34,207 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:34,547 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 6
+2023-07-22 13:23:34,547 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:34,547 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:34,547 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 6
+2023-07-22 13:23:34,548 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:34,548 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 6
+2023-07-22 13:23:34,548 INFO    SenderThread:39305 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-07-22 13:23:34,654 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:34,973 INFO    SenderThread:39305 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/wandb-summary.json
+2023-07-22 13:23:34,975 INFO    SenderThread:39305 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/config.yaml
+2023-07-22 13:23:34,975 INFO    SenderThread:39305 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/output.log
+2023-07-22 13:23:34,976 INFO    SenderThread:39305 [dir_watcher.py:finish():342] scan: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files
+2023-07-22 13:23:34,976 INFO    SenderThread:39305 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/requirements.txt requirements.txt
+2023-07-22 13:23:34,977 INFO    SenderThread:39305 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/output.log output.log
+2023-07-22 13:23:34,977 INFO    SenderThread:39305 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/config.yaml config.yaml
+2023-07-22 13:23:34,992 INFO    SenderThread:39305 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/wandb-summary.json wandb-summary.json
+2023-07-22 13:23:34,992 INFO    SenderThread:39305 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/conda-environment.yaml conda-environment.yaml
+2023-07-22 13:23:34,992 INFO    SenderThread:39305 [dir_watcher.py:finish():356] scan save: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/wandb-metadata.json wandb-metadata.json
+2023-07-22 13:23:34,993 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 7
+2023-07-22 13:23:34,994 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,001 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:35,001 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 7
+2023-07-22 13:23:35,002 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:35,004 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 7
+2023-07-22 13:23:35,005 INFO    SenderThread:39305 [file_pusher.py:finish():145] shutting down file pusher
+2023-07-22 13:23:35,102 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,102 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,211 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,212 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,318 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,319 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,438 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,438 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,550 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,551 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,654 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,654 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,761 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,761 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,804 INFO    Thread-14 :39305 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/config.yaml
+2023-07-22 13:23:35,806 INFO    Thread-12 :39305 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/requirements.txt
+2023-07-22 13:23:35,808 INFO    Thread-15 :39305 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/wandb-summary.json
+2023-07-22 13:23:35,810 INFO    Thread-16 :39305 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/conda-environment.yaml
+2023-07-22 13:23:35,813 INFO    Thread-13 :39305 [upload_job.py:push():132] Uploaded file /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/files/output.log
+2023-07-22 13:23:35,874 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,874 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:35,976 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:35,994 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:36,015 INFO    Thread-6  :39305 [sender.py:transition_state():389] send defer: 8
+2023-07-22 13:23:36,016 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:36,016 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 8
+2023-07-22 13:23:36,016 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:36,016 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 8
+2023-07-22 13:23:36,117 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:36,304 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 9
+2023-07-22 13:23:36,304 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:36,305 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:36,305 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 9
+2023-07-22 13:23:36,305 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:36,305 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 9
+2023-07-22 13:23:36,305 INFO    SenderThread:39305 [sender.py:transition_state():389] send defer: 10
+2023-07-22 13:23:36,306 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: defer
+2023-07-22 13:23:36,306 INFO    HandlerThread:39305 [handler.py:handle_request_defer():164] handle defer: 10
+2023-07-22 13:23:36,307 DEBUG   SenderThread:39305 [sender.py:send():232] send: final
+2023-07-22 13:23:36,307 DEBUG   SenderThread:39305 [sender.py:send():232] send: footer
+2023-07-22 13:23:36,307 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: defer
+2023-07-22 13:23:36,307 INFO    SenderThread:39305 [sender.py:send_request_defer():385] handle sender defer: 10
+2023-07-22 13:23:36,409 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: poll_exit
+2023-07-22 13:23:36,410 DEBUG   SenderThread:39305 [sender.py:send_request():246] send_request: poll_exit
+2023-07-22 13:23:36,410 INFO    SenderThread:39305 [file_pusher.py:join():150] waiting for file pusher
+2023-07-22 13:23:36,844 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: sampled_history
+2023-07-22 13:23:36,848 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: get_summary
+2023-07-22 13:23:36,850 DEBUG   HandlerThread:39305 [handler.py:handle_request():141] handle_request: shutdown
+2023-07-22 13:23:36,850 INFO    HandlerThread:39305 [handler.py:finish():806] shutting down handler
+2023-07-22 13:23:37,312 INFO    WriterThread:39305 [datastore.py:close():279] close: /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230722_132325-132lvyjy/run-132lvyjy.wandb
+2023-07-22 13:23:37,742 INFO    SenderThread:39305 [sender.py:finish():1110] shutting down sender
+2023-07-22 13:23:37,743 INFO    SenderThread:39305 [file_pusher.py:finish():145] shutting down file pusher
+2023-07-22 13:23:37,743 INFO    SenderThread:39305 [file_pusher.py:join():150] waiting for file pusher
+2023-07-22 13:23:37,752 INFO    MainThread:39305 [internal.py:handle_exit():80] Internal process exited
