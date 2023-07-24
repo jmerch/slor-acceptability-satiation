@@ -1,15 +1,30 @@
-Does the prime minister think that a foreign spy stole the report of military expenditure ?
+!ARTICLE
+Does the mayor think that the union is planning a protest against the new immigration law ?
+!ARTICLE
+Does the boy think that the superhero will defeat the demons of the underworld ?
+!ARTICLE
+Does the pianist think that two hours of piano practice per day can lead to perfection ?
+!ARTICLE
+Does the biologist think that researchers will eventually find a cure to AIDS ?
+!ARTICLE
 Does the athlete think that her manager called the agent of another athlete ?
-Does the director think that the main actor will blow off the final rehearsal of the play ?
-Does the Prime Minister think that the senate will review the report on global warming ?
-Does the teacher think that the boy found a box of diamonds ?
-Does the zookeeper think that the lion attacked a herd of antelopes yesterday ?
-Did the pharmacist think that a pack of painkillers could cause nausea ?
-Did the manager think that the intern had taken a photo of the equipment ?
-Does the investigator think that the robbers deleted a segment of the surveillance video ?
-Does the spy think that the commander of the special forces initiated the attack ?
+!ARTICLE
 Does the radio host think that the ex-wife of the movie star bought a new house ?
-Does the mechanic think that the apprentice spilled the bottle of lubricant ?
+!ARTICLE
+Does the lexicographer think that some of his colleagues revised the dictionary for the endangered language ?
+!ARTICLE
 Does the carpenter think that the sister of the mayor will order a bookcase ?
-Does the detective think that a bottle of poison killed the businessman ?
+!ARTICLE
+Does the police officer think that the truck hit a stack of hay ?
+!ARTICLE
+Does the doctor think that the mayor vetoed the proposal for a new hospital ?
+!ARTICLE
+Does the headmaster think that an expert in Chinese history wrote the manuscript ?
+!ARTICLE
 Does the nurse think that the treatment of a special skin condition mimics the effects of eczema ?
+!ARTICLE
+Does the detective think that a bottle of poison killed the businessman ?
+!ARTICLE
+Does the investigator think that the robbers deleted a segment of the surveillance video ?
+!ARTICLE
+Does the chef think that the food critic will publish a positive review of his restaurant ?

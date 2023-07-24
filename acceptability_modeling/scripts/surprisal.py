@@ -38,8 +38,8 @@ def main():
 
     if "gpt-neox" in model_variant:
         tokenizer = GPTNeoXTokenizerFast.from_pretrained(sys.argv[2])
-    elif "gpt" in model_variant:
-        tokenizer = AutoTokenizer.from_pretrained(sys.argv[2], use_fast=False)
+    elif "gpt" in model_variant or "checkpoint" in model_variant:
+        tokenizer = AutoTokenizer.from_pretrained("gpt2", use_fast=False)
     elif "opt" in model_variant:
         tokenizer = AutoTokenizer.from_pretrained(sys.argv[2], use_fast=False)
     else:
@@ -69,7 +69,7 @@ def main():
                                                            "attention_mask": torch.tensor([1] + attn[:ctx_size-1]).unsqueeze(0)}),
                                 start_idx))
             # for GPT-2/GPT-Neo (bos_id not appended by default)
-            elif "gpt" in model_variant:
+            elif "gpt" in model_variant or "checkpoint" in model_variant:
                 batches.append((transformers.BatchEncoding({"input_ids": torch.tensor([bos_id] + ids[:ctx_size-1]),
                                                             "attention_mask": torch.tensor([1] + attn[:ctx_size-1])}),
                                 start_idx))
@@ -88,7 +88,7 @@ def main():
             batches.append((transformers.BatchEncoding({"input_ids": torch.tensor([bos_id] + ids).unsqueeze(0),
                                                        "attention_mask": torch.tensor([1] + attn).unsqueeze(0)}),
                            start_idx))
-        elif "gpt" in model_variant:
+        elif "gpt" in model_variant or "checkpoint" in model_variant:
             batches.append((transformers.BatchEncoding({"input_ids": torch.tensor([bos_id] + ids),
                                                        "attention_mask": torch.tensor([1] + attn)}),
                            start_idx))

@@ -42,7 +42,7 @@ for condition in ["WH", "SUBJ", "POLAR"]:
     train10 = dataset + "_" + condition + "_train10.txt"
     train20 = dataset + "_" + condition + "_train20.txt"
     train30 = dataset +  "_" + condition +"_train30.txt"
-    
+
     #print(condition)
     testSet = random.sample(sentences[condition], 15)
     remaining = sentences[condition].difference(testSet)
