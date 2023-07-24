@@ -40,8 +40,8 @@ for stim in jsons:
 for condition in ["WH", "SUBJ", "POLAR"]:
     test15 =  dataset + "_" + condition + "_test15.txt"
     train10 = dataset + "_" + condition + "_train10.txt"
-    train20 = dataset + "_" + condition + "train20.txt"
-    train30 = dataset +  "_" + condition +"train30.txt"
+    train20 = dataset + "_" + condition + "_train20.txt"
+    train30 = dataset +  "_" + condition +"_train30.txt"
 
     #print(condition)
     testSet = random.sample(sentences[condition], 15)
