@@ -40,9 +40,9 @@ for stim in jsons:
 for condition in ["WH", "SUBJ", "POLAR"]:
     test15 =  dataset + "_" + condition + "_test15.txt"
     train10 = dataset + "_" + condition + "_train10.txt"
-    train20 = dataset + "_" + condition + "train_20.txt"
-    train30 = dataset +  "_" + condition +"train_30.txt"
-    
+    train20 = dataset + "_" + condition + "train20.txt"
+    train30 = dataset +  "_" + condition +"train30.txt"
+
     #print(condition)
     testSet = random.sample(sentences[condition], 15)
     remaining = sentences[condition].difference(testSet)
@@ -51,7 +51,7 @@ for condition in ["WH", "SUBJ", "POLAR"]:
     #print(len(train10set))
     train20set = random.sample(remaining, 20)
     #print(len(train20set))
-    
+
     testOut = open(test15, "w")
     for sentence in testSet:
         testOut.write(sentence)
