@@ -13,8 +13,9 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 import evaluate
 import wandb
 
-import os
+import os, sys
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 
 def main():
     # Import datasets
