@@ -2,10 +2,10 @@ from dataclasses import dataclass
 import torch
 from datasets import load_dataset, load_metric
 from transformers import (
-    AutoTokenizer, 
-    AutoModelForCausalLM, 
+    AutoTokenizer,
+    AutoModelForCausalLM,
     Trainer,
-    TrainingArguments, 
+    TrainingArguments,
     DataCollatorForLanguageModeling,
     PreTrainedTokenizerBase,
     BatchEncoding)

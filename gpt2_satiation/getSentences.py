@@ -51,7 +51,7 @@ for condition in ["WH", "SUBJ", "POLAR"]:
     #print(len(train10set))
     train20set = random.sample(remaining, 20)
     #print(len(train20set))
-    
+
     testOut = open(test15, "w")
     for sentence in testSet:
         testOut.write(sentence)
