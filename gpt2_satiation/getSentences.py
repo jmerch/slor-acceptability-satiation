@@ -37,8 +37,7 @@ for stim in jsons:
     else:
         sentences[condition] = set({formatted})
 
-#for condition in ["WH", "SUBJ", "POLAR"]:
-for condition in ["CNPC"]:
+for condition in ["WH", "SUBJ", "POLAR", "CNPC"]:
     test15 =  dataset + "_" + condition + "_test15.txt"
     train10 = dataset + "_" + condition + "_train10.txt"
     train20 = dataset + "_" + condition + "_train20.txt"
