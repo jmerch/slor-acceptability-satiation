@@ -2,10 +2,10 @@ library(tidyverse)
 library(ggplot2)
 library(ggthemes)
 num_trained = c(0, 10, 20, 30)
-POLAR_0 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR_0_surprisals.csv")
-POLAR_10 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR_10_surprisals.csv")
-POLAR_20 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR_20_surprisals.csv")
-POLAR_30 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR_30_surprisals.csv")
+POLAR_0 = read.csv("gpt2_satiation/output/surprisals/gen_WH_0_surprisals.csv")
+POLAR_10 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR10_WHtest_surprisals.csv")
+POLAR_20 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR20_WHtest_surprisals.csv")
+POLAR_30 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR30_WHtest_surprisals.csv")
 P_0 = mean(POLAR_0$mean_surprisal)
 P_10 = mean(POLAR_10$mean_surprisal)
 P_20 = mean(POLAR_20$mean_surprisal)
@@ -28,10 +28,10 @@ condition = c("WH", "WH", "WH", "WH")
 wh_df = data.frame(num_trained, surprisal, condition)
 
 
-SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_0_surprisals.csv")
-SUBJ_10 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_10_surprisals.csv")
-SUBJ_20 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_20_surprisals.csv")
-SUBJ_30 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_30_surprisals.csv")
+SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/gen_WH_0_surprisals.csv")
+SUBJ_10 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ10_WHtest_surprisals.csv")
+SUBJ_20 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ20_WHtest_surprisals.csv")
+SUBJ_30 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ30_WHtest_surprisals.csv")
 S_0 = mean(SUBJ_0$mean_surprisal)
 S_10 = mean(SUBJ_10$mean_surprisal)
 S_20 = mean(SUBJ_20$mean_surprisal)
@@ -42,10 +42,10 @@ subj_df = data.frame(num_trained, surprisal, condition)
 
 
 
-CNPC_0 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC_0_surprisals.csv")
-CNPC_10 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC_10_surprisals.csv")
-CNPC_20 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC_20_surprisals.csv")
-CNPC_30 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC_30_surprisals.csv")
+CNPC_0 = read.csv("gpt2_satiation/output/surprisals/gen_WH_0_surprisals.csv")
+CNPC_10 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC10_WHtest_surprisals.csv")
+CNPC_20 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC20_WHtest_surprisals.csv")
+CNPC_30 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC30_WHtest_surprisals.csv")
 C_0 = mean(CNPC_0$mean_surprisal)
 C_10 = mean(CNPC_10$mean_surprisal)
 C_20 = mean(CNPC_20$mean_surprisal)
@@ -66,9 +66,9 @@ surprisal_v_training %>%
   #geom_smooth(method = "lm", se=FALSE) +
   labs(title = "Training Sentences and Mean Surprisal", 
        x = "Sentences", 
-       y = "Mean Surprisal") +
+       y = "Mean Surprisal (Tested on WH)") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal.png" )
+ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal_onWH.png" )
 
