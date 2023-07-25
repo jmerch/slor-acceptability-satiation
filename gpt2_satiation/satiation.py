@@ -97,4 +97,4 @@ if __name__ == "__main__":
     parser.add_argument("--num_train", type=int)
     args = parser.parse_args()
     quinfig = Quinfig(args.config)
-    main(quinfig)
+    #main(quinfig)
