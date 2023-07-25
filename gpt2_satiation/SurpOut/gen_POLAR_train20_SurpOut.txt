@@ -1,4 +1,3 @@
-checkpoint-20
 word llm_surp
 Does 12.74009895324707
 the 2.361254930496216

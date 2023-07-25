@@ -2,7 +2,7 @@
 import os, sys, torch, transformers, math, ast
 from transformers import AutoTokenizer, AutoModelForCausalLM, GPTNeoXTokenizerFast
 
-preps = ["of", "about", "against", "for", "to", "in", "on", ]
+preps = ["of", "about", "against", "for", "to", "in", "on"]
 
 def main():
     source = sys.argv[1]
@@ -18,6 +18,7 @@ def main():
     id_to_type = {}
     sentence_id = 0
     for i in range(len(raw_types)):
+        print(raw_types[i])
         data = raw_types[i].strip().strip('"').split(",")
         id = int(data[0])
         type = data[1][1:]

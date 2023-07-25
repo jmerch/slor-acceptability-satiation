@@ -1,4 +1,3 @@
-checkpoint-20
 word llm_surp
 What 8.395686149597168
 did 5.650631427764893
