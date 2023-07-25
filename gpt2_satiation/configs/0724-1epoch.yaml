@@ -1,0 +1,15 @@
+general:
+    run_name: 0724-1epoch
+    save_dir: checkpoints
+    wandb_project: gpt2-satiation
+training:
+    learning_rate: 5.0e-5
+    per_device_train_batch_size: 1
+    per_device_eval_batch_size: 1
+    num_train_epochs: 1
+    report_to: wandb
+    save_steps: 10
+    save_strategy: steps
+    remove_unused_columns: false
+    evaluation_strategy: steps
+    eval_steps: 10

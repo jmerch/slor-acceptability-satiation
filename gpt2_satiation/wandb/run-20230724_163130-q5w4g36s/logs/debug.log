@@ -1,0 +1,93 @@
+2023-07-24 16:31:30,612 INFO    MainThread:46826 [wandb_setup.py:_flush():76] Loading settings from /Users/lianwang/.config/wandb/settings
+2023-07-24 16:31:30,612 INFO    MainThread:46826 [wandb_setup.py:_flush():76] Loading settings from /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/settings
+2023-07-24 16:31:30,612 INFO    MainThread:46826 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'gpt2_satiation/satiation.py', 'program': 'satiation.py'}
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [wandb_init.py:_log_setup():428] Logging user logs to /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230724_163130-q5w4g36s/logs/debug.log
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/lianwang/satation/surprisal-and-acceptability/gpt2_satiation/wandb/run-20230724_163130-q5w4g36s/logs/debug-internal.log
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [wandb_init.py:init():462] calling init triggers
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [wandb_init.py:init():515] starting backend
+2023-07-24 16:31:30,613 INFO    MainThread:46826 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-24 16:31:30,615 INFO    MainThread:46826 [backend.py:ensure_launched():217] starting backend process...
+2023-07-24 16:31:30,625 INFO    MainThread:46826 [backend.py:ensure_launched():222] started backend process with pid: 46847
+2023-07-24 16:31:30,627 INFO    MainThread:46826 [wandb_init.py:init():525] backend started and connected
+2023-07-24 16:31:30,637 INFO    MainThread:46826 [wandb_init.py:init():596] updated telemetry
+2023-07-24 16:31:30,678 INFO    MainThread:46826 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2023-07-24 16:31:33,326 INFO    MainThread:46826 [wandb_run.py:_on_init():1924] communicating current version
+2023-07-24 16:31:33,417 INFO    MainThread:46826 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.15.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-24 16:31:33,417 INFO    MainThread:46826 [wandb_init.py:init():662] starting run threads in backend
+2023-07-24 16:31:36,662 INFO    MainThread:46826 [wandb_run.py:_console_start():1898] atexit reg
+2023-07-24 16:31:36,663 INFO    MainThread:46826 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2023-07-24 16:31:36,663 INFO    MainThread:46826 [wandb_run.py:_redirect():1776] Redirecting console.
+2023-07-24 16:31:36,664 INFO    MainThread:46826 [wandb_run.py:_redirect():1832] Redirects installed.
+2023-07-24 16:31:36,665 INFO    MainThread:46826 [wandb_init.py:init():688] run started, returning control to user process
+2023-07-24 16:31:38,162 INFO    MainThread:46826 [wandb_run.py:_config_callback():1136] config_cb None None {'vocab_size': 50257, 'n_positions': 1024, 'n_embd': 768, 'n_layer': 12, 'n_head': 12, 'n_inner': None, 'activation_function': 'gelu_new', 'resid_pdrop': 0.1, 'embd_pdrop': 0.1, 'attn_pdrop': 0.1, 'layer_norm_epsilon': 1e-05, 'initializer_range': 0.02, 'summary_type': 'cls_index', 'summary_use_proj': True, 'summary_activation': None, 'summary_first_dropout': 0.1, 'summary_proj_to_labels': True, 'scale_attn_weights': True, 'use_cache': True, 'scale_attn_by_inverse_layer_idx': False, 'reorder_and_upcast_attn': False, 'bos_token_id': 50256, 'eos_token_id': 50256, 'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': ['GPT2LMHeadModel'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1}, 'tokenizer_class': None, 'prefix': None, 'pad_token_id': None, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': {'text-generation': {'do_sample': True, 'max_length': 50}}, 'problem_type': None, '_name_or_path': 'gpt2', 'transformers_version': '4.18.0', 'model_type': 'gpt2', 'n_ctx': 1024, 'output_dir': 'checkpoints/polar_10_posparams', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'steps', 'prediction_loss_only': False, 'per_device_train_batch_size': 8, 'per_device_eval_batch_size': 8, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'eval_delay': 0, 'learning_rate': 0.0004, 'weight_decay': 0.1, 'adam_beta1': 0.9, 'adam_beta2': 0.98, 'adam_epsilon': 1e-06, 'max_grad_norm': 1.0, 'num_train_epochs': 3.0, 'max_steps': 500, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.05, 'warmup_steps': 0, 'log_level': -1, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'checkpoints/polar_10_posparams/runs/Jul24_16-31-30_DN0a221437.SUNet', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 1, 'logging_nan_inf_filter': True, 'save_strategy': 'steps', 'save_steps': 10, 'save_total_limit': 'None', 'save_on_each_node': False, 'no_cuda': False, 'seed': 42, 'data_seed': 'None', 'bf16': False, 'fp16': False, 'fp16_opt_level': 'O1', 'half_precision_backend': 'auto', 'bf16_full_eval': False, 'fp16_full_eval': False, 'tf32': 'None', 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 10, 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': 'polar_10_posparams', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': True, 'metric_for_best_model': 'loss', 'greater_is_better': False, 'ignore_data_skip': False, 'sharded_ddp': '[]', 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'optim': 'adamw_hf', 'adafactor': False, 'group_by_length': False, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'ddp_bucket_cap_mb': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': False, 'resume_from_checkpoint': 'None', 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'gradient_checkpointing': False, 'fp16_backend': 'auto', 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 0, 'mp_parameters': '', 'train_batch_size': 8, 'eval_batch_size': 8}
+2023-07-24 16:31:38,163 INFO    MainThread:46826 [wandb_watch.py:watch():47] Watching
+2023-07-24 16:33:01,910 INFO    MainThread:46826 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 255
+2023-07-24 16:33:01,916 INFO    MainThread:46826 [wandb_run.py:_restore():1839] restore
+2023-07-24 16:33:04,989 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 890
+  total_bytes: 890
+}
+
+2023-07-24 16:33:05,967 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 890
+  total_bytes: 32403
+}
+
+2023-07-24 16:33:06,073 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 890
+  total_bytes: 32403
+}
+
+2023-07-24 16:33:06,180 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 32403
+  total_bytes: 32403
+}
+
+2023-07-24 16:33:06,288 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 32403
+  total_bytes: 32403
+}
+
+2023-07-24 16:33:06,397 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 32403
+  total_bytes: 32403
+}
+
+2023-07-24 16:33:06,507 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 32403
+  total_bytes: 32403
+}
+
+2023-07-24 16:33:06,618 INFO    MainThread:46826 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 32403
+  total_bytes: 32403
+}
+

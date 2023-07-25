@@ -1,61 +1,60 @@
+import argparse
 from dataclasses import dataclass
 import torch
 from datasets import load_dataset, load_metric
 from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
+    AutoTokenizer, 
+    AutoModelForCausalLM, 
     Trainer,
-    TrainingArguments,
+    TrainingArguments, 
     DataCollatorForLanguageModeling,
     PreTrainedTokenizerBase,
     BatchEncoding)
 from typing import Any, Callable, Dict, List, Optional, Tuple
-import evaluate
+from quinine import Quinfig
+#import evaluate
 import wandb
 
 import os, sys
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+#condition = sys.argv[1].upper()
+#num_training_sents = sys.argv[2]
 
+def main(quinfig):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
 
-def main():
+    condition = args.condition.upper()
+    num_training_sents = args.num_train
+    
     # Import datasets
-    data_files = {"train": "datasets/gen_POLAR_train10.txt", "test": "datasets/gen_POLAR_test15.txt"}
-    polar_10 = load_dataset("text", data_files=data_files)
-    run_name = "polar_10"
+    data_files = {"train": f"datasets/gen_{condition}_train{num_training_sents}.txt", "test": f"datasets/gen_{condition}_test15.txt"}
+    dataset = load_dataset("text", data_files=data_files)
 
     # Setting up model, tokenizer, training arguments
-    tokenizer = AutoTokenizer.from_pretrained('gpt2')
     model = AutoModelForCausalLM.from_pretrained('gpt2')
+    tokenizer = AutoTokenizer.from_pretrained('gpt2', use_fast=True)
 
     def tokenize_function(examples):
         return tokenizer(examples['text'], truncation=True, padding=True)
     tokenizer.pad_token = tokenizer.eos_token
-    tokenized_datasets = polar_10.map(tokenize_function, batched=True, remove_columns=["text"])
+    
+    tokenized_datasets = dataset.map(tokenize_function, batched=True, remove_columns=["text"])
     tokenized_datasets.set_format(type = "torch")
     data_collator = LMDataCollator(tokenizer=tokenizer)
-    print(tokenized_datasets['train'][0])
-    #data_collator = DefaultDataCollator(tokenizer=tokenizer)
 
     # Setting up training arguments
+    run_name = f"{condition}_{num_training_sents}_{quinfig.general.run_name}"
     training_args = TrainingArguments(
-        learning_rate=1e-3,
         run_name = run_name,
-        output_dir="checkpoints/" + run_name,
-        per_device_train_batch_size=1,
-        per_device_eval_batch_size=1,
-        evaluation_strategy='epoch',
-        num_train_epochs=20,
-        save_strategy='steps',
-        save_steps=50,
-        report_to = 'wandb',
-        remove_unused_columns=False,
+        output_dir=os.path.join(quinfig.general.save_dir, run_name),
+        **quinfig.training.toDict()
     )
-
     trainer = Trainer(
         args=training_args,
         model=model,
         train_dataset = tokenized_datasets['train'],
-        eval_dataset = tokenized_datasets['test'],
+        eval_dataset = tokenized_datasets['test'], # Is this what we want? Probably not
         tokenizer=tokenizer,
         data_collator=data_collator,
         #compute_metrics = compute_metrics,
@@ -63,9 +62,10 @@ def main():
 
     # Run training loop
     wandb.init(
-        project="gpt2-satiation",
+        project=quinfig.general.wandb_project,
         name=run_name,
     )
+    print(f"Starting run: {run_name}")
     trainer.evaluate()
     trainer.train()
     wandb.finish()
@@ -91,4 +91,10 @@ class LMDataCollator:
         return batch
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=str) # specify path of config file
+    parser.add_argument("--condition", type=str)
+    parser.add_argument("--num_train", type=int)
+    args = parser.parse_args()
+    quinfig = Quinfig(args.config)
+    main(quinfig)

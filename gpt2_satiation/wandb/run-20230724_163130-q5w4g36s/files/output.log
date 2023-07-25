@@ -1,0 +1,128 @@
+***** Running Evaluation *****
+  Num examples = 30
+  Batch size = 8
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  3.71it/s]Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  3.93it/s]
+/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 10
+  Num Epochs = 250
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 500
+  0%|                                                                                                                                                      | 0/500 [00:00<?, ?it/s]
+{'loss': 4.7561, 'learning_rate': 1.6000000000000003e-05, 'epoch': 0.5}
+
+  0%|▌                                                                                                                                             | 2/500 [00:03<14:44,  1.78s/it]
+
+  1%|▊                                                                                                                                             | 3/500 [00:05<13:54,  1.68s/it]
+{'loss': 4.5269, 'learning_rate': 6.400000000000001e-05, 'epoch': 2.0}
+
+  1%|█▍                                                                                                                                            | 5/500 [00:07<11:51,  1.44s/it]
+
+  1%|█▋                                                                                                                                            | 6/500 [00:08<10:22,  1.26s/it]
+{'loss': 3.1708, 'learning_rate': 0.00011200000000000001, 'epoch': 3.5}
+
+  2%|██▎                                                                                                                                           | 8/500 [00:10<09:36,  1.17s/it]
+{'loss': 2.2274, 'learning_rate': 0.000144, 'epoch': 4.5}
+  2%|██▊                                                                                                                                          | 10/500 [00:13<09:32,  1.17s/it]***** Running Evaluation *****
+  Num examples = 30
+  Batch size = 8
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+
+Configuration saved in checkpoints/polar_10_posparams/checkpoint-10/config.json
+Model weights saved in checkpoints/polar_10_posparams/checkpoint-10/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10_posparams/checkpoint-10/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10_posparams/checkpoint-10/special_tokens_map.json
+{'loss': 1.8321, 'learning_rate': 0.00017600000000000002, 'epoch': 5.5}
+  2%|███                                                                                                                                          | 11/500 [00:19<22:46,  2.79s/it]
+
+  2%|███▍                                                                                                                                         | 12/500 [00:20<18:31,  2.28s/it]
+{'loss': 1.1954, 'learning_rate': 0.00020800000000000001, 'epoch': 6.5}
+
+  3%|███▉                                                                                                                                         | 14/500 [00:23<14:05,  1.74s/it]
+{'loss': 0.8651, 'learning_rate': 0.00024, 'epoch': 7.5}
+
+  3%|████▏                                                                                                                                        | 15/500 [00:25<13:41,  1.69s/it]
+
+  3%|████▌                                                                                                                                        | 16/500 [00:26<12:11,  1.51s/it]
+
+  4%|█████                                                                                                                                        | 18/500 [00:30<13:47,  1.72s/it]
+{'loss': 0.4251, 'learning_rate': 0.000304, 'epoch': 9.5}
+  4%|█████▋                                                                                                                                       | 20/500 [00:33<13:51,  1.73s/it]***** Running Evaluation *****
+  Num examples = 30
+  Batch size = 8
+{'eval_loss': 6.47946310043335, 'eval_runtime': 2.2012, 'eval_samples_per_second': 13.629, 'eval_steps_per_second': 1.817, 'epoch': 10.0}
+  4%|█████▋                                                                                                                                       | 20/500 [00:35<13:51,  1.73s/it]Saving model checkpoint to checkpoints/polar_10_posparams/checkpoint-20
+Configuration saved in checkpoints/polar_10_posparams/checkpoint-20/config.json
+Model weights saved in checkpoints/polar_10_posparams/checkpoint-20/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10_posparams/checkpoint-20/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10_posparams/checkpoint-20/special_tokens_map.json
+{'loss': 0.3235, 'learning_rate': 0.000336, 'epoch': 10.5}
+{'loss': 0.2757, 'learning_rate': 0.00035200000000000005, 'epoch': 11.0}
+  4%|██████▏                                                                                                                                      | 22/500 [00:42<21:57,  2.76s/it]
+
+  5%|██████▍                                                                                                                                      | 23/500 [00:43<19:20,  2.43s/it]
+
+  5%|██████▊                                                                                                                                      | 24/500 [00:45<16:39,  2.10s/it]
+
+  5%|███████                                                                                                                                      | 25/500 [00:47<16:36,  2.10s/it]
+
+  5%|███████▎                                                                                                                                     | 26/500 [00:49<16:26,  2.08s/it]
+
+  5%|███████▌                                                                                                                                     | 27/500 [00:51<16:23,  2.08s/it]
+
+  6%|███████▉                                                                                                                                     | 28/500 [00:52<14:36,  1.86s/it]
+{'loss': 0.2118, 'learning_rate': 0.00039663157894736844, 'epoch': 14.5}
+  6%|████████▍                                                                                                                                    | 30/500 [00:56<13:22,  1.71s/it]***** Running Evaluation *****
+  Num examples = 30
+  Batch size = 8
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+
+Configuration saved in checkpoints/polar_10_posparams/checkpoint-30/config.json
+Model weights saved in checkpoints/polar_10_posparams/checkpoint-30/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10_posparams/checkpoint-30/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10_posparams/checkpoint-30/special_tokens_map.json
+{'loss': 0.1487, 'learning_rate': 0.00039494736842105266, 'epoch': 15.5}
+{'loss': 0.3386, 'learning_rate': 0.00039410526315789474, 'epoch': 16.0}
+  6%|█████████                                                                                                                                    | 32/500 [01:04<20:42,  2.65s/it]
+
+  7%|█████████▎                                                                                                                                   | 33/500 [01:05<18:29,  2.38s/it]
+{'loss': 0.2599, 'learning_rate': 0.000392421052631579, 'epoch': 17.0}
+
+  7%|█████████▊                                                                                                                                   | 35/500 [01:08<13:55,  1.80s/it]
+
+  7%|██████████▏                                                                                                                                  | 36/500 [01:09<11:30,  1.49s/it]
+{'loss': 0.1624, 'learning_rate': 0.0003898947368421053, 'epoch': 18.5}
+
+  8%|██████████▋                                                                                                                                  | 38/500 [01:11<10:07,  1.32s/it]
+{'loss': 0.1513, 'learning_rate': 0.0003882105263157895, 'epoch': 19.5}
+  8%|███████████▎                                                                                                                                 | 40/500 [01:13<09:41,  1.26s/it]***** Running Evaluation *****
+  Num examples = 30
+  Batch size = 8
+  0%|                                                                                                                                                        | 0/4 [00:00<?, ?it/s]
+
+Configuration saved in checkpoints/polar_10_posparams/checkpoint-40/config.json
+Model weights saved in checkpoints/polar_10_posparams/checkpoint-40/pytorch_model.bin
+tokenizer config file saved in checkpoints/polar_10_posparams/checkpoint-40/tokenizer_config.json
+Special tokens file saved in checkpoints/polar_10_posparams/checkpoint-40/special_tokens_map.json
+{'loss': 0.2586, 'learning_rate': 0.0003865263157894737, 'epoch': 20.5}
+  8%|███████████▌                                                                                                                                 | 41/500 [01:20<20:54,  2.73s/it]
+
+  9%|████████████▏                                                                                                                                | 43/500 [01:23<15:52,  2.08s/it]Traceback (most recent call last):
+  File "satiation.py", line 97, in <module>
+    main(quinfig)
+  File "satiation.py", line 67, in main
+    trainer.train()
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/trainer.py", line 1487, in train
+    self.optimizer.step()
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/lianwang/opt/anaconda3/envs/nlp/lib/python3.8/site-packages/transformers/optimization.py", line 363, in step
+    step_size = group["lr"]
+KeyboardInterrupt
+{'loss': 0.1753, 'learning_rate': 0.0003848421052631579, 'epoch': 21.5}

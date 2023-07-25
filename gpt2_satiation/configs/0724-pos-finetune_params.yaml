@@ -1,0 +1,20 @@
+general:
+    run_name: polar_10_posparams
+    save_dir: checkpoints/
+    wandb_project: gpt2-satiation
+training:
+    adam_beta1: 0.9
+    adam_beta2: 0.98
+    adam_epsilon: 1.0e-06
+    eval_steps: 10
+    evaluation_strategy: steps
+    learning_rate: 0.0004
+    load_best_model_at_end: true
+    logging_steps: 1
+    lr_scheduler_type: linear
+    max_steps: 500
+    report_to: wandb
+    save_steps: 100
+    #save_total_limit: 1
+    warmup_ratio: 0.05
+    weight_decay: 0.1
