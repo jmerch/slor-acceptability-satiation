@@ -8,11 +8,11 @@
 # model10="../gpt2_satiation/checkpoints/${1}_10_0724-1epoch/checkpoint-10"
 # save10="../gpt2_satiation/SurpOut/gen_${1}10train_${2}test_SurpOut.txt"
 
-for train_cond in 'WH' 'SUBJ' 'CNPC' 'POLAR'
+for train_cond in 'CNPC' 'WH' 'SUBJ' 'POLAR'
 do
-    for test_cond in 'CNPC' 'WH' 'SUBJ' 'POLAR'
+    for test_cond in 'UNGRAM' 'FILL'
     do
-        for num_train in 10 20 30
+        for num_train in 10
         do
             test_data="../gpt2_satiation/datasets/gen_${test_cond}_test15.txt"
             model_path="../gpt2_satiation/checkpoints/${train_cond}_${num_train}_0724-1epoch/checkpoint-${num_train}"

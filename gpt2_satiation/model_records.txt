@@ -5,7 +5,9 @@ Training set				Test set			Config file
 {POLAR, CNPC, SUBJ, WH} {10, 20, 30}	{POLAR, CNPC, SUBJ, WH} 15	0724-1epoch
 {POLAR, CNPC, SUBJ, WH} {10, 20, 30}	{POLAR, CNPC, SUBJ, WH} fix 15	0724-1epoch
 *					FILL 15
-*UNGRAM {10, 20, 30}			{UNGRAM, FILL} 15
+{UNGRAM, FILL} 10			{UNGRAM, FILL} 10
 *mixed island types
 *islands with FILL
 *context
+
+note: only test UNGRAM FILL train 10 on test 6, as test 15 has overlap with train 10 (only 16 items for FILL and UNGRAM)
