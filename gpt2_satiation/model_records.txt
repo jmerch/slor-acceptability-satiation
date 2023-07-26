@@ -1,0 +1,11 @@
+To keep track of all train/test combos:
+(*: planned)
+
+Training set				Test set			Config file
+{POLAR, CNPC, SUBJ, WH} {10, 20, 30}	{POLAR, CNPC, SUBJ, WH} 15	0724-1epoch
+{POLAR, CNPC, SUBJ, WH} {10, 20, 30}	{POLAR, CNPC, SUBJ, WH} fix 15	0724-1epoch
+*					FILL 15
+*UNGRAM {10, 20, 30}			{UNGRAM, FILL} 15
+*mixed island types
+*islands with FILL
+*context

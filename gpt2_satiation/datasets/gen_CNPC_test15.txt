@@ -1,15 +1,30 @@
+!ARTICLE
 Who does the athlete believe the claim that her manager called ?
+!ARTICLE
 What does the mayor believe the claim that the union is planning a protest against ?
+!ARTICLE
 What does the prime minister believe the claim that a foreign spy stole ?
+!ARTICLE
 What does the mechanic believe the claim that the apprentice spilled ?
+!ARTICLE
 What does the physician believe the claim that the group of researchers designed ?
+!ARTICLE
 What does the journalist believe the claim that the politician once wrote ?
+!ARTICLE
 What does the professor believe the claim that the student spilled ?
+!ARTICLE
 What does the lexicographer believe the claim that some of his colleagues revised ?
+!ARTICLE
 What does the zookeeper believe the claim that a lion attacked yesterday ?
+!ARTICLE
 What did the manager believe the claim that the intern had taken ?
+!ARTICLE
 What does the investigator acknowledge the possibility that the robbers deleted ?
+!ARTICLE
 What does the police officer believe the claim that the truck hit ?
+!ARTICLE
 What does the lawyer believe the claim that the scientist wrote ?
+!ARTICLE
 What did the judge believe the claim that the police officer had emailed to the prosecutor ?
+!ARTICLE
 What did the publisher believe the claim that the famous author had already finished ?

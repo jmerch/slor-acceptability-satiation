@@ -1,15 +1,30 @@
+!ARTICLE
 What does the zookeeper wonder whether the lion attacked ?
+!ARTICLE
 What does the prime minister wonder whether a foreign spy stole ?
+!ARTICLE
 What does the journalist wonder whether the politician once wrote ?
+!ARTICLE
 What does the investigator wonder whether the robbers deleted ?
+!ARTICLE
 Who does the athlete wonder whether her manager called ?
+!ARTICLE
 What does the mechanic wonder whether the apprentice spilled ?
+!ARTICLE
 What did the manager wonder whether the intern had taken ?
+!ARTICLE
 What did the publisher wonder whether the author had already finished ?
+!ARTICLE
 What does the lawyer wonder whether the scientist wrote ?
+!ARTICLE
 What does the mayor wonder whether the union is planning a protest against ?
+!ARTICLE
 What does the teacher wonder whether the boy found ?
+!ARTICLE
 What does the physician wonder whether the group of researchers designed ?
+!ARTICLE
 What does the professor wonder whether the student spilled ?
+!ARTICLE
 What did the judge wonder whether the police officer had emailed to the prosecutor ?
+!ARTICLE
 What does the police officer wonder whether the truck hit ?

@@ -1,15 +1,30 @@
+!ARTICLE
 What does the journalist think that the book about was written by the politician ?
+!ARTICLE
 What did the judge think that a report of had been emailed to the prosecutor ?
+!ARTICLE
 What does the investigator think that a segment of was deleted ?
+!ARTICLE
 Who does the athlete think that the agent of called her manager ?
+!ARTICLE
 What did the publisher think that the draft of was already finished ?
+!ARTICLE
 What does the mayor think a protest against is being planned by the union ?
+!ARTICLE
 What does the zookeeper think that a herd of was attacked by a lion yesterday ?
+!ARTICLE
 What does the physician think that an effective vaccine for was designed by the group of researchers ?
+!ARTICLE
 What does the mechanic think that a bottle of was spilled by the apprentice ?
+!ARTICLE
 What does the prime minister think that the report of was stolen by a foreign spy ?
+!ARTICLE
 What does the police officer think that a stack of was hit by the truck ?
+!ARTICLE
 What does the professor think that a bottle of was spilled by the student ?
+!ARTICLE
 What does the lawyer think the article about was written by a scientist ?
+!ARTICLE
 What does the teacher think that a box of was found by the boy ?
+!ARTICLE
 What did the manager think that the photo of had been taken by an intern ?
