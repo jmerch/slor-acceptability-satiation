@@ -2,7 +2,7 @@ library(tidyverse)
 library(ggplot2)
 library(ggthemes)
 num_trained = c(0, 10, 20, 30)
-POLAR_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_0_surprisals.csv")
+POLAR_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ0_SUBJtest_surprisals.csv")
 POLAR_10 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR10_SUBJtest_surprisals.csv")
 POLAR_20 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR20_SUBJtest_surprisals.csv")
 POLAR_30 = read.csv("gpt2_satiation/output/surprisals/gen_POLAR30_SUBJtest_surprisals.csv")
@@ -15,7 +15,7 @@ condition = c("POLAR", "POLAR", "POLAR", "POLAR")
 polar_df = data.frame(num_trained, surprisal, condition)
 
 
-WH_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_0_surprisals.csv")
+WH_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ0_SUBJtest_surprisals.csv")
 WH_10 = read.csv("gpt2_satiation/output/surprisals/gen_WH10_SUBJtest_surprisals.csv")
 WH_20 = read.csv("gpt2_satiation/output/surprisals/gen_WH20_SUBJtest_surprisals.csv")
 WH_30 = read.csv("gpt2_satiation/output/surprisals/gen_WH30_SUBJtest_surprisals.csv")
@@ -28,7 +28,7 @@ condition = c("WH", "WH", "WH", "WH")
 wh_df = data.frame(num_trained, surprisal, condition)
 
 
-SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_0_surprisals.csv")
+SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ0_SUBJtest_surprisals.csv")
 SUBJ_10 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_10_surprisals.csv")
 SUBJ_20 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_20_surprisals.csv")
 SUBJ_30 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_30_surprisals.csv")
@@ -42,7 +42,7 @@ subj_df = data.frame(num_trained, surprisal, condition)
 
 
 
-CNPC_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ_0_surprisals.csv")
+CNPC_0 = read.csv("gpt2_satiation/output/surprisals/gen_SUBJ0_SUBJtest_surprisals.csv")
 CNPC_10 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC10_SUBJtest_surprisals.csv")
 CNPC_20 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC20_SUBJtest_surprisals.csv")
 CNPC_30 = read.csv("gpt2_satiation/output/surprisals/gen_CNPC30_SUBJtest_surprisals.csv")
