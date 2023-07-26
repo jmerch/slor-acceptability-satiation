@@ -10,7 +10,7 @@ OPT family:
 """
 
 import os, sys, torch, transformers
-from transformers import AutoTokenizer, AutoModelForCausalLM, GPTNeoXTokenizerFast
+from transformers import AutoTokenizer, AutoModelForCausalLM#, GPTNeoXTokenizerFast
 
 
 def generate_stories(fn):
