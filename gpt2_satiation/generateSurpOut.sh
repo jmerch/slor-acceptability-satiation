@@ -12,7 +12,7 @@ for train_cond in 'CNPC' 'WH' 'SUBJ' 'POLAR'
 do
     for test_cond in 'UNGRAM' 'FILL'
     do
-        for num_train in 10
+        for num_train in 20 30
         do
             test_data="../gpt2_satiation/datasets/gen_${test_cond}_test15.txt"
             model_path="../gpt2_satiation/checkpoints/${train_cond}_${num_train}_0724-1epoch/checkpoint-${num_train}"

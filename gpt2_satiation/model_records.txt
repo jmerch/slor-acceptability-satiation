@@ -3,9 +3,9 @@ To keep track of all train/test combos:
 
 Training set				Test set			Config file
 {POLAR, CNPC, SUBJ, WH} {10, 20, 30}	{POLAR, CNPC, SUBJ, WH} 15	0724-1epoch
-{POLAR, CNPC, SUBJ, WH} {10, 20, 30}	{POLAR, CNPC, SUBJ, WH} fix 15	0724-1epoch
-*					FILL 15
-{UNGRAM, FILL} 10			{UNGRAM, FILL} 10
+{POLAR, CNPC, SUBJ, WH} new{10, 20, 30}	{POLAR, CNPC, SUBJ, WH} fix15	0724-1epoch
+''					{FILL, UNGRAM} 15
+{UNGRAM, FILL} 10			{UNGRAM, FILL} 6
 *mixed island types
 *islands with FILL
 *context
