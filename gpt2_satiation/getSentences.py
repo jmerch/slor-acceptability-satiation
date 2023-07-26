@@ -33,9 +33,9 @@ for stim in jsons:
     formatted = sentence.strip().strip(punct) + f' {punct}\n'
     condition = stim["condition"]
     if condition in sentences:
-        sentences[condition].add(formatted)
+        sentences[condition].append(formatted)
     else:
-        sentences[condition] = set({formatted})
+        sentences[condition] = [formatted]
 
 for condition in ["WH", "SUBJ", "POLAR", "CNPC"]:
     test15 =  dataset + "_" + condition + "_test15.txt"
@@ -44,8 +44,8 @@ for condition in ["WH", "SUBJ", "POLAR", "CNPC"]:
     train30 = dataset +  "_" + condition +"_train30.txt"
 
     #print(condition)
-    testSet = random.sample(sentences[condition], 15)
-    remaining = sentences[condition].difference(testSet)
+    testSet = set(sentences[condition][:15])#random.sample(sentences[condition], 15)
+    remaining = set(sentences[condition]).difference(testSet)
     #print(len(remaining))
     train10set = random.sample(remaining, 10)
     #print(len(train10set))

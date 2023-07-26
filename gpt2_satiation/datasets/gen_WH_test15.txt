@@ -1,30 +1,15 @@
-!ARTICLE
-What did the anesthesiologist wonder whether the best surgeon of the hospital had committed ?
-!ARTICLE
-What did the publisher wonder whether the author had already finished ?
-!ARTICLE
-Who does the secretary wonder whether the daughter of the congresswoman agreed with ?
-!ARTICLE
 What does the zookeeper wonder whether the lion attacked ?
-!ARTICLE
-What does the pianist wonder whether two hours of piano practice per day can lead to ?
-!ARTICLE
-What does the actor wonder whether the famous scholar wrote ?
-!ARTICLE
-What does the janitor wonder whether a bottle of bleach can remove ?
-!ARTICLE
-What does the spy wonder whether the commander of the special forces initiated ?
-!ARTICLE
-What does the zoologist wonder whether the mating call of the Gray Catbird resembles ?
-!ARTICLE
-Who does the pilot wonder whether the description of the hijacker matches ?
-!ARTICLE
-What does the carpenter wonder whether the sister of the mayor will order ?
-!ARTICLE
-Who do the activists wonder whether government officials bribed ?
-!ARTICLE
-What did the pharmacist wonder whether a pack of painkillers could cause ?
-!ARTICLE
-What does the biologist wonder whether researchers will eventually find ?
-!ARTICLE
+What does the prime minister wonder whether a foreign spy stole ?
+What does the journalist wonder whether the politician once wrote ?
+What does the investigator wonder whether the robbers deleted ?
+Who does the athlete wonder whether her manager called ?
+What does the mechanic wonder whether the apprentice spilled ?
+What did the manager wonder whether the intern had taken ?
+What did the publisher wonder whether the author had already finished ?
+What does the lawyer wonder whether the scientist wrote ?
+What does the mayor wonder whether the union is planning a protest against ?
 What does the teacher wonder whether the boy found ?
+What does the physician wonder whether the group of researchers designed ?
+What does the professor wonder whether the student spilled ?
+What did the judge wonder whether the police officer had emailed to the prosecutor ?
+What does the police officer wonder whether the truck hit ?
