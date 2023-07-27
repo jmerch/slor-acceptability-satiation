@@ -105,6 +105,7 @@ def get_wh(words, surprisals, normalization_consts = None):
     if normalization_consts == None:
         return surprisals[0]
     return surprisals[0] / get_norm(words[0], normalization_consts)
+    return 0
 
 def get_matrix(words, surprisals, normalization_consts = None):
     total = 0
@@ -119,7 +120,8 @@ def get_matrix(words, surprisals, normalization_consts = None):
         else:
             total += surprisals[i] / get_norm(words[i], normalization_consts)
             region_size += 1
-
+    if region_size == 0:
+        return 0
     return total / region_size
 
 def get_comp(words, surprisals, normalization_consts = None):
@@ -129,6 +131,7 @@ def get_comp(words, surprisals, normalization_consts = None):
             if normalization_consts == None:
                 return surprisals[i]
             return surprisals[i] / get_norm(words[i], normalization_consts)
+    return 0
 
 def get_embedded(words, surprisals, normalization_consts = None):
     num_words = len(words)
@@ -168,7 +171,7 @@ def get_gap(words, surprisals,  condition, normalization_consts = None):
             if normalization_consts == None:
                 return surprisals[i + 1]
             return surprisals[i + 1] / get_norm(words[i + 1], normalization_consts)
-
+    return 0
 
 def get_norm(word, normalization_consts):
     if word in normalization_consts:
