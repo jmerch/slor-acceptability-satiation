@@ -11,3 +11,6 @@ Training set				Test set			Config file
 *context
 
 note: only test UNGRAM FILL train 10 on test 6, as test 15 has overlap with train 10 (only 16 items for FILL and UNGRAM)
+
+try
+- write 15 diff sentences with diff words for UNGRAM and FILL
