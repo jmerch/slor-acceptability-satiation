@@ -3,9 +3,7 @@ import sys
 import random
 
 source = sys.argv[1]
-#dest = sys.argv[2]
 dataset = "datasets/" + source.strip("Stim.txt").strip("stimuli/")
-
 
 f = open(source)
 #out = open(dest, "w")
