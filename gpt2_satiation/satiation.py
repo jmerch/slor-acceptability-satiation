@@ -24,11 +24,13 @@ def main(quinfig):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
-    condition = args.condition.upper()
-    num_training_sents = args.num_train
+    train_name = args.train_name
+    test_name = args.test_name
+    #num_training_sents = args.num_train
     
     # Import datasets
-    data_files = {"train": f"datasets/gen_{condition}_train{num_training_sents}.txt", "test": f"datasets/gen_{condition}_test15.txt"}
+    #data_files = {"train": f"datasets/gen_{condition}_train{num_training_sents}.txt", "test": f"datasets/gen_{condition}_test15.txt"}
+    data_files = {"train": f"datasets/{train_name}.txt", "test": f"datasets/{test_name}.txt"}
     dataset = load_dataset("text", data_files=data_files)
 
     # Setting up model, tokenizer, training arguments
@@ -44,7 +46,7 @@ def main(quinfig):
     data_collator = LMDataCollator(tokenizer=tokenizer)
 
     # Setting up training arguments
-    run_name = f"{condition}_{num_training_sents}_{quinfig.general.run_name}"
+    run_name = f"{train_name}_{quinfig.general.run_name}"
     training_args = TrainingArguments(
         run_name = run_name,
         output_dir=os.path.join(quinfig.general.save_dir, run_name),
@@ -93,8 +95,9 @@ class LMDataCollator:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=str) # specify path of config file
-    parser.add_argument("--condition", type=str)
-    parser.add_argument("--num_train", type=int)
+    parser.add_argument("--train_name", type=str)
+    parser.add_argument("--test_name", type=str)
+    #parser.add_argument("--num_train", type=int)
     args = parser.parse_args()
     quinfig = Quinfig(args.config)
-    #main(quinfig)
+    main(quinfig)
