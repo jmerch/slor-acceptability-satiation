@@ -8,9 +8,9 @@
 # model10="../gpt2_satiation/checkpoints/${1}_10_0724-1epoch/checkpoint-10"
 # save10="../gpt2_satiation/SurpOut/gen_${1}10train_${2}test_SurpOut.txt"
 
-for train_cond in 'CNPC_10_A1' 'CNPC_10_A2' 'CNPC_10_B1' 'CNPC_10_B2'
+for train_cond in 'CNPC_10_A1WS' 'CNPC_10_B1WS'
 do
-    for test_cond in 'CNPC_10_A1' 'CNPC_10_A2' 'CNPC_10_B1' 'CNPC_10_B2'
+    for test_cond in 'CNPC_10_A1' 'CNPC_10_A2' 'CNPC_10_B1' 'CNPC_10_B2' 'CNPC_10_A1WS' 'CNPC_10_B1WS'
     do
         test_data="../gpt2_satiation/datasets/${test_cond}_test.txt"
         model_path="../gpt2_satiation/checkpoints/${train_cond}_0724-1epoch/checkpoint-10"
