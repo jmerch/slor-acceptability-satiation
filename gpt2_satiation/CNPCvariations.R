@@ -26,7 +26,14 @@ ms = c(m_0, m_10)
 condition = c("A1-A2", "A1-A2")
 AA_df = data.frame(num_trained, ms, condition)
 
-surprisal_v_training = rbind(AB_df, BA_df, AA_df)
+A1WS_A1_10 = read.csv("gpt2_satiation/output/surprisals/A1WS_train_A1_test_surprisals.csv")
+A1WS_A1_0 = read.csv("gpt2_satiation/output/surprisals/CNPC_0_A1_test_surprisals.csv")
+m_0 = mean(A1WS_A1_0$mean_surprisal)
+m_10 = mean(A1WS_A1_10$mean_surprisal)
+ms = c(m_0, m_10)
+condition = c("A1WS-A1", "A1WS-A1")
+WSdf = data.frame(num_trained, ms, condition)
+surprisal_v_training = rbind(AB_df, BA_df, AA_df, WSdf)
 
 surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= ms))) +
@@ -65,7 +72,15 @@ ms = c(m_0, m_10)
 condition = c("A1-A2", "A1-A2")
 AA_df = data.frame(num_trained, ms, condition)
 
-surprisal_v_training = rbind(AB_df, BA_df, AA_df)
+B1WS_A1_10 = read.csv("gpt2_satiation/output/surprisals/B1WS_train_A1_test_surprisals.csv")
+B1WS_A1_0 = read.csv("gpt2_satiation/output/surprisals/CNPC_0_A1_test_surprisals.csv")
+m_0 = mean(B1WS_A1_0$mean_surprisal)
+m_10 = mean(B1WS_A1_10$mean_surprisal)
+ms = c(m_0, m_10)
+condition = c("B1WS-A1", "B1WS-A1")
+WSdf = data.frame(num_trained, ms, condition)
+
+surprisal_v_training = rbind(AB_df, BA_df, AA_df, WSdf)
 
 surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= ms))) +
