@@ -16,12 +16,12 @@ train10 = random.sample(lines, 10)
 out = f'datasets/{island}_{30}_{test_condition}.txt'
 out30 = open(out, "w")
 for line in train30:
-  out30.write(line + "\n")
+  out30.write(line)
 out = f'datasets/{island}_{20}_{test_condition}.txt'
 out20 = open(out, "w")
 for line in train20:
-  out20.write(line + "\n")
+  out20.write(line)
 out = f'datasets/{island}_{10}_{test_condition}.txt'
 out10 = open(out, "w")
 for line in train10:
-  out10.write(line + "\n")
+  out10.write(line)
