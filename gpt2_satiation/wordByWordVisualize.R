@@ -1,12 +1,12 @@
 library(tidyverse)
 library(ggplot2)
 library(ggthemes)
-data1 = read.csv("gpt2_satiation/output/gen_CNPC30_CNPCtest_WordByWord_surprisals.csv")
-data2 = read.csv("gpt2_satiation/output/gen_CNPC0_CNPCtest_WordByWord_surprisals.csv")
+data1 = read.csv("gpt2_satiation/output/B2_A1_WordByWord_surprisals.csv")
+data2 = read.csv("gpt2_satiation/output/0_A1_WordByWord_surprisals.csv")
 data = data2
 data$surprisal = data1$surprisal - data2$surprisal
 data %>%
-  filter(sentence == 10 | sentence == 11) %>%
+  #filter(sentence == 10 | sentence == 11) %>%
   ggplot((aes(x = word, y= surprisal))) +
   geom_line(aes(group = sentence, color = sentence)) +
   geom_point(aes(color = sentence)) +
