@@ -10,7 +10,7 @@
 
 for train_cond in 'CNPC' 'POLAR' 'SUBJ' 'WH'
 do
-    for num_train in 10 20 30 #num_train is being used as num_unscrambled
+    for num_train in 0 #num_train is being used as num_unscrambled
     do
         test_data="../gpt2_satiation/datasets/old/gen_${train_cond}_test15.txt"
         model_path="../gpt2_satiation/checkpoints/${train_cond}_30_B_${num_train}_WS_0724-1epoch/checkpoint-30"
