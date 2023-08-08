@@ -1,17 +1,24 @@
 import sys, random
 
 source = sys.argv[1]
-out = source.strip().strip(".txt") + "WS.txt"
-
 input = open(source)
-out = open(out, "w")
-
-for line in input.readlines():
-    words = line.strip().split()
-    words.pop(-1)
-    random.shuffle(words)
-    salad = ' '.join([word for word in words])
-    salad += " ?\n"
-    out.write(salad)
+sentences = input.readlines()
+random.shuffle(sentences
+)
+for num in [0, 10, 20, 30]:
+    salads = set(random.sample(sentences, num))
+    dataset = list(set(sentences).difference(salads))
+    out = "datasets/" + source.strip().strip(".txt").strip("datasets/old") + f'_{num}_WS.txt'
+    output = open(out, "w")
+    for sentence in salads:
+        words = sentence.strip().split()
+        words.pop(-1)
+        random.shuffle(words)
+        salad = ' '.join([word for word in words])
+        salad += " ?\n"
+        dataset.append(salad)
+    random.shuffle(dataset)
+    for salad in dataset:
+        output.write(salad)
+    output.close()
 input.close()
-out.close()

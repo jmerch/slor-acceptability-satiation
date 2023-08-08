@@ -156,7 +156,7 @@ function resetSelectElement(selectElement) {
 
 
 function make_slides(f) {
-  var slides = {};  
+  var slides = {};
   slides.i0 = slide({
      name : "i0",
      start: function() {
@@ -213,7 +213,7 @@ function make_slides(f) {
     button : function() {
       if (exp.sliderPost == null) {
         $(".err").show();
-      } 
+      }
       else if (exp.sliderPost < 0.5) {
         exp.first_response_wrong = 1;
         exp.first_response_value =exp.sliderPost;
@@ -257,7 +257,7 @@ function make_slides(f) {
   });
 
 
- 
+
 
   slides.practice_slider_bad = slide({
     name : "practice_slider_bad",
@@ -267,7 +267,7 @@ function make_slides(f) {
       and for each of these, present_handle will be run.) */
     present : [1],
 
-  
+
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
       $(".err").hide();
@@ -282,7 +282,7 @@ function make_slides(f) {
     button : function() {
       if (exp.sliderPost == null) {
         $(".err").show();
-      } 
+      }
       else if (exp.sliderPost > 0.5) {
         exp.first_response_wrong = 1;
         exp.first_response_value = exp.sliderPost;
@@ -299,7 +299,7 @@ function make_slides(f) {
     init_sliders : function() {
       utils.make_slider("#practice_slider_2", function(event, ui) {
         exp.sliderPost = ui.value;
-        
+
       });
     },
     log_responses : function() {
@@ -331,10 +331,10 @@ function make_slides(f) {
     button : function() {
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
-    
+
   });
 
- 
+
 
   slides.one_slider = slide({
     name : "one_slider",
@@ -343,7 +343,7 @@ function make_slides(f) {
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
     present : final_item_sequence,
-    
+
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
       $(".err").hide();
