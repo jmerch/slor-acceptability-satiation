@@ -68,7 +68,7 @@ surprisal_v_training %>%
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
   #geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Training Sentences and Mean Surprisal B2-A1 Pattern", 
+  labs(title = "Normalized for Lexical Overlap", 
        x = "Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
