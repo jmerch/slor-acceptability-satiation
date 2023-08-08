@@ -39,13 +39,13 @@ surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
-  labs(title = "Training Sentences and Mean Surprisal A1-B1 Pattern", 
+  labs(title = "Context Overlap Only Pattern", 
        x = "Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-ggsave("gpt2_satiation/plots/CNPC_A1_B1_variation.png" )
+ggsave("gpt2_satiation/plots/CNPC_A1_B1_variation.png", width=7, height=5)
 
 
 A1_B2_10 = read.csv("gpt2_satiation/output/surprisals/A1_train_B2_test_surprisals.csv")
@@ -86,10 +86,10 @@ surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
-  labs(title = "Training Sentences and Mean Surprisal A1-B2 Pattern", 
+  labs(title = "No Lexical Overlap Pattern", 
        x = "Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-ggsave("gpt2_satiation/plots/CNPC_A1_B2_variation.png" )
+ggsave("gpt2_satiation/plots/CNPC_A1_B2_variation.png", width=7, height=5)

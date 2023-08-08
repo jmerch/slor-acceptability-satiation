@@ -68,13 +68,13 @@ surprisal_v_training %>%
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
   #geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Normalized for Lexical Overlap", 
+  labs(title = "No Lexical Overlap but Varied Dataset Size", 
        x = "Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal_B2_A1.png" )
+ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal_B2_A1.png", width=7, height=5)
 
 p<-ggplot(surprisal_v_training, aes(x=num_trained, y= surprisal, fill = condition)) +
   geom_bar(stat="identity")
