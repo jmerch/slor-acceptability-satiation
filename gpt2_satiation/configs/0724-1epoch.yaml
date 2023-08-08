@@ -8,8 +8,9 @@ training:
     per_device_eval_batch_size: 1
     num_train_epochs: 1
     report_to: wandb
-    save_steps: 10
-    save_strategy: steps
+    #save_steps: 10
+    save_strategy: epoch
+    save_total_limit: 1
     remove_unused_columns: false
     evaluation_strategy: steps
     eval_steps: 10

@@ -10,12 +10,12 @@
 
 for train_cond in 'CNPC' 'POLAR' 'SUBJ' 'WH'
 do
-    for num_train in 10 20 30
+    for num_train in 10 20 30 #num_train is being used as num_unscrambled
     do
-        test_data="../gpt2_satiation/datasets/gen_${train_cond}_test15.txt"
-        model_path="../gpt2_satiation/checkpoints/${train_cond}_${num_train}_B_0724-1epoch/checkpoint-${num_train}"
-        save_path="../gpt2_satiation/output/SurpOut/${train_cond}_${num_train}_Btrain_${train_cond}_15_test_SurpOut.txt"
-            
+        test_data="../gpt2_satiation/datasets/old/gen_${train_cond}_test15.txt"
+        model_path="../gpt2_satiation/checkpoints/${train_cond}_30_B_${num_train}_WS_0724-1epoch/checkpoint-30"
+        save_path="../gpt2_satiation/output/SurpOut/train30B_WS_test15/${train_cond}_30_B_${num_train}_WS_SurpOut.txt"
+        
         #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
         python scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
     done
