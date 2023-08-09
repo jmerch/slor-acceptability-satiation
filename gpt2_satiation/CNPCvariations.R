@@ -39,7 +39,7 @@ surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
-  labs(title = "Context Overlap Only Pattern", 
+  labs(title = "CNPC Context Overlap Only Pattern", 
        x = "Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
@@ -86,7 +86,7 @@ surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
-  labs(title = "No Lexical Overlap Pattern", 
+  labs(title = "CNPC No Lexical Overlap Pattern", 
        x = "Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
