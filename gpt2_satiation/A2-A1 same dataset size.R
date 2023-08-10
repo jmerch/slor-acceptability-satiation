@@ -66,7 +66,7 @@ surprisal_v_training %>%
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) +
   #geom_smooth(method = "lm", se=FALSE) +
-  labs(title = "Controlled overlap and dataset size", 
+  labs(title = "Some lexical overlap but equal dataset size", 
        x = "Number of Non Word Salad Sentences (out of 30)", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
