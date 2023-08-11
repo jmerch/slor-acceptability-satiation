@@ -1,7 +1,7 @@
 library(dplyr) 
 
 #exp1c <- read.csv("data/satiation_baseline_cleaned.csv")
-exp2 <- read.csv("data/satiation_exp2_cleaned.csv")
+exp2 <- read.csv("acceptability_modeling/data/satiation_exp2_cleaned.csv")
 exp2 <- filter(exp2, phase == "exposure")
 surprisals2 <- read.csv("data/adapt_surprisals.csv")
 #exp1c <- arrange(exp1c, list_number)
