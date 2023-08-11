@@ -1,40 +1,40 @@
 !ARTICLE
-The carpenter thinks that the sister of the mayor will order a bookcase.
+The villagers thought that the news article on healthcare had caused the grave public unrest .
 !ARTICLE
-Who does the carpenter think that the sister of will order a bookcase?
+What did the villagers think that the news article on had caused the grave public unrest ?
 !ARTICLE
-The mechanic thinks that a tank of biofuel can power the locomotive.
+The janitor thinks that a bottle of bleach can remove the stain .
 !ARTICLE
-What does the mechanic think that a tank of can power the locomotive?
+What does the janitor think that a bottle of can remove the stain ?
 !ARTICLE
-The zoologist thinks that the mating call of the mating call of the Gray Catebird resembles the sounds of a cat.
+The boy thinks that the demons of the underworld will be defeated by the superhero .
 !ARTICLE
-What does the zoologist think that the mating call of resembles the sounds of a cat?
+What does the boy think that the demons of will be defeated by the superhero ?
 !ARTICLE
-The mayor thinks that a protest against the new immigration law is being planned by the union.
+The police officer thinks that a stack of hay was hit by the truck .
 !ARTICLE
-What does the mayor think a protest against is being planned by the union?
+What does the police officer think that a stack of was hit by the truck ?
 !ARTICLE
-The zookeeper thinks that a herd of antelopes was attacked by a lion yesterday.
+The musician thinks that the copyrights to his songs will be bought by the record company .
 !ARTICLE
-What does the zookeeper think that a herd of was attacked by a lion yesterday?
+What does the musician think that the copyrights to will be bought by the record company ?
 !ARTICLE
-The judge thought that a report of the car crash had been emailed to the prosecutor.
+The journalist thinks that a book about astronomy was written by the politician .
 !ARTICLE
-What did the judge think that a report of had been emailed to the prosecutor?
+What does the journalist think that the book about was written by the politician ?
 !ARTICLE
-The Prime Minister thinks that the report on global warming will be reviewed by the senate.
+The judge thought that a report of the car crash had been emailed to the prosecutor .
 !ARTICLE
-What does the Prime Minister think that the report on will be reviewed by the senate?
+What did the judge think that a report of had been emailed to the prosecutor ?
 !ARTICLE
-The journalist thinks that a book about astronomy was written by the politician.
+The physician thinks that an effective vaccine for malaria was designed by the group of researchers .
 !ARTICLE
-What does the journalist think that the book about was written by the politician?
+What does the physician think that an effective vaccine for was designed by the group of researchers ?
 !ARTICLE
-The physician thinks that an effective vaccine for malaria was designed by the group of researchers.
+The professor thinks that a bottle of water was spilled by the student .
 !ARTICLE
-What does the physician think that an effective vaccine for was designed by the group of researchers?
+What does the professor think that a bottle of was spilled by the student ?
 !ARTICLE
-The pharmacist thought that a pack of painkillers could cause nausea.
+The zoologist thinks that the mating call of the mating call of the Gray Catebird resembles the sounds of a cat .
 !ARTICLE
-What did the pharmacist think that a pack of could cause nausea?
+What does the zoologist think that the mating call of resembles the sounds of a cat ?

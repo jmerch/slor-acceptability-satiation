@@ -1,24 +1,24 @@
 !ARTICLE
-The director wonders whether the main actor will blow off the final rehearsal of the play.
+The physician wonders whether the group of researchers designed an effective vaccine for malaria .
 !ARTICLE
-What does the director wonder whether the main actor will blow off?
+What does the physician wonder whether the group of researchers designed ?
 !ARTICLE
-The mayor wonders whether the union is planning a protest against the new immigration law. 
+The mechanic wonders whether the apprentice spilled the bottle of lubricant .
 !ARTICLE
-What does the mayor wonder whether the union is planning a protest against?
+What does the mechanic wonder whether the apprentice spilled ?
 !ARTICLE
-The football coach wonders whether the brother of his best player contacted another coach.
+The detective wonders whether a bottle of poison killed the businessman .
 !ARTICLE
-Who does the football coach wonder whether the brother of his best player contacted?
+What does the detective wonder whether a bottle of poison killed ?
 !ARTICLE
-The bartender wonders whether the brother of the mayor invited a special guest.
+The bartender wonders whether the brother of the mayor invited a special guest .
 !ARTICLE
-Who does the bartender wonder whether the brother of the mayor invited?
+Who does the bartender wonder whether the brother of the mayor invited ?
 !ARTICLE
-The athlete wonders whether her manager called the agent of another athlete. 
+The Prime Minister wonders whether the senate will review the report on global warming .
 !ARTICLE
-Who does the athlete wonder whether her manager called?
+What does the Prime Minister wonder whether the senate will review ?
 !ARTICLE
-The investigator wonders whether the robbers deleted a segment of the surveillance video.
+The professor wonders whether the student spilled a bottle of water .
 !ARTICLE
-What does the investigator wonder whether the robbers deleted?
+What does the professor wonder whether the student spilled ?

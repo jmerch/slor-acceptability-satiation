@@ -1,24 +1,24 @@
 !ARTICLE
-The presidential candidate believes the claim that the report of the accident scared his opponent.
+The mayor believes the claim that the union is planning a protest against the new immigration law .
 !ARTICLE
-Who does the presidential candidate believe the claim that the report of the accident scared?
+What does the mayor believe the claim that the union is planning a protest against ?
 !ARTICLE
-The actor believes the claim that the famous scholar wrote a book about cinematography. 
+The anesthesiologist believed the claim that the best surgeon of the hospital had committed malpractice .
 !ARTICLE
-What does the actor believe the claim that the famous scholar wrote?
+What did the anesthesiologist believe the claim that the best surgeon of the hospital had committed ?
 !ARTICLE
-The Prime Minister believes the claim that the senate will review the report on global warming.
+The zoologist believes the claim that the mating call of the Gray Catbird resembles the sounds of a cat .
 !ARTICLE
-What does the Prime Minister believe the claim that the senate will review?
+What does the zoologist believe the claim that the mating call of the Gray Catbird resembles ?
 !ARTICLE
-The detective believes the claim that a bottle of poison killed the businessman.
+The mechanic believes the claim that the apprentice spilled the bottle of lubricant .
 !ARTICLE
-Who does the detective believe the claim that a bottle of poison killed?
+What does the mechanic believe the claim that the apprentice spilled ?
 !ARTICLE
-The zoologist believes the claim that the mating call of the Gray Catbird resembles the sounds of a cat.
+The professor believes the claim that the student spilled a bottle of water .
 !ARTICLE
-What does the zoologist believe the claim that the mating call of the Gray Catbird resembles?
+What does the professor believe the claim that the student spilled ?
 !ARTICLE
-The bartender believes the claim that the brother of the mayor invited a special guest.
+The detective believes the claim that a bottle of poison killed the businessman .
 !ARTICLE
-Who does the bartender believe the claim that the brother of the mayor invited?
+Who does the detective believe the claim that a bottle of poison killed ?

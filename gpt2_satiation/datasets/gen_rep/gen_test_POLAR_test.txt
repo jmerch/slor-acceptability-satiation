@@ -1,40 +1,40 @@
 !ARTICLE
-The actor thinks that the famous scholar wrote a book about cinematography.
+The teacher thinks that the boy found a box of diamonds .
 !ARTICLE
-Does the actor think that the famous scholar wrote a book about cinematography?
+Does the teacher think that the boy found a box of diamonds ?
 !ARTICLE
-The headmaster thinks that an expert in Chinese history wrote the manuscript.
+The Prime Minister thinks that the senate will review the report on global warming .
 !ARTICLE
-Does the headmaster think that an expert in Chinese history wrote the manuscript?
+Does the Prime Minister think that the senate will review the report on global warming ?
 !ARTICLE
-The physician thinks that the group of researchers designed an effective vaccine for malaria.
+The journalist thinks that the politician once wrote a book about astronomy .
 !ARTICLE
-Does the physician think that the group of researchers designed an effective vaccine for malaria?
+Does the journalist think that the politician once wrote a book about astronomy ?
 !ARTICLE
-The janitor thinks that a bottle of bleach can remove the stain.
+The zookeeper thinks that the lion attacked a herd of antelopes yesterday .
 !ARTICLE
-Does the janitor think that a bottle of bleach can remove the stain?
+Does the zookeeper think that the lion attacked a herd of antelopes yesterday ?
 !ARTICLE
-The spy thinks that the commander of the special forces initiated the attack.
+The biologist thinks that researchers will eventually find a cure to AIDS .
 !ARTICLE
-Does the spy think that the commander of the special forces initiated the attack?
+Does the biologist think that researchers will eventually find a cure to AIDS ?
 !ARTICLE
-The publisher thought that the author had already finished the draft of his new book.
+The pharmacist thought that a pack of painkillers could cause nausea .
 !ARTICLE
-Did the publisher think that the author had already finished the draft of his new book?
+Did the pharmacist think that a pack of painkillers could cause nausea ?
 !ARTICLE
-The pilot thinks that the description of the hijacker matches the suspect.
+The police officer thinks that the truck hit a stack of hay .
 !ARTICLE
-Does the pilot think that the description of the hijacker matches the suspect?
+Does the police officer think that the truck hit a stack of hay ?
 !ARTICLE
-The bartender thinks that the brother of the mayor invited a special guest.
+The chef thinks that the food critic will publish a positive review of his restaurant .
 !ARTICLE
-Does the bartender think that the brother of the mayor invited a special guest?
+Does the chef think that the food critic will publish a positive review of his restaurant ?
 !ARTICLE
-The pharmacist thought that a pack of painkillers could cause nausea.
+The bartender thinks that the brother of the mayor invited a special guest .
 !ARTICLE
-Did the pharmacist think that a pack of painkillers could cause nausea?
+Does the bartender think that the brother of the mayor invited a special guest ?
 !ARTICLE
-The activists think that government officials bribed the leader of the group.
+The judge thought that the police officer had emailed a report of the car crash to the prosecutor .
 !ARTICLE
-Do the activists think that government officials bribed the leader of the group?
+Did the judge think that the police officer had emailed a report of the car crash to the prosecutor ?

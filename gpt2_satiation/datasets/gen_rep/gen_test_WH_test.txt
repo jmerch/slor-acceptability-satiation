@@ -1,40 +1,40 @@
 !ARTICLE
-The presidential candidate wonders whether the report of the accident scared his opponent.
+The activists wonder whether government officials bribed the leader of the group .
 !ARTICLE
-Who does the presidential candidate wonder whether the report of the accident scared?
+Who do the activists wonder whether government officials bribed ?
 !ARTICLE
-The biologist wonders whether researchers will eventually find a cure to AIDS.
+The presidential candidate wonders whether the report of the accident scared his opponent .
 !ARTICLE
-What does the biologist wonder whether researchers will eventually find?
+Who does the presidential candidate wonder whether the report of the accident scared ?
 !ARTICLE
-The mechanic wonders whether a tank of biofuel can power the locomotive.
+The headmaster wonders whether an expert in Chinese history wrote the manuscript .
 !ARTICLE
-What does the mechanic wonder whether a tank of biofuel can power?
+What does the headmaster wonder whether an expert in Chinese history wrote ?
 !ARTICLE
-The zookeeper wonders whether the lion attacked a herd of antelopes yesterday.
+The manager wondered whether the intern had taken a photo of the equipment .
 !ARTICLE
-What does the zookeeper wonder whether the lion attacked?
+What did the manager wonder whether the intern had taken ?
 !ARTICLE
-The activists wonder whether government officials bribed the leader of the group.
+The journalist wonders whether the politician once wrote a book about astronomy .
 !ARTICLE
-Who do the activists wonder whether government officials bribed?
+What does the journalist wonder whether the politician once wrote ?
 !ARTICLE
-The lexicographer wonders whether some of his colleagues revised the dictionary for the endangered language.
+The detective wonders whether a bottle of poison killed the businessman .
 !ARTICLE
-What does the lexicographer wonder whether some of his colleagues revised?
+What does the detective wonder whether a bottle of poison killed ?
 !ARTICLE
-The villagers wondered whether the news article on healthcare had caused the grave public unrest.
+The investigator wonders whether the robbers deleted a segment of the surveillance video .
 !ARTICLE
-What did the villagers wonder whether the news article on healthcare had caused?
+What does the investigator wonder whether the robbers deleted ?
 !ARTICLE
-The investigator wonders whether the robbers deleted a segment of the surveillance video.
+The bartender wonders whether the brother of the mayor invited a special guest .
 !ARTICLE
-What does the investigator wonder whether the robbers deleted?
+Who does the bartender wonder whether the brother of the mayor invited ?
 !ARTICLE
-The Prime Minister wonders whether the senate will review the report on global warming.
+The prime minister wonders whether a foreign spy stole the report of military expenditure .
 !ARTICLE
-What does the Prime Minister wonder whether the senate will review?
+What does the prime minister wonder whether a foreign spy stole ?
 !ARTICLE
-The boy wonders whether the superhero will defeat the demons of the underworld.
+The Prime Minister wonders whether the senate will review the report on global warming .
 !ARTICLE
-Who does the boy wonder whether the superhero will defeat?
+What does the Prime Minister wonder whether the senate will review ?

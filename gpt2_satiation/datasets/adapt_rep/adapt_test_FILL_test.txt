@@ -1,24 +1,24 @@
 !ARTICLE
- The construction worker believes the claim that companies should allow their employees to unionize.
+The customer believed the claim that the waiter mixed up all the orders .
 !ARTICLE
-Who believes the claim that companies should allow their employees to unionize?
+Who believed the claim that the waiter mixed up all the orders ?
 !ARTICLE
-The chef believes that the restaurant owner is planning to open a new branch.
+The soldier thought the general should order his troops to retreat .
 !ARTICLE
-What does the chef believe that the restaurant owner is planning to open?
+Who did the soldier think should order his troops to retreat ?
 !ARTICLE
-The guests wondered whether vegetarian dishes will be served at the dinner party.
+The banker believed that the customer took out a loan to purchase a new car .
 !ARTICLE
-Who wondered whether vegetarian dishes will be served at the dinner party?
+What did the banker believe that the customer took out a loan to purchase ?
 !ARTICLE
-The old lady thinks that there are not enough parking spots near the shopping mall.
+The mayor believed the claim that the fireman had to smash a window to gain entrance to the house on fire .
 !ARTICLE
-Who thinks that there are not enough parking spots near the shopping mall?
+Who believed the claim that the fireman had to smash a window to gain entrance to the house on fire ?
 !ARTICLE
-The nutritionist wonders whether his client benefited from the dietary supplements.
+The air marshal wonders whether the hijackers will release the hostages .
 !ARTICLE
-Who wonders whether his client benefited from the dietary supplements?
+Who wonders whether the hijackers will release the hostages ?
 !ARTICLE
-The banker believed that the customer took out a loan to purchase a new car.
+The receptionist thought that the office should remain open during Christmas .
 !ARTICLE
-What did the banker believe that the customer took out a loan to purchase?
+Who thought that the office should remain open during Christmas ?
