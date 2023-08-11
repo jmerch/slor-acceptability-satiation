@@ -1,43 +1,50 @@
 #!/bin/bash
-
 # Use from gpt2_satiation
 
-#For adapt exp 1, 2:
-for test_cond in 'CNPC' 'FILL' 'SUBJ' 'UNGRAM' 'WH'
+for num in 10 20 30
 do
-    #for exp 1 (train on all, test on indiv)
-    model_path="checkpoints/adapt_rep/adapt_exp1_train_0724-1epoch/checkpoint-150"
-    test_data="datasets/adapt_rep/adapt_test_${test_cond}_test.txt"
-    save_path="output/SurpOut/adapt_rep/adapt_exp1_${test_cond}test_SurpOut.txt"
+    model_path="checkpoints/B_sets/WH_${num}_B_0724-1epoch/checkpoint-${num}"
+    test_data="datasets/old_gen_sets/gen_WH_test15.txt"
+    save_path="output/SurpOut/A_B_sets/WH_${num}_Btrain_WH_15_test_SurpOut.txt"
     python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
-
-    # for exp 2
-    if [[ $test_cond != 'FILL' ]] && [[ $test_cond != 'UNGRAM' ]]; then
-        model_path="checkpoints/adapt_rep/adapt_exp2_train_${test_cond}_0724-1epoch/checkpoint-90"
-        test_data="datasets/adapt_rep/adapt_test_${test_cond}_test.txt"
-        save_path="output/SurpOut/adapt_rep/adapt_exp2_${test_cond}train_${test_cond}test_SurpOut.txt"
-        python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
-    fi
 done
 
-# For gen exp 1, 2:
-for train_cond in 'SUBJ' 'WH' 'POLAR'
-do
-    model_path="checkpoints/gen_rep/gen_train_${train_cond}_0724-1epoch/checkpoint-48"
-    if [ $train_cond != 'POLAR' ]; then
-        for test_cond in 'SUBJ' 'WH'
-        do
-            test_data="datasets/gen_rep/gen_test_${test_cond}_test.txt"
-            save_path="output/SurpOut/gen_rep/gen_${train_cond}train_${test_cond}test_SurpOut.txt"
-            python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
-        done
-    else
-        test_cond="POLAR"
-        test_data="datasets/gen_rep/gen_test_${test_cond}_test.txt"
-        save_path="output/SurpOut/gen_rep/gen_${train_cond}train_${test_cond}test_SurpOut.txt"
-        python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
-    fi
-done
+# #For adapt exp 1, 2:
+# for test_cond in 'CNPC' 'FILL' 'SUBJ' 'UNGRAM' 'WH'
+# do
+#     #for exp 1 (train on all, test on indiv)
+#     model_path="checkpoints/adapt_rep/adapt_exp1_train_0724-1epoch/checkpoint-150"
+#     test_data="datasets/adapt_rep/adapt_test_${test_cond}_test.txt"
+#     save_path="output/SurpOut/adapt_rep/adapt_exp1_${test_cond}test_SurpOut.txt"
+#     python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+
+#     # for exp 2
+#     if [[ $test_cond != 'FILL' ]] && [[ $test_cond != 'UNGRAM' ]]; then
+#         model_path="checkpoints/adapt_rep/adapt_exp2_train_${test_cond}_0724-1epoch/checkpoint-90"
+#         test_data="datasets/adapt_rep/adapt_test_${test_cond}_test.txt"
+#         save_path="output/SurpOut/adapt_rep/adapt_exp2_${test_cond}train_${test_cond}test_SurpOut.txt"
+#         python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+#     fi
+# done
+
+# # For gen exp 1, 2:
+# for train_cond in 'SUBJ' 'WH' 'POLAR'
+# do
+#     model_path="checkpoints/gen_rep/gen_train_${train_cond}_0724-1epoch/checkpoint-48"
+#     if [ $train_cond != 'POLAR' ]; then
+#         for test_cond in 'SUBJ' 'WH'
+#         do
+#             test_data="datasets/gen_rep/gen_test_${test_cond}_test.txt"
+#             save_path="output/SurpOut/gen_rep/gen_${train_cond}train_${test_cond}test_SurpOut.txt"
+#             python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+#         done
+#     else
+#         test_cond="POLAR"
+#         test_data="datasets/gen_rep/gen_test_${test_cond}_test.txt"
+#         save_path="output/SurpOut/gen_rep/gen_${train_cond}train_${test_cond}test_SurpOut.txt"
+#         python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+#     fi
+# done
 
 # for train_cond in 'POLAR' 'SUBJ' 'WH'
 # do
