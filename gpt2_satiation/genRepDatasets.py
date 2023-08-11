@@ -34,23 +34,27 @@ outputw = open("datasets/gen_rep/gen_train_WH.txt", "w")
 for i in range(NUM_BLOCKS):
     for cond in cond_list:
         data = exp1_conds[cond].pop()
+        context = data["Context"].strip().strip(".") + " ."
+        target = data["Target"].strip().strip("?") + " ?"
         if cond == "FILLER":
             for output in [outputp, outputs, outputw]:
-                output.write(data["Context"] + "\n")
-                output.write(data["Target"] + "\n")
+                output.write(context + "\n")
+                output.write(target + "\n")
         elif cond == "SUBJ":
-            outputs.write(data["Context"] + "\n")
-            outputs.write(data["Target"] + "\n")
+            outputs.write(context + "\n")
+            outputs.write(target + "\n")
         elif cond == "WH":
-            outputw.write(data["Context"] + "\n")
-            outputw.write(data["Target"] + "\n")
+            outputw.write(context + "\n")
+            outputw.write(target + "\n")
         elif cond == "POLAR":
-            outputp.write(data["Context"] + "\n")
-            outputp.write(data["Target"] + "\n")
+            outputp.write(context + "\n")
+            outputp.write(target + "\n")
 
 for cond in cond_list:
     output = open(f'datasets/gen_rep/gen_test_{cond}.txt', "w")
     for i in range(10):
         data = exp1_conds[cond].pop()
-        output.write(data["Context"] + "\n")
-        output.write(data["Target"] + "\n")
+        context = data["Context"].strip().strip(".") + " ."
+        target = data["Target"].strip().strip("?") + " ?"
+        output.write(context + "\n")
+        output.write(target + "\n")

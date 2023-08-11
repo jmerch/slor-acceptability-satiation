@@ -1,20 +1,20 @@
-The actor thinks that the famous scholar wrote a book about cinematography.
-Does the actor think that the famous scholar wrote a book about cinematography?
-The headmaster thinks that an expert in Chinese history wrote the manuscript.
-Does the headmaster think that an expert in Chinese history wrote the manuscript?
-The physician thinks that the group of researchers designed an effective vaccine for malaria.
-Does the physician think that the group of researchers designed an effective vaccine for malaria?
-The janitor thinks that a bottle of bleach can remove the stain.
-Does the janitor think that a bottle of bleach can remove the stain?
-The spy thinks that the commander of the special forces initiated the attack.
-Does the spy think that the commander of the special forces initiated the attack?
-The publisher thought that the author had already finished the draft of his new book.
-Did the publisher think that the author had already finished the draft of his new book?
-The pilot thinks that the description of the hijacker matches the suspect.
-Does the pilot think that the description of the hijacker matches the suspect?
-The bartender thinks that the brother of the mayor invited a special guest.
-Does the bartender think that the brother of the mayor invited a special guest?
-The pharmacist thought that a pack of painkillers could cause nausea.
-Did the pharmacist think that a pack of painkillers could cause nausea?
-The activists think that government officials bribed the leader of the group.
-Do the activists think that government officials bribed the leader of the group?
+The teacher thinks that the boy found a box of diamonds .
+Does the teacher think that the boy found a box of diamonds ?
+The Prime Minister thinks that the senate will review the report on global warming .
+Does the Prime Minister think that the senate will review the report on global warming ?
+The journalist thinks that the politician once wrote a book about astronomy .
+Does the journalist think that the politician once wrote a book about astronomy ?
+The zookeeper thinks that the lion attacked a herd of antelopes yesterday .
+Does the zookeeper think that the lion attacked a herd of antelopes yesterday ?
+The biologist thinks that researchers will eventually find a cure to AIDS .
+Does the biologist think that researchers will eventually find a cure to AIDS ?
+The pharmacist thought that a pack of painkillers could cause nausea .
+Did the pharmacist think that a pack of painkillers could cause nausea ?
+The police officer thinks that the truck hit a stack of hay .
+Does the police officer think that the truck hit a stack of hay ?
+The chef thinks that the food critic will publish a positive review of his restaurant .
+Does the chef think that the food critic will publish a positive review of his restaurant ?
+The bartender thinks that the brother of the mayor invited a special guest .
+Does the bartender think that the brother of the mayor invited a special guest ?
+The judge thought that the police officer had emailed a report of the car crash to the prosecutor .
+Did the judge think that the police officer had emailed a report of the car crash to the prosecutor ?

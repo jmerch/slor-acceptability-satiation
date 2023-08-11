@@ -34,25 +34,29 @@ for i in range(NUM_BLOCKS):
     random.shuffle(cond_list)
     for cond in cond_list:
         data = exp1_conds[cond].pop()
+        context = data["Context"].strip().strip(".") + " ."
+        target = data["Target"].strip().strip("?") + " ?"
         if cond in ["FILL", "UNGRAM"]:
             for file in [output2c, output2s, output2w]:
-                file.write(data["Context"] + "\n")
-                file.write(data["Target"] + "\n")
+                file.write(context + "\n")
+                file.write(target + "\n")
         if cond == "CNPC":
-            output2c.write(data["Context"] + "\n")
-            output2c.write(data["Target"] + "\n")
+            output2c.write(context + "\n")
+            output2c.write(target + "\n")
         elif cond == "WH":
-            output2w.write(data["Context"] + "\n")
-            output2w.write(data["Target"] + "\n")
+            output2w.write(context + "\n")
+            output2w.write(target + "\n")
         elif cond == "SUBJ":
-            output2s.write(data["Context"] + "\n")
-            output2s.write(data["Target"] + "\n")
-        output1.write(data["Context"] + "\n")
-        output1.write(data["Target"] + "\n")
+            output2s.write(context + "\n")
+            output2s.write(target + "\n")
+        output1.write(context + "\n")
+        output1.write(target + "\n")
 
 for cond in cond_list:
     output = open(f'datasets/adapt_rep/adapt_test_{cond}.txt', "w")
     for i in range(6):
         data = exp1_conds[cond].pop()
-        output.write(data["Context"] + "\n")
-        output.write(data["Target"] + "\n")
+        context = data["Context"].strip().strip(".") + " ."
+        target = data["Target"].strip().strip("?") + " ?"
+        output.write(context + "\n")
+        output.write(target + "\n")
