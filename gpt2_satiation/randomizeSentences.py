@@ -7,7 +7,7 @@ test_condition = sys.argv[3]
 
 input = open(source)
 lines = input.readlines()
-random.shuffle(lines)
+#random.shuffle(lines)
 
 # create each set
 train30 = lines

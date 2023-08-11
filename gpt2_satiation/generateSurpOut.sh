@@ -1,24 +1,36 @@
 #!/bin/bash
 
-# Use from acceptability_modeling folder
+# Use from gpt2_satiation
 
-# arg 1: model condition; arg 2: test data condition
-
-# test="../gpt2_satiation/datasets/gen_${2}_test15.txt"
-# model10="../gpt2_satiation/checkpoints/${1}_10_0724-1epoch/checkpoint-10"
-# save10="../gpt2_satiation/SurpOut/gen_${1}10train_${2}test_SurpOut.txt"
-
-for train_cond in 'CNPC' 'POLAR' 'SUBJ' 'WH'
+for train_cond in 'POLAR' 'SUBJ' 'WH'
 do
-    for num_train in 0 10 20 30 #num_train is being used as num_WS
-    do
-        test_data="../gpt2_satiation/datasets/old/gen_${train_cond}_test15.txt"
-        model_path="../gpt2_satiation/checkpoints/gen_${train_cond}_train30_${num_train}_WS_0724-1epoch/checkpoint-30"
-        save_path="../gpt2_satiation/output/SurpOut/gen_WS/gen_${train_cond}_train30_${num_train}_WS_SurpOut.txt"
-        
-        #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-        python scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
-    done
+    #A1-A2
+    model_path="checkpoints/A12B12/${train_cond}_10_A1_0724-1epoch/checkpoint-10"
+    test_data="datasets/A12B12/${train_cond}_10_A2_test.txt"
+    save_path="output/SurpOut/A12B12/${train_cond}_10_A1train_${train_cond}_10_A2test_SurpOut.txt"
+    #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+    python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+
+    #A1-B2
+    model_path="checkpoints/A12B12/${train_cond}_10_A1_0724-1epoch/checkpoint-10"
+    test_data="datasets/A12B12/${train_cond}_10_B2_test.txt"
+    save_path="output/SurpOut/A12B12/${train_cond}_10_A1train_${train_cond}_10_B2test_SurpOut.txt"
+    #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+    python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+
+    #B2-A1
+    model_path="checkpoints/A12B12/${train_cond}_10_B2_0724-1epoch/checkpoint-10"
+    test_data="datasets/A12B12/${train_cond}_10_A1_test.txt"
+    save_path="output/SurpOut/A12B12/${train_cond}_10_B2train_${train_cond}_10_A1test_SurpOut.txt"
+    #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+    python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
+
+    #A1WS-A1
+    model_path="checkpoints/A12B12/${train_cond}_10_A1WS_0724-1epoch/checkpoint-10"
+    test_data="datasets/A12B12/${train_cond}_10_A1_test.txt"
+    save_path="output/SurpOut/A12B12/${train_cond}_10_A1WStrain_${train_cond}_10_A1test_SurpOut.txt"
+    #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+    python ../acceptability_modeling/scripts/surprisal.py $test_data $model_path | tee $save_path > /dev/null
 done
 
 

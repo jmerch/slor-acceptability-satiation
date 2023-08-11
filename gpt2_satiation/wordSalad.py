@@ -5,10 +5,10 @@ input = open(source)
 sentences = input.readlines()
 random.shuffle(sentences
 )
-for num in [0, 10, 20, 30]:
+for num in [0 10 20 30]:
     salads = set(random.sample(sentences, num))
     dataset = list(set(sentences).difference(salads))
-    out = "datasets/" + source.strip().strip(".txt").strip("datasets/old") + f'_{num}_WS.txt'
+    out = "datasets/gen_sets/" + source.strip().strip(".txt").strip("datasets/gen_sets") + f'_{num}_WS.txt'
     output = open(out, "w")
     for sentence in salads:
         words = sentence.strip().split()
