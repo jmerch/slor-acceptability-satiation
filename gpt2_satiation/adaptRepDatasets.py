@@ -25,11 +25,11 @@ for cond in list(conds.keys()):
 cond_list = ["CNPC", "SUBJ", "WH", "FILL", "UNGRAM"]
 #### EXP1 ####
 exp1_conds = conds.copy()
-NUM_BLOCKS = 16
-output1 = open("datasets/adapt_exp1_train.txt", "w")
-output2c = open("datasets/adapt_exp2_train_CNPC.txt", "w")
-output2s = open("datasets/adapt_exp2_train_SUBJ.txt", "w")
-output2w = open("datasets/adapt_exp2_train_WH.txt", "w")
+NUM_BLOCKS = 15
+output1 = open("datasets/adapt_rep/adapt_exp1_train.txt", "w")
+output2c = open("datasets/adapt_rep/adapt_exp2_train_CNPC.txt", "w")
+output2s = open("datasets/adapt_rep/adapt_exp2_train_SUBJ.txt", "w")
+output2w = open("datasets/adapt_rep/adapt_exp2_train_WH.txt", "w")
 for i in range(NUM_BLOCKS):
     random.shuffle(cond_list)
     for cond in cond_list:
@@ -51,7 +51,7 @@ for i in range(NUM_BLOCKS):
         output1.write(data["Target"] + "\n")
 
 for cond in cond_list:
-    output = open(f'datasets/adapt_test_{cond}.txt', "w")
+    output = open(f'datasets/adapt_rep/adapt_test_{cond}.txt', "w")
     for i in range(6):
         data = exp1_conds[cond].pop()
         output.write(data["Context"] + "\n")
