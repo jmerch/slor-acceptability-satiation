@@ -1,0 +1,40 @@
+!ARTICLE
+The presidential candidate wonders whether the report of the accident scared his opponent.
+!ARTICLE
+Who does the presidential candidate wonder whether the report of the accident scared?
+!ARTICLE
+The biologist wonders whether researchers will eventually find a cure to AIDS.
+!ARTICLE
+What does the biologist wonder whether researchers will eventually find?
+!ARTICLE
+The mechanic wonders whether a tank of biofuel can power the locomotive.
+!ARTICLE
+What does the mechanic wonder whether a tank of biofuel can power?
+!ARTICLE
+The zookeeper wonders whether the lion attacked a herd of antelopes yesterday.
+!ARTICLE
+What does the zookeeper wonder whether the lion attacked?
+!ARTICLE
+The activists wonder whether government officials bribed the leader of the group.
+!ARTICLE
+Who do the activists wonder whether government officials bribed?
+!ARTICLE
+The lexicographer wonders whether some of his colleagues revised the dictionary for the endangered language.
+!ARTICLE
+What does the lexicographer wonder whether some of his colleagues revised?
+!ARTICLE
+The villagers wondered whether the news article on healthcare had caused the grave public unrest.
+!ARTICLE
+What did the villagers wonder whether the news article on healthcare had caused?
+!ARTICLE
+The investigator wonders whether the robbers deleted a segment of the surveillance video.
+!ARTICLE
+What does the investigator wonder whether the robbers deleted?
+!ARTICLE
+The Prime Minister wonders whether the senate will review the report on global warming.
+!ARTICLE
+What does the Prime Minister wonder whether the senate will review?
+!ARTICLE
+The boy wonders whether the superhero will defeat the demons of the underworld.
+!ARTICLE
+Who does the boy wonder whether the superhero will defeat?

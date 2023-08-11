@@ -1,0 +1,24 @@
+!ARTICLE
+The presidential candidate believes the claim that the report of the accident scared his opponent.
+!ARTICLE
+Who does the presidential candidate believe the claim that the report of the accident scared?
+!ARTICLE
+The actor believes the claim that the famous scholar wrote a book about cinematography. 
+!ARTICLE
+What does the actor believe the claim that the famous scholar wrote?
+!ARTICLE
+The Prime Minister believes the claim that the senate will review the report on global warming.
+!ARTICLE
+What does the Prime Minister believe the claim that the senate will review?
+!ARTICLE
+The detective believes the claim that a bottle of poison killed the businessman.
+!ARTICLE
+Who does the detective believe the claim that a bottle of poison killed?
+!ARTICLE
+The zoologist believes the claim that the mating call of the Gray Catbird resembles the sounds of a cat.
+!ARTICLE
+What does the zoologist believe the claim that the mating call of the Gray Catbird resembles?
+!ARTICLE
+The bartender believes the claim that the brother of the mayor invited a special guest.
+!ARTICLE
+Who does the bartender believe the claim that the brother of the mayor invited?

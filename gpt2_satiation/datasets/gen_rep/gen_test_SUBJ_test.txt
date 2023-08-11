@@ -1,0 +1,40 @@
+!ARTICLE
+The carpenter thinks that the sister of the mayor will order a bookcase.
+!ARTICLE
+Who does the carpenter think that the sister of will order a bookcase?
+!ARTICLE
+The mechanic thinks that a tank of biofuel can power the locomotive.
+!ARTICLE
+What does the mechanic think that a tank of can power the locomotive?
+!ARTICLE
+The zoologist thinks that the mating call of the mating call of the Gray Catebird resembles the sounds of a cat.
+!ARTICLE
+What does the zoologist think that the mating call of resembles the sounds of a cat?
+!ARTICLE
+The mayor thinks that a protest against the new immigration law is being planned by the union.
+!ARTICLE
+What does the mayor think a protest against is being planned by the union?
+!ARTICLE
+The zookeeper thinks that a herd of antelopes was attacked by a lion yesterday.
+!ARTICLE
+What does the zookeeper think that a herd of was attacked by a lion yesterday?
+!ARTICLE
+The judge thought that a report of the car crash had been emailed to the prosecutor.
+!ARTICLE
+What did the judge think that a report of had been emailed to the prosecutor?
+!ARTICLE
+The Prime Minister thinks that the report on global warming will be reviewed by the senate.
+!ARTICLE
+What does the Prime Minister think that the report on will be reviewed by the senate?
+!ARTICLE
+The journalist thinks that a book about astronomy was written by the politician.
+!ARTICLE
+What does the journalist think that the book about was written by the politician?
+!ARTICLE
+The physician thinks that an effective vaccine for malaria was designed by the group of researchers.
+!ARTICLE
+What does the physician think that an effective vaccine for was designed by the group of researchers?
+!ARTICLE
+The pharmacist thought that a pack of painkillers could cause nausea.
+!ARTICLE
+What did the pharmacist think that a pack of could cause nausea?

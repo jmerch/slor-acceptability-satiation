@@ -1,0 +1,24 @@
+!ARTICLE
+The director wonders whether the main actor will blow off the final rehearsal of the play.
+!ARTICLE
+What does the director wonder whether the main actor will blow off?
+!ARTICLE
+The mayor wonders whether the union is planning a protest against the new immigration law. 
+!ARTICLE
+What does the mayor wonder whether the union is planning a protest against?
+!ARTICLE
+The football coach wonders whether the brother of his best player contacted another coach.
+!ARTICLE
+Who does the football coach wonder whether the brother of his best player contacted?
+!ARTICLE
+The bartender wonders whether the brother of the mayor invited a special guest.
+!ARTICLE
+Who does the bartender wonder whether the brother of the mayor invited?
+!ARTICLE
+The athlete wonders whether her manager called the agent of another athlete. 
+!ARTICLE
+Who does the athlete wonder whether her manager called?
+!ARTICLE
+The investigator wonders whether the robbers deleted a segment of the surveillance video.
+!ARTICLE
+What does the investigator wonder whether the robbers deleted?

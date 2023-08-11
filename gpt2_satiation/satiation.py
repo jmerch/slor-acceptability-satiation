@@ -27,6 +27,7 @@ def main(quinfig):
     train_name = args.train_name
     test_name = args.test_name
     #num_training_sents = args.num_train
+    print(f"train_name: {train_name}; test_name: {test_name}")
     
     # Import datasets
     #data_files = {"train": f"datasets/gen_{condition}_train{num_training_sents}.txt", "test": f"datasets/gen_{condition}_test15.txt"}

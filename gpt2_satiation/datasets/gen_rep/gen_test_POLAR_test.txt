@@ -1,0 +1,40 @@
+!ARTICLE
+The actor thinks that the famous scholar wrote a book about cinematography.
+!ARTICLE
+Does the actor think that the famous scholar wrote a book about cinematography?
+!ARTICLE
+The headmaster thinks that an expert in Chinese history wrote the manuscript.
+!ARTICLE
+Does the headmaster think that an expert in Chinese history wrote the manuscript?
+!ARTICLE
+The physician thinks that the group of researchers designed an effective vaccine for malaria.
+!ARTICLE
+Does the physician think that the group of researchers designed an effective vaccine for malaria?
+!ARTICLE
+The janitor thinks that a bottle of bleach can remove the stain.
+!ARTICLE
+Does the janitor think that a bottle of bleach can remove the stain?
+!ARTICLE
+The spy thinks that the commander of the special forces initiated the attack.
+!ARTICLE
+Does the spy think that the commander of the special forces initiated the attack?
+!ARTICLE
+The publisher thought that the author had already finished the draft of his new book.
+!ARTICLE
+Did the publisher think that the author had already finished the draft of his new book?
+!ARTICLE
+The pilot thinks that the description of the hijacker matches the suspect.
+!ARTICLE
+Does the pilot think that the description of the hijacker matches the suspect?
+!ARTICLE
+The bartender thinks that the brother of the mayor invited a special guest.
+!ARTICLE
+Does the bartender think that the brother of the mayor invited a special guest?
+!ARTICLE
+The pharmacist thought that a pack of painkillers could cause nausea.
+!ARTICLE
+Did the pharmacist think that a pack of painkillers could cause nausea?
+!ARTICLE
+The activists think that government officials bribed the leader of the group.
+!ARTICLE
+Do the activists think that government officials bribed the leader of the group?

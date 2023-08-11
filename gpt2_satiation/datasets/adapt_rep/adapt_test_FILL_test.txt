@@ -1,12 +1,24 @@
+!ARTICLE
  The construction worker believes the claim that companies should allow their employees to unionize.
+!ARTICLE
 Who believes the claim that companies should allow their employees to unionize?
+!ARTICLE
 The chef believes that the restaurant owner is planning to open a new branch.
+!ARTICLE
 What does the chef believe that the restaurant owner is planning to open?
+!ARTICLE
 The guests wondered whether vegetarian dishes will be served at the dinner party.
+!ARTICLE
 Who wondered whether vegetarian dishes will be served at the dinner party?
+!ARTICLE
 The old lady thinks that there are not enough parking spots near the shopping mall.
+!ARTICLE
 Who thinks that there are not enough parking spots near the shopping mall?
+!ARTICLE
 The nutritionist wonders whether his client benefited from the dietary supplements.
+!ARTICLE
 Who wonders whether his client benefited from the dietary supplements?
+!ARTICLE
 The banker believed that the customer took out a loan to purchase a new car.
+!ARTICLE
 What did the banker believe that the customer took out a loan to purchase?
