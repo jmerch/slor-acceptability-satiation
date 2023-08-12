@@ -1,7 +1,8 @@
 library(tidyverse)
 library(ggplot2)
 library(ggthemes)
-num_trained = c(0, 10)
+
+num_trained = as.integer(c(0, 10))
 
 CNPC_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
 CNPC_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_surprisals.csv")
@@ -49,8 +50,8 @@ exp1 = rbind(CNPC, WH, SUBJ, FILL, UNGRAM)
 exp1 %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
-  geom_point(aes(color = condition)) +
-  ylim(5, 9) +
+  geom_point(aes(color = condition)) + 
+  scale_x_continuous(breaks=c(0,10)) +
   labs(title = "Adaptation Experiment 1 Replication", 
        x = "Number of Training Sentences", 
        y = "Mean Surprisal") +
@@ -58,3 +59,19 @@ exp1 %>%
   theme(axis.title = element_text())
 
 ggsave("gpt2_satiation/plots/adapt_exp1_rep.png", width=7, height=5)
+
+exp1 %>%
+  ggplot((aes(x = num_trained, y= ms))) +
+  geom_line(aes(group = condition, color = condition)) +
+  geom_point(aes(color = condition)) + 
+  scale_x_continuous(breaks=c(0,10)) +
+  ylim(3,9) +
+  labs(title = "Adaptation Experiment 1 Replication", 
+       x = "Number of Training Sentences", 
+       y = "Mean Surprisal") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+ggsave("gpt2_satiation/plots/adapt_exp1_rep_zoom.png", width=7, height=5)
+
+
