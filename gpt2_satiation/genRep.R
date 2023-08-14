@@ -4,7 +4,7 @@ library(ggthemes)
 
 num_trained = as.integer(c(0, 10))
 
-WH_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_WH_baseline_surprisals.csv")
+WH_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_SUBJ_baseline_surprisals.csv")
 WH_test = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_WH_SUBJtest_surprisals.csv")
 m_0 = mean(WH_base$mean_surprisal)
 m_10 = mean(WH_test$mean_surprisal)
@@ -20,7 +20,7 @@ ms = c(m_0, m_10)
 condition = c("SUBJ", "SUBJ")
 SUBJ = data.frame(num_trained, ms, condition)
 
-POLAR_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_POLAR_baseline_surprisals.csv")
+POLAR_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_SUBJ_baseline_surprisals.csv")
 POLAR_test = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_POLAR_SUBJtest_surprisals.csv")
 m_0 = mean(POLAR_base$mean_surprisal)
 m_10 = mean(POLAR_test$mean_surprisal)
@@ -36,7 +36,8 @@ exp1 %>%
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) + 
   scale_x_continuous(breaks=c(0,10)) +
-  labs(title = "Generalization Experiment 1 Replication", 
+  ylim(5.5,7.5) +
+  labs(title = "Generalization Experiment 1 Replication (test SUBJ)", 
        x = "Number of Training Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
@@ -54,7 +55,7 @@ ms = c(m_0, m_10)
 condition = c("WH", "WH")
 WH = data.frame(num_trained, ms, condition)
 
-SUBJ_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_SUBJ_baseline_surprisals.csv")
+SUBJ_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_WH_baseline_surprisals.csv")
 SUBJ_test = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_SUBJ_WHtest_surprisals.csv")
 m_0 = mean(SUBJ_base$mean_surprisal)
 m_10 = mean(SUBJ_test$mean_surprisal)
@@ -62,7 +63,7 @@ ms = c(m_0, m_10)
 condition = c("SUBJ", "SUBJ")
 SUBJ = data.frame(num_trained, ms, condition)
 
-POLAR_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_POLAR_baseline_surprisals.csv")
+POLAR_base = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_WH_baseline_surprisals.csv")
 POLAR_test = read.csv("gpt2_satiation/output/surprisals/gen_rep/gen_POLAR_WHtest_surprisals.csv")
 m_0 = mean(POLAR_base$mean_surprisal)
 m_10 = mean(POLAR_test$mean_surprisal)
@@ -77,8 +78,8 @@ exp2 %>%
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) + 
   scale_x_continuous(breaks=c(0,10)) +
-  ylim(3,9) +
-  labs(title = "Generalization Experiment 2 Replication", 
+  ylim(6,9) +
+  labs(title = "Generalization Experiment 2 Replication (test WH)", 
        x = "Number of Training Sentences", 
        y = "Mean Surprisal") +
   theme_fivethirtyeight() +
