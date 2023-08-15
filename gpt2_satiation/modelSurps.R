@@ -83,5 +83,5 @@ surprisal_v_training %>%
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 
-ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal_cnpc_control.png" )
+ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal_cnpc_control.png", width=7, height=5)
 
