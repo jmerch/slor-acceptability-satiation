@@ -55,22 +55,8 @@ surprisal = c(C_30WS, C_20WS, C_10WS, C_0WS)
 condition = c("CNPC", "CNPC", "CNPC", "CNPC")
 gen_CNPC_df = data.frame(num_trained, surprisal, condition)
 
-c_CNPC_0 = read.csv("gpt2_satiation/output/surprisals/overlap/gen_CNPC_0_surprisals.csv")
-c_CNPC_10 = read.csv("gpt2_satiation/output/surprisals/CNPC_10_B_15_test_surprisals.csv")
-c_CNPC_20 = read.csv("gpt2_satiation/output/surprisals/CNPC_20_B_15_test_surprisals.csv")
-c_CNPC_30 = read.csv("gpt2_satiation/output/surprisals/CNPC_30_B_15_test_surprisals.csv")
-C_0 = mean(c_CNPC_0$mean_surprisal)
-C_10 = mean(c_CNPC_10$mean_surprisal)
-C_20 = mean(c_CNPC_20$mean_surprisal)
-C_30 = mean(c_CNPC_30$mean_surprisal)
-#surprisal = c(C_0 - C_0, C_10 - C_0, C_20 - C_0, C_30 - C_0)
-surprisal = c(C_0, C_10, C_20, C_30)
-condition = c("CNPC-no-overlap", "CNPC-no-overlap", "CNPC-no-overlap", "CNPC-no-overlap")
-c_cnpc_df = data.frame(num_trained, surprisal, condition)
 
-
-
-surprisal_v_training = rbind(gen_POLAR_df, gen_WH_df, gen_SUBJ_df, gen_CNPC_df, c_cnpc_df)
+surprisal_v_training = rbind(gen_POLAR_df, gen_WH_df, gen_SUBJ_df, gen_CNPC_df)
 #surprisal_v_training = rbind(surprisal_v_training, gen_SUBJ_df)
 
 surprisal_v_training %>%
