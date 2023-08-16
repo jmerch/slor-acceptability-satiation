@@ -2,7 +2,7 @@ library(tidyverse)
 library(ggplot2)
 library(ggthemes)
 
-num_trained = as.integer(c(0, 10))
+num_trained = as.integer(c(0, 15))
 
 CNPC_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
 CNPC_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_surprisals.csv")
@@ -51,7 +51,7 @@ exp1 %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) + 
-  scale_x_continuous(breaks=c(0,10)) +
+  scale_x_continuous(breaks=c(0,15)) +
   labs(title = "Adaptation Experiment 1 Replication (one model, all islands)", 
        x = "Number of Training Sentences", 
        y = "Mean Surprisal") +
@@ -64,7 +64,7 @@ exp1 %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) + 
-  scale_x_continuous(breaks=c(0,10)) +
+  scale_x_continuous(breaks=c(0,15)) +
   ylim(3,9) +
   labs(title = "Adaptation Experiment 1 Replication (one model, all islands)", 
        x = "Number of Training Sentences", 
@@ -106,7 +106,7 @@ exp2 %>%
   ggplot((aes(x = num_trained, y= ms))) +
   geom_line(aes(group = condition, color = condition)) +
   geom_point(aes(color = condition)) + 
-  scale_x_continuous(breaks=c(0,10)) +
+  scale_x_continuous(breaks=c(0,15)) +
   ylim(3,9) +
   labs(title = "Adaptation Experiment 2 Replication (one model per island)", 
        x = "Number of Training Sentences", 
@@ -115,3 +115,45 @@ exp2 %>%
   theme(axis.title = element_text())
 
 ggsave("gpt2_satiation/plots/adapt_exp2_rep.png", width=7, height=5)
+
+
+
+#CNPC_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
+CNPC_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/CNPC_WStrain_CNPCtest_surprisals.csv")
+m_0 = mean(CNPC_base$mean_surprisal)
+m_10 = mean(CNPC_test$mean_surprisal)
+ms = c(m_0, m_10)
+condition = c("CNPC", "CNPC")
+CNPC = data.frame(num_trained, ms, condition)
+
+#WH_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_WHtest_baseline_surprisals.csv")
+WH_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/WH_WStrain_WHtest_surprisals.csv")
+m_0 = mean(WH_base$mean_surprisal)
+m_10 = mean(WH_test$mean_surprisal)
+ms = c(m_0, m_10)
+condition = c("WH", "WH")
+WH = data.frame(num_trained, ms, condition)
+
+#SUBJ_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_SUBJtest_baseline_surprisals.csv")
+SUBJ_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/SUBJ_WStrain_SUBJtest_surprisals.csv")
+m_0 = mean(SUBJ_base$mean_surprisal)
+m_10 = mean(SUBJ_test$mean_surprisal)
+ms = c(m_0, m_10)
+condition = c("SUBJ", "SUBJ")
+SUBJ = data.frame(num_trained, ms, condition)
+
+exp2_ws = rbind(CNPC, WH, SUBJ)
+
+exp2_ws %>%
+  ggplot((aes(x = num_trained, y= ms))) +
+  geom_line(aes(group = condition, color = condition)) +
+  geom_point(aes(color = condition)) + 
+  scale_x_continuous(breaks=c(0,15)) +
+  ylim(3,9) +
+  labs(title = "Adaptation Experiment 2 Replication (WS control)", 
+       x = "Number of Training Blocks", 
+       y = "Mean Surprisal") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+
+ggsave("gpt2_satiation/plots/adapt_exp2_rep_WS.png", width=7, height=5)

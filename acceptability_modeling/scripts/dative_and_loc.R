@@ -362,9 +362,17 @@ AIC(all_logistic)
 AIC(all_linear)
 summary(all_linear)
 
-
+#factored_cond = all_experiments$condition
+all_experiments$condition = factor(all_experiments$condition, levels = unique(all_experiments$condition))
+#all_experiments$condition = factored_cond
+levels(all_experiments$condition) = unique(all_experiments$condition)
+levels(all_experiments$condition)
+contrasts(all_experiments$condition) = contr.sum(19)
 cond_prediction_all = lm(mean_acc ~ mean_surprisal*condition, all_experiments)
 summary(cond_prediction_all)
 
+satiation$condition = factor(satiation$condition, levels = unique(satiation$condition))
+unique(satiation$condition)
+contrasts(satiation$condition) = contr.sum(6)
 cond_prediction_islands = lm(mean_acc ~ mean_surprisal*condition, satiation)
 summary(cond_prediction_islands)
