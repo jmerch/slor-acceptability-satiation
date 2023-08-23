@@ -88,7 +88,6 @@ fillers_ungram = shuffle(fillers_ungram);
 
 
 // split phases into blocks
-
 // each block has two target items, one grammatical filler,
 // and one ungrammatical filler
 exposure_blocks = []; // a list of lists of item objects
@@ -202,6 +201,11 @@ function make_slides(f) {
     present_handle : function(stim) {
       $(".err").hide();
       $(".errgood").hide();
+			$(".err_write").hide();
+			$(".text_response").hide();
+			$(".interpret").hide();
+			$(".errinterp").hide();
+				$("#paraphrase").val("");
       this.stim = stim;
       $(".prompt").html("Context: The boy saw an apple on the table. <p>  Target: <b> What did the boy see on the table? <\/b>");
       this.init_sliders();
@@ -209,8 +213,12 @@ function make_slides(f) {
       exp.first_response_wrong = 0;
       exp.first_response_value = null;
       exp.attempts = 0;
+
     },
     button : function() {
+			var button1 = !$("#button1").is(":hidden");
+			var button2 = !$("#button2").is(":hidden");
+			var button3 = !button1 & !button2;
       if (exp.sliderPost == null) {
         $(".err").show();
       }
@@ -222,11 +230,34 @@ function make_slides(f) {
       }
       else {
         this.log_responses();
+				if (button1) {
+					$(".instruct").hide();
+					//console.log("Button1");
+					$(".interpret").show();
+					$(".rating").hide();
+				} else if (button2){
+					var response = $("input[type='radio'][name='interpret']:checked").val()
+					if (response == "No") {
+						$(".errinterp").show();
+					} else {
+							$(".interpret").hide();
+							$(".prompt").hide();
+							$(".text_response").show();
+						}
+					} else if (button3) {
+						var paraphrase = $("#paraphrase").val();
+						console.log(paraphrase);
+						if (paraphrase == "") {
+							$(".err_write").show();
+						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        _stream.apply(this);
-      }
-    },
+        			_stream.apply(this);
+						}
+    			}
+				}
+		},
+
     init_sliders : function() {
       utils.make_slider("#practice_slider_1", function(event, ui) {
         exp.sliderPost = ui.value;
@@ -365,7 +396,17 @@ function make_slides(f) {
         _stream.apply(this);
       }
     },
+		button2 : function() {
+      if (exp.sliderPost == null) {
+        $(".err").show();
+      } else {
+        this.log_responses();
 
+        /* use _stream.apply(this); if and only if there is
+        "present" data. (and only *after* responses are logged) */
+        _stream.apply(this);
+      }
+    },
     init_sliders : function() {
       utils.make_slider("#single_slider", function(event, ui) {
         exp.sliderPost = ui.value;
