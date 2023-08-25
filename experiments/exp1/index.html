@@ -120,7 +120,7 @@ $(function(){
     <p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>
     <input type="text" class= "text_response" id="paraphrase"></input>
     <button id="button3" class="text_response" onclick="_s.button()">Continue</button>
-    <p class="err_write">Please write something.</p>
+    <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
   </div>
   </div>
 
@@ -143,13 +143,32 @@ $(function(){
     <br>
 
     <p>Let's try another practice item. Please read the context sentence, and then rate the acceptability of the target sentence. Please indicate how acceptable the target sentence sounds using the slider.</p>
+    <p class="instruct">Let's try one practice item. Please read the context sentence, and then rate the acceptability of the target sentence. Please indicate how acceptable the target sentence sounds by dragging the slider bar.</p>
     <p class="prompt"> </p>
-    <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_2" class="slider"></div></td><td class="right">completely acceptable</td></tr>
-    </table>
-    <button onclick="_s.button()">Continue</button>
+    <div class="rating2">
+      <table id="slider_table" class="slider_table">
+        <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_2" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      </table>
+    <button id="button1" onclick="_s.button()">Continue</button>
+  </div>
     <div class="err">Please adjust the slider before continuing.</div>
-    <div class="errbad">This target sentence should be unacceptable. Please try again.</div>
+    <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
+    <div class="interpret2">
+      <p> Do you think that you understand what this sentence means? <p>
+    <ul style="list-style: none; margin: 0; padding: 0;" class="interpret2" id="interp_qs">
+      <li><input type="radio" name="interpret" value="Yes"/> <span>Yes</span></li>
+      <li><input type="radio" name="interpret" value="No"/> <span>No</span></li>
+    </ul>
+    <p class="errinterp">This target sentence not should have a clear meaning. Please try again.</p>
+  </div>
+  <button id="button2" class="interpret2" onclick="_s.button()">Continue</button>
+
+  <div class="text_response2">
+    <p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>
+    <input type="text" class= "text_response2" id="paraphrase2"></input>
+    <button id="button3" class="text_response2" onclick="_s.button()">Continue</button>
+    <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+  </div>
   </div>
 
   <div class="slide" id="post_practice_2">
@@ -195,11 +214,30 @@ $(function(){
     <br>
     <p class="context"> </p>
     <p class="target"> </p>
-    <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="single_slider" class="slider"></div></td><td class="right">completely acceptable</td></tr>
-    </table>
-    <button onclick="_s.button()">Continue</button>
+    <div class="rating_main">
+      <table id="single_slider_main" class="slider_table">
+        <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="single_slider" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      </table>
+    <button id="button1" onclick="_s.button()">Continue</button>
+  </div>
     <div class="err">Please adjust the slider before continuing.</div>
+    <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
+    <div class="interpret_main">
+      <p> Do you think that you understand what this sentence means? <p>
+    <ul style="list-style: none; margin: 0; padding: 0;" class="interpret_main" id="interp_qs">
+      <li><input type="radio" name="interpret" value="Yes"/> <span>Yes</span></li>
+      <li><input type="radio" name="interpret" value="No"/> <span>No</span></li>
+    </ul>
+    <p class="errinterp">This target sentence not should have a clear meaning. Please try again.</p>
+  </div>
+  <button id="button2" class="interpret_main" onclick="_s.button()">Continue</button>
+
+  <div class="text_response_main">
+    <p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>
+    <input type="text" class= "text_response_main" id="paraphrase_main"></input>
+    <button id="button3" class="text_response_main" onclick="_s.button()">Continue</button>
+    <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+  </div>
   </div>
 
   <!-- The following two slides are not used in this experiment -->

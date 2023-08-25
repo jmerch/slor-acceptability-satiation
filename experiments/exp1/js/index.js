@@ -23,74 +23,88 @@ var shuffle = function (array) {
 
 };
 
+var repeatStim = function (str1, str2) {
+	array1 = str1.trim().split(" ");
+	array2 = str2.trim().split(" ");
+	for (var i = 0; i < array1.length; i++) {
+		array1[i] = array1[i].toLowerCase();
+	}
+	for (var i = 0; i < array2.length; i++) {
+		array2[i] = array2[i].toLowerCase();
+	}
+	array1.sort();
+	array2.sort();
+	return array1.toString() === array2.toString();
+};
+
 // experiment parameters
 
-num_exposure_items = 12; // how many target items in the exposure phase?
-num_test_items = 10; // how many target items in the test phase?
-num_unique_lex_items = num_exposure_items + num_test_items;
-num_fillers = 11; /* half the number of target items. Each type of filler
-                  will have this many items */
-block_size = 4;
-num_exposure_blocks = num_exposure_items/2; // 2 target items per block
-num_test_blocks = num_test_items/2; // 2 target items per block
+num_exposure_items = 55; // how many target items in the exposure phase?
+//num_test_items = 10; // how many target items in the test phase?
+//num_unique_lex_items = num_exposure_items + num_test_items;
+//num_fillers = 11; /* half the number of target items. Each type of filler
+                //  will have this many items */
+block_size = 11;
+//num_exposure_blocks = num_exposure_items/2; // 2 target items per block
+//num_test_blocks = num_test_items/2; // 2 target items per block
 
 // choose an experimental group
 // match sees the same condition throughout
 // mismatch sees different conditions on exposure and test
-experiment_group = shuffle(["match", "mismatch", "control"])[0];
+//experiment_group = shuffle(["match", "mismatch", "control"])[0];
 
 // choose experimental condition
-shuffled_conditions = ["SUBJ", "WH"]; //shuffle(["SUBJ","WH"]);
-test_cond = shuffled_conditions[0];
-exposure_cond = shuffled_conditions[1];
+//shuffled_conditions = ["SUBJ", "WH"]; //shuffle(["SUBJ","WH"]);
+//test_cond = shuffled_conditions[0];
+//exposure_cond = shuffled_conditions[1];
 
-if(experiment_group == "match"){
-  exposure_cond = test_cond;
-}
-if(experiment_group == "control"){
-  exposure_cond = "POLAR";
-}
+//if(experiment_group == "match"){
+  //exposure_cond = test_cond;
+//}
+//if(experiment_group == "control"){
+  //exposure_cond = "POLAR";
+//}
 
-console.log(experiment_group);
-console.log("exp", exposure_cond);
-console.log("test", test_cond);
+//console.log(experiment_group);
+//console.log("exp", exposure_cond);
+//console.log("test", test_cond);
 
 // sort items into pools we can sample from
 // only take <num_unique_lex_items> total items from stimuli list
 
 // in the 'match' group, these will have the same items
-exposure_pool = all_stimuli.filter(function (e){
-  return e.condition == exposure_cond && e.lex_items < num_unique_lex_items+1;
-});
-test_pool = all_stimuli.filter(function (e){
-  return e.condition == test_cond && e.lex_items < num_unique_lex_items+1;
-});
+//exposure_pool = all_stimuli.filter(function (e){
+//  return e.condition == exposure_cond && e.lex_items < num_unique_lex_items+1;
+//});
+//test_pool = all_stimuli.filter(function (e){
+  //return e.condition == test_cond && e.lex_items < num_unique_lex_items+1;
+//});
 
 // split data into phases
 // phases are disjoint sets of lexical items
-exposure_stimuli = shuffle(exposure_pool).slice(0,num_exposure_items);
-test_stimuli = test_pool.filter(function (t){
+//exposure_stimuli = shuffle(exposure_pool).slice(0,num_exposure_items);
+//test_stimuli = test_pool.filter(function (t){
   // t.lex_items not in exposure_stimuli
-  return !(exposure_stimuli.find(e => e.lex_items == t.lex_items));
-});
+//  return !(exposure_stimuli.find(e => e.lex_items == t.lex_items));
+//});
 
 // do the same with fillers
 
-fillers_gram = all_stimuli.filter(function (e){
-  return e.condition == "FILL" && e.lex_items < num_fillers+101;
-});
-fillers_ungram = all_stimuli.filter(function (e){
-  return e.condition == "UNGRAM" && e.lex_items < num_fillers+117;
-});
+//fillers_gram = all_stimuli.filter(function (e){
+//  return e.condition == "FILL" && e.lex_items < num_fillers+101;
+//});
+//fillers_ungram = all_stimuli.filter(function (e){
+//  return e.condition == "UNGRAM" && e.lex_items < num_fillers+117;
+//});
 
-fillers_gram = shuffle(fillers_gram);
-fillers_ungram = shuffle(fillers_ungram);
+//fillers_gram = shuffle(fillers_gram);
+//fillers_ungram = shuffle(fillers_ungram);
 
 
 // split phases into blocks
 // each block has two target items, one grammatical filler,
 // and one ungrammatical filler
-exposure_blocks = []; // a list of lists of item objects
+/*exposure_blocks = []; // a list of lists of item objects
 for(var i = 0; i < num_exposure_blocks; i++){
   block = [exposure_stimuli.pop(), exposure_stimuli.pop(), fillers_gram.pop(), fillers_ungram.pop()];
   block = shuffle(block);
@@ -130,9 +144,9 @@ for(var i = 0; i < num_test_blocks; i++){
 
   };
 };
-
+*/
 // create final sequence to present to the slide
-final_item_sequence = [exposure_blocks, test_blocks].flat().flat();
+final_item_sequence = shuffle(all_stimuli)//[exposure_blocks, test_blocks].flat().flat();
 
 
 
@@ -207,7 +221,7 @@ function make_slides(f) {
 			$(".errinterp").hide();
 				$("#paraphrase").val("");
       this.stim = stim;
-      $(".prompt").html("Context: The boy saw an apple on the table. <p>  Target: <b> What did the boy see on the table? <\/b>");
+      $(".prompt").html("Context: The boy saw an apple on the table. <p>  Target: <b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
       exp.first_response_wrong = 0;
@@ -247,7 +261,8 @@ function make_slides(f) {
 					} else if (button3) {
 						var paraphrase = $("#paraphrase").val();
 						console.log(paraphrase);
-						if (paraphrase == "") {
+						console.log($(".stim_sentence")[0].innerHTML);
+						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
 							$(".err_write").show();
 						} else {
         /* use _stream.apply(this); if and only if there is
@@ -272,8 +287,8 @@ function make_slides(f) {
         "block_sequence": "practice",
         "item_number": "practice_good",
         "phase": "practice_good",
-        "trial_sequence_total": 0,
-        "group": experiment_group
+        "trial_sequence_total": 0 //,
+        //"group": experiment_group
       });
 
     }
@@ -301,32 +316,70 @@ function make_slides(f) {
 
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
-      $(".err").hide();
-      $(".errbad").hide();
-      $(".prompt").html("Context: The girl slept under the bed. <p>  Target: <b> Who the bed was slept under? <\/b>");
-      this.init_sliders();
-      exp.sliderPost = null; //erase current slider value
-      exp.first_response_wrong = 0;
-      exp.first_response_value = null;
-      exp.attempts = 0;
+			$(".rating2").show();
+			$(".slider_table").show();
+			$(".err").hide();
+			$(".errbad").hide();
+			$(".err_write").hide();
+			$(".text_response2").hide();
+			$(".interpret2").hide();
+			$(".errinterp").hide();
+			$("#paraphrase2").val("");
+			$(".prompt").show();
+			//this.stim = stim;
+			$(".prompt").html("Context: The girl slept under the bed. <p>  Target: <b class=\"stim_sentence\" > Who the bed was slept under? <\/b>");
+		  this.init_sliders();
+			exp.sliderPost = null; //erase current slider value
+			exp.first_response_wrong = 0;
+			exp.first_response_value = null;
+			exp.attempts = 0;
+
     },
-    button : function() {
+		button : function() {
+			var button1 = !$(".rating2").is(":hidden");
+			var button2 = !$(".interpret2").is(":hidden");
+			var button3 = !button1 & !button2;
       if (exp.sliderPost == null) {
         $(".err").show();
       }
       else if (exp.sliderPost > 0.5) {
         exp.first_response_wrong = 1;
-        exp.first_response_value = exp.sliderPost;
+        exp.first_response_value =exp.sliderPost;
         exp.attempts = exp.attempts + 1;
         $(".errbad").show();
       }
       else {
         this.log_responses();
+				if (button1) {
+					$(".instruct").hide();
+					console.log("Button1");
+					$(".interpret2").show();
+					$(".rating2").hide();
+				} else if (button2){
+					console.log("Button2");
+					var response = $("input[type='radio'][name='interpret']:checked").val()
+					if (response == "Yes") {
+						$(".errinterp").show();
+					} else {
+							$(".interpret2").hide();
+							$(".prompt").hide();
+							$(".text_response2").show();
+						}
+					} else if (button3) {
+							console.log("Button3");
+						var paraphrase = $("#paraphrase2").val();
+						console.log(paraphrase);
+						console.log($(".stim_sentence")[0].innerHTML);
+						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
+							$(".err_write").show();
+						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        _stream.apply(this);
-      }
-    },
+        			_stream.apply(this);
+						}
+    			}
+				}
+		},
     init_sliders : function() {
       utils.make_slider("#practice_slider_2", function(event, ui) {
         exp.sliderPost = ui.value;
@@ -343,7 +396,7 @@ function make_slides(f) {
         "item_number": "practice_bad",
         "phase": "practice_bad",
         "trial_sequence_total": 0,
-        "group": experiment_group
+      //  "group": experiment_group
       });
 
     }
@@ -377,25 +430,61 @@ function make_slides(f) {
 
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
-      $(".err").hide();
+      //$(".err").hide();
       this.stim = stim; //I like to store this information in the slide so I can record it later.
-      $(".context").html(stim.presented_context);
-      $(".target").html("Target: " + stim.presented_target);
+    //  $(".context").html(stim.presented_context);
+			$(".rating_main").show();
+			$("#main_slider").show();
+			$(".slider_table").show();
+			$(".err").hide();
+			$(".errbad").hide();
+			$(".err_write").hide();
+			$(".text_response_main").hide();
+			$(".interpret_main").hide();
+			$(".errinterp").hide();
+			$("#paraphrase_main").val("");
+			$(".target").show();		//$(".prompt").show();
+      $(".target").html("Target: " + stim.Target);
       this.init_sliders()
       exp.sliderPost = null; //erase current slider value
     },
 
-    button : function() {
+		button : function() {
+			var button1 = !$(".rating_main").is(":hidden");
+			var button2 = !$(".interpret_main").is(":hidden");
+			var button3 = !button1 & !button2;
       if (exp.sliderPost == null) {
         $(".err").show();
-      } else {
+      }
+      else {
         this.log_responses();
-
+				if (button1) {
+					//$(".instruct").hide();
+					console.log("Button1");
+					$(".interpret_main").show();
+					$(".rating_main").hide();
+					$(".err").hide();
+				} else if (button2){
+					console.log("Button2");
+					var response = $("input[type='radio'][name='interpret']:checked").val()
+					$(".interpret_main").hide();
+					$(".target").hide();
+					$(".text_response_main").show();
+				} else if (button3) {
+						console.log("Button3");
+						var paraphrase = $("#paraphrase_main").val();
+						console.log(paraphrase);
+						//console.log($(".stim_sentence")[0].innerHTML);
+						if (paraphrase == "" || repeatStim(paraphrase, this.stim.Target)) {
+							$(".err_write").show();
+						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        _stream.apply(this);
-      }
-    },
+        			_stream.apply(this);
+						}
+    			}
+				}
+		},
 		button2 : function() {
       if (exp.sliderPost == null) {
         $(".err").show();
