@@ -221,7 +221,7 @@ function make_slides(f) {
 			$(".errinterp").hide();
 				$("#paraphrase").val("");
       this.stim = stim;
-      $(".prompt").html("Context: The boy saw an apple on the table. <p>  Target: <b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
+      $(".prompt").html("<b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
       exp.first_response_wrong = 0;
@@ -243,6 +243,7 @@ function make_slides(f) {
         $(".errgood").show();
       }
       else {
+				$(".errgood").hide();
         this.log_responses();
 				if (button1) {
 					$(".instruct").hide();
@@ -254,6 +255,7 @@ function make_slides(f) {
 					if (response == "No") {
 						$(".errinterp").show();
 					} else {
+						  $(".errinterp").hide();
 							$(".interpret").hide();
 							$(".prompt").hide();
 							$(".text_response").show();
@@ -327,7 +329,7 @@ function make_slides(f) {
 			$("#paraphrase2").val("");
 			$(".prompt").show();
 			//this.stim = stim;
-			$(".prompt").html("Context: The girl slept under the bed. <p>  Target: <b class=\"stim_sentence\" > Who the bed was slept under? <\/b>");
+			$(".prompt").html("<b class=\"stim_sentence\" > Who the bed was slept under? <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
 			exp.first_response_wrong = 0;
@@ -349,6 +351,7 @@ function make_slides(f) {
         $(".errbad").show();
       }
       else {
+				  $(".errbad").hide();
         this.log_responses();
 				if (button1) {
 					$(".instruct").hide();
@@ -361,6 +364,7 @@ function make_slides(f) {
 					if (response == "Yes") {
 						$(".errinterp").show();
 					} else {
+						  $(".errinterp").hide();
 							$(".interpret2").hide();
 							$(".prompt").hide();
 							$(".text_response2").show();

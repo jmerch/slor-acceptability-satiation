@@ -67,8 +67,9 @@ $(function(){
   <br>
 
   <h3>Instructions</h3>
-  <p>In this experiment, you will be reading and rating some English sentences. For each sentence, you will see a context sentence first, and then you will see a question about the context. <b>Your job is to rate how acceptable the question sounds. </b></p>
-  <p><b>When rating the questions, please use your intuition rather than school grammar</b>. <p>The sentence <i>"Who did you go to school with?"</i> is considered bad according to school grammar (because of the stranded preposition <i>with</i>). However, most English speakers find it totally acceptable. If you think a sentence is acceptable, you should give it a high rating regardless of what you learned in school.</p>
+  <p>In this experiment, you will be reading and rating some English sentences and answering some questions about their meaning.
+     <b>Your job is to rate how acceptable the sentence sounds, determine whether you understand it, and give your best paraphrase of the sentence. </b></p>
+  <p><b>When rating the questions, please use your intuition rather than school grammar</b>. <p>For example, the sentence <i>"Who did you go to school with?"</i> is considered bad according to school grammar (because of the stranded preposition <i>with</i>). However, most English speakers find it totally acceptable. If you think a sentence is acceptable, you should give it a high rating regardless of what you learned in school.</p>
   <button onclick="_s.button()">Continue</button>
 </div>
 
@@ -96,7 +97,9 @@ $(function(){
     <br>
     <br>
 
-    <p class="instruct">Let's try one practice item. Please read the context sentence, and then rate the acceptability of the target sentence. Please indicate how acceptable the target sentence sounds by dragging the slider bar.</p>
+    <p class="rating">Let's try one practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
+    <p class="interpret">Please indicate whether or not you understand the sentence. </p>
+    <p class="text_response">Please give as concise of a paraphrase as you can while preserving the meaning of the sentence. If you need to write more than one sentence, that is fine.</p>
     <p class="prompt"> </p>
     <div class="rating">
       <table id="slider_table" class="slider_table">
@@ -117,7 +120,7 @@ $(function(){
   <button id="button2" class="interpret" onclick="_s.button()">Continue</button>
 
   <div class="text_response">
-    <p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>
+    <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
     <input type="text" class= "text_response" id="paraphrase"></input>
     <button id="button3" class="text_response" onclick="_s.button()">Continue</button>
     <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
@@ -142,8 +145,9 @@ $(function(){
     <br>
     <br>
 
-    <p>Let's try another practice item. Please read the context sentence, and then rate the acceptability of the target sentence. Please indicate how acceptable the target sentence sounds using the slider.</p>
-    <p class="instruct">Let's try one practice item. Please read the context sentence, and then rate the acceptability of the target sentence. Please indicate how acceptable the target sentence sounds by dragging the slider bar.</p>
+    <p class="rating2">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
+    <p class="interpret2">Please indicate whether or not you understand the sentence. </p>
+    <p class="text_response2">Please give as concise of a paraphrase as you can while preserving the meaning of the sentence. If you need to write more than one sentence, that is fine.</p>
     <p class="prompt"> </p>
     <div class="rating2">
       <table id="slider_table" class="slider_table">
@@ -164,7 +168,7 @@ $(function(){
   <button id="button2" class="interpret2" onclick="_s.button()">Continue</button>
 
   <div class="text_response2">
-    <p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>
+      <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
     <input type="text" class= "text_response2" id="paraphrase2"></input>
     <button id="button3" class="text_response2" onclick="_s.button()">Continue</button>
     <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
@@ -190,8 +194,8 @@ $(function(){
 
     <p>Before we start the experiment, there are a few things to keep in mind:</p>
     <p>(1) You may see sentences that are totally acceptable or unacceptable, and you may also see sentences that are somewhere in between. Please make use of the full scale when rating them.</p>
-    <p>(2) Please use your intuition rather than school grammar to judge the acceptability of the target sentences.</p>
-    <p>(3) Please make sure you read the context sentence first, and then rate (only) the target sentence.</p>
+    <p>(2) Please use your intuition rather than school grammar to judge the acceptability of the sentences.</p>
+    <p>(3) If you understand some meaning from a sentence at all, you should answer that you understand the sentence.
     <p>When you are ready, please press the button to proceed.</p>
     <button onclick="_s.button()">Click to begin the experiment</button>
   </div>
