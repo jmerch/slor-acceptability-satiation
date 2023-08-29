@@ -146,8 +146,40 @@ for(var i = 0; i < num_test_blocks; i++){
 };
 */
 // create final sequence to present to the slide
-final_item_sequence = shuffle(all_stimuli)//[exposure_blocks, test_blocks].flat().flat();
+subcat = shuffle(all_stimuli.filter((stim) => stim.condition == "subcat"));
+agr = shuffle(all_stimuli.filter((stim) => stim.condition == "agreement"));
+head = shuffle(all_stimuli.filter((stim) => stim.condition == "head_dir"));
+bind = shuffle(all_stimuli.filter((stim) => stim.condition == "binding"));
+npi = shuffle(all_stimuli.filter((stim) => stim.condition == "NPI"));
+csc = shuffle(all_stimuli.filter((stim) => stim.condition == "CSC"));
+lbc = shuffle(all_stimuli.filter((stim) => stim.condition == "LBC"));
+subj = shuffle(all_stimuli.filter((stim) => stim.condition == "subj_island"));
+adj = shuffle(all_stimuli.filter((stim) => stim.condition == "adj_island"));
+gram = shuffle(all_stimuli.filter((stim) => stim.condition == "gram"));
+ungram = shuffle(all_stimuli.filter((stim) => stim.condition == "ungram"));
 
+randomized_stims = [];
+for (var i = 0; i < 5; i++) {
+	block = [];
+	block.push(subcat.pop());
+	block.push(agr.pop());
+	block.push(head.pop());
+	block.push(bind.pop());
+	block.push(npi.pop());
+	block.push(csc.pop());
+	block.push(lbc.pop());
+	block.push(subj.pop());
+	block.push(adj.pop());
+	block.push(gram.pop());
+	block.push(ungram.pop());
+	rand_block = shuffle(block);
+	for (var j = 0; j < 11; j++) {
+		randomized_stims.push(rand_block.pop());
+	}
+}
+
+final_item_sequence = randomized_stims; //shuffle(all_stimuli)//[exposure_blocks, test_blocks].flat().flat();
+console.log(randomized_stims);
 
 
 //shuffle name-condition coorelation
@@ -448,7 +480,7 @@ function make_slides(f) {
 			$(".errinterp").hide();
 			$("#paraphrase_main").val("");
 			$(".target").show();		//$(".prompt").show();
-      $(".target").html("Target: " + stim.Target);
+      $(".target").html(stim.Target);
       this.init_sliders()
       exp.sliderPost = null; //erase current slider value
     },
@@ -485,6 +517,7 @@ function make_slides(f) {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
         			_stream.apply(this);
+							$("target").show()
 						}
     			}
 				}

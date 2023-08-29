@@ -3,3 +3,13 @@
 	width: 400;
 	margin: 10px;
 }
+
+.target {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.stim_sentence {
+	font-weight: bold;
+	font-size: larger;
+}
