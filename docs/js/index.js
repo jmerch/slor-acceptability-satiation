@@ -175,7 +175,9 @@ for (var i = 0; i < 5; i++) {
 	block.push(ungram.pop());
 	rand_block = shuffle(block);
 	for (var j = 0; j < 11; j++) {
-		randomized_stims.push(rand_block.pop());
+		var item = rand_block.pop();
+		item.block_number = i+1;
+		randomized_stims.push(item);
 	}
 }
 
@@ -285,7 +287,7 @@ function make_slides(f) {
       else {
 				$(".err").hide();
 				$(".errgood").hide();
-        this.log_responses();
+        //this.log_responses();
 				if (button1) {
 					$(".instruct").hide();
 					//console.log("Button1");
@@ -307,7 +309,8 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        			_stream.apply(this);
+							this.log_responses();
+							_stream.apply(this);
 						}
     			}
 				}
@@ -323,10 +326,10 @@ function make_slides(f) {
         "response" : exp.sliderPost,
         "first_response_value": exp.first_response_value,
         "wrong_attempts": exp.attempts,
-        "item_type" : "practice_good",
-        "block_sequence": "practice",
-        "item_number": "practice_good",
-        "phase": "practice_good",
+        "condition" : "practice_good",
+        "block_number": "practice",
+        "itemID": "practice_good",
+        //"phase": "practice_good",
         "trial_sequence_total": 0 //,
         //"group": experiment_group
       });
@@ -387,7 +390,7 @@ function make_slides(f) {
       else {
 				  $(".err").hide();
 				  $(".errbad").hide();
-        this.log_responses();
+        //this.log_responses();
 				if (button1) {
 					$(".instruct").hide();
 					console.log("Button1");
@@ -411,7 +414,8 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        			_stream.apply(this);
+							this.log_responses();
+							_stream.apply(this);
 						}
     			}
 				}
@@ -433,10 +437,10 @@ function make_slides(f) {
         "response" : exp.sliderPost,
         "first_response_value": exp.first_response_value,
         "wrong_attempts": exp.attempts,
-        "item_type" : "practice_bad",
-        "block_sequence": "practice",
-        "item_number": "practice_bad",
-        "phase": "practice_bad",
+        "item_type" : "practice_mid",
+        "block_number": "practice",
+        "itemID": "practice_mid",
+        //"phase": "practice_mid",
         "trial_sequence_total": 0,
       //  "group": experiment_group
       });
@@ -504,7 +508,7 @@ function make_slides(f) {
       else {
 				  $(".err").hide();
 				  $(".errbad").hide();
-        this.log_responses();
+        //this.log_responses();
 				if (button1) {
 					$(".instruct").hide();
 					console.log("Button1");
@@ -528,7 +532,8 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        			_stream.apply(this);
+							this.log_responses();
+							_stream.apply(this);
 						}
     			}
 				}
@@ -551,9 +556,9 @@ function make_slides(f) {
         "first_response_value": exp.first_response_value,
         "wrong_attempts": exp.attempts,
         "item_type" : "practice_bad",
-        "block_sequence": "practice",
-        "item_number": "practice_bad",
-        "phase": "practice_bad",
+        "block_number": "practice",
+        "itemID": "practice_bad",
+        //"phase": "practice_bad",
         "trial_sequence_total": 0,
       //  "group": experiment_group
       });
@@ -598,6 +603,7 @@ function make_slides(f) {
 			$("#paraphrase_main").val("");
 			$(".target").show();		//$(".prompt").show();
       $(".target").html(stim.Target);
+			$(".interp_err").hide();
 			$("input[type='radio'][name='interpret']").prop('checked', false);
       this.init_sliders()
       exp.sliderPost = null; //erase current slider value
@@ -611,7 +617,7 @@ function make_slides(f) {
         $(".err").show();
       }
       else {
-        this.log_responses();
+        //this.log_responses();
 				if (button1) {
 					//$(".instruct").hide();
 					console.log("Button1");
@@ -620,13 +626,21 @@ function make_slides(f) {
 					$(".err").hide();
 				} else if (button2){
 					console.log("Button2");
-					var response = $("input[type='radio'][name='interpret']:checked").val()
-					$(".interpret_main").hide();
-					$(".target").hide();
-					$(".text_response_main").show();
+					var response = $("input[type='radio'][name='interpret']:checked").val();
+					if (response == undefined) {
+						$(".interp_err").show();
+					} else {
+						console.log(response);
+						exp.interpretability = response;
+						$(".interpret_main").hide();
+						$(".interp_err").hide();
+						$(".target").hide();
+						$(".text_response_main").show();
+					}
 				} else if (button3) {
 						console.log("Button3");
-						var paraphrase = $("#paraphrase_main").val();
+						var paraphrase = $("#paraphrase_main").val().trim();
+						exp.paraphrase = paraphrase;
 						console.log(paraphrase);
 						//console.log($(".stim_sentence")[0].innerHTML);
 						if (paraphrase == "" || repeatStim(paraphrase, this.stim.Target)) {
@@ -634,12 +648,15 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-        			_stream.apply(this);
-							$("target").show()
+							this.log_responses();
+							_stream.apply(this);
+							console.log(exp.data_trials);
+							//$("target").show()
 						}
     			}
 				}
 		},
+
     init_sliders : function() {
       utils.make_slider("#single_slider", function(event, ui) {
         exp.sliderPost = ui.value;
@@ -649,17 +666,19 @@ function make_slides(f) {
     log_responses : function() {
       exp.data_trials.push({
         // item-specific fields
-        "response" : exp.sliderPost,
-        "item_type" : this.stim.condition,
+        "rating" : exp.sliderPost,
+        "condition" : this.stim.condition,
         "trial_sequence_total": order,
-        "block_sequence": this.stim.new_block_sequence,
-        "item_number": this.stim.lex_items,
-        "sentence_id": this.stim.item,
-        "phase": this.stim.phase,
+        "block_number": this.stim.block_number,
+        //"item_number": this.stim.lex_items,
+        "sentence_id": this.stim.itemID,
+				"interpretability": exp.interpretability,
+				"paraphrase": exp.paraphrase
+        //"phase": this.stim.phase,
         // experiment-general fields
-        "exposure_condition": this.stim.exposure_condition,
-        "test_condition": this.stim.test_condition,
-        "group": this.stim.group
+        //"exposure_condition": this.stim.exposure_condition,
+        //"condition": this.stim.condition,
+        //"group": this.stim.group
       });
       order = order + 1;
     }
@@ -704,6 +723,8 @@ function make_slides(f) {
 
 /// init ///
 function init() {
+	exp.paraphrase = "";
+	exp.interpretability = "";
   exp.trials = [];
   exp.catch_trials = [];
   //exp.condition = _.sample(["condition 1", "condition 2"]); //can randomize between subject conditions here
