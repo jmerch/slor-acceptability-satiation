@@ -254,7 +254,8 @@ function make_slides(f) {
 			$(".text_response").hide();
 			$(".interpret").hide();
 			$(".errinterp").hide();
-				$("#paraphrase").val("");
+			$(".interp_err").hide();
+			$("#paraphrase").val("");
 			$(".sentence_reminder").hide();
       this.stim = stim;
       $(".prompt").html("<b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
@@ -294,12 +295,18 @@ function make_slides(f) {
 					$(".interpret").show();
 					$(".rating").hide();
 				} else if (button2){
-					var response = $("input[type='radio'][name='interpret']:checked").val()
-				  $(".errinterp").hide();
-					$(".interpret").hide();
-					$(".prompt").hide();
-					$(".text_response").show();
-					$("#forgot-sentence").show();
+					var response = $("input[type='radio'][name='interpret']:checked").val();
+					console.log(response);
+					if (response == undefined) {
+						$(".interp_err").show();
+					} else {
+					  $(".errinterp").hide();
+						$(".interpret").hide();
+						$(".prompt").hide();
+						$(".text_response").show();
+						$("#forgot-sentence").show();
+						$(".interp_error").hide();
+						}
 					} else if (button3) {
 						var paraphrase = $("#paraphrase").val().trim();
 						console.log(paraphrase);
@@ -368,6 +375,7 @@ function make_slides(f) {
 			$("#paraphrase2").val("");
 			$(".prompt").show();
 			$(".sentence_reminder2").hide();
+			$(".interp_err").hide();
 			//this.stim = stim;
 			$(".prompt").html("<b class=\"stim_sentence\" > I saw the cake that John made the decision to make. <\/b>");
 		  this.init_sliders();
@@ -398,12 +406,17 @@ function make_slides(f) {
 					$(".rating2").hide();
 				} else if (button2){
 					console.log("Button2");
-					var response = $("input[type='radio'][name='interpret']:checked").val()
-				  $(".errinterp").hide();
-					$(".interpret2").hide();
-					$(".prompt").hide();
-					$(".text_response2").show();
-					$("#forgot-sentence").show();
+					var response = $("input[type='radio'][name='interpret2']:checked").val();
+					if (response == undefined) {
+						$(".interp_err").show();
+					} else {
+					  $(".errinterp").hide();
+						$(".interpret2").hide();
+						$(".prompt").hide();
+						$(".text_response2").show();
+						$("#forgot-sentence").show();
+						$(".interp_err").hide();
+						}
 					} else if (button3) {
 							console.log("Button3");
 						var paraphrase = $("#paraphrase2").val().trim();
@@ -481,6 +494,7 @@ function make_slides(f) {
 			$(".prompt").show();
 			$(".sentence_reminder3").hide();
 			//this.stim = stim;
+			$(".interp_err").hide();
 			$(".prompt").html("<b class=\"stim_sentence\" > Does minister prime imply the senate will the that report the review? <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
@@ -514,14 +528,19 @@ function make_slides(f) {
 					console.log("Button1");
 					$(".interpret3").show();
 					$(".rating3").hide();
-				} else if (button2){
+				} else if (button2) {
 					console.log("Button2");
-					var response = $("input[type='radio'][name='interpret']:checked").val()
-				  $(".errinterp").hide();
-					$(".interpret3").hide();
-					$(".prompt").hide();
-					$(".text_response3").show();
-					$("#forgot-sentence").show();
+					var response = $("input[type='radio'][name='interpret3']:checked").val()
+					if (response == undefined) {
+						$(".interp_err").show();
+					} else {
+					  $(".errinterp").hide();
+						$(".interpret3").hide();
+						$(".prompt").hide();
+						$(".text_response3").show();
+						$("#forgot-sentence").show();
+						$(".interp_err").hide();
+						}
 					} else if (button3) {
 							console.log("Button3");
 						var paraphrase = $("#paraphrase3").val().trim();
@@ -604,7 +623,7 @@ function make_slides(f) {
 			$(".target").show();		//$(".prompt").show();
       $(".target").html(stim.Target);
 			$(".interp_err").hide();
-			$("input[type='radio'][name='interpret']").prop('checked', false);
+			$("input[type='radio'][name='interpret_main']").prop('checked', false);
       this.init_sliders()
       exp.sliderPost = null; //erase current slider value
     },
