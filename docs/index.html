@@ -99,7 +99,7 @@ $(function(){
 
     <p class="rating">Let's try one practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
     <p class="interpret">Please indicate whether or not you understand the sentence. </p>
-    <p class="text_response">Please give as concise of a paraphrase as you can while preserving the meaning of the sentence. If you need to write more than one sentence, that is fine.</p>
+    <p class="text_response">Please give a concise natural paraphrase that is different from the original sentence while preserving its meaning. If you need to use several words from the original sentence or write more than one sentence, that is fine.</p>
     <p class="prompt"> </p>
     <div class="rating">
       <table id="slider_table" class="slider_table">
@@ -119,6 +119,10 @@ $(function(){
   </div>
   <button id="button2" class="interpret" onclick="_s.button()">Continue</button>
 
+  <button id="forgot-sentence" class="text_response" onclick="_s.showPrompt()">I forgot the sentence.</button>
+  <br>
+  <p class="sentence_reminder">Reminder: Only practice items will show the sentence again if you forget. It will not be available for the actual task.</p>
+  <br>
   <div class="text_response">
     <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
     <input type="text" class= "text_response" id="paraphrase"></input>
@@ -138,7 +142,7 @@ $(function(){
     <button onclick="_s.button()">Continue</button>
   </div>
 
-<div class="slide" id="practice_slider_bad">
+<div class="slide" id="practice_slider_mid">
     <br>
     <br>
     <br>
@@ -147,7 +151,7 @@ $(function(){
 
     <p class="rating2">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
     <p class="interpret2">Please indicate whether or not you understand the sentence. </p>
-    <p class="text_response2">Please give as concise of a paraphrase as you can while preserving the meaning of the sentence. If you need to write more than one sentence, that is fine.</p>
+    <p class="text_response2">Please give a concise natural paraphrase that is different from the original sentence while preserving its meaning. If you need to use several words from the original sentence or write more than one sentence, that is fine.</p>
     <p class="prompt"> </p>
     <div class="rating2">
       <table id="slider_table" class="slider_table">
@@ -166,7 +170,10 @@ $(function(){
     <p class="errinterp">This target sentence not should have a clear meaning. Please try again.</p>
   </div>
   <button id="button2" class="interpret2" onclick="_s.button()">Continue</button>
-
+  <button id="forgot-sentence2" class="text_response2" onclick="_s.showPrompt()">I forgot the sentence.</button>
+  <br>
+  <p class="sentence_reminder2">Reminder: Only practice items will show the sentence again if you forget. It will not be available for the actual task.</p>
+  <br>
   <div class="text_response2">
       <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
     <input type="text" class= "text_response2" id="paraphrase2"></input>
@@ -174,6 +181,45 @@ $(function(){
     <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
   </div>
   </div>
+
+<div class="slide" id="practice_slider_bad">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  <p class="rating3">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
+  <p class="interpret3">Please indicate whether or not you understand the sentence. </p>
+  <p class="text_response3">Please give a concise natural paraphrase that is different from the original sentence while preserving its meaning. If you need to use several words from the original sentence or write more than one sentence, that is fine.</p>
+  <p class="prompt"></p>
+  <div class="rating3">
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_3" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+    </table>
+  <button id="button1" onclick="_s.button()">Continue</button>
+</div>
+  <div class="err">Please adjust the slider before continuing.</div>
+  <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
+  <div class="interpret3">
+    <p> Do you think that you understand what this sentence means? <p>
+  <ul style="list-style: none; margin: 0; padding: 0;" class="interpret3" id="interp_qs">
+    <li><input type="radio" name="interpret" value="Yes"/> <span>Yes</span></li>
+    <li><input type="radio" name="interpret" value="No"/> <span>No</span></li>
+  </ul>
+  <p class="errinterp">This target sentence not should have a clear meaning. Please try again.</p>
+</div>
+<button id="button2" class="interpret3" onclick="_s.button()">Continue</button>
+<button id="forgot-sentence3" class="text_response3" onclick="_s.showPrompt()">I forgot the sentence.</button>
+<br>
+<p class="sentence_reminder3">Reminder: Only practice items will show the sentence again if you forget. It will not be available for the actual task.</p>
+<br>
+<div class="text_response3">
+    <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
+  <input type="text" class= "text_response3" id="paraphrase3"></input>
+  <button id="button3" class="text_response3" onclick="_s.button()">Continue</button>
+  <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+</div>
+</div>
 
   <div class="slide" id="post_practice_2">
     <br>
@@ -192,10 +238,12 @@ $(function(){
     <br>
     <br>
 
-    <p>Before we start the experiment, there are a few things to keep in mind:</p>
+    <p>Before we start the experiment, there are some things to keep in mind:</p>
     <p>(1) You may see sentences that are totally acceptable or unacceptable, and you may also see sentences that are somewhere in between. Please make use of the full scale when rating them.</p>
     <p>(2) Please use your intuition rather than school grammar to judge the acceptability of the sentences.</p>
-    <p>(3) If you understand some meaning from a sentence at all, you should answer that you understand the sentence.
+    <p>(3) If you understand some meaning from a sentence at all, you should answer that you understand the sentence. </p>
+    <p>(4) Once you reach the paraphrase step for a sentence, you will not be able to see it again. </p>
+
     <p>When you are ready, please press the button to proceed.</p>
     <button onclick="_s.button()">Click to begin the experiment</button>
   </div>

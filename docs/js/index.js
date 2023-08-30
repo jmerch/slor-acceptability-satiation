@@ -37,6 +37,7 @@ var repeatStim = function (str1, str2) {
 	return array1.toString() === array2.toString();
 };
 
+
 // experiment parameters
 
 num_exposure_items = 55; // how many target items in the exposure phase?
@@ -252,6 +253,7 @@ function make_slides(f) {
 			$(".interpret").hide();
 			$(".errinterp").hide();
 				$("#paraphrase").val("");
+			$(".sentence_reminder").hide();
       this.stim = stim;
       $(".prompt").html("<b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
       this.init_sliders();
@@ -261,6 +263,12 @@ function make_slides(f) {
       exp.attempts = 0;
 
     },
+
+		showPrompt : function() {
+			$(".prompt").show();
+			$("#forgot-sentence").hide();
+		  $(".sentence_reminder").show();
+		},
     button : function() {
 			var button1 = !$("#button1").is(":hidden");
 			var button2 = !$("#button2").is(":hidden");
@@ -275,6 +283,7 @@ function make_slides(f) {
         $(".errgood").show();
       }
       else {
+				$(".err").hide();
 				$(".errgood").hide();
         this.log_responses();
 				if (button1) {
@@ -284,16 +293,13 @@ function make_slides(f) {
 					$(".rating").hide();
 				} else if (button2){
 					var response = $("input[type='radio'][name='interpret']:checked").val()
-					if (response == "No") {
-						$(".errinterp").show();
-					} else {
-						  $(".errinterp").hide();
-							$(".interpret").hide();
-							$(".prompt").hide();
-							$(".text_response").show();
-						}
+				  $(".errinterp").hide();
+					$(".interpret").hide();
+					$(".prompt").hide();
+					$(".text_response").show();
+					$("#forgot-sentence").show();
 					} else if (button3) {
-						var paraphrase = $("#paraphrase").val();
+						var paraphrase = $("#paraphrase").val().trim();
 						console.log(paraphrase);
 						console.log($(".stim_sentence")[0].innerHTML);
 						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
@@ -337,10 +343,8 @@ function make_slides(f) {
   });
 
 
-
-
-  slides.practice_slider_bad = slide({
-    name : "practice_slider_bad",
+	slides.practice_slider_mid = slide({
+    name : "practice_slider_mid",
 
     /* trial information for this block
      (the variable 'stim' will change between each of these values,
@@ -360,8 +364,9 @@ function make_slides(f) {
 			$(".errinterp").hide();
 			$("#paraphrase2").val("");
 			$(".prompt").show();
+			$(".sentence_reminder2").hide();
 			//this.stim = stim;
-			$(".prompt").html("<b class=\"stim_sentence\" > Who the bed was slept under? <\/b>");
+			$(".prompt").html("<b class=\"stim_sentence\" > I saw the cake that John made the decision to make. <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
 			exp.first_response_wrong = 0;
@@ -369,6 +374,9 @@ function make_slides(f) {
 			exp.attempts = 0;
 
     },
+
+
+
 		button : function() {
 			var button1 = !$(".rating2").is(":hidden");
 			var button2 = !$(".interpret2").is(":hidden");
@@ -376,13 +384,8 @@ function make_slides(f) {
       if (exp.sliderPost == null) {
         $(".err").show();
       }
-      else if (exp.sliderPost > 0.5) {
-        exp.first_response_wrong = 1;
-        exp.first_response_value =exp.sliderPost;
-        exp.attempts = exp.attempts + 1;
-        $(".errbad").show();
-      }
       else {
+				  $(".err").hide();
 				  $(".errbad").hide();
         this.log_responses();
 				if (button1) {
@@ -393,17 +396,14 @@ function make_slides(f) {
 				} else if (button2){
 					console.log("Button2");
 					var response = $("input[type='radio'][name='interpret']:checked").val()
-					if (response == "Yes") {
-						$(".errinterp").show();
-					} else {
-						  $(".errinterp").hide();
-							$(".interpret2").hide();
-							$(".prompt").hide();
-							$(".text_response2").show();
-						}
+				  $(".errinterp").hide();
+					$(".interpret2").hide();
+					$(".prompt").hide();
+					$(".text_response2").show();
+					$("#forgot-sentence").show();
 					} else if (button3) {
 							console.log("Button3");
-						var paraphrase = $("#paraphrase2").val();
+						var paraphrase = $("#paraphrase2").val().trim();
 						console.log(paraphrase);
 						console.log($(".stim_sentence")[0].innerHTML);
 						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
@@ -415,6 +415,12 @@ function make_slides(f) {
 						}
     			}
 				}
+		},
+		showPrompt : function() {
+			$(".prompt").show();
+			$(".sentence_reminder2").show();
+			$("#forgot-sentence2").hide();
+			//$(".target-reminder").show();
 		},
     init_sliders : function() {
       utils.make_slider("#practice_slider_2", function(event, ui) {
@@ -444,6 +450,117 @@ function make_slides(f) {
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
   });
+
+
+
+
+  slides.practice_slider_bad = slide({
+    name : "practice_slider_bad",
+
+    /* trial information for this block
+     (the variable 'stim' will change between each of these values,
+      and for each of these, present_handle will be run.) */
+    present : [1],
+
+
+    //this gets run only at the beginning of the block
+    present_handle : function(stim) {
+			$(".rating3").show();
+			$(".slider_table").show();
+			$(".err").hide();
+			$(".errbad").hide();
+			$(".err_write").hide();
+			$(".text_response3").hide();
+			$(".interpret3").hide();
+			$(".errinterp").hide();
+			$("#paraphrase3").val("");
+			$(".prompt").show();
+			$(".sentence_reminder3").hide();
+			//this.stim = stim;
+			$(".prompt").html("<b class=\"stim_sentence\" > Does minister prime imply the senate will the that report the review? <\/b>");
+		  this.init_sliders();
+			exp.sliderPost = null; //erase current slider value
+			exp.first_response_wrong = 0;
+			exp.first_response_value = null;
+			exp.attempts = 0;
+
+    },
+
+
+
+		button : function() {
+			var button1 = !$(".rating3").is(":hidden");
+			var button2 = !$(".interpret3").is(":hidden");
+			var button3 = !button1 & !button2;
+      if (exp.sliderPost == null) {
+        $(".err").show();
+      }
+      else if (exp.sliderPost > 0.5) {
+        exp.first_response_wrong = 1;
+        exp.first_response_value =exp.sliderPost;
+        exp.attempts = exp.attempts + 1;
+        $(".errbad").show();
+      }
+      else {
+				  $(".err").hide();
+				  $(".errbad").hide();
+        this.log_responses();
+				if (button1) {
+					$(".instruct").hide();
+					console.log("Button1");
+					$(".interpret3").show();
+					$(".rating3").hide();
+				} else if (button2){
+					console.log("Button2");
+					var response = $("input[type='radio'][name='interpret']:checked").val()
+				  $(".errinterp").hide();
+					$(".interpret3").hide();
+					$(".prompt").hide();
+					$(".text_response3").show();
+					$("#forgot-sentence").show();
+					} else if (button3) {
+							console.log("Button3");
+						var paraphrase = $("#paraphrase3").val().trim();
+						console.log(paraphrase);
+						console.log($(".stim_sentence")[0].innerHTML);
+						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
+							$(".err_write").show();
+						} else {
+        /* use _stream.apply(this); if and only if there is
+        "present" data. (and only *after* responses are logged) */
+        			_stream.apply(this);
+						}
+    			}
+				}
+		},
+		showPrompt : function() {
+			$(".prompt").show();
+			$(".sentence_reminder3").show();
+			$("#forgot-sentence3").hide();
+			//$(".target-reminder").show();
+		},
+    init_sliders : function() {
+      utils.make_slider("#practice_slider_3", function(event, ui) {
+        exp.sliderPost = ui.value;
+
+      });
+    },
+    log_responses : function() {
+      exp.data_trials.push({
+        "response" : exp.sliderPost,
+        "first_response_value": exp.first_response_value,
+        "wrong_attempts": exp.attempts,
+        "item_type" : "practice_bad",
+        "block_sequence": "practice",
+        "item_number": "practice_bad",
+        "phase": "practice_bad",
+        "trial_sequence_total": 0,
+      //  "group": experiment_group
+      });
+
+    }
+  });
+
 
 
   slides.last_reminder = slide({
@@ -522,17 +639,6 @@ function make_slides(f) {
     			}
 				}
 		},
-		button2 : function() {
-      if (exp.sliderPost == null) {
-        $(".err").show();
-      } else {
-        this.log_responses();
-
-        /* use _stream.apply(this); if and only if there is
-        "present" data. (and only *after* responses are logged) */
-        _stream.apply(this);
-      }
-    },
     init_sliders : function() {
       utils.make_slider("#single_slider", function(event, ui) {
         exp.sliderPost = ui.value;
@@ -609,7 +715,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "practice_slider",  "practice_slider_bad", "last_reminder", 'one_slider', 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "practice_slider", "practice_slider_mid",  "practice_slider_bad", "last_reminder", 'one_slider', 'subj_info', 'thanks'];
 // "post_practice_1",, "post_practice_2"
   exp.data_trials = [];
   //make corresponding slides:
