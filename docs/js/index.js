@@ -598,6 +598,7 @@ function make_slides(f) {
 			$("#paraphrase_main").val("");
 			$(".target").show();		//$(".prompt").show();
       $(".target").html(stim.Target);
+			$("input[type='radio'][name='interpret']").prop('checked', false);
       this.init_sliders()
       exp.sliderPost = null; //erase current slider value
     },
