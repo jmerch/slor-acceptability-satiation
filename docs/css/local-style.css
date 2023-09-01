@@ -13,3 +13,8 @@
 	font-weight: bold;
 	font-size: larger;
 }
+
+input[type=text] {
+	width: 400;
+	height: 100;
+}

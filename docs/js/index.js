@@ -32,8 +32,8 @@ var repeatStim = function (str1, str2) {
 	for (var i = 0; i < array2.length; i++) {
 		array2[i] = array2[i].toLowerCase();
 	}
-	array1.sort();
-	array2.sort();
+	//array1.sort();
+	//array2.sort();
 	return array1.toString() === array2.toString();
 };
 
@@ -148,19 +148,32 @@ for(var i = 0; i < num_test_blocks; i++){
 */
 // create final sequence to present to the slide
 subcat = shuffle(all_stimuli.filter((stim) => stim.condition == "subcat"));
+//console.log(subcat.length);
 agr = shuffle(all_stimuli.filter((stim) => stim.condition == "agreement"));
+//console.log(agr.length);
 head = shuffle(all_stimuli.filter((stim) => stim.condition == "head_dir"));
+//console.log(head.length);
 bind = shuffle(all_stimuli.filter((stim) => stim.condition == "binding"));
+//console.log(bind.length);
 npi = shuffle(all_stimuli.filter((stim) => stim.condition == "NPI"));
+//console.log(npi.length);
 csc = shuffle(all_stimuli.filter((stim) => stim.condition == "CSC"));
+//console.log(csc.length);
 lbc = shuffle(all_stimuli.filter((stim) => stim.condition == "LBC"));
+//console.log(lbc.length);
 subj = shuffle(all_stimuli.filter((stim) => stim.condition == "subj_island"));
+//console.log(subj.length);
 adj = shuffle(all_stimuli.filter((stim) => stim.condition == "adj_island"));
+//console.log(adj.length);
 gram = shuffle(all_stimuli.filter((stim) => stim.condition == "gram"));
+//console.log(gram.length);
 ungram = shuffle(all_stimuli.filter((stim) => stim.condition == "ungram"));
+//console.log(ungram.length);
+
+var num_blocks = 5;
 
 randomized_stims = [];
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < num_blocks; i++) {
 	block = [];
 	block.push(subcat.pop());
 	block.push(agr.pop());
@@ -377,13 +390,12 @@ function make_slides(f) {
 			$(".sentence_reminder2").hide();
 			$(".interp_err").hide();
 			//this.stim = stim;
-			$(".prompt").html("<b class=\"stim_sentence\" > I saw the cake that John made the decision to make. <\/b>");
+			$(".prompt").html("<b class=\"stim_sentence\" > I tasted the cake that John acknowledged the possibility that I would enjoy. <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
 			exp.first_response_wrong = 0;
 			exp.first_response_value = null;
 			exp.attempts = 0;
-
     },
 
 

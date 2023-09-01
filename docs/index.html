@@ -54,7 +54,7 @@ $(function(){
   <div class="slide" id="i0" >
 
     <p id="cocolab">Stanford Department of Linguistics</p>
-    <p id="instruct-text">This task should take approximately 15-20 minutes. Please pay attention, thanks!</p>
+    <p id="instruct-text">This task should take approximately 35-40 minutes. Please pay attention, thanks!</p>
     <button id="start_button" type="button">Start Experiment</button>
     <p></p>
     <i><small><small><strong><br>LEGAL INFORMATION</strong>:<br><br>We invite you to participate in a research study on language production and comprehension.<br>Your experimenter will ask you to do a linguistic task such as reading sentences or words, naming pictures or describing scenes, making up sentences of your own, or participating in a simple language game.<br><br>There are no risks or benefits of any kind involved in this study.<br>You will be paid for your participation at the posted rate.<br>If you have read this form and have decided to participate in this experiment, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to do particular tasks. Your individual privacy will be maintained in all published and written data resulting from the study.<br><br>You may print this form for your records.<br><br>CONTACT INFORMATION:<br>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director Meghan Sumner at <br>(650)-725-9336.<br><br>If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650)-723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.<br><br>If you agree to participate, please proceed to the study tasks.<br><br></strong></small></i>
@@ -68,7 +68,7 @@ $(function(){
 
   <h3>Instructions</h3>
   <p>In this experiment, you will be reading and rating some English sentences and answering some questions about their meaning.
-     <b>Your job is to rate how acceptable the sentence sounds, determine whether you understand it, and give your best paraphrase of the sentence. </b></p>
+     <b>Your job is to rate how acceptable the sentence sounds, determine whether you understand it, and give your best rephrasing of the sentence. </b></p>
   <p><b>When rating the questions, please use your intuition rather than school grammar</b>. <p>For example, the sentence <i>"Who did you go to school with?"</i> is considered bad according to school grammar (because of the stranded preposition <i>with</i>). However, most English speakers find it totally acceptable. If you think a sentence is acceptable, you should give it a high rating regardless of what you learned in school.</p>
   <button onclick="_s.button()">Continue</button>
 </div>
@@ -99,7 +99,7 @@ $(function(){
 
     <p class="rating">Let's try one practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
     <p class="interpret">Please indicate whether or not you understand the sentence. </p>
-    <p class="text_response">Please give a concise natural paraphrase that is different from the original sentence while preserving its meaning. If you need to use several words from the original sentence or write more than one sentence, that is fine.</p>
+    <p class="text_response">Given your best guess of the sentence's intended meaning, please rephrase it in a <b> concise </b> and <b> natural </b> way. Feel free to use words from the original sentence. <b> If you need to write more than one sentence to sound more natural, that is fine. </b> </p>
     <p class="prompt"> </p>
     <div class="rating">
       <table id="slider_table" class="slider_table">
@@ -110,7 +110,7 @@ $(function(){
     <div class="err">Please adjust the slider before continuing.</div>
     <p class="errgood">This target sentence should be acceptable. Please try again.</p>
     <div class="interpret">
-      <p> Do you think that you understand what this sentence means? <p>
+      <p> Do you understand what this sentence means? <p>
     <ul style="list-style: none; margin: 0; padding: 0;" class="interpret">
       <li><input type="radio" name="interpret" value="Yes"/> <span>Yes</span></li>
       <li><input type="radio" name="interpret" value="No"/> <span>No</span></li>
@@ -123,13 +123,15 @@ $(function(){
 
   <button id="forgot-sentence" class="text_response" onclick="_s.showPrompt()">I forgot the sentence.</button>
   <br>
-  <p class="sentence_reminder">Reminder: Only practice items will show the sentence again if you forget. It will not be available for the actual task.</p>
+  <p class="sentence_reminder">Reminder: Only practice items will show the sentence again if you forget. It will <b> NOT </b> be available for the actual task.</p>
   <br>
   <div class="text_response">
     <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
     <input type="text" class= "text_response" id="paraphrase"></input>
+    <br>
+    <br>
     <button id="button3" class="text_response" onclick="_s.button()">Continue</button>
-    <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+    <p class="err_write">Please write a rephrasing that is not identical to the original sentence.</p>
   </div>
   </div>
 
@@ -153,7 +155,7 @@ $(function(){
 
     <p class="rating2">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
     <p class="interpret2">Please indicate whether or not you understand the sentence. </p>
-    <p class="text_response2">Please give a concise natural paraphrase that is different from the original sentence while preserving its meaning. If you need to use several words from the original sentence or write more than one sentence, that is fine.</p>
+    <p class="text_response2">Given your best guess of the sentence's intended meaning, please rephrase it in a <b> concise </b> and <b> natural </b>  way. Feel free to use words from the original sentence. <b> If you need to write more than one sentence to sound more natural, that is fine. </b> </p>
     <p class="prompt"> </p>
     <div class="rating2">
       <table id="slider_table" class="slider_table">
@@ -164,7 +166,7 @@ $(function(){
     <div class="err">Please adjust the slider before continuing.</div>
     <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
     <div class="interpret2">
-      <p> Do you think that you understand what this sentence means? <p>
+      <p> Do you understand what this sentence means? <p>
     <ul style="list-style: none; margin: 0; padding: 0;" class="interpret2" id="interp_qs">
       <li><input type="radio" name="interpret2" value="Yes"/> <span>Yes</span></li>
       <li><input type="radio" name="interpret2" value="No"/> <span>No</span></li>
@@ -175,13 +177,15 @@ $(function(){
   <button id="button2" class="interpret2" onclick="_s.button()">Continue</button>
   <button id="forgot-sentence2" class="text_response2" onclick="_s.showPrompt()">I forgot the sentence.</button>
   <br>
-  <p class="sentence_reminder2">Reminder: Only practice items will show the sentence again if you forget. It will not be available for the actual task.</p>
+  <p class="sentence_reminder2">Reminder: Only practice items will show the sentence again if you forget. It will <b> NOT </b> be available for the actual task.</p>
   <br>
   <div class="text_response2">
       <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
     <input type="text" class= "text_response2" id="paraphrase2"></input>
+    <br>
+    <br>
     <button id="button3" class="text_response2" onclick="_s.button()">Continue</button>
-    <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+    <p class="err_write">Please write a rephrasing that is not identical to the original sentence.</p>
   </div>
   </div>
 
@@ -193,7 +197,7 @@ $(function(){
       <br>
   <p class="rating3">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
   <p class="interpret3">Please indicate whether or not you understand the sentence. </p>
-  <p class="text_response3">Please give a concise natural paraphrase that is different from the original sentence while preserving its meaning. If you need to use several words from the original sentence or write more than one sentence, that is fine.</p>
+  <p class="text_response3">Given your best guess of the sentence's intended meaning, please rephrase it in a <b> concise </b> and <b> natural </b>  way. Feel free to use words from the original sentence. <b> If you need to write more than one sentence to sound more natural, that is fine. </b> </p>
   <p class="prompt"></p>
   <div class="rating3">
     <table id="slider_table" class="slider_table">
@@ -204,7 +208,7 @@ $(function(){
   <div class="err">Please adjust the slider before continuing.</div>
   <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
   <div class="interpret3">
-    <p> Do you think that you understand what this sentence means? <p>
+    <p> Do you understand what this sentence means? <p>
   <ul style="list-style: none; margin: 0; padding: 0;" class="interpret3" id="interp_qs">
     <li><input type="radio" name="interpret3" value="Yes"/> <span>Yes</span></li>
     <li><input type="radio" name="interpret3" value="No"/> <span>No</span></li>
@@ -215,13 +219,15 @@ $(function(){
 <button id="button2" class="interpret3" onclick="_s.button()">Continue</button>
 <button id="forgot-sentence3" class="text_response3" onclick="_s.showPrompt()">I forgot the sentence.</button>
 <br>
-<p class="sentence_reminder3">Reminder: Only practice items will show the sentence again if you forget. It will not be available for the actual task.</p>
+<p class="sentence_reminder3">Reminder: Only practice items will show the sentence again if you forget. It will <b> NOT </b> be available for the actual task.</p>
 <br>
 <div class="text_response3">
     <!---<p> Please give your best paraphrase of the sentence given your understanding of its meaning. <p>-->
   <input type="text" class= "text_response3" id="paraphrase3"></input>
+  <br>
+  <br>
   <button id="button3" class="text_response3" onclick="_s.button()">Continue</button>
-  <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+  <p class="err_write">Please write a rephrasing that is not identical to the original sentence.</p>
 </div>
 </div>
 
@@ -245,8 +251,8 @@ $(function(){
     <p>Before we start the experiment, there are some things to keep in mind:</p>
     <p>(1) You may see sentences that are totally acceptable or unacceptable, and you may also see sentences that are somewhere in between. Please make use of the full scale when rating them.</p>
     <p>(2) Please use your intuition rather than school grammar to judge the acceptability of the sentences.</p>
-    <p>(3) If you understand some meaning from a sentence at all, you should answer that you understand the sentence. </p>
-    <p>(4) Once you reach the paraphrase step for a sentence, you will not be able to see it again. </p>
+    <p>(3) If you get any interpretation of a sentence at all, you should answer that you understand the sentence. </p>
+    <p>(4) Once you reach the rephrasing step for a sentence, you will <b> NOT </b> be able to see it again. </p>
 
     <p>When you are ready, please press the button to proceed.</p>
     <button onclick="_s.button()">Click to begin the experiment</button>
@@ -279,7 +285,7 @@ $(function(){
     <div class="err">Please adjust the slider before continuing.</div>
     <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
     <div class="interpret_main">
-      <p> Do you think that you understand what this sentence means? <p>
+      <p> Do you understand what this sentence means? <p>
     <ul style="list-style: none; margin: 0; padding: 0;" class="interpret_main" id="interp_qs">
       <li><input type="radio" name="interpret_main" value="Yes"/> <span>Yes</span></li>
       <li><input type="radio" name="interpret_main" value="No"/> <span>No</span></li>
@@ -289,10 +295,12 @@ $(function(){
   <button id="button2" class="interpret_main" onclick="_s.button()">Continue</button>
 
   <div class="text_response_main">
-    <p> Please give your best paraphrase of the sentence. <p>
+    <p> Please give your best rephrasing of the sentence. <p>
     <input type="text" class= "text_response_main" id="paraphrase_main"></input>
+    <br>
+    <br>
     <button id="button3" class="text_response_main" onclick="_s.button()">Continue</button>
-    <p class="err_write">Please write a paraphrase that is not a duplicate of the prompt.</p>
+    <p class="err_write">Please write a rephrasing that is not identical to the original sentence.</p>
   </div>
   </div>
 
