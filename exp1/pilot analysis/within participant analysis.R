@@ -97,6 +97,8 @@ for (participant in participants) {
   for(cond in conditions) {
     subset = filter(participant, condition == toString(cond))
     participant_num = subset$workerid[1]
+    # print(coef(lm(rating ~ block_number, subset)))
+    # print(coef(lm(rating ~ block_number, subset))[2])
     cur_slope = unname((coef(lm(rating ~ block_number, subset))[2]))
     
     print(participant_num)
@@ -108,9 +110,10 @@ for (participant in participants) {
 
     cur_HM = -sum(meanings$prob * log2(meanings$prob))
     cur_HF = -sum(forms$prob * log2(forms$prob))
-    within_participant_results = rbind(within_participant_results, c(participant_num, cond, as.numeric(cur_slope), as.numeric(cur_HM), as.numeric(cur_HF)))
+    within_participant_results = rbind(within_participant_results, c(participant_num, cond, cur_slope, cur_HM, cur_HF))
   }
 }
+print(within_participant_results)
 colnames(within_participant_results) <- c('participant', 'condition', 'slope', 'HM', 'HF')
 within_participant_results$slope = as.numeric(within_participant_results$slope)
 within_participant_results$HM = as.numeric(within_participant_results$HM)
@@ -193,7 +196,7 @@ within_participant_results %>%
        y = "Satiation rate (slope)") +
     theme_fivethirtyeight() +
     theme(axis.title = element_text())
-ggsave(filename = 'slope_v_HM_all.png', path="exp1/plots/")
+ggsave(filename = 'slope_v_HM_allpart.png', path="exp1/plots/")
 
 # Graph slope vs HF for each participant
 participant_3 = filter(within_participant_results, participant==3)
@@ -267,11 +270,11 @@ within_participant_results %>%
   #geom_line(aes(group = condition, color = condition)) +
   #ylim(0, 1) +
   labs(title = "All Participants", 
-       x = "Entropy of meaning", 
+       x = "Entropy of form", 
        y = "Satiation rate (slope)") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
-ggsave(filename = 'slope_v_HF_all.png', path="exp1/plots/")
+ggsave(filename = 'slope_v_HF_allpart.png', path="exp1/plots/")
 
 
 #p7_test = filter(participant_7, condition == "LBC")
