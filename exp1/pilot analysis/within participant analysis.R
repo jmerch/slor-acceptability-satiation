@@ -196,7 +196,20 @@ within_participant_results %>%
        y = "Satiation rate (slope)") +
     theme_fivethirtyeight() +
     theme(axis.title = element_text())
-ggsave(filename = 'slope_v_HM_allpart.png', path="exp1/plots/")
+ggsave(filename = 'slope_v_HM_allpart_indivsmooth.png', path="exp1/plots/")
+
+within_participant_results %>%
+  ggplot((aes(x = HM, y= slope))) +
+  geom_point(aes(color = participant)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  #geom_line(aes(group = condition, color = condition)) +
+  #ylim(0, 1) +
+  labs(title = "All Participants", 
+       x = "Entropy of meaning", 
+       y = "Satiation rate (slope)") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+ggsave(filename = 'slope_v_HM_allpart_onesmooth.png', path="exp1/plots/")
 
 # Graph slope vs HF for each participant
 participant_3 = filter(within_participant_results, participant==3)
@@ -274,7 +287,18 @@ within_participant_results %>%
        y = "Satiation rate (slope)") +
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
-ggsave(filename = 'slope_v_HF_allpart.png', path="exp1/plots/")
+ggsave(filename = 'slope_v_HF_allpart_indivsmooth.png', path="exp1/plots/")
+
+within_participant_results %>%
+  ggplot((aes(x = HF, y= slope))) +
+  geom_point(aes(color = participant)) +
+  geom_smooth(method = "lm", se=FALSE) +
+  labs(title = "All Participants", 
+       x = "Entropy of form", 
+       y = "Satiation rate (slope)") +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text())
+ggsave(filename = 'slope_v_HF_allpart_onesmooth.png', path="exp1/plots/")
 
 
 #p7_test = filter(participant_7, condition == "LBC")

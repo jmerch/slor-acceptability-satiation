@@ -78,9 +78,3 @@ across_participant_results %>%
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 ggsave(filename = 'slope_v_HF_allcond.png', path="exp1/plots/")
-
-# For each condition: entropy of an item (across 5 participants) vs. average rating (across 5 participants)
-
-
-# For each participant: entropy of a condition (across 5 items) vs. average rating (across 5 items)
-
