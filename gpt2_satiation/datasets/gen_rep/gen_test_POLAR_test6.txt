@@ -1,0 +1,24 @@
+!ARTICLE
+The teacher thinks that the boy found a box of diamonds .
+!ARTICLE
+Does the teacher think that the boy found a box of diamonds ?
+!ARTICLE
+The Prime Minister thinks that the senate will review the report on global warming .
+!ARTICLE
+Does the Prime Minister think that the senate will review the report on global warming ?
+!ARTICLE
+The journalist thinks that the politician once wrote a book about astronomy .
+!ARTICLE
+Does the journalist think that the politician once wrote a book about astronomy ?
+!ARTICLE
+The zookeeper thinks that the lion attacked a herd of antelopes yesterday .
+!ARTICLE
+Does the zookeeper think that the lion attacked a herd of antelopes yesterday ?
+!ARTICLE
+The biologist thinks that researchers will eventually find a cure to AIDS .
+!ARTICLE
+Does the biologist think that researchers will eventually find a cure to AIDS ?
+!ARTICLE
+The pharmacist thought that a pack of painkillers could cause nausea .
+!ARTICLE
+Did the pharmacist think that a pack of painkillers could cause nausea ?

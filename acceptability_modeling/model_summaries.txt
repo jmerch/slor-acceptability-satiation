@@ -95,7 +95,7 @@ F-statistic: 337.3 on 1 and 161 DF,  p-value: < 2.2e-16
 Call:
 lm(formula = ratings$all_exposures ~ ratings$normalized * ratings$condition, 
     data = ratings)
-
+ 
 Residuals:
       Min        1Q    Median        3Q       Max 
 -0.141714 -0.026412 -0.000238  0.026056  0.158580 

@@ -1,6 +1,6 @@
 
 import os, sys, torch, transformers, math, ast
-from transformers import AutoTokenizer, AutoModelForCausalLM, GPTNeoXTokenizerFast
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 preps = ["of", "about", "against", "for", "to", "in", "on"]
 

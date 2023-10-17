@@ -79,3 +79,42 @@ ggsave("gpt2_satiation/plots/sentences_v_mean_surprisal_B2_A1.png", width=7, hei
 p<-ggplot(surprisal_v_training, aes(x=num_trained, y= surprisal, fill = condition)) +
   geom_bar(stat="identity")
 p + scale_fill_brewer(palette="BuPu")
+
+# JUST pre- and post- (15 exposure sentences)
+CNPC_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
+CNPC_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/CNPC_15_Btrain_CNPC_test_surprisals.csv")
+P_0 = mean(CNPC_0$mean_surprisal)
+P_15 = mean(CNPC_15$mean_surprisal)
+surprisal = c(P_0, P_15)
+condition = c("CNPC", "CNPC")
+cnpc_df = data.frame(num_trained, surprisal, condition)
+
+WH_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_WHtest_baseline_surprisals.csv")
+WH_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/WH_15_Btrain_WH_test_surprisals.csv")
+P_0 = mean(WH_0$mean_surprisal)
+P_15 = mean(WH_15$mean_surprisal)
+surprisal = c(P_0, P_15)
+condition = c("WH", "WH")
+wh_df = data.frame(num_trained, surprisal, condition)
+
+SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_SUBJtest_baseline_surprisals.csv")
+SUBJ_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/SUBJ_15_Btrain_SUBJ_test_surprisals.csv")
+P_0 = mean(SUBJ_0$mean_surprisal)
+P_15 = mean(SUBJ_15$mean_surprisal)
+surprisal = c(P_0, P_15)
+condition = c("SUBJ", "SUBJ")
+subj_df = data.frame(num_trained, surprisal, condition)
+
+surprisal_v_training = rbind(wh_df, subj_df, cnpc_df)
+
+plot = surprisal_v_training %>%
+  ggplot((aes(x = num_trained, y= surprisal))) +
+  geom_line(aes(group = condition, color = condition)) +
+  scale_x_continuous(breaks=c(0,15), labels=c('pre-exposure','post-exposure')) +
+  geom_point(aes(color = condition)) +
+  labs(x = "Test phase", 
+       y = "Mean Surprisal") +
+  theme_fivethirtyeight() +
+  theme(axis.title.y = element_text()) 
+plot
+ggsave("gpt2_satiation/plots/B2_A1_15.png", width=7, height=5)

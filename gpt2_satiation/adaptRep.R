@@ -101,20 +101,28 @@ condition = c("SUBJ", "SUBJ")
 SUBJ = data.frame(num_trained, ms, condition)
 
 exp2 = rbind(CNPC, WH, SUBJ)
+exp2[exp2=='WH'] = 'whether island'
+exp2[exp2 == 'SUBJ'] = 'subject island'
+print(exp2)
 
-exp2 %>%
+plot = exp2 %>%
   ggplot((aes(x = num_trained, y= ms))) +
-  geom_line(aes(group = condition, color = condition)) +
-  geom_point(aes(color = condition)) + 
-  scale_x_continuous(breaks=c(0,15)) +
+  geom_line(aes(group = condition, color = condition), size=1.5) +
+  geom_point(aes(color = condition), size=3) + 
+  scale_x_continuous(breaks=c(0,15), labels=c('pre-exposure','post-exposure')) +
   ylim(3,9) +
-  labs(title = "Adaptation Experiment 2 Replication (one model per island)", 
-       x = "Number of Training Sentences", 
-       y = "Mean Surprisal") +
-  theme_fivethirtyeight() +
-  theme(axis.title = element_text())
-
-ggsave("gpt2_satiation/plots/adapt_exp2_rep.png", width=7, height=5)
+  labs(y = "Mean Surprisal") +
+  theme_bw() +
+  theme(legend.position = "bottom")+
+  #theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
+  theme(axis.title.y = element_text(size=14), axis.title.x=element_blank())+
+  theme(legend.text = element_text(size=10)) +
+  theme(legend.title = element_blank()) + 
+  theme(axis.text.x = element_text(size=13, hjust=0.6), axis.text.y = element_text(size=10)) +
+  theme(plot.margin = margin(5, 15, 5, 5)) + 
+  scale_color_manual(values=c("#D29D1A", "#B77AA5", "#5E9E76"))
+plot
+ggsave("gpt2_satiation/plots/adapt_exp2_rep_labels.png", width=7, height=5)
 
 
 

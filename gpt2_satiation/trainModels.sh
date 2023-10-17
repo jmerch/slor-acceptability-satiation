@@ -1,30 +1,23 @@
 #!/bin/bash
 
-# # For adapt_rep exp 1:
-# train_name="adapt_rep/adapt_exp1_train"
-# test_name="adapt_rep/adapt_test_FILL"        
-# #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-# python satiation.py --config configs/0724-1epoch.yaml --train_name $train_name --test_name $test_name
-
-# # For adapt_rep exp 2:
-# for train_cond in 'CNPC' 'SUBJ' 'WH'
-# do
-#     train_name="adapt_rep/adapt_exp2_train_${train_cond}"
-#     test_name="adapt_rep/adapt_test_${train_cond}"
-            
-#     #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-#     python satiation.py --config configs/0724-1epoch.yaml --train_name $train_name --test_name $test_name
-# done
-
-# For adapt_rep exp 2 (word salading):
-for train_cond in 'CNPC' 'SUBJ' 'WH'
+for train_cond in 'CNPC' 'SUBJ' 'WH' 'POLAR'
 do
-    train_name="adapt_rep_WS/adapt_exp2_train_${train_cond}_WS"
+    train_name="B_sets/${train_cond}_15_B"
     test_name="adapt_rep/adapt_test_${train_cond}"
             
     #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
     python satiation.py --config configs/0724-1epoch.yaml --train_name $train_name --test_name $test_name
 done
+
+# For adapt_rep exp 2 (word salading):
+# for train_cond in 'CNPC' 'SUBJ' 'WH'
+# do
+#     train_name="adapt_rep_WS/adapt_exp2_train_${train_cond}_WS"
+#     test_name="adapt_rep/adapt_test_${train_cond}"
+            
+#     #HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+#     python satiation.py --config configs/0724-1epoch.yaml --train_name $train_name --test_name $test_name
+# done
 
 # # For gen exp 1 & 2:
 # for train_cond in 'SUBJ' 'WH' 'POLAR'

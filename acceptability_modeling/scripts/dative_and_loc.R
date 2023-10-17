@@ -34,7 +34,6 @@ print(all_experiments[400,])
 
 all_experiments = rbind(all_experiments, disjunction)
 # Plot with Lu island data and dative,locative data
-
 # for acceptability error bars: create lists of the mean, upper, and lower of confidence intervals for each condition
 CIs_acc_mean = double(0)
 CIs_acc_upper = double(0)
@@ -120,9 +119,10 @@ plot = plot + geom_errorbar(aes(x = CIs_surp[CIs_surp$condition=='WH', 'mean'], 
 plot
 ggsave(filename = 'mean_surp_error_bars.png', path="plots/lu_kim_2022")
 
+# ***Plot with ALL experiments (incl disjunction)
 plot = all_experiments %>%
   ggplot((aes(x = mean_surprisal, y= mean_acc))) +
-  geom_point(aes(color = condition)) +
+  geom_point(aes(color = condition), show.legend = FALSE) +
   geom_smooth(method = "lm", se=FALSE) +
   labs(title = "Mean Acceptability and Surprisal", 
        x = "Mean Surprisal", 
@@ -130,7 +130,89 @@ plot = all_experiments %>%
   theme_fivethirtyeight() +
   theme(axis.title = element_text())
 plot
-ggsave(filename = 'mean_surp.png', path="plots/lu_kim_2022")
+#ggsave(filename = 'mean_surp.png', path="plots/lu_kim_2022")
+
+CIs_acc_mean = double(0)
+CIs_acc_upper = double(0)
+CIs_acc_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC', 'dative-match-gap', 'dative-match-nogap', 'dative-mismatch-gap', 'dative-mismatch-nogap','locative-match-gap', 'locative-match-nogap', 'locative-mismatch-gap', 'locative-mismatch-nogap', 'alt', 'no_alt', 'gram', 'filler_good', 'filler_bad')){
+  CIs = CI(all_experiments[all_experiments$condition==cond, "mean_acc"], ci=0.95)
+  CIs_acc_mean = append(CIs_acc_mean, CIs['mean'])
+  CIs_acc_upper = append(CIs_acc_upper, CIs['upper'])
+  CIs_acc_lower = append(CIs_acc_lower, CIs['lower'])
+}
+print(CIs_acc_mean)
+print(CIs_acc_upper)
+
+CIs_acc = data.frame( 
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC', 'dative-match-gap', 'dative-match-nogap', 'dative-mismatch-gap', 'dative-mismatch-nogap','locative-match-gap', 'locative-match-nogap', 'locative-mismatch-gap', 'locative-mismatch-nogap', 'alt', 'no_alt', 'gram', 'filler_good', 'filler_bad'),
+  mean = CIs_acc_mean,
+  upper = CIs_acc_upper,
+  lower = CIs_acc_lower
+)
+colnames(CIs_acc) = c('condition', 'mean_acc', 'upper_acc', 'lower_acc')
+print(CIs_acc)
+
+CIs_surp_mean = double(0)
+CIs_surp_upper = double(0)
+CIs_surp_lower = double(0)
+for (cond in c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC', 'dative-match-gap', 'dative-match-nogap', 'dative-mismatch-gap', 'dative-mismatch-nogap','locative-match-gap', 'locative-match-nogap', 'locative-mismatch-gap', 'locative-mismatch-nogap', 'alt', 'no_alt', 'gram', 'filler_good', 'filler_bad')){
+  CIs = CI(all_experiments[all_experiments$condition==cond, "mean_surprisal"], ci=0.95)
+  CIs_surp_mean = append(CIs_surp_mean, CIs['mean'])
+  CIs_surp_upper = append(CIs_surp_upper, CIs['upper'])
+  CIs_surp_lower = append(CIs_surp_lower, CIs['lower'])
+}
+
+CIs_surp = data.frame(
+  condition = c('WH', 'SUBJ', 'POLAR', 'FILL', 'UNGRAM', 'CNPC', 'dative-match-gap', 'dative-match-nogap', 'dative-mismatch-gap', 'dative-mismatch-nogap','locative-match-gap', 'locative-match-nogap', 'locative-mismatch-gap', 'locative-mismatch-nogap', 'alt', 'no_alt', 'gram', 'filler_good', 'filler_bad'),
+  mean = CIs_surp_mean,
+  upper = CIs_surp_upper,
+  lower = CIs_surp_lower
+)
+colnames(CIs_surp) = c('condition', 'mean_surp', 'upper_surp', 'lower_surp')
+print(CIs_surp)
+
+CIs = cbind(CIs_acc, CIs_surp)[-c(5)]
+CIs[CIs == 'dative-match-gap'] = 'dative 1'
+CIs[CIs == 'dative-match-nogap'] = 'dative 2'
+CIs[CIs == 'dative-mismatch-gap'] = 'dative 3'
+CIs[CIs == 'dative-mismatch-nogap'] = 'dative 4'
+CIs[CIs == 'locative-match-gap'] = 'locative 1'
+CIs[CIs == 'locative-match-nogap'] = 'locative 2'
+CIs[CIs == 'locative-mismatch-gap'] = 'locative 3'
+CIs[CIs == 'locative-mismatch-nogap'] = 'locative 3'
+CIs[CIs == 'alt'] = 'disjoined subject 1'
+CIs[CIs == 'no_alt'] = 'disjoined subject 2'
+CIs[CIs == 'WH'] = 'whether island'
+CIs[CIs == 'SUBJ'] = 'subject island'
+CIs[CIs == 'POLAR'] = 'polar question'
+CIs[CIs == 'FILL'] = 'grammatical 1'
+CIs[CIs == 'UNGRAM'] = 'ungrammatical 1'
+CIs[CIs == 'CNPC'] = 'CNPC'
+CIs[CIs == 'gram'] = 'grammatical 2'
+CIs[CIs == 'filler_good'] = 'grammatical 3'
+CIs[CIs == 'filler_bad'] = 'ungrammatical 2'
+print(CIs)
+
+HEIGHT = 0.02
+WIDTH = 0.1
+SIZE = 0.3
+
+plot = CIs %>%
+  ggplot((aes(x=mean_surp, y=mean_acc))) +
+  geom_point(aes(color=condition),size=3) +
+  geom_smooth(method='lm', se=FALSE, color='black',size=0.5) +
+  labs(x = "Mean Surprisal", 
+       y = "Mean Acceptability") +
+  theme_bw() +
+  theme(axis.title = element_text(size=12)) +
+  theme(axis.text = element_text(size=10.5)) +
+  geom_errorbar(aes(ymin=lower_acc, ymax=upper_acc, color=condition), width=WIDTH, size=SIZE) + 
+  geom_errorbarh(aes(xmin=lower_surp, xmax=upper_surp, color=condition), height=HEIGHT, size=SIZE)+
+  theme(legend.position = "bottom") + 
+  geom_rect(aes(xmin = 7, xmax = 9, ymin = 0.35, ymax = 0.6), alpha=0, color='black')
+plot
+ggsave(filename = 'ALL_mean_surp_error_bars_bottom.png', path="plots/lu_kim_2022")
 
 # Normalized plot
 #CIs_acc is same as previous unnormalized
@@ -354,6 +436,7 @@ plot = all_experiments %>%
   theme(axis.title = element_text())
 plot
 
+print(all_experiments) # Dataframe with mean acc, mean surp, norm surp for all conditions
 
 
 all_logistic = glm(mean_acc ~ mean_surprisal, all_experiments, family = "binomial")
@@ -363,6 +446,7 @@ AIC(all_linear)
 summary(all_linear)
 
 #factored_cond = all_experiments$condition
+# ALL conditions, incl. disjunction
 all_experiments$condition = factor(all_experiments$condition, levels = unique(all_experiments$condition))
 #all_experiments$condition = factored_cond
 levels(all_experiments$condition) = unique(all_experiments$condition)
@@ -371,8 +455,30 @@ contrasts(all_experiments$condition) = contr.sum(19)
 cond_prediction_all = lm(mean_acc ~ mean_surprisal*condition, all_experiments)
 summary(cond_prediction_all)
 
+cond_prediction_all = lm(mean_acc ~ condition, all_experiments)
+summary(cond_prediction_all)
+
+# Islands, polar, ungram/gram
 satiation$condition = factor(satiation$condition, levels = unique(satiation$condition))
 unique(satiation$condition)
 contrasts(satiation$condition) = contr.sum(6)
 cond_prediction_islands = lm(mean_acc ~ mean_surprisal*condition, satiation)
 summary(cond_prediction_islands)
+
+# Just islands
+just_islands = satiation %>% filter(condition=='CNPC' | condition=='WH' | condition=='SUBJ')
+just_islands$condition = factor(just_islands$condition, levels = unique(just_islands$condition))
+levels(just_islands$condition) = unique(just_islands$condition)
+levels(just_islands$condition)
+contrasts(just_islands$condition) = contr.sum(3)
+cond_prediction_just_islands = lm(mean_acc ~ mean_surprisal*condition, satiation)
+summary(cond_prediction_just_islands)
+
+# Everything but the grammatical and ungrammatical conditions
+test_conds_only = all_experiments%>% filter(!condition=='gram' & !condition=='filler_good' & !condition=='filler_bad' & !condition=='FILL' & !condition=='POLAR' & !condition=='UNGRAM')
+test_conds_only$condition = factor(test_conds_only$condition, levels = unique(test_conds_only$condition))
+levels(test_conds_only$condition) = unique(test_conds_only$condition)
+levels(test_conds_only$condition)
+contrasts(test_conds_only$condition) = contr.sum(13)
+test_conds_only_prediction = lm(mean_acc ~ mean_surprisal*condition, test_conds_only)
+summary(test_conds_only_prediction)
