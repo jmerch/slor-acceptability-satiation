@@ -274,10 +274,11 @@ function make_slides(f) {
       $(".prompt").html("<b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
+			exp.sliderPost_interp = null;
       exp.first_response_wrong = 0;
       exp.first_response_value = null;
       exp.attempts = 0;
-			exp.block_startT = Date.now();
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 		showPrompt : function() {
@@ -304,7 +305,7 @@ function make_slides(f) {
         //this.log_responses();
 				if (button1) {
 					exp.acceptability = exp.sliderPost;
-					exp.acceptT = Date.now() - exp.block_startT;
+					exp.acceptT = (Date.now() - exp.slide_startT - exp.startT);
 					console.log(exp.acceptT);
 					$(".instruct").hide();
 					//console.log("Button1");
@@ -317,7 +318,7 @@ function make_slides(f) {
 		        $(".err").show();
 		      } else {
 						exp.meaning_confidence = exp.sliderPost_interp;
-						exp.confidenceT = Date.now() - exp.block_startT - exp.acceptT;
+						exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 					  $(".errinterp").hide();
 						$(".interpret").hide();
 						$(".prompt").hide();
@@ -332,7 +333,7 @@ function make_slides(f) {
 						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
 							$(".err_write").show();
 						} else {
-							exp.paraphraseT = Date.now() - exp.block_startT - exp.acceptT - exp.confidenceT;
+							exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
 							this.log_responses();
@@ -361,10 +362,10 @@ function make_slides(f) {
         "itemID": "practice_good",
         //"phase": "practice_good",
         "trial_sequence_total": 0, //,
-        "block_start": exp.block_startT,
-				"accept_time": exp.acceptT,
-				"confidence_time": exp.confidenceT,
-				"paraphrase_time": exp.paraphraseT
+				"slide_start": exp.slide_startT / 1000,
+				"accept_time": exp.acceptT / 1000,
+				"confidence_time": exp.confidenceT / 1000,
+				"paraphrase_time": exp.paraphraseT / 1000
       });
 
     }
@@ -406,10 +407,11 @@ function make_slides(f) {
 			$(".prompt").html("<b class=\"stim_sentence\" > I tasted the cake that John acknowledged the possibility that I would enjoy. <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
+			exp.sliderPost_interp = null;
 			exp.first_response_wrong = 0;
 			exp.first_response_value = null;
 			exp.attempts = 0;
-			exp.block_startT = Date.now();
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 
@@ -427,7 +429,7 @@ function make_slides(f) {
         //this.log_responses();
 				if (button1) {
 					exp.acceptability = exp.sliderPost;
-					exp.acceptT = Date.now() - exp.block_startT;
+					exp.acceptT = (Date.now() - exp.slide_startT - exp.startT);
 					console.log(exp.acceptT);
 					$(".instruct").hide();
 					//console.log("Button1");
@@ -440,7 +442,7 @@ function make_slides(f) {
 		        $(".err").show();
 		      } else {
 						exp.meaning_confidence = exp.sliderPost_interp;
-						exp.confidenceT = Date.now() - exp.block_startT - exp.acceptT;
+						exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 					  $(".errinterp").hide();
 						$(".interpret2").hide();
 						$(".prompt").hide();
@@ -456,7 +458,7 @@ function make_slides(f) {
 						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
 							$(".err_write").show();
 						} else {
-							exp.paraphraseT = Date.now() - exp.block_startT - exp.acceptT - exp.confidenceT;
+							exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
 							this.log_responses();
@@ -491,10 +493,10 @@ function make_slides(f) {
         //"phase": "practice_mid",
         "trial_sequence_total": 0,
       //  "group": experiment_group
-			"block_start": exp.block_startT,
-			"accept_time": exp.acceptT,
-			"confidence_time": exp.confidenceT,
-			"paraphrase_time": exp.paraphraseT
+			"slide_start": exp.slide_startT / 1000,
+			"accept_time": exp.acceptT / 1000,
+			"confidence_time": exp.confidenceT / 1000,
+			"paraphrase_time": exp.paraphraseT / 1000
       });
 
     }
@@ -537,10 +539,11 @@ function make_slides(f) {
 			$(".prompt").html("<b class=\"stim_sentence\" > Does minister prime imply the senate will the that report the review? <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
+			exp.sliderPost_interp = null;
 			exp.first_response_wrong = 0;
 			exp.first_response_value = null;
 			exp.attempts = 0;
-			exp.block_startT = Date.now();
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 
@@ -564,7 +567,7 @@ function make_slides(f) {
         //this.log_responses();
 				if (button1) {
 					exp.acceptability = exp.sliderPost;
-					exp.acceptT = Date.now() - exp.block_startT;
+					exp.acceptT = (Date.now() - exp.slide_startT - exp.startT);
 					console.log(exp.acceptT);
 					$(".instruct").hide();
 					//console.log("Button1");
@@ -577,7 +580,7 @@ function make_slides(f) {
 						$(".err").show();
 					} else {
 						exp.meaning_confidence = exp.sliderPost_interp;
-						exp.confidenceT = Date.now() - exp.block_startT - exp.acceptT;
+						exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 					  $(".errinterp").hide();
 						$(".interpret3").hide();
 						$(".prompt").hide();
@@ -595,7 +598,7 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-							exp.paraphraseT = Date.now() - exp.block_startT - exp.acceptT - exp.confidenceT;
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
 							this.log_responses();
 							_stream.apply(this);
 						}
@@ -628,10 +631,10 @@ function make_slides(f) {
         //"phase": "practice_bad",
         "trial_sequence_total": 0,
       //  "group": experiment_group
-			"block_start": exp.block_startT,
-			"accept_time": exp.acceptT,
-			"confidence_time": exp.confidenceT,
-			"paraphrase_time": exp.paraphraseT
+			"slide_start": exp.slide_startT / 1000,
+			"accept_time": exp.acceptT / 1000,
+			"confidence_time": exp.confidenceT / 1000,
+			"paraphrase_time": exp.paraphraseT / 1000
       });
 
     }
@@ -678,8 +681,9 @@ function make_slides(f) {
 		//	$("input[type='radio'][name='interpret_main']").prop('checked', false);
       this.init_sliders()
       exp.sliderPost = null;
+			exp.sliderPost_interp = null;
 			exp.sentence = stim.Target; //erase current slider value
-			exp.block_startT = Date.now();
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 		button : function() {
@@ -693,7 +697,7 @@ function make_slides(f) {
         //this.log_responses();
 				if (button1) {
 					exp.acceptability = exp.sliderPost;
-					exp.acceptT = Date.now() - exp.block_startT;
+					exp.acceptT = Date.now() - exp.slide_startT - exp.startT;
 					console.log(exp.acceptT);
 					//$(".instruct").hide();
 					console.log("Button1");
@@ -707,7 +711,7 @@ function make_slides(f) {
 		        $(".err").show();
 		      }else {
 						exp.meaning_confidence = exp.sliderPost_interp;
-						exp.confidenceT = Date.now() - exp.block_startT - exp.acceptT;
+						exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 						$(".interpret_main").hide();
 						$(".interp_err").hide();
 						$(".target").hide();
@@ -724,7 +728,7 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
-							exp.paraphraseT = Date.now() - exp.block_startT - exp.acceptT - exp.confidenceT;
+							exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
 							this.log_responses();
 							_stream.apply(this);
 							console.log(exp.data_trials);
@@ -755,10 +759,10 @@ function make_slides(f) {
 				"stimulus": exp.sentence,
 				"paraphrase": exp.paraphrase,
 				"meaning_confidence": exp.meaning_confidence,
-				"block_start": exp.block_startT,
-				"accept_time": exp.acceptT,
-				"confidence_time": exp.confidenceT,
-				"paraphrase_time": exp.paraphraseT
+				"slide_start": exp.slide_startT / 1000,
+				"accept_time": exp.acceptT / 1000,
+				"confidence_time": exp.confidenceT / 1000,
+				"paraphrase_time": exp.paraphraseT / 1000
         //"phase": this.stim.phase,
         // experiment-general fields
         //"exposure_condition": this.stim.exposure_condition,
@@ -809,7 +813,7 @@ function make_slides(f) {
 /// init ///
 function init() {
 	exp.sentence = "";
-	exp.block_startT = 0;
+	exp.slide_startT = 0;
 	exp.between_blocksT = 0;
 	exp.acceptT = 0;
 	exp.confidenceT = 0;

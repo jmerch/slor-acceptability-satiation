@@ -98,7 +98,7 @@ $(function(){
     <br>
 
     <p class="rating">Let's try one practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
-    <p class="interpret">Please indicate whether or not you understand the sentence. </p>
+    <p class="interpret">Please indicate your confidence that you understand the intended meaning of the sentence by dragging the slider bar.</p>
     <p class="text_response">Given your best guess of the sentence's intended meaning, please rephrase it in a <b> concise </b> and <b> natural </b> way. Feel free to use words from the original sentence. <b> If you need to write more than one sentence to sound more natural, that is fine. </b> </p>
     <p class="prompt"> </p>
     <div class="rating">
@@ -107,19 +107,14 @@ $(function(){
       </table>
     <button id="button1" onclick="_s.button()">Continue</button>
   </div>
+  <div class="interpret">
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">not confident at all</td><td colspan="2"><div id="practice_slider_1_interp" class="slider"></div></td><td class="right">extremely confident</td></tr>
+    </table>
+    <button id="button2" class="interpret" onclick="_s.button()">Continue</button>
+  </div>
     <div class="err">Please adjust the slider before continuing.</div>
     <p class="errgood">This target sentence should be acceptable. Please try again.</p>
-    <div class="interpret">
-      <p> Do you understand what this sentence means? <p>
-    <ul style="list-style: none; margin: 0; padding: 0;" class="interpret">
-      <li><input type="radio" name="interpret" value="Yes"/> <span>Yes</span></li>
-      <li><input type="radio" name="interpret" value="No"/> <span>No</span></li>
-    </ul>
-    <!--the first error is not used -->
-    <p class="errinterp">This target sentence should have a clear meaning. Please try again.</p>
-    <p class="interp_err">Please make a choice.</p>
-  </div>
-  <button id="button2" class="interpret" onclick="_s.button()">Continue</button>
 
   <button id="forgot-sentence" class="text_response" onclick="_s.showPrompt()">I forgot the sentence.</button>
   <br>
@@ -154,7 +149,7 @@ $(function(){
     <br>
 
     <p class="rating2">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
-    <p class="interpret2">Please indicate whether or not you understand the sentence. </p>
+    <p class="interpret2">Please indicate your confidence that you understand the intended meaning of the sentence by dragging the slider bar.</p>
     <p class="text_response2">Given your best guess of the sentence's intended meaning, please rephrase it in a <b> concise </b> and <b> natural </b>  way. Feel free to use words from the original sentence. <b> If you need to write more than one sentence to sound more natural, that is fine. </b> </p>
     <p class="prompt"> </p>
     <div class="rating2">
@@ -166,15 +161,11 @@ $(function(){
     <div class="err">Please adjust the slider before continuing.</div>
     <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
     <div class="interpret2">
-      <p> Do you understand what this sentence means? <p>
-    <ul style="list-style: none; margin: 0; padding: 0;" class="interpret2" id="interp_qs">
-      <li><input type="radio" name="interpret2" value="Yes"/> <span>Yes</span></li>
-      <li><input type="radio" name="interpret2" value="No"/> <span>No</span></li>
-    </ul>
-    <p class="interp_err">Please make a choice.</p>
-    <p class="errinterp">This target sentence not should have a clear meaning. Please try again.</p>
+        <table id="slider_table" class="slider_table">
+          <tr><td class="left">not confident at all</td><td colspan="2"><div id="practice_slider_2_interp" class="slider"></div></td><td class="right">extremely confident</td></tr>
+        </table>
+        <button id="button2" class="interpret2" onclick="_s.button()">Continue</button>
   </div>
-  <button id="button2" class="interpret2" onclick="_s.button()">Continue</button>
   <button id="forgot-sentence2" class="text_response2" onclick="_s.showPrompt()">I forgot the sentence.</button>
   <br>
   <p class="sentence_reminder2">Reminder: Only practice items will show the sentence again if you forget. It will <b> NOT </b> be available for the actual task.</p>
@@ -196,7 +187,7 @@ $(function(){
       <br>
       <br>
   <p class="rating3">Let's try another practice item. Please read and then rate the acceptability of the sentence. Please indicate how acceptable the sentence sounds by dragging the slider bar.</p>
-  <p class="interpret3">Please indicate whether or not you understand the sentence. </p>
+  <p class="interpret3">Please indicate your confidence that you understand the intended meaning of the sentence by dragging the slider bar.</p>
   <p class="text_response3">Given your best guess of the sentence's intended meaning, please rephrase it in a <b> concise </b> and <b> natural </b>  way. Feel free to use words from the original sentence. <b> If you need to write more than one sentence to sound more natural, that is fine. </b> </p>
   <p class="prompt"></p>
   <div class="rating3">
@@ -208,15 +199,11 @@ $(function(){
   <div class="err">Please adjust the slider before continuing.</div>
   <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
   <div class="interpret3">
-    <p> Do you understand what this sentence means? <p>
-  <ul style="list-style: none; margin: 0; padding: 0;" class="interpret3" id="interp_qs">
-    <li><input type="radio" name="interpret3" value="Yes"/> <span>Yes</span></li>
-    <li><input type="radio" name="interpret3" value="No"/> <span>No</span></li>
-  </ul>
-  <p class="interp_err">Please make a choice.</p>
-  <p class="errinterp">This target sentence not should have a clear meaning. Please try again.</p>
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">not confident at all</td><td colspan="2"><div id="practice_slider_3_interp" class="slider"></div></td><td class="right">extremely confident</td></tr>
+    </table>
+    <button id="button2" class="interpret3" onclick="_s.button()">Continue</button>
 </div>
-<button id="button2" class="interpret3" onclick="_s.button()">Continue</button>
 <button id="forgot-sentence3" class="text_response3" onclick="_s.showPrompt()">I forgot the sentence.</button>
 <br>
 <p class="sentence_reminder3">Reminder: Only practice items will show the sentence again if you forget. It will <b> NOT </b> be available for the actual task.</p>
@@ -251,9 +238,8 @@ $(function(){
     <p>Before we start the experiment, there are some things to keep in mind:</p>
     <p>(1) You may see sentences that are totally acceptable or unacceptable, and you may also see sentences that are somewhere in between. Please make use of the full scale when rating them.</p>
     <p>(2) Please use your intuition rather than school grammar to judge the acceptability of the sentences.</p>
-    <p>(3) If you get any interpretation of a sentence at all, you should answer that you understand the sentence. </p>
-    <p>(4) Once you reach the rephrasing step for a sentence, you will <b> NOT </b> be able to see it again. </p>
-
+    <p>(3) Once you reach the rephrasing step for a sentence, you will <b> NOT </b> be able to see it again. </p>
+    <p>(4) Please complete the entire task in one sitting without stopping or taking any breaks.
     <p>When you are ready, please press the button to proceed.</p>
     <button onclick="_s.button()">Click to begin the experiment</button>
   </div>
@@ -278,6 +264,7 @@ $(function(){
     <p class="target"> </p>
     <div class="rating_main">
       <table id="single_slider_main" class="slider_table">
+        How acceptable do you find this sentence?
         <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="single_slider" class="slider"></div></td><td class="right">completely acceptable</td></tr>
       </table>
     <button id="button1" onclick="_s.button()">Continue</button>
@@ -285,14 +272,12 @@ $(function(){
     <div class="err">Please adjust the slider before continuing.</div>
     <p class="errbad">This target sentence should be unacceptable. Please try again.</p>
     <div class="interpret_main">
-      <p> Do you understand what this sentence means? <p>
-    <ul style="list-style: none; margin: 0; padding: 0;" class="interpret_main" id="interp_qs">
-      <li><input type="radio" name="interpret_main" value="Yes"/> <span>Yes</span></li>
-      <li><input type="radio" name="interpret_main" value="No"/> <span>No</span></li>
-    </ul>
-    <p class="interp_err">Please make a choice.</p>
+      <p> How confident are you that you understand the intended meaning of the sentence? <p>
+        <table id="slider_table" class="slider_table">
+          <tr><td class="left">not confident at all</td><td colspan="2"><div id="single_slider_interp" class="slider"></div></td><td class="right">extremely confident</td></tr>
+        </table>
+        <button id="button2" class="interpret_main" onclick="_s.button()">Continue</button>
   </div>
-  <button id="button2" class="interpret_main" onclick="_s.button()">Continue</button>
 
   <div class="text_response_main">
     <p> Please give your best rephrasing of the sentence. <p>
@@ -387,7 +372,7 @@ $(function(){
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">Thanks for your Time!</p>
+    <p  class="big">Thanks for your time!</p>
   </div>
 
 

@@ -266,18 +266,19 @@ function make_slides(f) {
 			$(".err_write").hide();
 			$(".text_response").hide();
 			$(".interpret").hide();
-			$(".errinterp").hide();
-			$(".interp_err").hide();
+		//	$(".errinterp").hide();
+		//	$(".interp_err").hide();
 			$("#paraphrase").val("");
 			$(".sentence_reminder").hide();
       this.stim = stim;
       $(".prompt").html("<b class = \"stim_sentence\"> What did the boy see on the table? <\/b>");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
+			exp.sliderPost_interp = null;
       exp.first_response_wrong = 0;
       exp.first_response_value = null;
       exp.attempts = 0;
-
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 		showPrompt : function() {
@@ -292,9 +293,9 @@ function make_slides(f) {
       if (exp.sliderPost == null) {
         $(".err").show();
       }
-      else if (exp.sliderPost < 0.5) {
+      else if (button1 & exp.sliderPost < 0.5) {
         exp.first_response_wrong = 1;
-        exp.first_response_value =exp.sliderPost;
+        exp.first_response_value = exp.sliderPost;
         exp.attempts = exp.attempts + 1;
         $(".errgood").show();
       }
@@ -303,30 +304,43 @@ function make_slides(f) {
 				$(".errgood").hide();
         //this.log_responses();
 				if (button1) {
+					exp.acceptability = exp.sliderPost;
+					exp.acceptT = (Date.now() - exp.slide_startT - exp.startT);
+					console.log(exp.acceptT);
 					$(".instruct").hide();
 					//console.log("Button1");
-					$(".interpret").show();
+				//	$(".interpret").show();
 					$(".rating").hide();
+					$(".text_response").show();
+					$("#forgot-sentence").show();
+					$(".prompt").hide();
 				} else if (button2){
-					var response = $("input[type='radio'][name='interpret']:checked").val();
-					console.log(response);
-					if (response == undefined) {
-						$(".interp_err").show();
+					//var response = $("input[type='radio'][name='interpret']:checked").val();
+					//console.log(response);
+					var paraphrase = $("#paraphrase").val().trim();
+					console.log(paraphrase);
+					console.log($(".stim_sentence")[0].innerHTML);
+					if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
+						$(".err_write").show();
 					} else {
-					  $(".errinterp").hide();
-						$(".interpret").hide();
-						$(".prompt").hide();
-						$(".text_response").show();
-						$("#forgot-sentence").show();
-						$(".interp_error").hide();
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						$(".interpret").show();
+						$(".text_response").hide();
+						$("#forgot-sentence").hide();
+						 $(".sentence_reminder").hide();
+						$(".prompt").show();
 						}
 					} else if (button3) {
-						var paraphrase = $("#paraphrase").val().trim();
-						console.log(paraphrase);
-						console.log($(".stim_sentence")[0].innerHTML);
-						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
-							$(".err_write").show();
+						if (exp.sliderPost_interp == null) {
+							$(".err").show();
 						} else {
+							exp.meaning_confidence = exp.sliderPost_interp;
+							exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+						//	$(".errinterp").hide();
+						//	$(".interpret").hide();
+						//	$(".prompt").hide();
+
+						//	$(".interp_error").hide();
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
 							this.log_responses();
@@ -336,22 +350,29 @@ function make_slides(f) {
 				}
 		},
 
-    init_sliders : function() {
+		init_sliders : function() {
       utils.make_slider("#practice_slider_1", function(event, ui) {
         exp.sliderPost = ui.value;
+      });
+			utils.make_slider("#practice_slider_1_interp", function(event, ui) {
+        exp.sliderPost_interp = ui.value;
       });
     },
     log_responses : function() {
       exp.data_trials.push({
-        "response" : exp.sliderPost,
+        "acceptability" : exp.acceptability,
         "first_response_value": exp.first_response_value,
         "wrong_attempts": exp.attempts,
+				"meaning_confidence": exp.meaning_confidence,
         "condition" : "practice_good",
         "block_number": "practice",
         "itemID": "practice_good",
         //"phase": "practice_good",
-        "trial_sequence_total": 0 //,
-        //"group": experiment_group
+        "trial_sequence_total": 0, //,
+				"slide_start": exp.slide_startT / 1000,
+				"accept_time": exp.acceptT / 1000,
+				"confidence_time": exp.confidenceT / 1000,
+				"paraphrase_time": exp.paraphraseT / 1000
       });
 
     }
@@ -374,7 +395,6 @@ function make_slides(f) {
       and for each of these, present_handle will be run.) */
     present : [1],
 
-
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
 			$(".rating2").show();
@@ -384,65 +404,85 @@ function make_slides(f) {
 			$(".err_write").hide();
 			$(".text_response2").hide();
 			$(".interpret2").hide();
-			$(".errinterp").hide();
+		//	$(".errinterp").hide();
 			$("#paraphrase2").val("");
-			$(".prompt").show();
+			//$(".prompt").show();
 			$(".sentence_reminder2").hide();
-			$(".interp_err").hide();
+		//	$(".interp_err").hide();
 			//this.stim = stim;
 			$(".prompt").html("<b class=\"stim_sentence\" > I tasted the cake that John acknowledged the possibility that I would enjoy. <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
+			exp.sliderPost_interp = null;
 			exp.first_response_wrong = 0;
 			exp.first_response_value = null;
 			exp.attempts = 0;
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 
 
 		button : function() {
 			var button1 = !$(".rating2").is(":hidden");
-			var button2 = !$(".interpret2").is(":hidden");
+			var button2 = !$(".text_response2").is(":hidden");
 			var button3 = !button1 & !button2;
-      if (exp.sliderPost == null) {
-        $(".err").show();
-      }
-      else {
-				  $(".err").hide();
-				  $(".errbad").hide();
-        //this.log_responses();
+			if (exp.sliderPost == null) {
+				$(".err").show();
+			}
+			else if (button1 & exp.sliderPost < 0.5) {
+				exp.first_response_wrong = 1;
+				exp.first_response_value = exp.sliderPost;
+				exp.attempts = exp.attempts + 1;
+				$(".errgood").show();
+			}
+			else {
+				$(".err").hide();
+				$(".errgood").hide();
+				//this.log_responses();
 				if (button1) {
+					exp.acceptability = exp.sliderPost;
+					exp.acceptT = (Date.now() - exp.slide_startT - exp.startT);
+					console.log(exp.acceptT);
 					$(".instruct").hide();
-					console.log("Button1");
-					$(".interpret2").show();
+					//console.log("Button1");
+				//	$(".interpret").show();
 					$(".rating2").hide();
+					$(".text_response2").show();
+					$("#forgot-sentence").show();
+					$(".prompt").hide();
 				} else if (button2){
-					console.log("Button2");
-					var response = $("input[type='radio'][name='interpret2']:checked").val();
-					if (response == undefined) {
-						$(".interp_err").show();
+					//var response = $("input[type='radio'][name='interpret']:checked").val();
+					//console.log(response);
+					var paraphrase = $("#paraphrase2").val().trim();
+					console.log(paraphrase);
+					console.log($(".stim_sentence")[0].innerHTML);
+					if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
+						$(".err_write").show();
 					} else {
-					  $(".errinterp").hide();
-						$(".interpret2").hide();
-						$(".prompt").hide();
-						$(".text_response2").show();
-						$("#forgot-sentence").show();
-						$(".interp_err").hide();
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						$(".interpret2").show();
+						$(".text_response2").hide();
+						$("#forgot-sentence").hide();
+						 $(".sentence_reminder2").hide();
+						$(".prompt").show();
 						}
 					} else if (button3) {
-							console.log("Button3");
-						var paraphrase = $("#paraphrase2").val().trim();
-						console.log(paraphrase);
-						console.log($(".stim_sentence")[0].innerHTML);
-						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
-							$(".err_write").show();
+						if (exp.sliderPost_interp == null) {
+							$(".err").show();
 						} else {
-        /* use _stream.apply(this); if and only if there is
-        "present" data. (and only *after* responses are logged) */
+							exp.meaning_confidence = exp.sliderPost_interp;
+							exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+						//	$(".errinterp").hide();
+						//	$(".interpret").hide();
+						//	$(".prompt").hide();
+
+						//	$(".interp_error").hide();
+				/* use _stream.apply(this); if and only if there is
+				"present" data. (and only *after* responses are logged) */
 							this.log_responses();
 							_stream.apply(this);
 						}
-    			}
+					}
 				}
 		},
 		showPrompt : function() {
@@ -454,7 +494,9 @@ function make_slides(f) {
     init_sliders : function() {
       utils.make_slider("#practice_slider_2", function(event, ui) {
         exp.sliderPost = ui.value;
-
+      });
+			utils.make_slider("#practice_slider_2_interp", function(event, ui) {
+        exp.sliderPost_interp = ui.value;
       });
     },
     log_responses : function() {
@@ -462,12 +504,17 @@ function make_slides(f) {
         "response" : exp.sliderPost,
         "first_response_value": exp.first_response_value,
         "wrong_attempts": exp.attempts,
+				"meaning_confidence": exp.meaning_confidence,
         "item_type" : "practice_mid",
         "block_number": "practice",
         "itemID": "practice_mid",
         //"phase": "practice_mid",
         "trial_sequence_total": 0,
       //  "group": experiment_group
+			"slide_start": exp.slide_startT / 1000,
+			"accept_time": exp.acceptT / 1000,
+			"confidence_time": exp.confidenceT / 1000,
+			"paraphrase_time": exp.paraphraseT / 1000
       });
 
     }
@@ -510,63 +557,67 @@ function make_slides(f) {
 			$(".prompt").html("<b class=\"stim_sentence\" > Does minister prime imply the senate will the that report the review? <\/b>");
 		  this.init_sliders();
 			exp.sliderPost = null; //erase current slider value
+			exp.sliderPost_interp = null;
 			exp.first_response_wrong = 0;
 			exp.first_response_value = null;
 			exp.attempts = 0;
-
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 
 
 		button : function() {
 			var button1 = !$(".rating3").is(":hidden");
-			var button2 = !$(".interpret3").is(":hidden");
+			var button2 = !$(".text_response3").is(":hidden");
 			var button3 = !button1 & !button2;
-      if (exp.sliderPost == null) {
-        $(".err").show();
-      }
-      else if (exp.sliderPost > 0.5) {
-        exp.first_response_wrong = 1;
-        exp.first_response_value =exp.sliderPost;
-        exp.attempts = exp.attempts + 1;
-        $(".errbad").show();
-      }
-      else {
-				  $(".err").hide();
-				  $(".errbad").hide();
-        //this.log_responses();
+			if (exp.sliderPost == null) {
+				$(".err").show();
+			}
+			else {
+					$(".err").hide();
+					$(".errbad").hide();
+				//this.log_responses();
 				if (button1) {
+					exp.acceptability = exp.sliderPost;
+					exp.acceptT = (Date.now() - exp.slide_startT - exp.startT);
+					console.log(exp.acceptT);
 					$(".instruct").hide();
-					console.log("Button1");
-					$(".interpret3").show();
+					//console.log("Button1");
 					$(".rating3").hide();
-				} else if (button2) {
+					$(".text_response3").show();
+					$("#forgot-sentence").show();
+				//	$(".interp_err").hide();
+					$(".prompt").hide();
+				} else if (button2){
 					console.log("Button2");
-					var response = $("input[type='radio'][name='interpret3']:checked").val()
-					if (response == undefined) {
-						$(".interp_err").show();
+					//var response = $("input[type='radio'][name='interpret2']:checked").val();
+					var paraphrase = $("#paraphrase3").val().trim();
+					console.log(paraphrase);
+					console.log($(".stim_sentence")[0].innerHTML);
+					if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
+						$(".err_write").show();
 					} else {
-					  $(".errinterp").hide();
-						$(".interpret3").hide();
-						$(".prompt").hide();
-						$(".text_response3").show();
-						$("#forgot-sentence").show();
-						$(".interp_err").hide();
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						$(".interpret3").show();
+						$(".text_response3").hide();
+						$("#forgot-sentence").hide();
+						 $(".sentence_reminder").hide();
+						$(".prompt").show();
 						}
 					} else if (button3) {
 							console.log("Button3");
-						var paraphrase = $("#paraphrase3").val().trim();
-						console.log(paraphrase);
-						console.log($(".stim_sentence")[0].innerHTML);
-						if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
-							$(".err_write").show();
-						} else {
-        /* use _stream.apply(this); if and only if there is
-        "present" data. (and only *after* responses are logged) */
+							if (exp.sliderPost_interp == null) {
+								$(".err").show();
+							} else {
+								exp.meaning_confidence = exp.sliderPost_interp;
+								exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+
+				/* use _stream.apply(this); if and only if there is
+				"present" data. (and only *after* responses are logged) */
 							this.log_responses();
 							_stream.apply(this);
 						}
-    			}
+					}
 				}
 		},
 		showPrompt : function() {
@@ -578,20 +629,27 @@ function make_slides(f) {
     init_sliders : function() {
       utils.make_slider("#practice_slider_3", function(event, ui) {
         exp.sliderPost = ui.value;
-
       });
+			utils.make_slider("#practice_slider_3_interp", function(event, ui) {
+				exp.sliderPost_interp = ui.value;
+			});
     },
     log_responses : function() {
       exp.data_trials.push({
         "response" : exp.sliderPost,
         "first_response_value": exp.first_response_value,
         "wrong_attempts": exp.attempts,
+				"meaning_confidence": exp.meaning_confidence,
         "item_type" : "practice_bad",
         "block_number": "practice",
         "itemID": "practice_bad",
         //"phase": "practice_bad",
         "trial_sequence_total": 0,
       //  "group": experiment_group
+			"slide_start": exp.slide_startT / 1000,
+			"accept_time": exp.acceptT / 1000,
+			"confidence_time": exp.confidenceT / 1000,
+			"paraphrase_time": exp.paraphraseT / 1000
       });
 
     }
@@ -635,9 +693,12 @@ function make_slides(f) {
 			$(".target").show();		//$(".prompt").show();
       $(".target").html(stim.Target);
 			$(".interp_err").hide();
-			$("input[type='radio'][name='interpret_main']").prop('checked', false);
+		//	$("input[type='radio'][name='interpret_main']").prop('checked', false);
       this.init_sliders()
-      exp.sliderPost = null; //erase current slider value
+      exp.sliderPost = null;
+			exp.sliderPost_interp = null;
+			exp.sentence = stim.Target; //erase current slider value
+			exp.slide_startT = Date.now() - exp.startT;
     },
 
 		button : function() {
@@ -650,19 +711,22 @@ function make_slides(f) {
       else {
         //this.log_responses();
 				if (button1) {
+					exp.acceptability = exp.sliderPost;
+					exp.acceptT = Date.now() - exp.slide_startT - exp.startT;
+					console.log(exp.acceptT);
 					//$(".instruct").hide();
 					console.log("Button1");
 					$(".interpret_main").show();
 					$(".rating_main").hide();
 					$(".err").hide();
 				} else if (button2){
-					console.log("Button2");
-					var response = $("input[type='radio'][name='interpret']:checked").val();
-					if (response == undefined) {
-						$(".interp_err").show();
-					} else {
-						console.log(response);
-						exp.interpretability = response;
+					//console.log("Button2");
+					//var response = $("input[type='radio'][name='interpret']:checked").val();
+					if (exp.sliderPost_interp == null) {
+		        $(".err").show();
+		      }else {
+						exp.meaning_confidence = exp.sliderPost_interp;
+						exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 						$(".interpret_main").hide();
 						$(".interp_err").hide();
 						$(".target").hide();
@@ -679,6 +743,7 @@ function make_slides(f) {
 						} else {
         /* use _stream.apply(this); if and only if there is
         "present" data. (and only *after* responses are logged) */
+							exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
 							this.log_responses();
 							_stream.apply(this);
 							console.log(exp.data_trials);
@@ -692,19 +757,27 @@ function make_slides(f) {
       utils.make_slider("#single_slider", function(event, ui) {
         exp.sliderPost = ui.value;
       });
+			utils.make_slider("#single_slider_interp", function(event, ui) {
+        exp.sliderPost_interp = ui.value;
+      });
     },
 
     log_responses : function() {
       exp.data_trials.push({
         // item-specific fields
-        "rating" : exp.sliderPost,
+        "rating" : exp.acceptability,
         "condition" : this.stim.condition,
         "trial_sequence_total": order,
         "block_number": this.stim.block_number,
         //"item_number": this.stim.lex_items,
         "sentence_id": this.stim.itemID,
-				"interpretability": exp.interpretability,
-				"paraphrase": exp.paraphrase
+				"stimulus": exp.sentence,
+				"paraphrase": exp.paraphrase,
+				"meaning_confidence": exp.meaning_confidence,
+				"slide_start": exp.slide_startT / 1000,
+				"accept_time": exp.acceptT / 1000,
+				"confidence_time": exp.confidenceT / 1000,
+				"paraphrase_time": exp.paraphraseT / 1000
         //"phase": this.stim.phase,
         // experiment-general fields
         //"exposure_condition": this.stim.exposure_condition,
@@ -754,8 +827,15 @@ function make_slides(f) {
 
 /// init ///
 function init() {
+	exp.sentence = "";
+	exp.slide_startT = 0;
+	exp.between_blocksT = 0;
+	exp.acceptT = 0;
+	exp.confidenceT = 0;
+	exp.paraphraseT = 0;
 	exp.paraphrase = "";
-	exp.interpretability = "";
+	exp.acceptability = 0;
+	exp.meaning_confidence  = 0;
   exp.trials = [];
   exp.catch_trials = [];
   //exp.condition = _.sample(["condition 1", "condition 2"]); //can randomize between subject conditions here
