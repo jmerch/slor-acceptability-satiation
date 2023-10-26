@@ -323,7 +323,7 @@ function make_slides(f) {
 					if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
 						$(".err_write").show();
 					} else {
-						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 						$(".interpret").show();
 						$(".text_response").hide();
 						$("#forgot-sentence").hide();
@@ -335,7 +335,7 @@ function make_slides(f) {
 							$(".err").show();
 						} else {
 							exp.meaning_confidence = exp.sliderPost_interp;
-							exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+							exp.confidenceT = Date.now() - exp.slide_startT - exp.paraphraseT - exp.acceptT - exp.startT;
 						//	$(".errinterp").hide();
 						//	$(".interpret").hide();
 						//	$(".prompt").hide();
@@ -453,7 +453,7 @@ function make_slides(f) {
 					if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
 						$(".err_write").show();
 					} else {
-						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 						$(".interpret2").show();
 						$(".text_response2").hide();
 						$("#forgot-sentence").hide();
@@ -465,7 +465,7 @@ function make_slides(f) {
 							$(".err").show();
 						} else {
 							exp.meaning_confidence = exp.sliderPost_interp;
-							exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+							exp.confidenceT = Date.now() - exp.slide_startT - exp.paraphraseT - exp.acceptT - exp.startT;
 						//	$(".errinterp").hide();
 						//	$(".interpret").hide();
 						//	$(".prompt").hide();
@@ -597,7 +597,7 @@ function make_slides(f) {
 					if (paraphrase == "" || repeatStim(paraphrase, $(".stim_sentence")[0].innerHTML)) {
 						$(".err_write").show();
 					} else {
-						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 						$(".interpret3").show();
 						$(".text_response3").hide();
 						$("#forgot-sentence").hide();
@@ -609,7 +609,7 @@ function make_slides(f) {
 							$(".err").show();
 						} else {
 							exp.meaning_confidence = exp.sliderPost_interp;
-							exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+							exp.confidenceT = Date.now() - exp.slide_startT - exp.paraphraseT - exp.acceptT - exp.startT;
 						//	$(".errinterp").hide();
 						//	$(".interpret").hide();
 						//	$(".prompt").hide();
@@ -738,7 +738,7 @@ function make_slides(f) {
 						$(".err_write").show();
 					} else {
 						exp.paraphrase = paraphrase;
-						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.confidenceT - exp.startT;
+						exp.paraphraseT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
 						$(".interpret_main").show();
 						$(".text_response_main").hide();
 
@@ -751,7 +751,7 @@ function make_slides(f) {
 							$(".err").show();
 						} else {
 							exp.meaning_confidence = exp.sliderPost_interp;
-							exp.confidenceT = Date.now() - exp.slide_startT - exp.acceptT - exp.startT;
+							exp.confidenceT = Date.now() - exp.slide_startT - exp.paraphraseT - exp.acceptT - exp.startT;
 						//	$(".errinterp").hide();
 						//	$(".interpret").hide();
 						//	$(".prompt").hide();
