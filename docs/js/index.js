@@ -449,6 +449,7 @@ function make_slides(f) {
 						$(".text_response2").show();
 						$("#forgot-sentence").show();
 						$(".interp_err").hide();
+						$(".err").hide();
 						}
 					} else if (button3) {
 							console.log("Button3");
@@ -587,6 +588,7 @@ function make_slides(f) {
 						$(".text_response3").show();
 						$("#forgot-sentence").show();
 						$(".interp_err").hide();
+						$(".err").hide();
 						}
 					} else if (button3) {
 							console.log("Button3");
@@ -705,6 +707,7 @@ function make_slides(f) {
 					$(".rating_main").hide();
 					$(".err").hide();
 				} else if (button2){
+						$(".err").hide();
 					//console.log("Button2");
 					//var response = $("input[type='radio'][name='interpret']:checked").val();
 					if (exp.sliderPost_interp == null) {
@@ -716,6 +719,7 @@ function make_slides(f) {
 						$(".interp_err").hide();
 						$(".target").hide();
 						$(".text_response_main").show();
+						$(".err").hide();
 					}
 				} else if (button3) {
 						console.log("Button3");
