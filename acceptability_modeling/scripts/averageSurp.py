@@ -68,7 +68,10 @@ def main():
                 curr_total += surprisals[i]
                 #gauss_total += surprisals[i] * gauss_weight
                 weight_total += inc_weight
-                normal_total += surprisals[i] / get_norm(words[i], unique_word_surprisal)
+                #normal_total += surprisals[i] / get_norm(words[i], unique_word_surprisal)
+                #using SLOR instead
+                normal_total += get_norm(words[i], unique_word_surprisal) - surprisals[i]
+
                 #gauss_weight_total += gauss_weight
             wh = wh_norm = matrix = matrix_norm = comp = comp_norm = embedded = embedded_norm = gap = gap_norm = 0
             if (sentence_id in id_to_type) and id_to_type[sentence_id] in ["WH", "CNPC", "SUBJ"]:
@@ -176,6 +179,7 @@ def get_gap(words, surprisals,  condition, normalization_consts = None):
 def get_norm(word, normalization_consts):
     if word in normalization_consts:
         return normalization_consts[word]
+    print("norm const not found, using 'the' ")
     return normalization_consts["the"]
 
 def beyond_threshold(words, surprisals, threshold, normalization_consts = None):
