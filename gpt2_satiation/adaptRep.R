@@ -75,6 +75,7 @@ exp1 %>%
 ggsave("gpt2_satiation/plots/adapt_exp1_rep_zoom.png", width=7, height=5)
 
 
+# Exp 2 rep, mean_surprisal (6 test sentences) baseline is same as exp 1, since same stimuli
 
 #CNPC_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
 CNPC_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp2_CNPC_CNPCtest_surprisals.csv")
@@ -111,12 +112,12 @@ plot = exp2 %>%
   geom_point(aes(color = condition), size=3) + 
   scale_x_continuous(breaks=c(0,15), labels=c('pre-exposure','post-exposure')) +
   ylim(3,9) +
-  labs(y = "Mean Surprisal") +
+  labs(y = "Mean surprisal") +
   theme_bw() +
   theme(legend.position = "bottom")+
   #theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   theme(axis.title.y = element_text(size=14), axis.title.x=element_blank())+
-  theme(legend.text = element_text(size=10)) +
+  theme(legend.text = element_text(size=12)) +
   theme(legend.title = element_blank()) + 
   theme(axis.text.x = element_text(size=13, hjust=0.6), axis.text.y = element_text(size=10)) +
   theme(plot.margin = margin(5, 15, 5, 5)) + 
@@ -124,7 +125,47 @@ plot = exp2 %>%
 plot
 ggsave("gpt2_satiation/plots/adapt_exp2_rep_labels.png", width=7, height=5)
 
+# Exp 2 rep, normalized (SLOR; 6 test sentences)
 
+CNPC_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp2_CNPCtrain_CNPCtest_noContext_surprisals.csv")
+CNPC_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPC_baseline_noContext_surprisals.csv")
+norm_CNPC = mean(CNPC_test$normalized)
+norm_CNPC_baseline = mean(CNPC_base$normalized)
+
+WH_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp2_WHtrain_WHtest_noContext_surprisals.csv")
+WH_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_WH_baseline_noContext_surprisals.csv")
+norm_WH = mean(WH_test$normalized)
+norm_WH_baseline = mean(WH_base$normalized)
+
+SUBJ_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp2_SUBJtrain_SUBJtest_noContext_surprisals.csv")
+SUBJ_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_SUBJ_baseline_noContext_surprisals.csv")
+norm_SUBJ = mean(SUBJ_test$normalized)
+norm_SUBJ_baseline = mean(SUBJ_base$normalized)
+
+exp2_SLOR = data.frame(num_trained = c(0, 6, 0, 6, 0, 6), SLOR = c(norm_CNPC_baseline, norm_CNPC, norm_WH_baseline, norm_WH, norm_SUBJ_baseline, norm_SUBJ), condition = c('CNPC', 'CNPC', 'whether-island', 'whether-island', 'subject island', 'subject island'))
+print(exp2_SLOR)
+
+plot = exp2_SLOR %>%
+  ggplot((aes(x = num_trained, y= SLOR))) +
+  geom_line(aes(group = condition, color = condition), size=1.5) +
+  geom_point(aes(color = condition), size=3) + 
+  scale_x_continuous(breaks=c(0,6), labels=c('pre-exposure','post-exposure')) +
+  ylim(2,6) +
+  labs(y = "Mean SLOR") +
+  theme_bw() +
+  theme(legend.position = "bottom")+
+  #theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
+  theme(axis.title.y = element_text(size=16), axis.title.x=element_blank())+
+  theme(legend.text = element_text(size=12)) +
+  theme(legend.title = element_blank()) + 
+  theme(axis.text.x = element_text(size=14.5, hjust=0.63), axis.text.y = element_text(size=10)) +
+  theme(plot.margin = margin(5, 15, 5, 5)) + 
+  scale_color_manual(values=c("#D29D1A", "#B77AA5", "#5E9E76"))
+plot
+ggsave("gpt2_satiation/plots/adapt_exp2_rep_SLOR.png", width=7, height=5)
+
+
+# WS
 
 #CNPC_base = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
 CNPC_test = read.csv("gpt2_satiation/output/surprisals/adapt_rep/CNPC_WStrain_CNPCtest_surprisals.csv")

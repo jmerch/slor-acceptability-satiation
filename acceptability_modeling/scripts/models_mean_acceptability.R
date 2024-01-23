@@ -8,7 +8,7 @@ ratings2 <- read.csv("acceptability_modeling/data/adaptRatings.csv")
 ratings <- rbind(ratings, ratings2)
 islands = filter(ratings, condition != "FILL" & condition != "POLAR" & condition != "UNGRAM")
 #mean_only = select(ratings, c("sentence_id", "condition","all_exposures", "mean_surprisal"))
-write.csv(ratings, "data/satiationRatings.csv", row.names=FALSE)
+write.csv(ratings, "acceptability_modeling/data/satiationRatings.csv", row.names=FALSE)
 #surprisals <- read.csv("data/gen_surprisals.csv")
 
 # Mean surprisal vs acceptability with all exposures

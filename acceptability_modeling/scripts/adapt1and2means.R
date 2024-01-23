@@ -3,10 +3,10 @@ library(dplyr)
 #exp1c <- read.csv("data/satiation_baseline_cleaned.csv")
 exp2 <- read.csv("acceptability_modeling/data/satiation_exp2_cleaned.csv")
 exp2 <- filter(exp2, phase == "exposure")
-surprisals2 <- read.csv("data/adapt_surprisals.csv")
+surprisals2 <- read.csv("acceptability_modeling/data/adapt2_surprisals.csv") #previously used adapt_surprisals.csv?? 1/9/2024
 #exp1c <- arrange(exp1c, list_number)
 #exp1c <- arrange(exp1c, item_number)
-uniqueIds <- read.csv("data/adapt2ids.csv")
+uniqueIds <- read.csv("acceptability_modeling/data/adapt2ids.csv")
 
 ids <- integer(nrow(exp2))
 for(i in 1:nrow(exp2)) {
@@ -19,7 +19,7 @@ for(i in 1:nrow(exp2)) {
   }
 }
 exp2$sentence_id <- ids
-write.csv(exp2, "data/adapt_exposure_acceptability.csv", row.names = FALSE)
+write.csv(exp2, "acceptability_modeling/data/adapt_exposure_acceptability.csv", row.names = FALSE)
 
 
 ratings <- data.frame(matrix(ncol = 18, nrow = 0))
@@ -52,7 +52,7 @@ for (id in min(exp2$sentence_id):max(exp2$sentence_id)){
 type.convert(ratings)
 ratings = ratings %>%
   dplyr::rename(condition = "condition.condition")
-write.csv(ratings, "data/adaptRatings.csv", row.names=FALSE)
+write.csv(ratings, "acceptability_modeling/data/adaptRatings.csv", row.names=FALSE)
 
 
 contextRatings <- data.frame(matrix(ncol = 18, nrow = 0))

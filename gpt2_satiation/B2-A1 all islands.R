@@ -81,40 +81,71 @@ p<-ggplot(surprisal_v_training, aes(x=num_trained, y= surprisal, fill = conditio
 p + scale_fill_brewer(palette="BuPu")
 
 # JUST pre- and post- (15 exposure sentences)
-CNPC_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPCtest_baseline_surprisals.csv")
-CNPC_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/CNPC_15_Btrain_CNPC_test_surprisals.csv")
+CNPC_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_CNPC_baseline_noContext_surprisals.csv")
+CNPC_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/CNPC_15_Btrain_CNPC_test_cleaned_surprisals.csv")
 P_0 = mean(CNPC_0$mean_surprisal)
 P_15 = mean(CNPC_15$mean_surprisal)
 surprisal = c(P_0, P_15)
+SLOR = c(mean(CNPC_0$normalized), mean(CNPC_15$normalized))
 condition = c("CNPC", "CNPC")
-cnpc_df = data.frame(num_trained, surprisal, condition)
+cnpc_df = data.frame(num_trained = c(0, 15), surprisal, SLOR, condition)
 
-WH_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_WHtest_baseline_surprisals.csv")
-WH_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/WH_15_Btrain_WH_test_surprisals.csv")
+WH_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_WH_baseline_noContext_surprisals.csv")
+WH_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/WH_15_Btrain_WH_test_SurpOut_cleaned_surprisals.csv")
 P_0 = mean(WH_0$mean_surprisal)
 P_15 = mean(WH_15$mean_surprisal)
 surprisal = c(P_0, P_15)
+SLOR = c(mean(WH_0$normalized), mean(WH_15$normalized))
 condition = c("WH", "WH")
-wh_df = data.frame(num_trained, surprisal, condition)
+wh_df = data.frame(num_trained = c(0, 15), surprisal, SLOR, condition)
 
-SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_SUBJtest_baseline_surprisals.csv")
-SUBJ_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/SUBJ_15_Btrain_SUBJ_test_surprisals.csv")
+SUBJ_0 = read.csv("gpt2_satiation/output/surprisals/adapt_rep/adapt_exp1_SUBJ_baseline_noContext_surprisals.csv")
+SUBJ_15 = read.csv("gpt2_satiation/output/surprisals/A_B_sets/SUBJ_15_Btrain_SUBJ_test_SurpOut_cleaned_surprisals.csv")
 P_0 = mean(SUBJ_0$mean_surprisal)
 P_15 = mean(SUBJ_15$mean_surprisal)
 surprisal = c(P_0, P_15)
+SLOR = c(mean(SUBJ_0$normalized), mean(SUBJ_15$normalized))
 condition = c("SUBJ", "SUBJ")
-subj_df = data.frame(num_trained, surprisal, condition)
+subj_df = data.frame(num_trained = c(0, 15), surprisal, SLOR, condition)
 
 surprisal_v_training = rbind(wh_df, subj_df, cnpc_df)
+print(surprisal_v_training)
+surprisal_v_training[surprisal_v_training=='WH'] = 'whether-island'
+surprisal_v_training[surprisal_v_training=='SUBJ'] = 'subject island'
 
 plot = surprisal_v_training %>%
   ggplot((aes(x = num_trained, y= surprisal))) +
-  geom_line(aes(group = condition, color = condition)) +
+  geom_line(aes(group = condition, color = condition), size=1.5) +
+  geom_point(aes(color = condition), size=3) + 
   scale_x_continuous(breaks=c(0,15), labels=c('pre-exposure','post-exposure')) +
-  geom_point(aes(color = condition)) +
-  labs(x = "Test phase", 
-       y = "Mean Surprisal") +
-  theme_fivethirtyeight() +
-  theme(axis.title.y = element_text()) 
+  ylim(3,9) +
+  labs(y = 'mean surprisal') +
+  theme_bw() +
+  theme(legend.position = 'bottom') +
+  theme(legend.text = element_text(size=12))+
+  theme(axis.title.y = element_text(size=14), axis.title.x=element_blank()) +
+  theme(legend.title = element_blank()) +
+  theme(axis.text.x = element_text(size=14, hjust=0.6), axis.text.y = element_text(size=10)) +
+  theme(plot.margin = margin(5, 15, 5, 5)) +
+  scale_color_manual(values=c("#D29D1A", "#B77AA5", "#5E9E76"))
 plot
-ggsave("gpt2_satiation/plots/B2_A1_15.png", width=7, height=5)
+ggsave("gpt2_satiation/plots/B2_A1_15_new.png", width=7, height=5)
+
+plot = surprisal_v_training %>%
+  ggplot((aes(x = num_trained, y= SLOR))) +
+  geom_line(aes(group = condition, color = condition), size=1.5) +
+  geom_point(aes(color = condition), size=3) + 
+  scale_x_continuous(breaks=c(0,15), labels=c('pre-exposure','post-exposure')) +
+  ylim(2,6) +
+  labs(y = 'Mean SLOR') +
+  theme_bw() +
+  theme(legend.position = 'bottom') +
+  theme(legend.text = element_text(size=12))+
+  theme(axis.title.y = element_text(size=16), axis.title.x=element_blank()) +
+  theme(legend.title = element_blank()) +
+  theme(axis.text.x = element_text(size=14.5, hjust=0.6), axis.text.y = element_text(size=10)) +
+  theme(plot.margin = margin(5, 15, 5, 5)) +
+  scale_color_manual(values=c("#D29D1A", "#B77AA5", "#5E9E76"))
+plot
+ggsave("gpt2_satiation/plots/B2_A1_15_SLOR.png", width=7, height=5)
+
