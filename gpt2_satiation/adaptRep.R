@@ -144,6 +144,7 @@ norm_SUBJ_baseline = mean(SUBJ_base$normalized)
 
 exp2_SLOR = data.frame(num_trained = c(0, 6, 0, 6, 0, 6), SLOR = c(norm_CNPC_baseline, norm_CNPC, norm_WH_baseline, norm_WH, norm_SUBJ_baseline, norm_SUBJ), condition = c('CNPC', 'CNPC', 'whether-island', 'whether-island', 'subject island', 'subject island'))
 print(exp2_SLOR)
+exp2_SLOR$condition[exp2_SLOR$condition=="CNPC"] = 'complex-NP island'
 
 plot = exp2_SLOR %>%
   ggplot((aes(x = num_trained, y= SLOR))) +
@@ -154,15 +155,14 @@ plot = exp2_SLOR %>%
   labs(y = "Mean SLOR") +
   theme_bw() +
   theme(legend.position = "bottom")+
-  #theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   theme(axis.title.y = element_text(size=16), axis.title.x=element_blank())+
-  theme(legend.text = element_text(size=12)) +
+  theme(legend.text = element_text(size=16)) +
   theme(legend.title = element_blank()) + 
-  theme(axis.text.x = element_text(size=14.5, hjust=0.63), axis.text.y = element_text(size=10)) +
-  theme(plot.margin = margin(5, 15, 5, 5)) + 
+  theme(axis.text.x = element_text(size=16, hjust=0.43), axis.text.y = element_text(size=12)) +
+  theme(plot.margin = margin(5, 40, 5, 15)) + 
   scale_color_manual(values=c("#D29D1A", "#B77AA5", "#5E9E76"))
 plot
-ggsave("gpt2_satiation/plots/adapt_exp2_rep_SLOR.png", width=7, height=5)
+ggsave("gpt2_satiation/plots/adapt_exp2_rep_SLOR.png", width=7.5, height=5)
 
 
 # WS
